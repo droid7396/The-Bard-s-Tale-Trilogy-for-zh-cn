@@ -1,0 +1,592 @@
+name=SCRIPTSTRING_0123
+isDungeon=1
+width=22
+height=22
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=0
+wallSet=5
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=3
+parentX=2
+parentMap=0
+level=0
+map
+  0,0:None,None,Solid,Solid,StairsOut
+  1,0:None,Solid,Solid,None
+  2,0:Door,Solid,Solid,Solid
+  3,0:Door,Solid,Solid,Solid,RandomCombat
+  4,0:Door,Solid,Solid,Solid,RandomCombat
+  5,0:Door,Solid,Solid,Solid
+  6,0:None,None,Solid,Solid
+  7,0:None,Solid,Solid,None
+  8,0:None,None,Solid,Solid
+  9,0:None,None,Solid,None
+  10,0:None,None,Solid,None
+  11,0:Solid,None,Solid,None
+  12,0:Solid,None,Solid,None
+  13,0:Solid,None,Solid,None,RandomTrap
+  14,0:Solid,None,Solid,None
+  15,0:Solid,None,Solid,None
+  16,0:Solid,Door,Solid,None
+  17,0:Solid,Door,Solid,Door
+  18,0:None,None,Solid,Door,RandomCombat
+  19,0:None,Solid,Solid,None
+  20,0:None,None,Solid,Solid
+  21,0:None,Solid,Solid,None
+  0,1:Solid,None,None,Solid
+  1,1:Solid,None,None,None
+  2,1:None,None,Door,None
+  3,1:Door,None,Door,None
+  4,1:Door,None,Door,None
+  5,1:None,None,Door,None
+  6,1:Solid,None,None,None
+  7,1:Solid,Solid,None,None
+  8,1:None,Solid,None,Solid
+  9,1:None,Solid,None,Solid
+  10,1:None,None,None,Solid
+  11,1:None,Solid,Solid,None
+  12,1:Door,Door,Solid,Solid
+  13,1:Door,Solid,Solid,Door
+  14,1:Door,Door,Solid,Solid
+  15,1:Door,Solid,Solid,Door
+  16,1:None,None,Solid,Solid
+  17,1:None,Solid,Solid,None
+  18,1:Solid,None,None,Solid
+  19,1:Solid,Door,None,None
+  20,1:Solid,None,None,Door,RandomCombat
+  21,1:Solid,Solid,None,None
+  0,2:Solid,Solid,Solid,None
+  1,2:Solid,Door,Solid,Solid,RandomCombat
+  2,2:None,Door,None,Door
+  3,2:Solid,Solid,Door,Door
+  4,2:Solid,Solid,Door,Solid
+  5,2:None,Door,None,Solid
+  6,2:Solid,Solid,Solid,Door,RandomCombat
+  7,2:Door,Solid,Solid,Solid
+  8,2:None,Solid,None,Solid
+  9,2:None,Solid,None,Solid
+  10,2:None,Solid,None,Solid
+  11,2:Solid,None,None,Solid
+  12,2:None,Solid,Door,None
+  13,2:Solid,Door,Door,Solid,RandomCombat
+  14,2:Door,Solid,Door,Door
+  15,2:Door,Solid,Door,Solid,RandomCombat
+  16,2:Door,None,None,Solid
+  17,2:Solid,Solid,None,None
+  18,2:None,None,Solid,Solid
+  19,2:None,None,Solid,None
+  20,2:None,None,Solid,None
+  21,2:None,None,Solid,None
+  0,3:Solid,Solid,Solid,Door,PresetCombat
+  1,3:Solid,Door,Solid,Solid
+  2,3:None,Door,None,Door
+  3,3:Solid,Door,Solid,Door
+  4,3:Door,Solid,Solid,Door,PresetCombat
+  5,3:None,Door,None,Solid
+  6,3:Solid,None,Solid,Door
+  7,3:Door,Solid,Door,None
+  8,3:None,Solid,None,Solid,SpecialAhead
+  9,3:None,Solid,None,Solid
+  10,3:Solid,None,None,Solid
+  11,3:None,Solid,Solid,None
+  12,3:Solid,None,None,Solid
+  13,3:None,Solid,Solid,None
+  14,3:Solid,Solid,Door,Solid
+  15,3:Door,Solid,Door,Solid
+  16,3:Door,SecretDoor,Door,Solid
+  17,3:Solid,Solid,Solid,SecretDoor
+  18,3:None,None,None,Solid
+  19,3:None,None,None,None
+  20,3:None,None,None,None
+  21,3:None,Door,None,None
+  0,4:Solid,Solid,Solid,None
+  1,4:Solid,Door,Solid,Solid,RandomCombat
+  2,4:None,Door,None,Door
+  3,4:Solid,Solid,Solid,Door
+  4,4:Solid,Solid,Door,Solid,SpecialAhead
+  5,4:None,Door,None,Solid
+  6,4:Solid,Solid,Solid,Door
+  7,4:Solid,Solid,Door,Solid,RandomCombat
+  8,4:None,Solid,None,Solid
+  9,4:None,Solid,None,Solid
+  10,4:None,None,Solid,Solid
+  11,4:Solid,None,None,None
+  12,4:None,Solid,Solid,None
+  13,4:Solid,None,None,Solid
+  14,4:None,Solid,Solid,None
+  15,4:Solid,Door,Door,Solid,RandomCombat
+  16,4:Solid,Solid,Door,Door
+  17,4:SecretDoor,Solid,Solid,Solid
+  18,4:Solid,None,None,Solid
+  19,4:SecretDoor,None,None,None
+  20,4:Solid,None,None,None
+  21,4:Solid,None,None,None
+  0,5:None,None,Solid,Solid
+  1,5:None,None,Solid,None
+  2,5:Door,None,None,None
+  3,5:Door,None,Solid,None
+  4,5:Door,None,Solid,None
+  5,5:Door,None,None,None
+  6,5:None,None,Solid,None
+  7,5:None,Solid,Solid,None
+  8,5:None,Solid,None,Solid
+  9,5:None,Solid,None,Solid
+  10,5:Solid,None,None,Solid
+  11,5:None,Solid,Solid,None
+  12,5:Solid,None,None,Solid
+  13,5:None,Solid,Solid,None
+  14,5:Solid,None,None,Solid
+  15,5:None,Solid,Solid,None
+  16,5:None,Door,Solid,Solid
+  17,5:None,None,SecretDoor,Door,RandomCombat
+  18,5:None,Solid,Solid,None
+  19,5:None,None,SecretDoor,Solid
+  20,5:None,Door,Solid,None
+  21,5:Door,Solid,Solid,Door,RandomCombat
+  0,6:Solid,None,None,Solid
+  1,6:Solid,Solid,None,None
+  2,6:Solid,Solid,Door,Solid
+  3,6:Solid,Solid,Door,Solid,RandomCombat
+  4,6:Solid,Solid,Door,Solid
+  5,6:Solid,Solid,Door,Solid,RandomCombat
+  6,6:Solid,None,None,Solid
+  7,6:Solid,Solid,None,None,SpecialAhead
+  8,6:None,Solid,None,Solid
+  9,6:None,Solid,None,Solid
+  10,6:None,None,Solid,Solid
+  11,6:Solid,Solid,None,None
+  12,6:None,Solid,Solid,Solid
+  13,6:None,None,None,Solid
+  14,6:None,Solid,Solid,None
+  15,6:Solid,None,None,Solid
+  16,6:Solid,Solid,None,None
+  17,6:Solid,None,None,Solid
+  18,6:Solid,Door,None,None
+  19,6:Solid,None,None,Door
+  20,6:Solid,Solid,None,None
+  21,6:Solid,Solid,Door,Solid
+  0,7:None,None,Solid,Solid
+  1,7:None,Solid,Solid,None
+  2,7:Door,Solid,Solid,Solid,RandomCombat
+  3,7:Door,None,Solid,Solid,RandomCombat
+  4,7:Door,Solid,Solid,None
+  5,7:Door,Solid,Solid,Solid
+  6,7:None,None,Solid,Solid
+  7,7:None,Solid,Solid,None
+  8,7:None,Solid,None,Solid
+  9,7:None,Solid,None,Solid
+  10,7:None,None,None,Solid
+  11,7:None,Solid,Solid,None
+  12,7:Solid,None,None,Solid
+  13,7:Solid,Solid,None,None
+  14,7:None,None,None,Solid
+  15,7:Solid,None,Solid,None
+  16,7:Solid,Solid,Solid,None
+  17,7:Door,Solid,Solid,Solid,SpecialAhead,HarmParty
+  18,7:Door,Solid,Solid,Solid,RandomTrap
+  19,7:Door,Solid,Solid,Solid,PresetCombat
+  20,7:Door,Door,Solid,Solid,SpecialAhead,AntiMagic
+  21,7:Solid,Solid,Solid,Door,SpecialAhead,HarmParty
+  0,8:Solid,None,None,Solid
+  1,8:Solid,None,None,None
+  2,8:None,None,Door,None
+  3,8:Door,None,Door,None
+  4,8:Door,None,Door,None
+  5,8:None,None,Door,None
+  6,8:Solid,None,None,None
+  7,8:Solid,Solid,None,None
+  8,8:Solid,Solid,None,Solid
+  9,8:None,Solid,None,Solid
+  10,8:None,Solid,None,Solid
+  11,8:Solid,None,None,Solid
+  12,8:None,Solid,Solid,None
+  13,8:None,Solid,Solid,Solid
+  14,8:None,Door,None,Solid
+  15,8:None,None,Solid,Door
+  16,8:None,Solid,Solid,None
+  17,8:Solid,Door,Door,Solid,SpecialAhead,AntiMagic
+  18,8:None,None,Door,Door,SpecialAhead,Spinner
+  19,8:None,None,Door,None,SpecialAhead,Spinner
+  20,8:None,Door,Door,None
+  21,8:Solid,Solid,Solid,Door,PresetCombat
+  0,9:Door,Door,Solid,Solid
+  1,9:Solid,Door,Solid,Door
+  2,9:None,Door,None,Door
+  3,9:Solid,Solid,Door,Door
+  4,9:Door,Solid,Door,Solid
+  5,9:None,Door,None,Solid
+  6,9:None,Solid,Solid,Door
+  7,9:SecretDoor,None,Solid,Solid
+  8,9:None,Solid,Solid,None
+  9,9:None,Solid,None,Solid
+  10,9:Solid,None,None,Solid
+  11,9:None,Solid,Solid,None
+  12,9:None,Solid,None,Solid
+  13,9:Solid,None,None,Solid
+  14,9:Solid,Solid,None,None
+  15,9:Solid,None,None,Solid
+  16,9:Solid,Solid,None,None
+  17,9:Solid,Door,Solid,Solid,RandomTrap
+  18,9:None,None,None,Door,SpecialAhead,Spinner
+  19,9:None,None,None,None,SpecialAhead,Spinner
+  20,9:None,Door,None,None,SpecialAhead,Spinner
+  21,9:Solid,Solid,Solid,Door,Darkness
+  0,10:Door,Solid,Door,Solid
+  1,10:Solid,Door,Solid,Solid,RandomCombat
+  2,10:None,Door,None,Door
+  3,10:Solid,Solid,Solid,Door,RandomCombat
+  4,10:Solid,Solid,Door,Solid
+  5,10:None,Door,None,Solid
+  6,10:Solid,Solid,None,Door
+  7,10:Door,Solid,SecretDoor,Solid
+  8,10:None,Solid,None,Solid
+  9,10:None,Solid,None,Solid
+  10,10:None,None,Solid,Solid
+  11,10:Solid,Solid,None,None
+  12,10:None,Solid,None,Solid
+  13,10:None,None,Solid,Solid
+  14,10:None,Door,Solid,None
+  15,10:None,None,Solid,Door,RandomCombat
+  16,10:None,Solid,Solid,None
+  17,10:Solid,Door,Solid,Solid,Darkness
+  18,10:Door,None,None,Door,SpecialAhead,Spinner
+  19,10:Door,None,None,None,SpecialAhead,Spinner
+  20,10:Door,Door,None,None,SpecialAhead,Spinner
+  21,10:Door,Solid,Solid,Door,SpecialAhead,AntiMagic
+  0,11:Solid,Solid,Door,Solid
+  1,11:Solid,Door,Solid,Solid,RandomCombat
+  2,11:None,Door,None,Door
+  3,11:Solid,Door,Solid,Door
+  4,11:Solid,Solid,Solid,Door,RandomTrap
+  5,11:None,Door,None,Solid
+  6,11:Solid,None,Solid,Door
+  7,11:Solid,Solid,Door,None,RandomCombat
+  8,11:Solid,None,None,Solid
+  9,11:Solid,Solid,None,None
+  10,11:Solid,None,None,Solid
+  11,11:None,Solid,Solid,None
+  12,11:Solid,None,None,Solid
+  13,11:Solid,Solid,None,None
+  14,11:Solid,Solid,None,Solid
+  15,11:Solid,None,None,Solid
+  16,11:Solid,Solid,None,None
+  17,11:None,Door,Solid,Solid
+  18,11:Solid,Solid,Door,Door,SpecialAhead,AntiMagic
+  19,11:Solid,Solid,Door,Solid,PresetCombat
+  20,11:Solid,Solid,Door,Solid,RandomTrap
+  21,11:Solid,Solid,Door,Solid,RandomTrap
+  0,12:None,None,Solid,Solid
+  1,12:None,None,Solid,None
+  2,12:Door,None,None,None
+  3,12:Door,None,Solid,None
+  4,12:Door,None,Solid,None
+  5,12:Door,None,None,None
+  6,12:None,None,Solid,None
+  7,12:None,Solid,Solid,None
+  8,12:Door,Solid,Solid,Solid,RandomCombat
+  9,12:Door,Solid,Solid,Solid,RandomCombat
+  10,12:Door,Solid,Solid,Solid,RandomCombat
+  11,12:None,Solid,None,Solid,SpecialAhead
+  12,12:None,None,Solid,Solid
+  13,12:Solid,None,Solid,None
+  14,12:Solid,None,Solid,None
+  15,12:None,None,Solid,None
+  16,12:Solid,None,Solid,None
+  17,12:Solid,Solid,None,None
+  18,12:None,None,Solid,Solid
+  19,12:Solid,None,Solid,None
+  20,12:Solid,None,Solid,None
+  21,12:None,Solid,Solid,None
+  0,13:Solid,None,None,Solid
+  1,13:Solid,Solid,None,None
+  2,13:Solid,Solid,Door,Solid,RandomCombat
+  3,13:None,None,Solid,Solid
+  4,13:None,Solid,Solid,None
+  5,13:Solid,Solid,Door,Solid
+  6,13:Solid,None,None,Solid
+  7,13:Solid,Solid,None,None
+  8,13:None,None,Door,Solid,SpecialAhead,Darkness,AntiMagic
+  9,13:None,None,Door,None,SpecialAhead,Darkness,HarmParty
+  10,13:None,None,Door,None,Darkness
+  11,13:None,Solid,None,None,Darkness
+  12,13:Solid,None,None,Solid
+  13,13:Solid,None,Solid,None
+  14,13:None,Solid,Solid,None,SpecialAhead
+  15,13:None,Solid,None,Solid
+  16,13:None,None,Solid,Solid
+  17,13:None,Solid,Solid,None
+  18,13:Solid,None,None,Solid
+  19,13:None,Solid,Solid,None
+  20,13:Solid,None,Solid,Solid,SpecialAhead
+  21,13:Solid,Solid,None,None
+  0,14:None,None,Solid,Solid,RandomTrap
+  1,14:None,Solid,Solid,None
+  2,14:Door,Solid,Solid,Solid
+  3,14:Door,None,None,Solid
+  4,14:Door,Solid,None,None,RandomCombat
+  5,14:Door,Solid,Solid,Solid
+  6,14:None,None,Solid,Solid
+  7,14:None,Solid,Solid,None
+  8,14:None,None,None,Solid,Darkness
+  9,14:None,None,None,None,Darkness,RandomTrap
+  10,14:None,None,None,None,Darkness
+  11,14:None,None,None,None,Darkness
+  12,14:None,None,Solid,None,Darkness
+  13,14:None,Solid,Solid,None,Darkness
+  14,14:None,Solid,None,Solid
+  15,14:None,Solid,None,Solid
+  16,14:None,Solid,None,Solid
+  17,14:None,Solid,None,Solid
+  18,14:Door,Solid,Solid,Solid,RandomCombat
+  19,14:None,Solid,None,Solid
+  20,14:None,None,Solid,Solid
+  21,14:None,Solid,Solid,None
+  0,15:Solid,None,None,Solid
+  1,15:Solid,None,None,None
+  2,15:None,None,Door,None
+  3,15:Door,None,Door,None
+  4,15:Door,None,Door,None
+  5,15:None,None,Door,None
+  6,15:Solid,None,None,None
+  7,15:Solid,Solid,None,None
+  8,15:None,None,None,Solid,Darkness
+  9,15:None,None,None,None,SpecialAhead,Darkness,AntiMagic
+  10,15:None,None,None,None,Darkness
+  11,15:None,None,None,None,Darkness
+  12,15:None,None,None,None,Darkness,RandomTrap
+  13,15:None,Solid,None,None,Darkness
+  14,15:None,Solid,None,Solid
+  15,15:None,Solid,None,Solid
+  16,15:None,Solid,None,Solid
+  17,15:Solid,None,None,Solid
+  18,15:Solid,None,Door,None
+  19,15:Solid,Door,None,None
+  20,15:Solid,None,None,Door,RandomCombat
+  21,15:Solid,Solid,None,None
+  0,16:Door,SecretDoor,Solid,Solid,PresetCombat
+  1,16:Solid,Door,Solid,SecretDoor
+  2,16:None,Door,None,Door
+  3,16:Solid,Solid,Door,Door
+  4,16:Solid,Solid,Door,Solid
+  5,16:None,Door,None,Solid
+  6,16:Solid,None,Solid,Door
+  7,16:None,Solid,Solid,None
+  8,16:None,None,None,Solid,Darkness,RandomTrap
+  9,16:None,None,None,None,Darkness
+  10,16:None,None,None,None,Darkness,RandomTrap
+  11,16:None,None,None,None,Darkness
+  12,16:None,None,None,None,Darkness
+  13,16:None,Solid,None,None,Darkness,RandomTrap
+  14,16:None,Solid,None,Solid
+  15,16:None,Solid,None,Solid
+  16,16:None,Solid,None,Solid
+  17,16:None,None,Solid,Solid
+  18,16:None,Solid,Solid,None
+  19,16:Door,Door,Solid,Solid,RandomCombat
+  20,16:None,None,Solid,Door,RandomCombat
+  21,16:None,Solid,Solid,None
+  0,17:Door,Solid,Door,Solid
+  1,17:Solid,Door,Solid,Solid
+  2,17:None,Door,None,Door
+  3,17:Solid,Solid,Solid,Door
+  4,17:Door,Solid,Solid,Solid,RandomCombat
+  5,17:None,Door,None,Solid
+  6,17:Solid,Solid,Solid,Door,RandomCombat
+  7,17:Door,Solid,None,Solid
+  8,17:None,None,None,Solid,SpecialAhead,Darkness,HarmParty
+  9,17:None,None,None,None,Darkness
+  10,17:None,None,None,None,Darkness
+  11,17:None,None,None,None,SpecialAhead,Darkness,HarmParty
+  12,17:None,None,None,None,SpecialAhead,Darkness,AntiMagic
+  13,17:None,Solid,None,None,Darkness
+  14,17:None,Solid,None,Solid
+  15,17:None,Solid,None,Solid
+  16,17:None,Door,None,Solid
+  17,17:Solid,None,None,Door,RandomCombat
+  18,17:Solid,Solid,None,None
+  19,17:Door,Solid,Door,Solid
+  20,17:Solid,None,None,Solid
+  21,17:Solid,Solid,None,None
+  0,18:Solid,Solid,Door,Solid,SpecialAhead
+  1,18:Solid,Door,Solid,Solid
+  2,18:None,Door,None,Door
+  3,18:Solid,Door,Solid,Door
+  4,18:Door,Door,Door,Door
+  5,18:None,Door,None,Solid
+  6,18:Solid,Solid,Solid,Door
+  7,18:Solid,Solid,Door,Solid,RandomCombat
+  8,18:None,None,None,Solid,Darkness
+  9,18:None,None,None,None,Darkness,RandomTrap
+  10,18:None,None,None,None,Darkness
+  11,18:None,None,None,None,Darkness,RandomTrap
+  12,18:None,None,None,None,Darkness
+  13,18:None,Solid,None,None,Darkness
+  14,18:None,Solid,None,Solid
+  15,18:None,Solid,None,Solid
+  16,18:Solid,None,None,Solid
+  17,18:Solid,None,Solid,None
+  18,18:Solid,None,Solid,None
+  19,18:Solid,None,Door,None
+  20,18:Solid,None,Solid,None
+  21,18:None,Solid,Solid,None
+  0,19:None,None,Solid,Solid
+  1,19:None,None,Solid,None
+  2,19:Solid,None,None,None
+  3,19:Solid,None,Solid,None
+  4,19:Solid,None,Solid,None
+  5,19:Solid,None,None,None
+  6,19:None,None,Solid,None
+  7,19:None,Solid,Solid,None
+  8,19:None,None,None,Solid,Darkness
+  9,19:None,None,None,None,Darkness
+  10,19:None,None,None,None,Darkness
+  11,19:None,None,None,None,Darkness
+  12,19:None,None,None,None,Darkness,RandomTrap
+  13,19:None,Solid,None,None,SpecialAhead,Darkness,HarmParty
+  14,19:None,Solid,None,Solid
+  15,19:None,Solid,None,Solid
+  16,19:None,None,Solid,Solid
+  17,19:None,Solid,Solid,None
+  18,19:None,None,Solid,Solid
+  19,19:None,Solid,Solid,None
+  20,19:Solid,Door,Solid,Solid,RandomCombat
+  21,19:None,Solid,None,Door
+  0,20:Solid,None,None,Solid
+  1,20:Solid,Solid,None,None
+  2,20:Door,Solid,Solid,Solid,RandomCombat
+  3,20:Door,None,Solid,Solid
+  4,20:Solid,Door,Solid,None
+  5,20:Door,Solid,Solid,Door,RandomCombat
+  6,20:Solid,None,None,Solid
+  7,20:Solid,Solid,None,None
+  8,20:None,None,None,Solid,Darkness
+  9,20:None,None,None,None,Darkness
+  10,20:None,None,None,None,Darkness,RandomTrap
+  11,20:None,None,None,None,Darkness
+  12,20:None,None,None,None,Darkness
+  13,20:None,Solid,None,None,Darkness
+  14,20:None,Solid,None,Solid
+  15,20:None,Solid,None,Solid
+  16,20:Solid,None,None,Solid
+  17,20:Door,Solid,None,None,RandomCombat
+  18,20:Door,None,None,Solid,RandomCombat
+  19,20:Solid,Door,None,None
+  20,20:Solid,Solid,Solid,Door
+  21,20:None,Solid,None,Solid
+  0,21:Solid,None,Solid,None
+  1,21:Solid,None,Solid,None
+  2,21:Solid,None,Door,None
+  3,21:Solid,Door,Door,None
+  4,21:Solid,Solid,Solid,Door
+  5,21:Solid,Solid,Door,Solid
+  6,21:Solid,Door,Solid,Solid,PresetCombat
+  7,21:Solid,Door,Solid,Door,SpecialAhead,AntiMagic
+  8,21:Solid,None,None,Door,Darkness
+  9,21:Solid,None,None,None,Darkness,RandomTrap
+  10,21:Solid,None,None,None,Darkness
+  11,21:Solid,None,None,None,SpecialAhead,Darkness,HarmParty
+  12,21:Solid,None,None,None,Darkness
+  13,21:Solid,None,None,None,Darkness
+  14,21:Solid,Solid,None,None
+  15,21:Solid,None,None,Solid
+  16,21:Solid,None,Solid,None
+  17,21:Solid,None,Door,None
+  18,21:Solid,None,Door,None
+  19,21:Solid,None,Solid,None
+  20,21:Solid,None,Solid,None
+  21,21:Solid,None,None,None
+levelTable=11,12,13,14,15
+locationScript=4,4,L2529
+locationScript=14,13,L2683
+locationScript=11,12,L2723
+locationScript=7,6,L2751
+locationScript=0,18,L2755
+locationScript=8,3,L2759
+locationScript=6,21,L2763
+locationScript=0,16,L2772
+locationScript=19,11,L2781
+locationScript=21,8,L2790
+locationScript=19,7,L2799
+locationScript=0,3,L2808
+locationScript=4,3,L2817
+locationScript=0,0,L2826
+locationScript=20,13,L2827
+scripts
+L2529
+    JMessage,TERM,SCRIPTSTRING_0309
+L2683
+    JMessage,TERM,SCRIPTSTRING_0310
+L2723
+    JMessage,TERM,SCRIPTSTRING_0311
+L2751
+    Teleport,TERM,7,20,11,DUNG
+L2755
+    Teleport,TERM,0,11,11,DUNG
+L2759
+    Teleport,TERM,8,2,11,DUNG
+L2763
+    IsBitClear,TERM,240,L2765
+L2765
+    SetBit,CONT,240
+    Encounter,TERM,1,Maze master,3,L2771
+L2771
+    End,TERM
+L2772
+    IsBitClear,TERM,241,L2774
+L2774
+    SetBit,CONT,241
+    Encounter,TERM,1,Dwarf,56,L2780
+L2780
+    End,TERM
+L2781
+    IsBitClear,TERM,242,L2783
+L2783
+    SetBit,CONT,242
+    Encounter,TERM,1,Evil eye,34,L2789
+L2789
+    End,TERM
+L2790
+    IsBitClear,TERM,243,L2792
+L2792
+    SetBit,CONT,243
+    Encounter,TERM,1,Master magician,2,L2798
+L2798
+    End,TERM
+L2799
+    IsBitClear,TERM,244,L2801
+L2801
+    SetBit,CONT,244
+    Encounter,TERM,1,Ghost,20,L2807
+L2807
+    End,TERM
+L2808
+    IsBitClear,TERM,245,L2810
+L2810
+    SetBit,CONT,245
+    Encounter,TERM,1,Samurai,96,L2816
+L2816
+    End,TERM
+L2817
+    IsBitClear,TERM,246,L2819
+L2819
+    SetBit,CONT,246
+    Encounter,TERM,1,Mercenary,68,L2825
+L2825
+    End,TERM
+L2826
+    StairsOut,TERM
+L2827
+    ShowPic,CONT,bt1_13_magicMouth
+    ShowText,CONT,SCRIPTSTRING_0115
+    JMessage,CONT,SCRIPTSTRING_0312
+    PressAny,CONT
+    ClearWindow,CONT
+    Teleport,TERM,20,13,12,DUNG

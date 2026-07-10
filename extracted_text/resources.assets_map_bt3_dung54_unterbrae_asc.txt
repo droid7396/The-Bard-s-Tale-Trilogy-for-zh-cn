@@ -1,0 +1,292 @@
+name=SCRIPTSTRING_2051
+isDungeon=1
+width=15
+height=15
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=0
+isOutside=0
+monsterSet=4
+wallSet=4
+isWilderness=0
+difficulty=2
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=15
+parentX=18
+parentMap=1
+level=2
+levelTable=52,53,54,55
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, PortalDown
+  1,0:None,Door,SolidNoPHDO,None, SpecialAhead
+  2,0:None,None,SolidNoPHDO,SolidNoPHDO
+  3,0:None,None,SolidNoPHDO,None
+  4,0:None,Solid,SolidNoPHDO,None
+  5,0:Solid,None,SolidNoPHDO,Solid, HarmParty
+  6,0:None,None,SolidNoPHDO,None, HarmParty
+  7,0:None,None,SolidNoPHDO,None, HarmParty
+  8,0:None,Solid,SolidNoPHDO,None, HarmParty
+  9,0:Door,None,SolidNoPHDO,Solid, RegenMagic
+  10,0:Solid,Solid,SolidNoPHDO,None
+  11,0:Solid,Door,SolidNoPHDO,Solid, RandomCombat
+  12,0:None,SolidNoPHDO,SolidNoPHDO,Door
+  13,0:Solid,None,Solid,SolidNoPHDO
+  14,0:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat
+  0,1:SolidNoPHDO,None,None,SolidNoPHDO
+  1,1:SolidNoPHDO,SolidNoPHDO,None,None
+  2,1:None,None,None,SolidNoPHDO
+  3,1:None,None,None,None, RandomTrap, RandomCombat
+  4,1:None,None,None,None
+  5,1:None,None,Solid,None
+  6,1:None,None,None,None, Turncoat
+  7,1:Door,None,None,None
+  8,1:Solid,Solid,None,None
+  9,1:Door,Door,Door,Solid, RandomCombat
+  10,1:None,Solid,Solid,Door
+  11,1:None,None,Solid,Solid
+  12,1:None,None,None,None, RandomTrap
+  13,1:None,Solid,Solid,None
+  14,1:Door,SolidNoPHDO,None,Solid
+  0,2:None,None,SolidNoPHDO,SolidNoPHDO
+  1,2:None,None,SolidNoPHDO,None, PoisonGas
+  2,2:Solid,None,None,None
+  3,2:Solid,None,None,None
+  4,2:Solid,None,None,None, PoisonGas
+  5,2:None,None,None,None, RandomCombat
+  6,2:None,Solid,None,None
+  7,2:Solid,Door,Door,Solid, SpecialAhead
+  8,2:Solid,None,Solid,Door, RandomCombat
+  9,2:Solid,Solid,Door,None, RegenMagic
+  10,2:Door,None,None,Solid
+  11,2:Solid,None,None,None, PoisonGas
+  12,2:Solid,None,None,None, PoisonGas
+  13,2:Solid,None,None,None
+  14,2:Door,SolidNoPHDO,Door,None
+  0,3:None,None,None,SolidNoPHDO
+  1,3:None,Solid,None,None
+  2,3:None,None,Solid,Solid
+  3,3:None,None,Solid,None
+  4,3:None,Solid,Solid,None
+  5,3:Door,None,None,Solid
+  6,3:Solid,Door,None,None
+  7,3:None,None,Solid,Door
+  8,3:Door,None,Solid,None
+  9,3:Door,None,Solid,None
+  10,3:None,Solid,Door,None
+  11,3:Door,Solid,Solid,Solid, RandomCombat
+  12,3:None,None,Solid,Solid
+  13,3:Solid,None,Solid,None
+  14,3:None,SolidNoPHDO,Door,None
+  0,4:Solid,None,None,SolidNoPHDO
+  1,4:Solid,Solid,None,None
+  2,4:Solid,None,None,Solid
+  3,4:Solid,None,None,None, RandomCombat
+  4,4:None,None,None,None
+  5,4:None,None,Door,None
+  6,4:None,Solid,Solid,None
+  7,4:None,Solid,None,Solid, DrainMagic
+  8,4:Solid,None,Door,Solid, RegenMagic
+  9,4:Solid,Solid,Door,None, RandomCombat
+  10,4:None,None,None,Solid
+  11,4:None,None,Door,None, RandomTrap
+  12,4:None,Door,None,None
+  13,4:Solid,Solid,Solid,Door, RandomCombat
+  14,4:None,SolidNoPHDO,None,Solid
+  0,5:None,Solid,Solid,SolidNoPHDO, StairsOut
+  1,5:None,None,Solid,Solid, PoisonGas
+  2,5:None,None,Solid,None
+  3,5:None,None,Solid,None
+  4,5:Solid,None,None,None
+  5,5:Solid,None,None,None, RandomCombat
+  6,5:Door,Solid,None,None
+  7,5:Solid,None,None,Solid, SpecialAhead
+  8,5:Solid,None,Solid,None
+  9,5:Solid,None,Solid,None
+  10,5:Door,None,None,None
+  11,5:Door,None,None,None
+  12,5:Door,None,None,None
+  13,5:None,Solid,Solid,None
+  14,5:None,SolidNoPHDO,None,Solid
+  0,6:None,Solid,None,SolidNoPHDO, SpecialAhead
+  1,6:Solid,None,None,Solid
+  2,6:Solid,None,None,None
+  3,6:Solid,Solid,None,None
+  4,6:None,None,Solid,Solid, DrainMagic, Turncoat, Flypaper
+  5,6:None,Solid,Solid,None, DrainMagic, Turncoat, Flypaper
+  6,6:None,None,Door,Solid
+  7,6:None,None,Solid,None, RandomCombat
+  8,6:None,Solid,Solid,None
+  9,6:None,None,Solid,Solid, RandomTrap
+  10,6:None,Solid,Door,None
+  11,6:Solid,None,Door,Solid, RandomCombat
+  12,6:Solid,Solid,Door,None
+  13,6:Solid,None,None,Solid
+  14,6:None,SolidNoPHDO,None,None
+  0,7:Solid,None,None,SolidNoPHDO
+  1,7:Solid,None,Solid,Solid, RandomCombat, DrainMagic
+  2,7:Solid,None,Solid,None, RandomCombat, AntiMagic, DrainMagic
+  3,7:Solid,None,Solid,None, RandomTrap, DrainMagic
+  4,7:None,None,None,None, RandomTrap, Spinner
+  5,7:None,SecretDoor,None,None, RandomTrap, Spinner
+  6,7:Solid,None,None,SecretDoor, DrainMagic
+  7,7:Solid,None,None,None
+  8,7:Solid,Door,None,None
+  9,7:Door,None,None,Door
+  10,7:Solid,None,None,None
+  11,7:Solid,None,Solid,None
+  12,7:Solid,None,Solid,None
+  13,7:Door,Door,Solid,None
+  14,7:Solid,SolidNoPHDO,None,Door
+  0,8:None,None,Solid,SolidNoPHDO
+  1,8:None,None,Solid,None
+  2,8:Solid,Solid,Solid,None
+  3,8:None,Solid,Solid,Solid
+  4,8:Solid,None,None,Solid, HarmParty, Flypaper
+  5,8:Solid,Solid,None,None, HarmParty, Flypaper
+  6,8:None,None,Solid,Solid
+  7,8:None,None,Solid,None
+  8,8:None,Solid,Solid,None
+  9,8:Solid,None,Door,Solid
+  10,8:Solid,None,Solid,None
+  11,8:None,None,Solid,None
+  12,8:None,Solid,Solid,None
+  13,8:Solid,None,Door,Solid
+  14,8:Door,SolidNoPHDO,Solid,None
+  0,9:Solid,None,None,SolidNoPHDO
+  1,9:None,None,None,None
+  2,9:None,Solid,Solid,None
+  3,9:Door,None,None,Solid, RandomCombat
+  4,9:Solid,None,Solid,None
+  5,9:Solid,Solid,Solid,None
+  6,9:Door,Solid,None,Solid, Turncoat
+  7,9:Door,None,None,Solid
+  8,9:Solid,Solid,None,None
+  9,9:None,None,Solid,Solid
+  10,9:None,Solid,Solid,None, RandomTrap
+  11,9:None,None,None,Solid
+  12,9:None,Solid,None,None, RandomCombat
+  13,9:Door,None,Solid,Solid, RandomCombat
+  14,9:Solid,SolidNoPHDO,Door,None
+  0,10:Solid,None,Solid,SolidNoPHDO
+  1,10:Solid,None,None,None
+  2,10:None,None,None,None
+  3,10:None,None,Door,None
+  4,10:None,None,Solid,None
+  5,10:None,None,Solid,None
+  6,10:None,Solid,Door,None
+  7,10:Solid,Door,Door,Solid
+  8,10:Solid,Door,Solid,Door
+  9,10:Solid,None,None,Door
+  10,10:Door,Door,None,None
+  11,10:Solid,None,None,Door
+  12,10:Solid,Solid,None,None
+  13,10:Solid,None,Door,Solid
+  14,10:Solid,SolidNoPHDO,Solid,None, SpecialAhead
+  0,11:None,None,Solid,SolidNoPHDO
+  1,11:Solid,Door,Solid,None
+  2,11:Door,None,None,Door
+  3,11:Solid,None,None,None
+  4,11:Solid,Solid,None,None
+  5,11:Solid,None,None,Solid
+  6,11:Solid,Solid,None,None
+  7,11:None,None,Solid,Solid
+  8,11:Solid,Solid,Solid,None
+  9,11:None,None,Solid,Solid
+  10,11:None,Solid,Door,None, RandomCombat
+  11,11:None,None,Solid,Solid
+  12,11:None,None,Solid,None, RandomCombat
+  13,11:None,None,Solid,None
+  14,11:None,SolidNoPHDO,Solid,None
+  0,12:None,Solid,None,SolidNoPHDO
+  1,12:Solid,None,Solid,Solid
+  2,12:Solid,None,Door,None
+  3,12:Solid,None,Solid,None
+  4,12:None,None,Solid,None, RandomCombat
+  5,12:None,Solid,Solid,None
+  6,12:None,None,Solid,Solid
+  7,12:Solid,Solid,None,None, RandomCombat
+  8,12:None,Solid,Solid,Solid, RandomCombat
+  9,12:None,None,None,Solid
+  10,12:None,Door,None,None
+  11,12:None,None,None,Door
+  12,12:None,Solid,None,None
+  13,12:Solid,None,None,Solid
+  14,12:Solid,SolidNoPHDO,None,None
+  0,13:None,Solid,None,SolidNoPHDO
+  1,13:Solid,None,Solid,Solid, SpecialAhead
+  2,13:Solid,None,Solid,None
+  3,13:Door,None,Solid,None
+  4,13:Solid,None,None,None
+  5,13:Solid,Solid,None,None
+  6,13:Door,Solid,None,Solid
+  7,13:None,Door,Solid,Solid
+  8,13:Solid,Door,None,Door
+  9,13:Door,None,None,Door
+  10,13:Solid,Solid,None,None
+  11,13:Solid,None,None,Solid
+  12,13:Door,Door,None,None
+  13,13:None,None,Solid,Door
+  14,13:None,SolidNoPHDO,Solid,None
+  0,14:SolidNoPHDO,None,None,SolidNoPHDO
+  1,14:SolidNoPHDO,None,Solid,None
+  2,14:SolidNoPHDO,None,Solid,None
+  3,14:SolidNoPHDO,None,Door,None
+  4,14:SolidNoPHDO,None,Solid,None
+  5,14:SolidNoPHDO,None,Solid,None
+  6,14:SolidNoPHDO,None,Door,None, Turncoat
+  7,14:SolidNoPHDO,Solid,None,None
+  8,14:SolidNoPHDO,None,Solid,Solid, HarmParty
+  9,14:SolidNoPHDO,None,Door,None, HarmParty
+  10,14:SolidNoPHDO,Solid,Solid,None, HarmParty
+  11,14:SolidNoPHDO,None,Solid,Solid, RegenHealth
+  12,14:SolidNoPHDO,Solid,Door,None
+  13,14:Solid,None,None,Solid
+  14,14:SolidNoPHDO,SolidNoPHDO,None,None
+locationScript=14,10,L1207
+locationScript=7,5,L1275
+locationScript=7,2,L1363
+locationScript=1,13,L1399
+locationScript=1,0,L1478
+locationScript=0,6,L1582
+locationScript=0,5,L1206
+locationScript=2,0,L1668
+scripts
+L1206
+    @StairsOut
+L1207
+    @JMessage,SCRIPTSTRING_2069
+L1275
+    @JMessage,SCRIPTSTRING_2070
+L1363
+    @JMessage,SCRIPTSTRING_2071
+L1399
+    @JMessage,SCRIPTSTRING_2072
+L1478
+    @JMessage,SCRIPTSTRING_2073
+L1582
+    @JMessage,SCRIPTSTRING_2074
+L1668
+    @Aborter,L1669
+L1669
+    ShowPic,BT3_66_BlackSlayer
+    ShowText,SCRIPTSTRING_2075
+    JMessage,0,SCRIPTSTRING_2076
+    PressAny
+    JMessage,1,SCRIPTSTRING_2077
+    Input
+    MatchWord,SCRIPTSTRING_1344,L1835
+    Message,SCRIPTSTRING_2078
+    PressAny
+    @ClearWindow
+L1835
+    Journal,2,SCRIPTSTRING_2079
+    Message,SCRIPTSTRING_2061
+    PressAny
+    ClearWindow
+    ChangeMap,0,2,50
+    DoView
+    @KillCode,L1668

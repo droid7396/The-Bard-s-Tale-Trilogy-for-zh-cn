@@ -1,0 +1,88 @@
+name=SCRIPTSTRING_1503
+isDungeon=1
+width=7
+height=7
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=20
+wallSet=17
+isWilderness=0
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=1
+parentX=4
+parentMap=5
+level=1
+levelTable=26,27,28
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, HarmParty, AntiApar
+  1,0:None,SolidNoPHDO,SolidNoPHDO,None, HarmParty, AntiApar
+  2,0:None,None,SolidNoPHDO,SolidNoPHDO, Darkness, AntiApar
+  3,0:None,None,SolidNoPHDO,None, Darkness, AntiApar
+  4,0:None,SolidNoPHDO,SolidNoPHDO,None, Darkness, AntiApar
+  5,0:None,None,SolidNoPHDO,SolidNoPHDO, HarmParty, AntiApar
+  6,0:None,SolidNoPHDO,SolidNoPHDO,None, HarmParty, AntiApar
+  0,1:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  1,1:None,None,None,SolidNoPHDO, RegenMagic, AntiApar
+  2,1:SolidNoPHDO,SolidNoPHDO,None,None, Turncoat, AntiApar
+  3,1:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap, AntiApar
+  4,1:SolidNoPHDO,None,None,SolidNoPHDO, Turncoat, AntiApar
+  5,1:None,SolidNoPHDO,None,None, RegenMagic, AntiApar
+  6,1:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  0,2:None,SolidNoPHDO,None,SolidNoPHDO, PoisonGas, AntiApar
+  1,2:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  2,2:None,None,SolidNoPHDO,SolidNoPHDO, AntiMagic, AntiApar
+  3,2:None,None,SolidNoPHDO,None, AntiApar
+  4,2:None,SolidNoPHDO,SolidNoPHDO,None, AntiMagic, AntiApar
+  5,2:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  6,2:None,SolidNoPHDO,None,SolidNoPHDO, PoisonGas, AntiApar
+  0,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  1,3:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  2,3:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  3,3:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, StairsOut, AntiApar
+  4,3:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  5,3:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  6,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  0,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  1,4:SolidNoPHDO,None,None,SolidNoPHDO, DrainMagic, AntiApar
+  2,4:SolidNoPHDO,None,None,None, DrainMagic, AntiApar
+  3,4:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  4,4:SolidNoPHDO,None,None,None, DrainMagic, AntiApar
+  5,4:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic, AntiApar
+  6,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  0,5:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar, Flypaper
+  1,5:None,None,SolidNoPHDO,None, AntiApar
+  2,5:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, AntiApar
+  3,5:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, StairsIn, AntiApar
+  4,5:None,None,SolidNoPHDO,SolidNoPHDO, RandomCombat, AntiApar
+  5,5:None,None,SolidNoPHDO,None, AntiApar
+  6,5:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar, Flypaper
+  0,6:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap, AntiApar
+  1,6:SolidNoPHDO,SolidNoPHDO,None,None, Spinner, AntiApar
+  2,6:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  3,6:SolidNoPHDO,None,None,None, RandomCombat, AntiApar
+  4,6:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  5,6:SolidNoPHDO,None,None,SolidNoPHDO, Spinner, AntiApar
+  6,6:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap, AntiApar
+locationScript=3,5,L318
+locationScript=3,3,L319
+locationScript=3,2,L320
+locationScript=1,5,L427
+locationScript=5,5,L560
+scripts
+L318
+    @StairsIn
+L319
+    @StairsOut
+L320
+    @JMessage,SCRIPTSTRING_1723
+L427
+    @JMessage,SCRIPTSTRING_1724
+L560
+    @JMessage,SCRIPTSTRING_1725

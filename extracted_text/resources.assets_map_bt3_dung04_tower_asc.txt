@@ -1,0 +1,61 @@
+name=SCRIPTSTRING_1572
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=7
+wallSet=23
+isWilderness=0
+difficulty=3
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=1
+parentX=1
+parentMap=2
+level=1
+levelTable=3,4,5,6
+map
+  0,0:Door,LockedDoor,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  1,0:Solid,None,SolidNoPHDO,LockedDoor, RandomCombat
+  2,0:Door,Solid,SolidNoPHDO,None, SpecialAhead, Spinner
+  3,0:Solid,None,SolidNoPHDO,None, RandomTrap
+  4,0:None,SolidNoPHDO,SolidNoPHDO,None, Darkness
+  0,1:Solid,None,Door,SolidNoPHDO
+  1,1:None,Solid,Solid,None, SpecialAhead
+  2,1:Door,Door,Door,Solid, Darkness
+  3,1:Door,Door,Solid,Door, RandomCombat
+  4,1:None,SolidNoPHDO,None,Door, RandomTrap
+  0,2:Solid,LockedDoor,Solid,SolidNoPHDO, StairsIn, AntiApar
+  1,2:Solid,Solid,None,LockedDoor
+  2,2:Door,Solid,Door,Solid, Spinner
+  3,2:Solid,None,Door,Solid
+  4,2:Solid,SolidNoPHDO,None,None, RandomCombat
+  0,3:Solid,None,Solid,SolidNoPHDO, RandomCombat
+  1,3:Solid,Door,Solid,None, RandomCombat
+  2,3:Door,Solid,Door,Door, Darkness
+  3,3:Solid,Door,Solid,Solid, StairsOut, SpecialAhead
+  4,3:None,SolidNoPHDO,Solid,Door
+  0,4:SolidNoPHDO,Door,Solid,SolidNoPHDO, RandomCombat
+  1,4:SolidNoPHDO,None,Solid,Door
+  2,4:SolidNoPHDO,None,Door,None, Darkness
+  3,4:SolidNoPHDO,None,Solid,None, SpecialAhead, RandomCombat
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty
+locationScript=3,3,L186
+locationScript=0,2,L187
+locationScript=4,3,L188
+locationScript=1,1,L283
+scripts
+L186
+    @StairsOut
+L187
+    @StairsIn
+L188
+    @JMessage,SCRIPTSTRING_1575
+L283
+    @JMessage,SCRIPTSTRING_1576

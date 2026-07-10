@@ -1,0 +1,775 @@
+name=SCRIPTSTRING_0123
+isDungeon=1
+width=22
+height=22
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=1
+isTower=1
+isOutside=1
+monsterSet=0
+wallSet=31
+difficulty=5
+skyColor=4,0,0,0
+groundColor=8,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=4
+levelTable=8,9,10,11,12
+map
+  0,0:Solid,Door,Solid,Door, AntiMagic
+  1,0:Door,Solid,Solid,Solid, SpecialAhead, AntiMagic
+  2,0:Solid,Door,Solid,Solid, RandomCombat, AntiMagic
+  3,0:None,Solid,Solid,Door, AntiMagic
+  4,0:None,None,Solid,Solid, AntiMagic
+  5,0:None,Solid,Solid,None, AntiMagic
+  6,0:None,None,Solid,Solid, AntiMagic
+  7,0:None,None,Solid,None, AntiMagic
+  8,0:Solid,None,Solid,None, AntiMagic
+  9,0:Solid,None,Solid,None, AntiMagic
+  10,0:Solid,None,Solid,None, AntiMagic
+  11,0:Solid,None,Solid,None, RandomTrap, RandomCombat, AntiMagic
+  12,0:Solid,None,Solid,None, AntiMagic
+  13,0:Solid,None,Solid,None, AntiMagic
+  14,0:None,None,Solid,None, AntiMagic
+  15,0:Solid,None,Solid,None, AntiMagic
+  16,0:Solid,None,Solid,None, AntiMagic
+  17,0:Solid,None,Solid,None, RandomTrap, AntiMagic
+  18,0:Solid,None,Solid,None, AntiMagic
+  19,0:None,None,Solid,None, AntiMagic
+  20,0:Solid,Solid,Solid,None, AntiMagic
+  21,0:Solid,Solid,Solid,Solid, SpecialAhead, AntiMagic
+  0,1:Door,Solid,Door,Solid, AntiMagic
+  1,1:Solid,Solid,Solid,Solid, SpecialAhead, AntiMagic
+  2,1:Solid,Door,Door,Solid, SpecialAhead, AntiMagic
+  3,1:None,Solid,None,Solid, AntiMagic
+  4,1:None,Solid,None,Solid, AntiMagic
+  5,1:None,Solid,None,Solid, RandomTrap, AntiMagic
+  6,1:None,Solid,None,Solid, AntiMagic
+  7,1:None,Solid,None,Solid, AntiMagic
+  8,1:None,Door,Solid,Solid, AntiMagic
+  9,1:None,None,Solid,Door, AntiMagic
+  10,1:Door,None,Solid,None, AntiMagic
+  11,1:Door,None,Solid,None, RandomCombat, AntiMagic
+  12,1:Door,None,Solid,None, AntiMagic
+  13,1:None,Solid,Solid,None, AntiMagic
+  14,1:None,Solid,None,Solid, AntiMagic
+  15,1:None,None,Solid,Solid, AntiMagic
+  16,1:Solid,None,Solid,None, AntiMagic
+  17,1:Solid,None,Solid,None, AntiMagic
+  18,1:Solid,None,Solid,None, AntiMagic
+  19,1:Solid,Solid,None,None, AntiMagic
+  20,1:Solid,Door,Solid,Solid, AntiMagic
+  21,1:Door,Door,Door,Solid, AntiMagic
+  0,2:Solid,Door,Solid,Door, AntiMagic
+  1,2:Solid,Door,Solid,Solid, AntiMagic
+  2,2:Solid,Solid,Door,Solid, AntiMagic
+  3,2:None,Solid,None,Solid, RandomTrap, AntiMagic
+  4,2:None,Solid,None,Solid, RandomTrap, RandomCombat, AntiMagic
+  5,2:None,Solid,None,Solid, RandomCombat, AntiMagic
+  6,2:None,Solid,None,Solid, AntiMagic
+  7,2:None,Solid,None,Solid, RandomCombat, AntiMagic
+  8,2:None,Solid,None,Solid, AntiMagic
+  9,2:None,Door,None,Solid, AntiMagic
+  10,2:Door,Door,Door,Door, RandomCombat, AntiMagic
+  11,2:Door,Door,Door,Door, AntiMagic
+  12,2:Door,Door,Door,Door, RandomCombat, AntiMagic
+  13,2:None,Solid,None,Door, AntiMagic
+  14,2:None,Solid,None,Solid, AntiMagic
+  15,2:Solid,None,None,Solid, AntiMagic
+  16,2:Solid,None,Solid,None, RandomCombat, AntiMagic
+  17,2:Solid,None,Solid,None, RandomTrap, AntiMagic
+  18,2:None,Solid,Solid,None, RandomCombat, AntiMagic
+  19,2:Solid,Solid,Door,Solid, SpecialAhead, AntiMagic
+  20,2:Solid,Solid,Door,Door, AntiMagic
+  21,2:Solid,Solid,Solid,Door, AntiMagic
+  0,3:Solid,Door,Door,Door, SpecialAhead, AntiMagic
+  1,3:Solid,Door,Door,Solid, AntiMagic
+  2,3:Solid,Solid,Door,Solid, SpecialAhead, AntiMagic
+  3,3:None,Solid,None,Solid, AntiMagic
+  4,3:None,Solid,None,Solid, AntiMagic
+  5,3:None,Solid,None,Solid, AntiMagic
+  6,3:None,Solid,None,Solid, AntiMagic
+  7,3:None,Solid,None,Solid, AntiMagic
+  8,3:None,Solid,None,Solid, AntiMagic
+  9,3:None,Door,None,Solid, AntiMagic
+  10,3:Door,Door,Door,Door, AntiMagic
+  11,3:Door,Door,Door,Door, SpecialAhead
+  12,3:Door,Door,Door,Door, AntiMagic
+  13,3:None,Solid,None,Door, AntiMagic
+  14,3:None,Solid,None,Solid, AntiMagic
+  15,3:None,None,Solid,Solid, AntiMagic
+  16,3:Solid,None,Solid,None, RandomTrap, AntiMagic
+  17,3:Solid,None,Solid,None, AntiMagic
+  18,3:Solid,None,None,None, AntiMagic
+  19,3:None,Solid,Solid,None, AntiMagic
+  20,3:None,None,Solid,Solid, Spinner, AntiMagic
+  21,3:None,Door,Solid,None, Spinner, AntiMagic
+  0,4:Solid,None,Solid,Solid, AntiMagic
+  1,4:None,None,Solid,None, AntiMagic
+  2,4:Solid,None,Solid,None, AntiMagic
+  3,4:Solid,Solid,None,None, AntiMagic
+  4,4:None,Solid,None,Solid, AntiMagic
+  5,4:None,Solid,None,Solid, AntiMagic
+  6,4:None,Solid,None,Solid, RandomTrap, AntiMagic
+  7,4:None,Solid,None,Solid, RandomCombat, AntiMagic
+  8,4:None,Solid,None,Solid, AntiMagic
+  9,4:None,Door,None,Solid, AntiMagic
+  10,4:Door,Door,Door,Door, RandomCombat, AntiMagic
+  11,4:Door,Door,Door,Door, RandomCombat, AntiMagic
+  12,4:Door,Door,Door,Door, RandomCombat, AntiMagic
+  13,4:None,Solid,None,Door, AntiMagic
+  14,4:None,Solid,None,Solid, AntiMagic
+  15,4:None,Solid,None,Solid, AntiMagic
+  16,4:None,None,Solid,Solid, AntiMagic
+  17,4:Solid,Solid,Solid,None, RandomTrap, AntiMagic
+  18,4:Solid,None,Solid,Solid, AntiMagic
+  19,4:Solid,Solid,None,None, AntiMagic
+  20,4:Door,None,None,Solid, Spinner, AntiMagic
+  21,4:Solid,Solid,None,None, Spinner, AntiMagic
+  0,5:Solid,Solid,Solid,Door, AntiMagic
+  1,5:Solid,None,None,Solid, AntiMagic
+  2,5:Solid,None,Solid,None, AntiMagic
+  3,5:Solid,None,Solid,None, AntiMagic
+  4,5:Solid,Solid,None,None, AntiMagic
+  5,5:Solid,None,None,Solid, AntiMagic
+  6,5:Solid,Solid,None,None, AntiMagic
+  7,5:None,Solid,None,Solid, AntiMagic
+  8,5:None,Solid,None,Solid, AntiMagic
+  9,5:Solid,None,None,Solid, AntiMagic
+  10,5:Solid,None,Door,None, AntiMagic
+  11,5:Solid,None,Door,None, AntiMagic
+  12,5:Solid,None,Door,None, AntiMagic
+  13,5:Solid,Solid,None,None, AntiMagic
+  14,5:None,Solid,None,Solid, AntiMagic
+  15,5:Solid,None,None,Solid, AntiMagic
+  16,5:Solid,Solid,None,None, AntiMagic
+  17,5:Door,Solid,Solid,Solid, SpecialAhead
+  18,5:None,None,Solid,Solid, SpecialAhead, AntiMagic
+  19,5:None,Solid,Solid,None, Spinner, AntiMagic
+  20,5:None,None,Door,Solid, SpecialAhead, AntiMagic
+  21,5:None,Door,Solid,None, AntiMagic
+  0,6:Solid,None,Solid,Door, AntiMagic
+  1,6:Solid,None,Solid,None, AntiMagic
+  2,6:Solid,None,Solid,None, Spinner, AntiMagic
+  3,6:Solid,None,Solid,None, AntiMagic, HarmParty
+  4,6:Solid,None,Solid,None, Spinner, AntiMagic
+  5,6:Solid,None,Solid,None, AntiMagic
+  6,6:Solid,Solid,Solid,None, SpecialAhead, AntiMagic
+  7,6:Solid,None,None,Solid, AntiMagic
+  8,6:Solid,None,None,None, AntiMagic
+  9,6:Solid,None,Solid,None, RandomCombat, AntiMagic
+  10,6:Solid,None,Solid,None, AntiMagic
+  11,6:Solid,None,Solid,None, RandomTrap, AntiMagic
+  12,6:Solid,None,Solid,None, AntiMagic
+  13,6:Solid,None,Solid,None, AntiMagic
+  14,6:Solid,None,None,None, RandomCombat, AntiMagic
+  15,6:None,None,Solid,None, AntiMagic
+  16,6:None,Solid,Solid,None, AntiMagic
+  17,6:SecretDoor,Solid,Solid,Solid, RandomCombat
+  18,6:Solid,None,None,Solid, SpecialAhead, AntiMagic
+  19,6:Solid,Door,None,None, Spinner, AntiMagic
+  20,6:Solid,None,None,Door, AntiMagic
+  21,6:Door,Door,None,None, SpecialAhead, AntiMagic
+  0,7:None,None,Solid,Solid
+  1,7:None,Solid,Solid,None
+  2,7:None,None,Solid,Solid
+  3,7:None,Solid,Solid,None
+  4,7:None,None,Solid,Solid
+  5,7:Solid,None,Solid,None
+  6,7:Solid,None,Solid,None, RandomTrap
+  7,7:Solid,None,Solid,None
+  8,7:Solid,None,Solid,None
+  9,7:Solid,None,Solid,None
+  10,7:Solid,None,Solid,None
+  11,7:Solid,None,Solid,None, RandomTrap, RandomCombat
+  12,7:Solid,None,Solid,None
+  13,7:Solid,None,Solid,None
+  14,7:None,Solid,Solid,None
+  15,7:None,Solid,None,Solid, AntiMagic
+  16,7:None,Solid,None,Solid, RandomTrap, RandomCombat, AntiMagic
+  17,7:None,None,SecretDoor,Solid
+  18,7:None,None,Solid,None
+  19,7:None,Solid,Solid,None
+  20,7:None,None,Solid,Solid, SpecialAhead, AntiMagic
+  21,7:None,Solid,Door,None, SpecialAhead, AntiMagic
+  0,8:None,Solid,None,Solid
+  1,8:None,Solid,None,Solid
+  2,8:None,Solid,None,Solid
+  3,8:None,Solid,None,Solid
+  4,8:None,Solid,None,Solid
+  5,8:None,None,Solid,Solid
+  6,8:None,Solid,Solid,None
+  7,8:None,None,Solid,Solid
+  8,8:None,Door,Solid,None, RandomCombat
+  9,8:Door,None,Solid,Door
+  10,8:None,None,Solid,None
+  11,8:None,Door,Solid,None, RandomCombat
+  12,8:None,None,Solid,Door
+  13,8:None,Solid,Solid,None
+  14,8:None,Solid,None,Solid
+  15,8:None,Solid,None,Solid, AntiMagic
+  16,8:None,Solid,None,Solid, AntiMagic
+  17,8:Solid,None,None,Solid
+  18,8:Solid,None,None,None
+  19,8:SecretDoor,Solid,None,None, RandomCombat
+  20,8:Solid,None,None,Solid, SpecialAhead, AntiMagic
+  21,8:Solid,Solid,None,None, Spinner, AntiMagic
+  0,9:None,Solid,None,Solid, RandomTrap
+  1,9:None,Solid,None,Solid
+  2,9:None,Solid,None,Solid
+  3,9:None,Solid,None,Solid
+  4,9:None,Solid,None,Solid
+  5,9:Door,None,None,Solid, RandomCombat
+  6,9:Solid,Door,None,None, RandomCombat
+  7,9:Solid,None,None,Door
+  8,9:Solid,Solid,None,None
+  9,9:None,Solid,Door,Solid, RandomCombat
+  10,9:Solid,None,None,Solid
+  11,9:Solid,Solid,None,None
+  12,9:Solid,None,None,Solid
+  13,9:Door,Solid,None,None, RandomCombat
+  14,9:None,Solid,None,Solid
+  15,9:None,Solid,None,Solid, RandomCombat, AntiMagic
+  16,9:None,Solid,None,Solid, AntiMagic
+  17,9:None,Solid,Solid,Solid, AntiMagic
+  18,9:None,None,Solid,Solid
+  19,9:None,Solid,SecretDoor,None
+  20,9:None,None,Solid,Solid
+  21,9:None,Solid,Solid,None
+  0,10:None,Solid,None,Solid
+  1,10:None,Solid,None,Solid
+  2,10:None,Solid,None,Solid, RandomTrap
+  3,10:None,Solid,None,Solid
+  4,10:None,Solid,None,Solid
+  5,10:None,None,Door,Solid
+  6,10:None,Solid,Solid,None
+  7,10:None,None,Solid,Solid
+  8,10:Solid,None,Solid,None
+  9,10:None,None,None,None
+  10,10:Solid,None,Solid,None
+  11,10:None,Solid,Solid,None
+  12,10:None,None,Solid,Solid
+  13,10:None,Solid,Door,None
+  14,10:None,Solid,None,Solid, RandomTrap
+  15,10:None,Solid,None,Solid, AntiMagic
+  16,10:None,Solid,None,Solid, AntiMagic
+  17,10:None,Solid,None,Solid, RandomTrap, AntiMagic
+  18,10:Solid,None,None,Solid
+  19,10:SecretDoor,Solid,None,None, RandomCombat
+  20,10:SecretDoor,None,None,Solid, RandomCombat
+  21,10:Solid,Solid,None,None
+  0,11:None,Solid,None,Solid
+  1,11:None,Solid,None,Solid
+  2,11:None,Solid,None,Solid
+  3,11:None,Solid,None,Solid
+  4,11:None,Solid,None,Solid
+  5,11:Door,None,None,Solid, RandomCombat
+  6,11:Solid,Solid,None,None
+  7,11:None,Solid,None,Solid
+  8,11:None,None,Solid,Solid
+  9,11:Door,None,None,None
+  10,11:None,Solid,Solid,None
+  11,11:None,Solid,None,Solid
+  12,11:Solid,None,None,Solid
+  13,11:Door,Solid,None,None, RandomCombat
+  14,11:None,Solid,None,Solid
+  15,11:None,Solid,None,Solid, AntiMagic
+  16,11:None,Solid,None,Solid, RandomCombat, AntiMagic
+  17,11:None,None,None,Solid, AntiMagic
+  18,11:Solid,None,Solid,None, RandomCombat, AntiMagic
+  19,11:Solid,None,SecretDoor,None, AntiMagic
+  20,11:Solid,None,SecretDoor,None, AntiMagic
+  21,11:None,Solid,Solid,None, AntiMagic
+  0,12:None,Solid,None,Solid
+  1,12:None,Solid,None,Solid
+  2,12:None,Solid,None,Solid
+  3,12:None,Solid,None,Solid
+  4,12:None,Solid,None,Solid
+  5,12:None,Door,Door,Solid
+  6,12:Solid,None,Solid,Door, RandomCombat
+  7,12:None,None,None,None
+  8,12:None,Door,None,None
+  9,12:Door,Door,Door,Door, SpecialAhead
+  10,12:None,None,None,Door
+  11,12:None,None,None,None
+  12,12:Solid,Door,Solid,None, RandomCombat
+  13,12:None,Solid,Door,Door
+  14,12:None,Solid,None,Solid
+  15,12:None,Solid,None,Solid, AntiMagic
+  16,12:None,Solid,None,Solid, AntiMagic
+  17,12:None,Solid,None,Solid, AntiMagic
+  18,12:None,None,Solid,Solid, AntiMagic
+  19,12:Solid,None,Solid,None, AntiMagic
+  20,12:Solid,None,Solid,None, RandomCombat, AntiMagic
+  21,12:Solid,Solid,None,None, AntiMagic
+  0,13:Door,Solid,None,Solid
+  1,13:None,Solid,None,Solid
+  2,13:None,Solid,None,Solid
+  3,13:None,Solid,None,Solid
+  4,13:None,Solid,None,Solid
+  5,13:None,None,None,Solid
+  6,13:None,Solid,Solid,None
+  7,13:None,Solid,None,Solid
+  8,13:Solid,None,None,Solid
+  9,13:None,None,Door,None
+  10,13:Solid,Solid,None,None
+  11,13:None,Solid,None,Solid
+  12,13:None,None,Solid,Solid
+  13,13:None,Solid,None,None
+  14,13:None,Solid,None,Solid
+  15,13:None,Solid,None,Solid, RandomTrap, AntiMagic
+  16,13:Solid,None,None,Solid, AntiMagic
+  17,13:Solid,Solid,None,None, AntiMagic
+  18,13:Solid,None,None,Solid, RandomTrap, RandomCombat, AntiMagic
+  19,13:Solid,None,Solid,None, AntiMagic
+  20,13:Solid,None,Solid,None, AntiMagic
+  21,13:Solid,Solid,Solid,None, AntiMagic
+  0,14:Solid,Solid,Door,Solid, SpecialAhead
+  1,14:Solid,None,None,Solid
+  2,14:Solid,Solid,None,None
+  3,14:Solid,None,None,Solid
+  4,14:Solid,Solid,None,None
+  5,14:Solid,None,None,Solid
+  6,14:Door,Solid,None,None, RandomCombat
+  7,14:Solid,None,None,Solid
+  8,14:Solid,None,Solid,None
+  9,14:None,None,None,None
+  10,14:Solid,None,Solid,None
+  11,14:Solid,Solid,None,None
+  12,14:Solid,None,None,Solid
+  13,14:Door,Solid,None,None, RandomCombat
+  14,14:None,Solid,None,Solid
+  15,14:Solid,None,None,Solid, AntiMagic
+  16,14:Solid,None,Solid,None, AntiMagic
+  17,14:Solid,None,Solid,None, AntiMagic
+  18,14:Solid,None,Solid,None, AntiMagic
+  19,14:Solid,None,Solid,None, AntiMagic
+  20,14:Door,None,Solid,None, AntiMagic
+  21,14:Solid,Solid,Solid,None, AntiMagic
+  0,15:Door,Door,Solid,Solid, RandomCombat
+  1,15:Door,Door,Solid,Door, RandomCombat
+  2,15:Solid,Solid,Solid,Door, RandomCombat
+  3,15:Door,Solid,Solid,Solid
+  4,15:Door,Solid,Solid,Solid, RandomCombat
+  5,15:None,None,Solid,Solid
+  6,15:None,Door,Door,None
+  7,15:Door,None,Solid,Door
+  8,15:None,Solid,Solid,None
+  9,15:Door,Solid,None,Solid, RandomCombat
+  10,15:Solid,SecretDoor,Solid,Solid, RandomCombat
+  11,15:None,None,Solid,SecretDoor
+  12,15:Door,None,Solid,None
+  13,15:None,Solid,Door,None
+  14,15:None,None,None,Solid
+  15,15:None,None,Solid,None
+  16,15:None,None,Solid,None
+  17,15:None,None,Solid,None, DrainMagic
+  18,15:None,None,Solid,None
+  19,15:None,None,Solid,None
+  20,15:None,None,Door,None
+  21,15:None,Solid,Solid,None, SpecialAhead, DrainMagic
+  0,16:Solid,Solid,Door,Solid
+  1,16:Solid,Door,Door,Solid
+  2,16:Solid,Door,Solid,Door, RandomCombat
+  3,16:Door,Door,Door,Door
+  4,16:Solid,Door,Door,Door
+  5,16:Solid,None,None,Door
+  6,16:Solid,Solid,None,None
+  7,16:None,Solid,Door,Solid
+  8,16:Solid,Solid,None,Solid
+  9,16:None,None,Door,Solid, RandomCombat
+  10,16:None,Solid,Solid,None
+  11,16:None,Solid,None,Solid
+  12,16:Solid,Solid,Door,Solid, SpecialAhead
+  13,16:None,Solid,None,Solid
+  14,16:None,None,None,Solid
+  15,16:Solid,None,None,None, DrainMagic
+  16,16:Solid,None,None,None
+  17,16:Solid,None,None,None
+  18,16:Solid,None,None,None
+  19,16:Solid,None,None,None, DrainMagic
+  20,16:SecretDoor,None,None,None, RandomCombat
+  21,16:Solid,Solid,None,None
+  0,17:Solid,Door,Solid,Solid, RandomCombat
+  1,17:Door,Door,Solid,Door, RandomCombat
+  2,17:Solid,Door,Solid,Door
+  3,17:Solid,Door,Door,Door
+  4,17:Door,Solid,Solid,Door, RandomCombat
+  5,17:None,None,Solid,Solid
+  6,17:None,Door,Solid,None, RandomCombat
+  7,17:Solid,Solid,None,Door, RandomCombat
+  8,17:Door,Solid,Solid,Solid, RandomCombat
+  9,17:Door,None,None,Solid
+  10,17:Solid,Solid,None,None
+  11,17:Solid,None,None,Solid
+  12,17:Door,None,Solid,None
+  13,17:Solid,Solid,None,None
+  14,17:None,Solid,None,Solid
+  15,17:None,None,Solid,Solid, Darkness
+  16,17:None,None,Solid,None, Darkness
+  17,17:None,None,Solid,None, Darkness
+  18,17:None,None,Solid,None, Darkness
+  19,17:None,None,Solid,None, Darkness
+  20,17:None,None,SecretDoor,None, Darkness
+  21,17:None,Solid,Solid,None, Darkness
+  0,18:Solid,Door,Solid,Solid
+  1,18:Door,Door,Door,Door, RandomCombat
+  2,18:Door,Solid,Solid,Door, RandomCombat
+  3,18:Door,Door,Solid,Solid, RandomCombat
+  4,18:Solid,Solid,Door,Door, RandomCombat
+  5,18:Solid,None,None,Solid
+  6,18:Solid,Door,None,None, RandomCombat
+  7,18:None,None,Solid,Door, RandomCombat
+  8,18:None,Solid,Door,None
+  9,18:None,None,Door,Solid, RandomCombat
+  10,18:None,Solid,Solid,None
+  11,18:None,None,Solid,Solid
+  12,18:None,Door,Door,None, RandomCombat
+  13,18:Solid,Solid,Solid,Door, RandomCombat
+  14,18:None,Solid,None,Solid
+  15,18:None,None,None,Solid, Darkness
+  16,18:None,None,None,None, Darkness
+  17,18:None,None,None,None, Darkness
+  18,18:None,None,None,None, Darkness
+  19,18:None,None,None,None, Darkness
+  20,18:None,None,None,None, Darkness
+  21,18:None,Solid,None,None, Darkness
+  0,19:Door,Door,Solid,Solid, RandomCombat
+  1,19:Solid,Solid,Door,Door, RandomCombat
+  2,19:Solid,Solid,Door,Solid, RandomCombat
+  3,19:Door,Door,Door,Solid
+  4,19:Door,Solid,Solid,Door
+  5,19:None,None,Solid,Solid
+  6,19:None,Solid,Solid,None
+  7,19:Solid,None,None,Solid
+  8,19:Solid,Solid,None,None
+  9,19:None,None,None,Solid
+  10,19:None,Solid,None,None
+  11,19:Solid,None,None,Solid
+  12,19:Door,Door,None,None
+  13,19:Door,Solid,Solid,Door, RandomCombat
+  14,19:None,Solid,None,Solid
+  15,19:None,None,None,Solid, Darkness
+  16,19:None,None,None,None, Darkness
+  17,19:None,None,None,None, Darkness
+  18,19:None,None,None,None, StairsOut, Darkness
+  19,19:None,None,None,None, Darkness
+  20,19:None,None,None,None, Darkness
+  21,19:None,Solid,None,None, Darkness
+  0,20:None,None,Door,Solid, SpecialAhead
+  1,20:None,Solid,Solid,None
+  2,20:Solid,Door,Solid,Solid, RandomCombat
+  3,20:Door,Solid,Door,Door
+  4,20:Solid,Solid,Door,Solid
+  5,20:Solid,None,None,Solid
+  6,20:Solid,None,None,None
+  7,20:Solid,Door,Solid,None, RandomCombat
+  8,20:Solid,None,Solid,Door
+  9,20:Solid,None,None,None
+  10,20:Solid,Solid,None,None
+  11,20:Solid,Door,Solid,Solid, RandomCombat
+  12,20:Solid,Solid,Door,Door, RandomCombat
+  13,20:Solid,Solid,Door,Solid, RandomCombat
+  14,20:None,Solid,None,Solid
+  15,20:None,None,None,Solid, Darkness
+  16,20:None,None,None,None, Darkness
+  17,20:None,None,None,None, Darkness
+  18,20:None,None,None,None, Darkness
+  19,20:None,None,None,None, Darkness
+  20,20:None,None,None,None, Darkness
+  21,20:None,Solid,None,None, Darkness
+  0,21:Solid,None,None,Solid
+  1,21:Solid,Solid,None,None
+  2,21:Solid,Door,Solid,Solid, RandomCombat
+  3,21:Solid,Door,Door,Door
+  4,21:Solid,Door,Solid,Door, RandomCombat
+  5,21:Solid,None,Solid,Door
+  6,21:Solid,None,Solid,None
+  7,21:Solid,None,Solid,None
+  8,21:Solid,None,Solid,None
+  9,21:Solid,None,Solid,None
+  10,21:Solid,None,Solid,None
+  11,21:Solid,None,Solid,None
+  12,21:Solid,None,Solid,None
+  13,21:Solid,None,Solid,None
+  14,21:Solid,Solid,None,None
+  15,21:Solid,None,None,Solid, Darkness
+  16,21:Solid,None,None,None, Darkness
+  17,21:Solid,None,None,None, Darkness
+  18,21:Solid,None,None,None, Darkness
+  19,21:Solid,None,None,None, Darkness
+  20,21:Solid,None,None,None, Darkness
+  21,21:Solid,Solid,None,None, Darkness
+locationScript=18,19,Stairs_Up
+locationScript=0,20,Dargoth
+locationScript=17,5,WandSegment03
+locationScript=6,6,MagicMouthSixCheck
+locationScript=1,0,HavokStatue
+locationScript=18,5,DaggerCheck
+locationScript=21,6,Mage
+locationScript=9,12,DeathSnareMagicMouth
+locationScript=1,1,Teleport07
+locationScript=19,2,Teleport08
+locationScript=2,3,Teleport09
+locationScript=2,1,Teleport10
+locationScript=21,0,Teleport11
+locationScript=18,6,Teleport12
+locationScript=0,3,Message13
+locationScript=20,8,Message14
+locationScript=20,7,Message15
+locationScript=20,5,SnareThreeStart
+locationScript=0,14,Message17
+locationScript=12,16,Message18
+locationScript=21,15,Message19
+locationScript=11,3,Message20
+locationScript=21,7,WebDragonsEncounter
+locationScript=11,9,LetterFromLagoth
+scripts
+Stairs_Up
+    StairsOut,TERM
+Dargoth
+    IsBitSet,CONT,162,SkipEvent
+    Message,CONT,SCRIPTSTRING_0956
+    PressAny,CONT
+	Encounter,CONT,2,Centron,4,Dargoth,1,DargothFightWin
+    Jump,CONT,SkipEvent
+DargothFightWin
+    SetBit,TERM,162
+WandSegment03
+    AbortTimedScript,CONT,SCRIPTSTRING_0957
+    IsBitSet,CONT,142,SkipEvent
+    Message,CONT,SCRIPTSTRING_0958
+    PressAny,CONT
+    IsItemInParty,CONT,Wand Segment 3,SkipEvent
+    Message,CONT,SCRIPTSTRING_0843
+    AwardItem,CONT,Wand Segment 3,Wand Segment 3,0,WandSegmentThreeAward
+WandSegmentThreeAward
+    SetBit,CONT,142
+    Journal,CONT,1,SCRIPTSTRING_0959
+    Jump,CONT,SkipEvent
+MagicMouthSixCheck
+    ShowPic,CONT,bt1_13_magicMouth
+    ShowText,CONT,SCRIPTSTRING_0115
+    Journal,CONT,0,SCRIPTSTRING_0960
+    IsBitSet,CONT,159,MagicMouthStepSix
+    IsBitSet,CONT,158,MagicMouthStepFive
+    IsBitSet,CONT,157,MagicMouthStepFour
+    IsBitSet,CONT,156,MagicMouthStepThree
+    IsBitSet,CONT,155,MagicMouthStepTwo
+	Jump,CONT,MagicMouthStepOne
+MagicMouthStepOne
+    Journal,CONT,1,SCRIPTSTRING_0961
+    Message,CONT,SCRIPTSTRING_0962
+	SetBit,CONT,155
+    Jump,CONT,EndMessage
+MagicMouthStepTwo
+    Journal,CONT,2,SCRIPTSTRING_0963
+    Message,CONT,SCRIPTSTRING_0964
+	SetBit,CONT,156
+    Jump,CONT,EndMessage
+MagicMouthStepThree
+    Journal,CONT,3,SCRIPTSTRING_0965
+    Message,CONT,SCRIPTSTRING_0966
+	SetBit,CONT,157
+    Jump,CONT,EndMessage
+MagicMouthStepFour
+    Journal,CONT,4,SCRIPTSTRING_0967
+    Message,CONT,SCRIPTSTRING_0968
+	SetBit,CONT,158
+    Jump,CONT,EndMessage
+MagicMouthStepFive
+    Journal,CONT,5,SCRIPTSTRING_0969
+    Message,CONT,SCRIPTSTRING_0970
+	SetBit,CONT,159
+    Jump,CONT,EndMessage
+MagicMouthStepSix
+    Journal,CONT,6,SCRIPTSTRING_0971
+    Message,CONT,SCRIPTSTRING_0972
+    ClearBit,CONT,155
+    ClearBit,CONT,156
+    ClearBit,CONT,157
+    ClearBit,CONT,158
+    ClearBit,CONT,159
+    Jump,CONT,EndMessage
+HavokStatue
+    IsBitSet,CONT,160,SkipEvent
+    ShowPic,CONT,BT2_53_Colossus
+	ShowText,CONT,SCRIPTSTRING_0563
+	JMessage,CONT,SCRIPTSTRING_0973
+	Input,CONT
+	MatchWord,CONT,SCRIPTSTRING_0974,HavokAnswer
+	Jump,CONT,FailedHavokStatue
+HavokAnswer
+    Message,CONT,SCRIPTSTRING_0975
+	SetBit,CONT,160
+    Journal,0,SCRIPTSTRING_0976
+    AwardItem,CONT,Dagger!,Dagger!,0,SkipEvent
+FailedHavokStatue
+    Message,CONT,SCRIPTSTRING_0977
+    Jump,CONT,EndMessage
+DaggerCheck
+    IsBitSet,CONT,161,SkipEvent
+    IsItemInParty,CONT,Dagger!,InventoryDagger
+    JMessage,CONT,SCRIPTSTRING_0978
+    Jump,CONT,EndMessage
+InventoryDagger
+    Message,CONT,SCRIPTSTRING_0979
+    PressAny,CONT
+	SetBit,CONT,161
+	Direction,CONT,West
+	ChangeMap,CONT,5,18,50
+	ClearWindow,TERM
+Mage
+    IsBitSet,CONT,217,SkipEvent
+    ShowPic,CONT,BT2_58_Magician
+	ShowText,CONT,SCRIPTSTRING_0980
+    JMessage,CONT,SCRIPTSTRING_0981
+    SetBit,CONT,217
+    Jump,CONT,EndMessage
+LetterFromLagoth
+    JMessage,SCRIPTSTRING_0982
+    @PressAny
+Teleport07
+    Teleport,TERM,0,5,12,DUNG
+Teleport08
+    Teleport,TERM,20,2,12,DUNG
+Teleport09
+    Teleport,TERM,1,3,12,DUNG
+Teleport10
+    Teleport,TERM,0,3,12,DUNG
+Teleport11
+    Teleport,TERM,0,5,12,DUNG
+Teleport12
+    Teleport,TERM,20,4,12,DUNG
+Message13
+    JMessage,CONT,SCRIPTSTRING_0983
+	Jump,CONT,EndMessage
+Message14
+    JMessage,CONT,SCRIPTSTRING_0984
+	Jump,CONT,EndMessage
+Message15
+    JMessage,CONT,SCRIPTSTRING_0985
+	Jump,CONT,EndMessage
+SnareThreeStart
+    IsBitSet,CONT,208,SkipEvent
+    ShowText,CONT,SCRIPTSTRING_0986
+    StartTimedScript,CONT,SCRIPTSTRING_0957,720,SnareEventExpiration,true
+    JMessage,CONT,SCRIPTSTRING_0987
+    SetBit,CONT,208
+    Jump,CONT,EndMessage
+Message17
+    JMessage,CONT,SCRIPTSTRING_0988
+	Jump,CONT,EndMessage
+Message18
+    JMessage,CONT,SCRIPTSTRING_0989
+	Jump,CONT,EndMessage
+Message19
+    JMessage,CONT,SCRIPTSTRING_0990
+	Jump,CONT,EndMessage
+Message20
+    JMessage,CONT,SCRIPTSTRING_0991
+	Jump,CONT,EndMessage
+WebDragonsEncounter
+    IsBitSet,CONT,216,SkipEvent
+    Encounter,CONT,1,Web Dragon,2,WebDragonsWinFight
+    Jump,CONT,SkipEvent
+WebDragonsWinFight
+    SetBit,CONT,216
+	ClearWindow,TERM
+DeathSnareMagicMouth
+    IsBitSet,CONT,BT2TOW12DSMM10Seq,TenWordBitPass
+    ShowPic,CONT,bt1_13_magicMouth
+    ShowText,CONT,SCRIPTSTRING_0115
+    JMessage,CONT,SCRIPTSTRING_0992
+    Jump,CONT,WaterAnswer
+WaterAnswer
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0993,LieAnswer
+    Jump,CONT,FailedAnswers
+LieAnswer
+    Message,CONT,SCRIPTSTRING_0993
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0994,SlaveAnswer
+    Jump,CONT,FailedAnswers
+SlaveAnswer
+    Message,CONT,SCRIPTSTRING_0995
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0996,GoldAnswer
+    Jump,CONT,FailedAnswers
+GoldAnswer
+    Message,CONT,SCRIPTSTRING_0997
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0998,HateAnswer
+    Jump,CONT,FailedAnswers
+HateAnswer
+    Message,CONT,SCRIPTSTRING_0999
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1000,RoosterAnswer
+    Jump,CONT,FailedAnswers
+RoosterAnswer
+    Message,CONT,SCRIPTSTRING_1001
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1002,LargeAnswer
+    Jump,CONT,FailedAnswers
+LargeAnswer
+    Message,CONT,SCRIPTSTRING_1003
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1004,EarlyAnswer
+    Jump,CONT,FailedAnswers
+EarlyAnswer
+    Message,CONT,SCRIPTSTRING_1005
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1006,BardAnswer
+    Jump,CONT,FailedAnswers
+BardAnswer
+    Message,CONT,SCRIPTSTRING_1007
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1008,WomenAnswer
+    Jump,CONT,FailedAnswers
+WomenAnswer
+    Message,CONT,SCRIPTSTRING_1009
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_1010,TenWordsPass
+    Jump,CONT,FailedAnswers
+TenWordsPass
+    SetBit,CONT,BT2TOW12DSMM10Seq
+    SetBit,CONT,154
+    SetMapFeature,CONT,9,2,PortalUp
+    Message,CONT,SCRIPTSTRING_1011
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_1012
+	PressAny,CONT
+    Jump,CONT,TenWordPassTeleport
+TenWordBitPass
+    ShowPic,CONT,bt1_13_magicMouth
+    ShowText,CONT,SCRIPTSTRING_0115
+    SetBit,CONT,154
+    SetMapFeature,CONT,9,2,PortalUp
+    Message,CONT,SCRIPTSTRING_1013
+    PressAny,CONT
+    Jump,CONT,TenWordPassTeleport
+TenWordPassTeleport
+	Teleport,CONT,20,5,12,DUNG
+	ClearWindow,TERM
+FailedAnswers
+	Message,CONT,SCRIPTSTRING_1014
+	PressAny,CONT
+	GoBack,CONT
+    ClearWindow,TERM
+SnareEventExpiration
+    KillParty,CONT
+    ShowPic,CONT,BT1_12_DeathAngel
+    ShowText,CONT,SCRIPTSTRING_0854
+    Message,CONT,SCRIPTSTRING_0855
+    PressAny,CONT
+    ReturnToGuild,CONT
+    ClearWindow,TERM
+EndMessage
+    PressAny,CONT
+	ClearWindow,TERM
+SkipEvent
+    End,TERM

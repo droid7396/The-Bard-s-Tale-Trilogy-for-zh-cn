@@ -1,0 +1,447 @@
+name=SCRIPTSTRING_0405
+isDungeon=0
+width=16
+height=16
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=0
+isTower=0
+isOutside=1
+monsterSet=0
+wallSet=1
+difficulty=0
+skyColor=4,0,0,0
+groundColor=8,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+map
+  0,0:0,1,68,Generic,Passable
+  1,0:0,2,69,Generic,Passable,Hint=1
+  2,0:0,1,68,Generic,Passable
+  3,0:0,3,70,Generic,Passable
+  4,0:0,4,71,Generic,Passable,Hint=2
+  5,0:0,3,70,Generic,Passable
+  6,0:0,2,69,Generic,Passable
+  7,0:0,2,69,Generic,Passable
+  8,0:13,4,74,Tavern,Passable,KAP=1
+  9,0:0,1,68,Generic,Passable
+  10,0:0,3,70,Generic,Passable,Hint=3
+  11,0:0,1,68,Generic,Passable
+  12,0:0,2,69,Generic,Passable
+  13,0:0,4,71,Generic,Passable
+  14,0:0,4,71,Generic,Passable
+  15,0:0,3,70,Generic,Passable
+  0,1:0,2,69,Generic,Passable
+  1,1:1,0,255,None,Passable
+  2,1:2,0,255,None,Passable
+  3,1:2,0,255,None,Passable
+  4,1:2,0,255,None,Passable
+  5,1:2,0,255,None,Passable
+  6,1:2,0,255,None,Passable
+  7,1:2,0,255,None,Passable
+  8,1:2,0,255,None,Passable
+  9,1:2,0,255,None,Passable
+  10,1:2,0,255,None,Passable
+  11,1:2,0,255,None,Passable
+  12,1:2,0,255,None,Passable
+  13,1:2,0,255,None,Passable
+  14,1:4,0,255,None,Passable
+  15,1:0,1,68,Generic,Passable,Hint=4
+  0,2:0,3,70,Generic,Passable
+  1,2:1,0,255,None,Passable
+  2,2:0,2,69,Generic,Passable
+  3,2:0,3,70,Generic,Passable,Hint=5
+  4,2:0,1,68,Generic,Passable
+  5,2:0,4,71,Generic,Passable
+  6,2:16,2,75,Temple,Passable
+  7,2:2,0,255,None,Passable
+  8,2:0,2,69,Generic,Passable
+  9,2:0,3,70,Generic,Passable,Hint=6
+  10,2:0,3,70,Generic,Passable
+  11,2:0,2,69,Generic,Passable
+  12,2:0,4,71,Generic,Passable
+  13,2:0,4,71,Generic,Passable,Hint=7
+  14,2:4,0,255,None,Passable
+  15,2:0,2,69,Generic,Passable
+  0,3:0,4,71,Generic,Passable,Hint=8
+  1,3:1,0,255,None,Passable
+  2,3:0,3,70,Generic,Passable
+  3,3:6,0,255,None,Passable
+  4,3:5,0,255,None,Passable
+  5,3:5,0,255,None,Passable
+  6,3:5,0,255,None,Passable
+  7,3:5,0,255,None,Passable
+  8,3:5,0,255,None,Passable
+  9,3:5,0,255,None,Passable
+  10,3:5,0,255,None,Passable
+  11,3:5,0,255,None,Passable
+  12,3:8,0,255,None,Passable
+  13,3:0,3,70,Generic,Passable,Hint=9
+  14,3:4,0,255,None,Passable
+  15,3:0,4,71,Generic,Passable
+  0,4:0,1,68,Generic,Passable
+  1,4:1,0,255,None,Passable
+  2,4:0,4,71,Generic,Passable,Hint=39
+  3,4:6,0,255,None,Passable
+  4,4:0,1,68,Generic,Passable
+  5,4:0,1,68,Generic,Passable,Hint=10
+  6,4:0,3,70,Generic,Passable
+  7,4:9,0,255,None,Passable
+  8,4:0,2,69,Generic,Passable,Hint=11
+  9,4:0,1,68,Generic,Passable
+  10,4:10,0,255,None,Passable
+  11,4:0,1,77,Review,Passable
+  12,4:8,0,255,None,Passable
+  13,4:0,1,68,Generic,Passable
+  14,4:4,0,255,None,Passable
+  15,4:0,2,66,Casino,Passable
+  0,5:0,4,71,Generic,Passable,Hint=12
+  1,5:1,0,255,None,Passable
+  2,5:0,2,69,Generic,Passable
+  3,5:6,0,255,None,Passable
+  4,5:0,2,69,Generic,Passable,Hint=13
+  5,5:9,0,255,None,Passable
+  6,5:9,0,255,None,Passable
+  7,5:9,0,255,None,Passable
+  8,5:9,0,255,None,Passable
+  9,5:0,3,70,Generic,Passable
+  10,5:10,0,255,None,Passable
+  11,5:0,3,70,Generic,Passable
+  12,5:8,0,255,None,Passable
+  13,5:0,3,70,Generic,Passable
+  14,5:4,0,255,None,Passable
+  15,5:0,1,68,Generic,Passable,Hint=14
+  0,6:0,1,68,Generic,Passable
+  1,6:1,0,255,None,Passable
+  2,6:0,1,73,Garths,Passable
+  3,6:6,0,255,None,Passable
+  4,6:0,2,69,Generic,Passable
+  5,6:9,0,255,None,Passable
+  6,6:0,3,70,Generic,Passable
+  7,6:0,4,71,Generic,Passable
+  8,6:9,0,255,None,Passable
+  9,6:0,2,69,Generic,Passable
+  10,6:10,0,255,None,Passable
+  11,6:0,1,68,Generic,Passable
+  12,6:8,0,255,None,Passable
+  13,6:0,3,70,Generic,Passable
+  14,6:4,0,255,None,Passable
+  15,6:0,1,68,Generic,Passable
+  0,7:0,0,24,None,Blocked
+  1,7:1,0,255,None,Passable
+  2,7:0,3,70,Generic,Passable
+  3,7:6,0,255,None,Passable
+  4,7:0,1,68,Generic,Passable,Hint=15
+  5,7:9,0,255,None,Passable
+  6,7:0,1,68,Generic,Passable
+  7,7:0,2,66,Casino,Passable
+  8,7:9,0,255,None,Passable
+  9,7:0,1,68,Generic,Passable
+  10,7:10,0,255,None,Passable
+  11,7:0,3,70,Generic,Passable
+  12,7:8,0,255,None,Passable
+  13,7:0,1,68,Generic,Passable,Hint=16
+  14,7:4,0,255,None,Passable
+  15,7:0,2,69,Generic,Passable
+  0,8:0,0,22,None,Passable,Face=East,GateOpen
+  1,8:1,0,255,None,Passable
+  2,8:0,2,72,Guild,Passable,Face=West
+  3,8:6,0,255,None,Passable
+  4,8:0,3,70,Generic,Passable,Hint=36
+  5,8:9,0,255,None,Passable
+  6,8:0,3,70,Generic,Passable,Hint=38
+  7,8:0,1,68,Generic,Passable
+  8,8:9,0,255,None,Passable
+  9,8:0,2,69,Generic,Passable,Hint=37
+  10,8:10,0,255,None,Passable
+  11,8:12,4,74,Tavern,Passable,KAP=1
+  12,8:8,0,255,None,Passable
+  13,8:0,2,69,Generic,Passable,Hint=17
+  14,8:4,0,255,None,Passable
+  15,8:0,1,68,Generic,Passable
+  0,9:0,0,24,None,Blocked
+  1,9:1,0,255,None,Passable
+  2,9:0,1,68,Generic,Passable
+  3,9:6,0,255,None,Passable
+  4,9:0,4,71,Generic,Passable,Hint=18
+  5,9:9,0,255,None,Passable
+  6,9:0,1,68,Generic,Passable
+  7,9:0,4,71,Generic,Passable,Hint=19
+  8,9:9,0,255,None,Passable
+  9,9:0,4,81,Roscoes,Passable
+  10,9:10,0,255,None,Passable
+  11,9:0,1,68,Generic,Passable,Hint=20
+  12,9:8,0,255,None,Passable
+  13,9:0,2,69,Generic,Passable
+  14,9:4,0,255,None,Passable
+  15,9:0,4,71,Generic,Passable
+  0,10:0,4,71,Generic,Passable
+  1,10:1,0,255,None,Passable
+  2,10:0,4,71,Generic,Passable,Hint=21
+  3,10:6,0,255,None,Passable
+  4,10:0,3,70,Generic,Passable,Hint=22
+  5,10:9,0,255,None,Passable
+  6,10:9,0,255,None,Passable
+  7,10:9,0,255,None,Passable
+  8,10:9,0,255,None,Passable
+  9,10:0,3,70,Generic,Passable,Hint=23
+  10,10:10,0,255,None,Passable
+  11,10:0,4,71,Generic,Passable
+  12,10:8,0,255,None,Passable
+  13,10:0,1,68,Generic,Passable,Hint=24
+  14,10:4,0,255,None,Passable
+  15,10:0,1,68,Generic,Passable
+  0,11:0,4,71,Generic,Passable,Hint=25
+  1,11:1,0,255,None,Passable
+  2,11:0,1,68,Generic,Passable
+  3,11:6,0,255,None,Passable
+  4,11:0,1,68,Generic,Passable,Hint=26
+  5,11:0,2,69,Generic,Passable
+  6,11:0,3,65,Bank,Passable
+  7,11:9,0,255,None,Passable
+  8,11:0,4,71,Generic,Passable,Hint=27
+  9,11:0,2,69,Generic,Passable
+  10,11:10,0,255,None,Passable
+  11,11:0,2,69,Generic,Passable
+  12,11:8,0,255,None,Passable
+  13,11:0,4,71,Generic,Passable
+  14,11:4,0,255,None,Passable
+  15,11:0,3,70,Generic,Passable,Hint=28
+  0,12:0,1,68,Generic,Passable
+  1,12:1,0,255,None,Passable
+  2,12:0,2,69,Generic,Passable
+  3,12:6,0,255,None,Passable
+  4,12:7,0,255,None,Passable
+  5,12:7,0,255,None,Passable
+  6,12:7,0,255,None,Passable
+  7,12:7,0,255,None,Passable
+  8,12:7,0,255,None,Passable
+  9,12:7,0,255,None,Passable
+  10,12:7,0,255,None,Passable
+  11,12:7,0,255,None,Passable
+  12,12:8,0,255,None,Passable
+  13,12:0,3,70,Generic,Passable,Hint=29
+  14,12:4,0,255,None,Passable
+  15,12:0,2,69,Generic,Passable
+  0,13:0,3,70,Generic,Passable
+  1,13:1,0,255,None,Passable
+  2,13:0,3,70,Generic,Passable
+  3,13:0,4,71,Generic,Passable,Hint=30
+  4,13:0,2,69,Generic,Passable
+  5,13:0,2,69,Generic,Passable,Hint=31
+  6,13:0,1,68,Generic,Passable
+  7,13:3,0,255,None,Passable
+  8,13:0,3,70,Generic,Passable
+  9,13:0,2,69,Generic,Passable
+  10,13:0,1,68,Generic,Passable
+  11,13:0,4,71,Generic,Passable
+  12,13:0,1,68,Generic,Passable,Hint=32
+  13,13:15,2,75,Temple,Passable,ThievesTemple
+  14,13:4,0,255,None,Passable
+  15,13:0,2,69,Generic,Passable
+  0,14:14,2,75,Temple,Passable
+  1,14:1,0,255,None,Passable
+  2,14:3,0,255,None,Passable
+  3,14:3,0,255,None,Passable
+  4,14:3,0,255,None,Passable
+  5,14:3,0,255,None,Passable
+  6,14:3,0,255,None,Passable
+  7,14:3,0,255,None,Passable
+  8,14:3,0,255,None,Passable
+  9,14:3,0,255,None,Passable
+  10,14:3,0,255,None,Passable
+  11,14:3,0,255,None,Passable
+  12,14:3,0,255,None,Passable
+  13,14:3,0,255,None,Passable
+  14,14:4,0,255,None,Passable
+  15,14:0,4,71,Generic,Passable,Hint=33
+  0,15:0,1,68,Generic,Passable
+  1,15:0,2,69,Generic,Passable
+  2,15:0,1,68,Generic,Passable
+  3,15:0,3,70,Generic,Passable
+  4,15:0,3,70,Generic,Passable
+  5,15:0,2,69,Generic,Passable
+  6,15:0,1,68,Generic,Passable
+  7,15:11,4,74,Tavern,Passable,KAP=1
+  8,15:0,4,71,Generic,Passable
+  9,15:0,2,69,Generic,Passable,Hint=34
+  10,15:0,4,71,Generic,Passable
+  11,15:0,3,70,Generic,Passable
+  12,15:0,1,68,Generic,Passable,Hint=35
+  13,15:0,2,69,Generic,Passable
+  14,15:0,3,70,Generic,Passable
+  15,15:0,1,68,Generic,Passable
+levelTable=1
+string=0,SCRIPTSTRING_0574
+string=1,SCRIPTSTRING_0004
+string=2,SCRIPTSTRING_0575
+string=3,SCRIPTSTRING_0576
+string=4,SCRIPTSTRING_0577
+string=5,SCRIPTSTRING_0578
+string=6,SCRIPTSTRING_0579
+string=7,SCRIPTSTRING_0580
+string=8,SCRIPTSTRING_0581
+string=9,SCRIPTSTRING_0582
+string=10,SCRIPTSTRING_0583
+string=11,SCRIPTSTRING_0584
+string=12,SCRIPTSTRING_0585
+string=13,SCRIPTSTRING_0586
+string=14,SCRIPTSTRING_0587
+string=15,SCRIPTSTRING_0588
+string=16,SCRIPTSTRING_0589
+locationScript=2,7,Credits
+locationScript=15,8,DarkDomain
+locationScript=0,8,ToTheForest
+locationScript=2,8,GuildIntro
+locationScript=1,8,UITutorial
+scripts
+Credits
+  ShowPic,CONT,bt1_credits
+  ShowText,CONT,SCRIPTSTRING_0069
+	PlayMusic,CONT,music_MainMenu
+	Is43Aspect,CONT,CompressedCredits
+  Message,CONT,SCRIPTSTRING_0590
+    PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0591
+  PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0072
+	PressAny,CONT
+	StopMusic,CONT
+  GoBack,TERM
+CompressedCredits
+	Message,CONT,SCRIPTSTRING_0592
+  PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0593
+  PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0594
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0595
+	PressAny,CONT
+	StopMusic,CONT
+  GoBack,TERM
+GuildIntro
+  IsLegacyChapterDifferences,SkipIntro
+  IsBitSet,CONT,BT2Intro,SkipIntro
+	ShowPic,CONT,bt1_06_Monk
+	ShowText,CONT,SCRIPTSTRING_0596
+	Message,CONT,SCRIPTSTRING_0597
+	Message2,CONT,SCRIPTSTRING_0598
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0599
+	Message2,CONT,SCRIPTSTRING_0600
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0601
+	Message2,CONT,SCRIPTSTRING_0602
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0603
+  Message2,CONT,SCRIPTSTRING_0604
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0605
+	PressAny,CONT
+	SetBit,CONT,BT2Intro
+SkipIntro
+	ClearWindow,TERM
+UITutorial
+  IsLegacyChapterDifferences,SkipTutorial
+  IsJoyMode,SkipTutorial
+	IsBitSet,CONT,BT1Tutorial,SkipTutorial
+	Message,CONT,SCRIPTSTRING_0606
+	YesNo,CONT,DoTutorial
+	Jump,CONT,SkipTutorial
+DoTutorial
+	Message,CONT,SCRIPTSTRING_0050
+	PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0051
+	PressAny,CONT
+  Message,CONT,SCRIPTSTRING_0052
+  PressAny,CONT
+	Message,CONT,SCRIPTSTRING_0053
+	Message2,CONT,SCRIPTSTRING_0054
+	PressAny,CONT
+	IsIndividualInv,CONT,SkipIndivInv
+	Message,CONT,SCRIPTSTRING_0055
+	PressAny,CONT
+SkipIndivInv
+	Message,CONT,SCRIPTSTRING_0607
+	PressAny,CONT
+SkipTutorial
+	SetBit,CONT,BT1Tutorial
+	ClearWindow,TERM
+ToTheForest
+    IsFacing,TERM,West,TeleportToForest
+TeleportToForest
+    QTeleport,TERM,3,23,0,CITY
+DarkDomain
+    IsBitSet,CONT,PrincessRescued,DarkDomainFinished
+    IsMonsterInParty,CONT,"The Princess",PrincessInParty
+    IsBitSet,CONT,KingsMagicianStory,DarkDomainStoryListened
+    ShowPic,CONT,bt2_58_Magician
+    ShowText,CONT,SCRIPTSTRING_0608
+    Journal,CONT,SCRIPTSTRING_0609
+    MarkDungeonEntrance,CONT
+    Message,CONT,SCRIPTSTRING_0610
+    AddOption,CONT,SCRIPTSTRING_0611,ListenToMagician
+    AddOption,CONT,SCRIPTSTRING_0558,TakeStairs
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    Jump,CONT,ExitRoom
+ListenToMagician
+    Message,CONT,SCRIPTSTRING_0612
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0613
+    SetBit,CONT,KingsMagicianStory
+    PressAny,CONT
+    Jump,CONT,DarkDomain
+DarkDomainStoryListened
+    ShowPic,CONT,bt2_58_Magician
+    ShowText,CONT,SCRIPTSTRING_0608
+    Message,CONT,SCRIPTSTRING_0614
+    AddOption,CONT,SCRIPTSTRING_0615,ListenToMagician
+    AddOption,CONT,SCRIPTSTRING_0558,TakeStairs
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    Jump,CONT,ExitRoom
+DarkDomainFinished
+    ShowPic,CONT,bt2_58_Magician
+    ShowText,CONT,SCRIPTSTRING_0608
+    Message,CONT,SCRIPTSTRING_0616
+    AddOption,CONT,SCRIPTSTRING_0617,SpeakToMagician
+    AddOption,CONT,SCRIPTSTRING_0558,TakeStairs
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    Jump,CONT,ExitRoom
+SpeakToMagician
+    Message,CONT,SCRIPTSTRING_0618
+    PressAny,CONT
+    Jump,CONT,DarkDomainFinished
+ExitRoom
+    @GoBack
+TakeStairs
+    @TeleportNoJournal,0,0,0,DUNG
+PrincessInParty
+    IsMonsterAliveInParty,The Princess,QuestFinishedAlive
+    Jump,QuestFinishedDead
+QuestFinishedAlive
+    ShowPic,CONT,bt2_58_Magician
+    ShowText,CONT,SCRIPTSTRING_0608
+    RemoveMonsterFromParty,CONT,"The Princess"
+    SetBit,CONT,PrincessRescued
+    SetAch,CONT,BT2_KnightInShiningArmor
+	Message,CONT,SCRIPTSTRING_0619
+    RewardXPEach,CONT,200000
+	PressAny,TERM
+QuestFinishedDead
+    ShowPic,CONT,bt2_58_Magician
+    ShowText,CONT,SCRIPTSTRING_0608
+    RemoveMonsterFromParty,CONT,"The Princess"
+    SetBit,CONT,PrincessRescued
+    SetAch,CONT,BT2_KnightInShiningArmor
+	Message,CONT,SCRIPTSTRING_0620
+	PressAny
+	Message,SCRIPTSTRING_0621
+    RewardXPEach,CONT,150000
+	PressAny,TERM

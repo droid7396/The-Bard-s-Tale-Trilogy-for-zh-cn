@@ -1,0 +1,15 @@
+venv/
+from Steam/
+TMP_Fonts/
+*.zip
+
+# Visual Studio / .NET
+ZHLocalizer/bin/
+ZHLocalizer/obj/
+.vs/
+*.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

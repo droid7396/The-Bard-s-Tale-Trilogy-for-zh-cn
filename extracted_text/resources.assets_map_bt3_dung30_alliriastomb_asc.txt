@@ -1,0 +1,318 @@
+name=SCRIPTSTRING_1506
+isDungeon=1
+width=13
+height=9
+xOffset=6
+zOffset=16
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=23
+wallSet=22
+isWilderness=0
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=1
+levelTable=29,30
+map
+  0,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, StairsOut
+  1,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  2,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  3,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiMagic, AntiApar
+  4,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiMagic, AntiApar
+  5,0:None,None,SolidNoPHDO,None, HarmParty, AntiApar
+  6,0:None,None,SolidNoPHDO,None, HarmParty, AntiApar
+  7,0:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, HarmParty, AntiApar
+  8,0:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  9,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  11,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,0:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  0,1:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,1:None,None,SolidNoPHDO,None, RandomTrap, AntiApar, Flypaper
+  2,1:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  3,1:None,None,SolidNoPHDO,None, AntiApar
+  4,1:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  5,1:None,None,None,SolidNoPHDO, Smoke, AntiApar
+  6,1:SolidNoPHDO,SolidNoPHDO,None,None, Smoke, AntiApar
+  7,1:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  8,1:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  9,1:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar, RegenHealth
+  10,1:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar, RegenHealth
+  11,1:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar, RegenHealth
+  12,1:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,2:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,2:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  2,2:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  3,2:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  4,2:None,None,SolidNoPHDO,SolidNoPHDO, SilenceBard, AntiApar
+  5,2:SolidNoPHDO,SolidNoPHDO,None,None, SilenceBard, AntiApar
+  6,2:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  7,2:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  8,2:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  9,2:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  10,2:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  11,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  12,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,3:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,3:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  2,3:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  3,3:None,None,SolidNoPHDO,SolidNoPHDO, RegenMagic, AntiApar
+  4,3:SolidNoPHDO,SolidNoPHDO,None,None, RegenMagic, AntiApar
+  5,3:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  6,3:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  7,3:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  8,3:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  9,3:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  10,3:None,SolidNoPHDO,None,None, AntiApar
+  11,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  12,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,4:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,4:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  2,4:None,None,SolidNoPHDO,SolidNoPHDO, RegenMagic, AntiApar
+  3,4:SolidNoPHDO,SolidNoPHDO,None,None, RegenMagic, AntiApar
+  4,4:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  5,4:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  6,4:None,None,SolidNoPHDO,SolidNoPHDO, DrainMagic, AntiApar
+  7,4:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic, AntiApar
+  8,4:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  9,4:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  10,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  11,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  12,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,5:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  2,5:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  3,5:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  4,5:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  5,5:None,None,SolidNoPHDO,SolidNoPHDO, DrainMagic, AntiApar
+  6,5:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic, AntiApar
+  7,5:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  8,5:None,SolidNoPHDO,None,None, AntiApar
+  9,5:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  10,5:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  11,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  12,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,6:None,None,None,SolidNoPHDO, AntiApar
+  1,6:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  2,6:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  3,6:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  4,6:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  5,6:None,SolidNoPHDO,None,None, AntiApar
+  6,6:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  7,6:SolidNoPHDO,None,None,None, AntiApar
+  8,6:SolidNoPHDO,None,None,None, AntiApar
+  9,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  11,6:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  12,6:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,7:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,7:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  2,7:None,SolidNoPHDO,None,None, AntiApar
+  3,7:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  4,7:SolidNoPHDO,None,None,None, AntiApar
+  5,7:SolidNoPHDO,None,None,None, AntiApar
+  6,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  7,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  8,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  9,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  11,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,7:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  0,8:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,8:SolidNoPHDO,None,None,None, AntiApar
+  2,8:SolidNoPHDO,None,None,None, AntiApar
+  3,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  5,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  6,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  7,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  8,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  9,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  11,8:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,8:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+locationScript=0,3,L724
+locationScript=12,8,L728
+locationScript=1,0,L732
+locationScript=6,4,L840
+locationScript=0,0,L723
+locationScript=9,5,L1323
+locationScript=4,0,L948
+locationScript=5,0,L960
+locationSpellScript=4,0,L966
+locationScript=0,5,L1107
+locationScript=0,4,L1119
+locationSpellScript=0,5,L1125
+locationScript=6,8,L1141
+locationScript=5,8,L1154
+locationSpellScript=6,8,L1160
+locationScript=10,0,L1176
+locationScript=11,0,L1189
+locationSpellScript=10,0,L1195
+locationScript=10,4,L1211
+locationScript=10,5,L1224
+locationSpellScript=10,4,L1230
+scripts
+L723
+    @StairsOut
+L724
+    @Teleport,11,8,30,DUNG
+L728
+    @Teleport,0,2,30,DUNG
+L732
+    @JMessage,SCRIPTSTRING_1755
+L840
+    @JMessage,SCRIPTSTRING_1756
+L948
+    @IsTOTBitClear,33,L950
+L950
+    Journal,0,SCRIPTSTRING_1757
+    CTextAdr,SCRIPTSTRING_1758
+    @Message2,SCRIPTSTRING_1759
+L960
+    @IsTOTBitClear,33,L962
+L962
+    @Teleport,4,0,30,DUNG
+L966
+    @MatchSpell,Item,L968
+L968
+    @IsTOTBitClear,33,L970
+L970
+    MatchItem,White Rose,L977
+    Jump,L1246
+L977
+    Journal,1,SCRIPTSTRING_1760
+    SetTOTBit,33
+L979
+    Intercept
+    DestroyItem
+    MessageChar,SCRIPTSTRING_1761
+    PressAny
+    @CTextAdr,SCRIPTSTRING_1762
+L1107
+    @IsTOTBitClear,34,L1109
+L1109
+    Journal,0,SCRIPTSTRING_1763
+    CTextAdr,SCRIPTSTRING_1758
+    @Message2,SCRIPTSTRING_1764
+L1119
+    @IsTOTBitClear,34,L1121
+L1121
+    @Teleport,0,5,30,DUNG
+L1125
+    @MatchSpell,Item,L1127
+L1127
+    @IsTOTBitClear,34,L1129
+L1129
+    MatchItem,Blue Rose,L1136
+    Jump,L1246
+L1136
+    Journal,1,SCRIPTSTRING_1765
+    SetTOTBit,34
+    Jump,L979
+L1141
+    @IsTOTBitClear,35,L1143
+L1143
+    Journal,0,SCRIPTSTRING_1766
+    CTextAdr,SCRIPTSTRING_1758
+    @Message2,SCRIPTSTRING_1767
+L1154
+    @IsTOTBitClear,35,L1156
+L1156
+    @Teleport,6,8,30,DUNG
+L1160
+    @MatchSpell,Item,L1162
+L1162
+    @IsTOTBitClear,35,L1164
+L1164
+    MatchItem,Red Rose,L1171
+    Jump,L1246
+L1171
+    Journal,1,SCRIPTSTRING_1768
+    SetTOTBit,35
+    Jump,L979
+L1176
+    @IsTOTBitClear,36,L1178
+L1178
+    Journal,0,SCRIPTSTRING_1769
+    CTextAdr,SCRIPTSTRING_1770
+    @Message2,SCRIPTSTRING_1771
+L1189
+    @IsTOTBitClear,36,L1191
+L1191
+    @Teleport,10,0,30,DUNG
+L1195
+    @MatchSpell,Item,L1197
+L1197
+    @IsTOTBitClear,36,L1199
+L1199
+    MatchItem,Yellow Rose,L1206
+    Jump,L1246
+L1206
+    Journal,1,SCRIPTSTRING_1772
+    SetTOTBit,36
+    Jump,L979
+L1211
+    @IsTOTBitClear,37,L1213
+L1213
+    Journal,0,SCRIPTSTRING_1773
+    CTextAdr,SCRIPTSTRING_1774
+    @Message2,SCRIPTSTRING_1775
+L1224
+    @IsTOTBitClear,37,L1226
+L1226
+    @Teleport,10,4,30,DUNG
+L1230
+    @MatchSpell,Item,L1232
+L1232
+    @IsTOTBitClear,37,L1234
+L1234
+    MatchItem,Rainbow Rose,L1241
+    Jump,L1246
+L1241
+    Journal,1,SCRIPTSTRING_1776
+    SetTOTBit,37
+    Jump,L979
+L1246
+    MatchItem,White Rose,L1264
+    MatchItem,Blue Rose,L1264
+    MatchItem,Red Rose,L1264
+    MatchItem,Yellow Rose,L1264
+    @MatchItem,Rainbow Rose,L1264
+L1264
+    Intercept
+    DestroyItem
+    MessageChar,SCRIPTSTRING_1761
+    PressAny
+    @Message,SCRIPTSTRING_1777
+L1323
+    Message,SCRIPTSTRING_1778
+    @Aborter,L1397
+L1397
+    IsTOTBitSet,38,L1454
+    IsItemInParty,Crown of Truth,L1452
+    PressAny
+    Message,SCRIPTSTRING_1779
+    Journal,0,SCRIPTSTRING_1780
+    @AwardItem,None,Crown of Truth,255,L1452
+L1452
+    SetTOTBit,38
+L1454
+    @IsTOTBitClear,39,L1456
+L1456
+    IsItemInParty,Belt of Alliria,L1498
+    PressAny
+    Message,SCRIPTSTRING_1781
+    Journal,1,SCRIPTSTRING_1782
+    @AwardItem,None,Belt of Alliria,255,L1497
+L1497
+    ClearWindow
+L1498
+    @SetTOTBit,39

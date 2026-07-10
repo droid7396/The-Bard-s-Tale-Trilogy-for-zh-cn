@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Game Config Information-->
+<gameConfig version="1.0">
+  <!--List of game Configuration settings -->
+
+	<!-- testParam:				Test Parameter for Bard's Tale -->
+	<!-- indexRefreshSpeed:		Speed that the index file will be refreshed from the S3 -->
+
+	<info
+		testParam="100.0"
+		indexRefreshSpeed="300"
+	/>
+
+</gameConfig>

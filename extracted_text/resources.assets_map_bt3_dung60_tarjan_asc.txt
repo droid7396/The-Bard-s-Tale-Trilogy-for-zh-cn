@@ -1,0 +1,132 @@
+name=SCRIPTSTRING_2125
+isDungeon=1
+width=6
+height=6
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=0
+isOutside=0
+monsterSet=41
+wallSet=11
+isWilderness=0
+difficulty=7
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+levelTable=60
+map
+  0,0:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,0:None,None,SolidNoPHDO,SolidNoPHDO, SilenceBard, AntiApar
+  2,0:SolidNoPHDO,None,SolidNoPHDO,None, SilenceBard, AntiApar
+  3,0:SolidNoPHDO,None,SolidNoPHDO,None, SilenceBard, AntiApar
+  4,0:SolidNoPHDO,None,SolidNoPHDO,None, SilenceBard, AntiApar
+  5,0:None,SolidNoPHDO,SolidNoPHDO,None, RegenMagic, AntiApar
+  0,1:None,SolidNoPHDO,None,SolidNoPHDO, RandomTrap, AntiApar
+  1,1:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  2,1:None,None,SolidNoPHDO,SolidNoPHDO, PoisonGas, AntiApar
+  3,1:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,1:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar, Flypaper
+  5,1:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,2:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  2,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  3,2:CrumblingWall,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  4,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  5,2:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,3:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  2,3:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  3,3:SolidNoPHDO,SolidNoPHDO,CrumblingWall,None, AntiApar
+  4,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  5,3:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,4:SolidNoPHDO,None,None,SolidNoPHDO, HarmParty, AntiApar
+  2,4:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  3,4:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, Spinner, AntiApar
+  5,4:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,5:SolidNoPHDO,None,None,SolidNoPHDO, DrainMagic, AntiApar
+  1,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  2,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  3,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  4,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  5,5:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic, AntiApar
+locationScript=0,1,L242
+locationScript=3,3,L303
+locationScript=3,2,L420
+locationScript=0,0,L360
+scripts
+L242
+    @JMessage,SCRIPTSTRING_2126
+L303
+    @JMessage,SCRIPTSTRING_2127
+L360
+    @Aborter,L361
+L361
+    JMessage,SCRIPTSTRING_2128
+    Message2,SCRIPTSTRING_2129
+    @YesNo,L416
+L416
+    @STeleport,16,11,0,CITY,false,SCRIPTSTRING_2130
+L420
+    IsTOTBitSet,78,TarjanDefeated
+    ShowPic,BT3_83_Tarjan
+    ShowText,SCRIPTSTRING_2125
+    Message,SCRIPTSTRING_2131
+    PressAny
+    Message,SCRIPTSTRING_2132
+    PressAny
+    Message,SCRIPTSTRING_2133
+    PressAny
+    Message,SCRIPTSTRING_2134
+    PressAny
+    Message,SCRIPTSTRING_2135
+    PressAny
+    Message,SCRIPTSTRING_2136
+    Encounter2,4,Lorini,1,High Priestess,2,Black Slayer,30,Rock Demon,30,L748
+L705
+    ShowPic,BT3_83_Tarjan
+    Message,SCRIPTSTRING_2137
+    PressAny
+    @TeleportNoJournal,3,3,60,DUNG
+L748
+    SetTOTBit,79
+    ShowPic,BT3_83_Tarjan
+    ShowText,SCRIPTSTRING_2125
+    Message,SCRIPTSTRING_2138
+    PressAny
+    Message,SCRIPTSTRING_2139
+    PressAny
+    Message,SCRIPTSTRING_2140
+    PressAny
+    Message,SCRIPTSTRING_1623
+    Encounter2,4,Tarjan,1,Vampire Lord,30,Black Slayer,30,Rock Demon,30,L952
+    Jump,L705
+L952
+    DoView
+    ShowText,SCRIPTSTRING_2141
+    Message,SCRIPTSTRING_2142
+    PressAny
+    Message,SCRIPTSTRING_2143
+    PressAny
+    ShowPic,254
+    Message,SCRIPTSTRING_2144
+    PressAny
+    Message,SCRIPTSTRING_2145
+    PressAny
+    Message,SCRIPTSTRING_2146
+    PressAny
+    Message,SCRIPTSTRING_2147
+    PressAny
+    Message,SCRIPTSTRING_2148
+    PressAny
+    SetTOTBit,78
+    @KilledTarjan
+TarjanDefeated
+    @JMessage,SCRIPTSTRING_2149

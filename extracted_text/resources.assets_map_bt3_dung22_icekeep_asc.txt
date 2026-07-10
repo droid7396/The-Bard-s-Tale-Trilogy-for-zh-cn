@@ -1,0 +1,475 @@
+name=SCRIPTSTRING_1482
+isDungeon=1
+width=12
+height=10
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=14
+wallSet=24
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=5
+parentX=10
+parentMap=4
+level=0
+levelTable=22,23
+map
+  0,0:None,None,Solid,Solid
+  1,0:None,None,Solid,None, StairsOut
+  2,0:None,None,Solid,None, RandomCombat
+  3,0:None,Solid,Solid,None, StairsIn
+  4,0:None,None,Solid,Solid
+  5,0:None,Solid,Solid,None, RandomCombat
+  6,0:None,None,Solid,Solid, RandomCombat
+  7,0:None,Solid,Solid,None, RandomCombat
+  8,0:None,None,Solid,Solid, RandomCombat
+  9,0:Door,None,Solid,None
+  10,0:Door,Door,Solid,None
+  11,0:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO
+  0,1:None,None,None,Solid
+  1,1:None,None,None,None, RandomCombat
+  2,1:None,None,None,None
+  3,1:None,Solid,None,None
+  4,1:Door,None,None,Solid, RandomCombat
+  5,1:Solid,Solid,None,None
+  6,1:Solid,None,None,Solid, DrainMagic
+  7,1:Door,Solid,None,None, DrainMagic
+  8,1:Door,Solid,None,Solid
+  9,1:Solid,Solid,Door,Solid, RandomCombat
+  10,1:Solid,SecretDoor,Door,Solid, RandomCombat
+  11,1:Solid,Solid,Solid,SecretDoor, RegenMagic
+  0,2:Solid,None,None,Solid
+  1,2:Door,None,None,None
+  2,2:Solid,None,None,None, RandomCombat
+  3,2:Door,Door,None,None
+  4,2:Solid,None,Door,Door
+  5,2:Door,None,Solid,None, RandomCombat, Turncoat
+  6,2:Solid,None,Solid,None
+  7,2:Solid,Door,Door,None, RandomCombat
+  8,2:Door,None,Door,Door
+  9,2:Solid,None,Solid,None, RandomCombat
+  10,2:Door,None,Solid,None
+  11,2:Solid,Solid,Solid,None, StairsIn
+  0,3:None,Solid,Solid,Solid
+  1,3:None,Solid,Door,Solid
+  2,3:Door,Solid,Solid,Solid, RandomCombat
+  3,3:None,Solid,Door,Solid
+  4,3:None,None,Solid,Solid
+  5,3:None,None,Door,None, RandomCombat
+  6,3:None,None,Solid,None
+  7,3:None,Solid,Solid,None
+  8,3:None,Solid,Door,Solid
+  9,3:Door,Solid,Solid,Solid, RandomCombat
+  10,3:None,Solid,Door,Solid, RandomCombat
+  11,3:None,Solid,Solid,Solid, RandomCombat
+  0,4:SecretDoor,Solid,None,Solid, RandomCombat
+  1,4:None,Door,None,Solid, RandomCombat
+  2,4:Solid,Solid,Door,Door
+  3,4:None,Solid,None,Solid
+  4,4:None,None,None,Solid, RegenHealth
+  5,4:None,None,None,None, RegenHealth
+  6,4:None,None,None,None, RandomCombat, RegenHealth
+  7,4:None,Solid,None,None, RegenHealth
+  8,4:None,Solid,None,Solid
+  9,4:Door,Door,Door,Solid, RandomTrap, Spinner
+  10,4:None,Door,None,Door, HarmParty
+  11,4:Solid,Solid,None,Door
+  0,5:None,Door,SecretDoor,Solid, RandomCombat
+  1,5:None,Solid,None,Door
+  2,5:Door,LockedDoor,Solid,Solid, RandomCombat
+  3,5:None,Solid,None,LockedDoor, RandomCombat, Spinner
+  4,5:None,None,None,Solid, Smoke
+  5,5:None,None,None,None, Smoke
+  6,5:None,None,None,None, RandomCombat, Smoke
+  7,5:None,Solid,None,None, RandomCombat, Smoke
+  8,5:None,Door,None,Solid
+  9,5:Door,Solid,Door,Door, RandomCombat
+  10,5:None,Solid,None,Solid
+  11,5:None,Solid,Solid,Solid, RandomCombat
+  0,6:Solid,Solid,None,Solid
+  1,6:None,Door,None,Solid, Spinner
+  2,6:Door,Solid,Door,Door, RandomCombat
+  3,6:None,Solid,None,Solid, Spinner
+  4,6:None,None,None,Solid, RandomCombat, Spinner
+  5,6:None,None,None,None, Spinner
+  6,6:None,None,None,None, Spinner
+  7,6:None,Solid,None,None, Spinner
+  8,6:None,Solid,None,Solid, RandomCombat
+  9,6:Door,Solid,Door,Solid, RandomTrap, Spinner
+  10,6:Door,Solid,None,Solid, RandomCombat
+  11,6:Door,Solid,None,Solid, RandomTrap
+  0,7:LockedDoor,Door,Solid,Solid, RandomCombat
+  1,7:None,Solid,None,Door
+  2,7:Solid,Solid,Door,Solid
+  3,7:None,Solid,None,Solid, RandomCombat
+  4,7:None,None,None,Solid, SilenceBard
+  5,7:None,None,None,None, SilenceBard
+  6,7:None,None,None,None, SilenceBard
+  7,7:None,Solid,None,None, RandomCombat, SilenceBard
+  8,7:None,Solid,None,Solid
+  9,7:Solid,Door,Door,Solid
+  10,7:None,Solid,Door,Door
+  11,7:Door,Solid,Door,Solid
+  0,8:Solid,Solid,LockedDoor,Solid
+  1,8:None,Door,None,Solid, RandomCombat, SilenceBard
+  2,8:SecretDoor,Solid,Solid,Door, RandomCombat
+  3,8:None,Solid,None,Solid
+  4,8:None,None,None,Solid, Flypaper
+  5,8:None,None,None,None, RandomCombat, Flypaper
+  6,8:None,None,None,None, RandomCombat, Flypaper
+  7,8:None,Solid,None,None, Flypaper
+  8,8:None,Door,None,Solid, RandomCombat
+  9,8:None,Solid,Solid,Door, RandomCombat
+  10,8:None,Solid,None,Solid, RandomCombat
+  11,8:Solid,Solid,Door,Solid, RandomCombat
+  0,9:SolidNoPHDO,DoorNoPHDO,SolidNoPHDO,SolidNoPHDO, RegenMagic
+  1,9:Solid,Solid,None,Door
+  2,9:Solid,Solid,SecretDoor,Solid, RegenMagic
+  3,9:Solid,Solid,None,Solid, RandomCombat
+  4,9:Solid,None,None,Solid
+  5,9:Solid,None,None,None
+  6,9:Solid,None,None,None, StairsIn
+  7,9:Solid,Solid,None,None, RandomCombat
+  8,9:Solid,Door,None,Solid
+  9,9:Solid,Solid,None,Door, RandomCombat
+  10,9:Solid,Door,None,Solid
+  11,9:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO, RegenMagic
+locationScript=3,0,L701
+locationScript=6,9,L701
+locationScript=11,2,L701
+locationScript=1,1,L804
+locationScript=1,0,L700
+locationScript=11,9,L916
+locationSpellScript=11,9,L1132
+locationScript=0,9,L1229
+locationSpellScript=0,9,L1467
+locationScript=11,0,L1576
+locationSpellScript=11,0,L1855
+locationSpellScript=5,9,L2394
+locationScript=5,9,L1987
+scripts
+L700
+    @StairsOut
+L701
+    @Aborter,L702
+L702
+    JMessage,SCRIPTSTRING_1664
+    Input
+    MatchWord,SCRIPTSTRING_1665,L802
+    MatchWord,SCRIPTSTRING_1666,L802
+    @Message,SCRIPTSTRING_1667
+L802
+    ZapStair
+    @StairsIn
+L804
+    @JMessage,SCRIPTSTRING_1668
+L916
+    IsTOTBitClear,8,L977
+    IsTOTBitClear,9,L977
+    IsTOTBitClear,10,L977
+    @Aborter,L929
+L929
+    SetMapFeature,9,11,StairsIn
+    Message,SCRIPTSTRING_1669
+    YesNo,L973
+    @ClearWindow
+L973
+    Journal,0,SCRIPTSTRING_1670
+    @TeleportNoJournal,0,0,8,DUNG
+L977
+    Aborter,L1050
+L980
+    @JMessage,SCRIPTSTRING_1671
+L1050
+    Message,SCRIPTSTRING_1672
+    PressAny
+    Jump,L980
+L1132
+    MatchSpell,Levitation,L1185
+    MatchSpell,AntiMagic,L1220
+    @MatchSpell,PhaseDoor,L1142
+L1142
+    @IsTOTBitSet,8,L1144
+L1144
+    @IsTOTBitSet,9,L1146
+L1146
+    @IsTOTBitClear,10,L1148
+L1148
+    Intercept
+    Message,SCRIPTSTRING_1673
+    ZapStair
+    Journal,3,SCRIPTSTRING_1674
+    SetTOTBit,10
+    PressAny
+	Jump,L916
+L1185
+    @IsTOTBitClear,8,L1187
+L1187
+    Journal,1,SCRIPTSTRING_1675
+    SetTOTBit,8
+L1189
+    Message,SCRIPTSTRING_1676
+    @Intercept
+L1220
+    @IsTOTBitSet,8,L1222
+L1222
+    @IsTOTBitClear,9,L1224
+L1224
+    Journal,2,SCRIPTSTRING_1677
+    SetTOTBit,9
+    Jump,L1189
+L1229
+    IsTOTBitClear,11,L1294
+    IsTOTBitClear,12,L1294
+    IsTOTBitClear,13,L1294
+    IsTOTBitClear,14,L1294
+    @Aborter,L1246
+L1246
+    SetMapFeature,9,0,StairsIn
+    Message,SCRIPTSTRING_1669
+    YesNo,L1290
+    @ClearWindow
+L1290
+    Journal,0,SCRIPTSTRING_1678
+    @TeleportNoJournal,4,0,12,DUNG
+L1294
+    Aborter,L1394
+L1297
+    @JMessage,SCRIPTSTRING_1679
+L1394
+    Message,SCRIPTSTRING_1680
+    PressAny
+    Jump,L1297
+L1467
+    MatchSpell,InstantWolf,L1521
+    MatchSpell,WindHero,L1556
+    MatchSpell,ForceFocus,L1565
+    @MatchSpell,Invisibility,L1481
+L1481
+    @IsTOTBitSet,11,L1483
+L1483
+    @IsTOTBitSet,12,L1485
+L1485
+    @IsTOTBitSet,13,L1487
+L1487
+    @IsTOTBitClear,14,L1489
+L1489
+    Intercept
+    Message,SCRIPTSTRING_1681
+    ZapStair
+    Journal,4,SCRIPTSTRING_1682
+    SetTOTBit,14
+    PressAny
+	Jump,L1229
+L1521
+    @IsTOTBitClear,11,L1523
+L1523
+    Journal,1,SCRIPTSTRING_1683
+    SetTOTBit,11
+L1525
+    Message,SCRIPTSTRING_1684
+    @Intercept
+L1556
+    @IsTOTBitSet,11,L1558
+L1558
+    @IsTOTBitClear,12,L1560
+L1560
+    Journal,2,SCRIPTSTRING_1685
+    SetTOTBit,12
+    Jump,L1525
+L1565
+    @IsTOTBitSet,11,L1567
+L1567
+    @IsTOTBitSet,12,L1569
+L1569
+    @IsTOTBitClear,13,L1571
+L1571
+    Journal,3,SCRIPTSTRING_1686
+    SetTOTBit,13
+    Jump,L1525
+L1576
+    IsTOTBitClear,15,L1645
+    IsTOTBitClear,16,L1645
+    IsTOTBitClear,17,L1645
+    IsTOTBitClear,18,L1645
+    IsTOTBitClear,19,L1645
+    @Aborter,L1597
+L1597
+    SetMapFeature,0,11,StairsIn
+    Message,SCRIPTSTRING_1669
+    YesNo,L1641
+    @ClearWindow
+L1641
+    Journal,0,SCRIPTSTRING_1687
+    @TeleportNoJournal,0,4,16,DUNG
+L1645
+    Aborter,L1757
+L1648
+    @JMessage,SCRIPTSTRING_1688
+L1757
+    Message,SCRIPTSTRING_1689
+    PressAny
+    Jump,L1648
+L1855
+    MatchSpell,MageFlame,MFAbsorb
+    MatchSpell,LesserRevelation,LRAbsorb
+    MatchSpell,GreaterRevelation,GRAbsorb
+    MatchSpell,ShockSphere,L1954
+    MatchSpell,WordOfFear,L1963
+    MatchSpell,SummonElement,L1974
+    @MatchSpell,SpellBind,L1881
+L1881
+    @IsTOTBitSet,15,L1883
+L1883
+    @IsTOTBitSet,16,L1885
+L1885
+    @IsTOTBitSet,17,L1887
+L1887
+    @IsTOTBitSet,18,L1889
+L1889
+    @IsTOTBitClear,19,L1891
+L1891
+    Intercept
+    Message,SCRIPTSTRING_1690
+    ZapStair
+    Journal,5,SCRIPTSTRING_1691
+    SetTOTBit,19
+	PressAny
+	Jump,L1576
+MFAbsorb
+    @IsTOTBitClear,15,MFAbsorb2
+MFAbsorb2
+    Journal,1,SCRIPTSTRING_1692
+    SetTOTBit,15
+    Jump,L1925
+LRAbsorb
+    @IsTOTBitClear,15,LRAbsorb2
+LRAbsorb2
+    Journal,1,SCRIPTSTRING_1693
+    SetTOTBit,15
+    Jump,L1925
+GRAbsorb
+    @IsTOTBitClear,15,GRAbsorb2
+GRAbsorb2
+    Journal,1,SCRIPTSTRING_1694
+    SetTOTBit,15
+    Jump,L1925
+L1925
+    Message,SCRIPTSTRING_1695
+    @Intercept
+L1954
+    @IsTOTBitSet,15,L1956
+L1956
+    @IsTOTBitClear,16,L1958
+L1958
+    Journal,2,SCRIPTSTRING_1696
+    SetTOTBit,16
+    Jump,L1925
+L1963
+    @IsTOTBitSet,15,L1965
+L1965
+    @IsTOTBitSet,16,L1967
+L1967
+    @IsTOTBitClear,17,L1969
+L1969
+    Journal,3,SCRIPTSTRING_1697
+    SetTOTBit,17
+    Jump,L1925
+L1974
+    @IsTOTBitSet,15,L1976
+L1976
+    @IsTOTBitSet,16,L1978
+L1978
+    @IsTOTBitSet,17,L1980
+L1980
+    @IsTOTBitClear,18,L1982
+L1982
+    Journal,4,SCRIPTSTRING_1698
+    SetTOTBit,18
+    Jump,L1925
+L1987
+    IsTOTBitClear,80,L2059
+    IsTOTBitClear,81,L2059
+    IsTOTBitClear,82,L2059
+    @Aborter,L2000
+L2000
+    Message,SCRIPTSTRING_1699
+    @YesNo,L2055
+L2055
+    @TeleportNoJournal,2,8,20,DUNG
+L2059
+    Aborter,L2065
+    Jump,L2282
+L2065
+    Message,SCRIPTSTRING_1700
+    PressAny
+    Message,SCRIPTSTRING_1701
+    PressAny
+    Journal,1,SCRIPTSTRING_1702
+    Message,SCRIPTSTRING_1703
+    PressAny
+L2282
+    Message,SCRIPTSTRING_1704
+    IsTOTBitSet,80,L2310
+    Message2,SCRIPTSTRING_1705
+    Jump,L2317
+L2310
+    Message2,SCRIPTSTRING_1706
+L2317
+    Message2,SCRIPTSTRING_1707
+    IsTOTBitSet,81,L2347
+    Message2,SCRIPTSTRING_1705
+    Jump,L2354
+L2347
+    Message2,SCRIPTSTRING_1706
+L2354
+    Message2,SCRIPTSTRING_1708
+    IsTOTBitSet,82,L2384
+    Message2,SCRIPTSTRING_1705
+    Jump,L2391
+L2384
+    Message2,SCRIPTSTRING_1706
+L2391
+    @Message2,SCRIPTSTRING_1709
+L2394
+    @MatchSpell,Item,L2396
+L2396
+    MatchItem,Crystal Lens,L2420
+    MatchItem,Smokey Lens,L2413
+    @MatchItem,Black Lens,L2406
+L2406
+    @IsTOTBitClear,82,L2408
+L2408
+    SetTOTBit,82
+    Jump,L2424
+L2413
+    @IsTOTBitClear,81,L2415
+L2415
+    SetTOTBit,81
+    Jump,L2424
+L2420
+    @IsTOTBitClear,80,L2422
+L2422
+    SetTOTBit,80
+L2424
+    MessageChar,SCRIPTSTRING_1710
+    Intercept
+    DestroyItem
+    @IsTOTBitSet,80,L2453
+L2453
+    @IsTOTBitSet,81,L2455
+L2455
+    @IsTOTBitSet,82,L2457
+L2457
+    SetMapFeature,9,5,StairsOut
+    PressAny
+    Message,SCRIPTSTRING_1711
+    ZapStair
+    Jump,L1987

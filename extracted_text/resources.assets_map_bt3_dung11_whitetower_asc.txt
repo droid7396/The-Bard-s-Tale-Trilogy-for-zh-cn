@@ -1,0 +1,80 @@
+name=SCRIPTSTRING_1610
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=15
+wallSet=26
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=3
+levelTable=8,9,10,11
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  1,0:SolidNoPHDO,None,SolidNoPHDO,None, RandomTrap, Flypaper
+  2,0:None,SolidNoPHDO,SolidNoPHDO,Solid
+  3,0:Door,None,SolidNoPHDO,SolidNoPHDO
+  4,0:None,SolidNoPHDO,SolidNoPHDO,None
+  0,1:None,Solid,None,SolidNoPHDO, SilenceBard
+  1,1:SolidNoPHDO,None,SolidNoPHDO,None, RegenMagic
+  2,1:None,Door,None,None
+  3,1:None,None,Door,Door, RandomCombat
+  4,1:None,SolidNoPHDO,None,Solid, RandomCombat
+  0,2:None,Door,None,SolidNoPHDO
+  1,2:None,Door,SolidNoPHDO,Door, Spinner, DrainMagic
+  2,2:SolidNoPHDO,None,Solid,Door
+  3,2:SolidNoPHDO,SolidNoPHDO,None,None, RandomTrap
+  4,2:None,SolidNoPHDO,None,SolidNoPHDO
+  0,3:None,None,Solid,SolidNoPHDO
+  1,3:None,Door,None,None, RandomCombat
+  2,3:Door,None,SolidNoPHDO,Door, Darkness
+  3,3:Solid,None,SolidNoPHDO,None, Darkness
+  4,3:None,SolidNoPHDO,Solid,None, Darkness, RandomCombat
+  0,4:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat
+  1,4:SolidNoPHDO,Door,None,None
+  2,4:SolidNoPHDO,None,Door,Door
+  3,4:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat
+  4,4:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, StairsOut
+locationScript=4,4,L188
+locationScript=4,3,L189
+locationScript=4,0,L319
+scripts
+L188
+    @StairsOut
+L189
+    @JMessage,SCRIPTSTRING_1621
+L319
+    IsTOTBitSet,48,L446
+    Message,SCRIPTSTRING_1622
+    PressAny
+    Message,SCRIPTSTRING_1623
+    Encounter2,1,White Wizard,6,L443
+    Message,SCRIPTSTRING_1624
+    PressAny
+    @Teleport,3,0,11,DUNG,false
+L443
+    DoView
+    SetTOTBit,48
+L446
+    IsTOTBitSet,49,L519
+    IsItemInParty,Crystal Lens,L517
+    @Aborter,L455
+L455
+    Message,SCRIPTSTRING_1625
+    @AwardItem,None,Crystal Lens,255,L517
+L517
+    Journal,1,SCRIPTSTRING_1626
+    SetTOTBit,49
+L519
+    @JMessage,SCRIPTSTRING_1627

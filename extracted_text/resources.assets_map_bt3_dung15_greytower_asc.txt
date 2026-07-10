@@ -1,0 +1,80 @@
+name=SCRIPTSTRING_1628
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=15
+wallSet=29
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=3
+levelTable=12,13,14,15
+map
+  0,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, StairsOut
+  1,0:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RegenMagic
+  2,0:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, HarmParty
+  3,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RegenMagic
+  4,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  0,1:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, Darkness, RandomTrap, Spinner
+  1,1:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, Turncoat
+  2,1:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  3,1:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, Turncoat
+  4,1:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None
+  0,2:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, AntiMap
+  1,2:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, Smoke, AntiMap
+  2,2:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat, DrainMagic, AntiMap
+  3,2:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomCombat, Smoke, AntiMap
+  4,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiMap
+  0,3:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap, AntiMap
+  1,3:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, Darkness, AntiMap
+  2,3:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiMap, PoisonGas, AntiApar
+  3,3:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, Darkness, AntiMap
+  4,3:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomTrap, AntiMap
+  0,4:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiMap
+  1,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiMap, PoisonGas, AntiApar
+  2,4:None,None,None,None, AntiMap, PoisonGas, AntiApar
+  3,4:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiMap, PoisonGas, AntiApar
+  4,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomCombat, AntiMap
+locationScript=0,0,L187
+locationScript=1,0,L188
+locationScript=2,3,L292
+scripts
+L187
+    @StairsOut
+L188
+    @JMessage,SCRIPTSTRING_1633
+L292
+    IsTOTBitSet,50,L413
+    Message,SCRIPTSTRING_1634
+    PressAny
+    Message,SCRIPTSTRING_1623
+    Encounter2,1,Grey Wizard,7,L410
+    Message,SCRIPTSTRING_1635
+    PressAny
+    @Teleport,2,4,15,DUNG
+L410
+    DoView
+    SetTOTBit,50
+L413
+    IsTOTBitSet,51,L484
+    IsItemInParty,Smokey Lens,L482
+    @Aborter,L422
+L422
+    Message,SCRIPTSTRING_1636
+    @AwardItem,None,Smokey Lens,255,L482
+L482
+    Journal,1,SCRIPTSTRING_1637
+    SetTOTBit,51
+L484
+    @JMessage,SCRIPTSTRING_1638

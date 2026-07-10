@@ -1,0 +1,80 @@
+name=SCRIPTSTRING_1639
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=15
+wallSet=28
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=3
+levelTable=16,17,18,19
+map
+  0,0:None,None,None,None, RandomCombat
+  1,0:None,InvisibleWallNoPHDO,None,None, RegenMagic
+  2,0:None,InvisibleWallNoPHDO,None,InvisibleWallNoPHDO, Darkness
+  3,0:None,None,None,InvisibleWallNoPHDO, RandomCombat
+  4,0:None,None,None,None, RegenMagic
+  0,1:InvisibleWallNoPHDO,None,None,None, RegenMagic
+  1,1:InvisibleWallNoPHDO,InvisibleWallNoPHDO,None,None, RandomCombat
+  2,1:InvisibleWallNoPHDO,InvisibleWallNoPHDO,None,InvisibleWallNoPHDO, SilenceBard
+  3,1:InvisibleWallNoPHDO,None,None,InvisibleWallNoPHDO, RegenMagic
+  4,1:InvisibleWallNoPHDO,None,None,None, RandomCombat
+  0,2:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None, DrainMagic
+  1,2:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None, Spinner
+  2,2:InvisibleWallNoPHDO,None,None,None, RandomCombat, DrainMagic
+  3,2:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None
+  4,2:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None, RandomCombat
+  0,3:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None, AntiApar, RegenHealth
+  1,3:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,None, RandomTrap, AntiApar
+  2,3:SolidRailingNoPHDO,InvisibleWallNoPHDO,InvisibleWallNoPHDO,None, RandomCombat, Turncoat, AntiApar
+  3,3:InvisibleWallNoPHDO,InvisibleWallNoPHDO,None,InvisibleWallNoPHDO, StairsOut
+  4,3:InvisibleWallNoPHDO,None,InvisibleWallNoPHDO,InvisibleWallNoPHDO, AntiApar
+  0,4:None,None,InvisibleWallNoPHDO,InvisibleWallNoPHDO, RandomCombat
+  1,4:None,None,InvisibleWallNoPHDO,None
+  2,4:None,None,SolidRailingNoPHDO,None
+  3,4:None,None,None,None, RandomCombat
+  4,4:None,InvisibleWallNoPHDO,InvisibleWallNoPHDO,None
+locationScript=3,3,L188
+locationScript=3,2,L189
+locationScript=3,4,L292
+scripts
+L188
+    @StairsOut
+L189
+    @JMessage,SCRIPTSTRING_1643
+L292
+    IsTOTBitSet,52,L417
+    Message,SCRIPTSTRING_1644
+    PressAny
+    Message,SCRIPTSTRING_1623
+    Encounter2,1,Black Wizard3,5,L414
+    Message,SCRIPTSTRING_1645
+    PressAny
+    @Teleport,2,4,19,DUNG,false
+L414
+    DoView
+    SetTOTBit,52
+L417
+    IsTOTBitSet,53,L488
+    IsItemInParty,Black Lens,L486
+    @Aborter,L426
+L426
+    Message,SCRIPTSTRING_1646
+    @AwardItem,None,Black Lens,255,L486
+L486
+    Journal,1,SCRIPTSTRING_1647
+    SetTOTBit,53
+L488
+    @JMessage,SCRIPTSTRING_1648

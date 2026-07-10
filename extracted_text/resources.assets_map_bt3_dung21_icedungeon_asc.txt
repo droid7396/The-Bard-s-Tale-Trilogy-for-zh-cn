@@ -1,0 +1,92 @@
+name=SCRIPTSTRING_1649
+isDungeon=1
+width=5
+height=5
+xOffset=8
+zOffset=4
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=0
+isOutside=0
+monsterSet=17
+wallSet=24
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=1
+levelTable=20,21
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, RandomTrap, HarmParty, DrainMagic, AntiMap, AntiApar
+  1,0:None,SecretDoorNoPHDO,SolidNoPHDO,None, HarmParty, DrainMagic, AntiMap, AntiApar
+  2,0:None,SolidNoPHDO,SolidNoPHDO,SecretDoorNoPHDO, Darkness, AntiMagic, SilenceBard, Turncoat, AntiMap, AntiApar
+  3,0:None,None,SolidNoPHDO,SolidNoPHDO, AntiMap, AntiApar
+  4,0:None,SolidNoPHDO,SolidNoPHDO,None, AntiMap, AntiApar
+  0,1:None,None,None,SolidNoPHDO, RandomTrap, HarmParty, DrainMagic, AntiMap, AntiApar
+  1,1:None,SolidNoPHDO,None,None, RandomTrap, HarmParty, DrainMagic, AntiMap, AntiApar
+  2,1:None,SolidNoPHDO,None,SolidNoPHDO, Darkness, SilenceBard, AntiMap, AntiApar
+  3,1:SecretDoorNoPHDO,None,None,SolidNoPHDO, AntiMap, AntiApar
+  4,1:SolidNoPHDO,SolidNoPHDO,None,None, AntiMap, AntiApar
+  0,2:SecretDoorNoPHDO,None,None,SolidNoPHDO, RandomTrap, HarmParty, DrainMagic, AntiMap, AntiApar
+  1,2:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty, DrainMagic, AntiMap, AntiApar
+  2,2:SecretDoorNoPHDO,SolidNoPHDO,None,SolidNoPHDO, Darkness, SilenceBard, Turncoat, AntiMap, AntiApar
+  3,2:SolidNoPHDO,None,SecretDoorNoPHDO,SolidNoPHDO, AntiMap, PoisonGas, AntiApar, RegenHealth
+  4,2:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiMap, PoisonGas, AntiApar, RegenHealth
+  0,3:None,None,SecretDoorNoPHDO,SolidNoPHDO, RandomCombat, AntiMap, AntiApar
+  1,3:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, AntiMap, AntiApar
+  2,3:None,None,SecretDoorNoPHDO,SolidNoPHDO, Spinner, Smoke, RegenMagic, AntiMap, AntiApar
+  3,3:None,None,SolidNoPHDO,None, Spinner, Smoke, AntiMap, AntiApar
+  4,3:None,SolidNoPHDO,SolidNoPHDO,None, Spinner, Smoke, AntiMap, AntiApar
+  0,4:SolidNoPHDO,None,None,SolidNoPHDO, StairsOut, AntiMap, AntiApar
+  1,4:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat, AntiMap, AntiApar
+  2,4:SolidNoPHDO,None,None,SolidNoPHDO, Spinner, Smoke, AntiMap, AntiApar
+  3,4:SolidNoPHDO,None,None,None, Spinner, Smoke, AntiMap, AntiApar
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, Spinner, Smoke, AntiMap, AntiApar
+locationScript=0,4,L192
+locationScript=0,2,L193
+locationScript=4,3,L260
+locationScript=4,0,L408
+scripts
+L192
+    @StairsOut
+L193
+    @JMessage,SCRIPTSTRING_1653
+L260
+    @Aborter,L261
+L261
+    JMessage,SCRIPTSTRING_1654
+    PressAny
+    Message,SCRIPTSTRING_1655
+    Input
+    MatchWord,SCRIPTSTRING_1656,L384
+    MatchWord,SCRIPTSTRING_1657,L384
+    @Message,SCRIPTSTRING_1658
+L384
+    ChangeMap,3,4,34
+    ChangeMap,2,4,2
+    DoView
+    KillCode,L260
+    @Message,SCRIPTSTRING_1659
+L408
+    @Aborter,L409
+L409
+    IsTOTBitSet,60,L492
+    IsItemInParty,Wand of Power,L492
+    Message,SCRIPTSTRING_1660
+    @AwardItem,None,Wand of Power,255,L490
+L490
+    Journal,0,SCRIPTSTRING_1661
+    SetTOTBit,60
+L492
+    @IsTOTBitClear,61,L494
+L494
+    IsItemInParty,Sphere of Lanatir,L561
+    Message,SCRIPTSTRING_1662
+    @AwardItem,None,Sphere of Lanatir,255,L561
+L561
+    Journal,1,SCRIPTSTRING_1663
+    @SetTOTBit,61

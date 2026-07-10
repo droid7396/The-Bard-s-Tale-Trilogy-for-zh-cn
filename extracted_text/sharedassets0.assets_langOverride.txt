@@ -1,0 +1,13 @@
+# Remove the # from the language line below to override the default language.
+# Elimine el # de la línea de idioma a continuación para anular el idioma predeterminado.
+# Supprimez le # de la ligne de langue ci-dessous pour remplacer la langue par défaut.
+# Entfernen # aus der Sprachzeile, um die Standardsprache zu überschreiben.
+# Usuń # z poniższej linii językowej, aby zastąpić domyślny język.
+# Удалите знак # из языковой строки ниже, чтобы переопределить язык по умолчанию.
+#
+#en - English
+#es - Spanish
+#fr - French
+#de - German
+#pl - Polish
+#ru - Russian

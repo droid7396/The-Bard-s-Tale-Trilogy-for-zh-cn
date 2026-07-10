@@ -1,0 +1,317 @@
+name=SCRIPTSTRING_0407
+isDungeon=0
+width=16
+height=16
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=0
+isTower=0
+isOutside=1
+monsterSet=0
+wallSet=1
+difficulty=0
+skyColor=4,0,0,0
+groundColor=8,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+map
+  0,0:0,2,69,Generic,Passable
+  1,0:0,3,70,Generic,Passable
+  2,0:0,3,70,Generic,Passable
+  3,0:0,2,69,Generic,Passable
+  4,0:0,3,70,Generic,Passable
+  5,0:0,2,69,Generic,Passable
+  6,0:0,3,70,Generic,Passable
+  7,0:0,3,70,Generic,Passable
+  8,0:0,3,70,Generic,Passable
+  9,0:0,3,69,Generic,Passable,Face=North
+  10,0:0,1,68,Generic,Passable
+  11,0:0,4,71,Generic,Passable
+  12,0:0,3,70,Generic,Passable
+  13,0:0,1,68,Generic,Passable
+  14,0:0,3,70,Generic,Passable
+  15,0:0,3,70,Generic,Passable
+  0,1:0,2,69,Generic,Passable
+  1,1:0,1,68,Generic,Passable
+  2,1:0,2,69,Generic,Passable
+  3,1:1,0,255,None,Passable
+  4,1:0,1,68,Generic,Passable
+  5,1:1,0,255,None,Passable
+  6,1:1,0,255,None,Passable
+  7,1:0,4,71,Generic,Passable
+  8,1:14,4,74,Tavern,Passable,KAP=1
+  9,1:0,3,70,Generic,Passable
+  10,1:4,0,255,None,Passable
+  11,1:4,0,255,None,Passable
+  12,1:17,2,75,Temple,Passable
+  13,1:1,0,255,None,Passable
+  14,1:1,0,255,None,Passable
+  15,1:0,4,71,Generic,Passable
+  0,2:0,3,70,Generic,Passable
+  1,2:3,0,255,None,Passable
+  2,2:0,4,71,Generic,Passable
+  3,2:1,0,255,None,Passable
+  4,2:0,3,70,Generic,Passable
+  5,2:1,0,255,None,Passable
+  6,2:0,2,69,Generic,Passable
+  7,2:0,1,68,Generic,Passable
+  8,2:4,0,255,None,Passable
+  9,2:4,0,255,None,Passable
+  10,2:4,0,255,None,Passable
+  11,2:4,0,255,None,Passable
+  12,2:4,0,255,None,Passable
+  13,2:4,0,255,None,Passable
+  14,2:0,1,68,Generic,Passable
+  15,2:0,3,70,Generic,Passable
+  0,3:0,2,69,Generic,Passable
+  1,3:3,0,255,None,Passable
+  2,3:3,0,255,None,Passable
+  3,3:3,0,255,None,Passable
+  4,3:3,0,255,None,Passable
+  5,3:3,0,255,None,Passable
+  6,3:3,0,255,None,Passable
+  7,3:0,3,70,Generic,Passable
+  8,3:0,4,71,Generic,Passable
+  9,3:5,0,255,None,Passable
+  10,3:5,0,255,None,Passable
+  11,3:0,1,68,Generic,Passable
+  12,3:0,3,70,Generic,Passable
+  13,3:4,0,255,None,Passable
+  14,3:4,0,255,None,Passable
+  15,3:0,2,69,Generic,Passable
+  0,4:0,2,66,Casino,Passable
+  1,4:6,0,255,None,Passable
+  2,4:0,2,69,Generic,Passable
+  3,4:0,1,68,Generic,Passable
+  4,4:1,0,255,None,Passable
+  5,4:0,4,71,Generic,Passable
+  6,4:3,0,255,None,Passable
+  7,4:3,0,255,None,Passable
+  8,4:3,0,255,None,Passable
+  9,4:3,0,255,None,Passable
+  10,4:5,0,255,None,Passable
+  11,4:10,0,255,None,Passable
+  12,4:0,2,69,Generic,Passable
+  13,4:0,3,70,Generic,Passable
+  14,4:4,0,255,None,Passable
+  15,4:0,1,68,Generic,Passable
+  0,5:0,4,71,Generic,Passable
+  1,5:6,0,255,None,Passable
+  2,5:0,2,69,Generic,Passable
+  3,5:0,3,70,Generic,Passable
+  4,5:0,4,71,Generic,Passable
+  5,5:0,1,68,Generic,Passable
+  6,5:6,0,255,None,Passable
+  7,5:0,1,68,Generic,Passable
+  8,5:0,4,81,Roscoes,Passable
+  9,5:0,4,71,Generic,Passable
+  10,5:5,0,255,None,Passable
+  11,5:10,0,255,None,Passable
+  12,5:10,0,255,None,Passable
+  13,5:13,4,74,Tavern,Passable,KAP=1
+  14,5:0,3,70,Generic,Passable
+  15,5:0,3,70,Generic,Passable
+  0,6:0,1,68,Generic,Passable
+  1,6:6,0,255,None,Passable
+  2,6:6,0,255,None,Passable
+  3,6:6,0,255,None,Passable
+  4,6:0,2,69,Generic,Passable
+  5,6:0,3,70,Generic,Passable
+  6,6:6,0,255,None,Passable
+  7,6:6,0,255,None,Passable
+  8,6:6,0,255,None,Passable
+  9,6:0,1,68,Generic,Passable
+  10,6:5,0,255,None,Passable
+  11,6:0,4,71,Generic,Passable
+  12,6:10,0,255,None,Passable
+  13,6:1,0,255,None,Passable
+  14,6:1,0,255,None,Passable
+  15,6:0,1,68,Generic,Passable
+  0,7:0,3,70,Generic,Passable
+  1,7:0,3,70,Generic,Passable
+  2,7:12,4,74,Tavern,Passable,KAP=1
+  3,7:6,0,255,None,Passable
+  4,7:6,0,255,None,Passable
+  5,7:6,0,255,None,Passable
+  6,7:6,0,255,None,Passable
+  7,7:0,2,69,Generic,Passable
+  8,7:0,2,69,Generic,Passable
+  9,7:0,3,70,Generic,Passable
+  10,7:5,0,255,None,Passable
+  11,7:0,1,68,Generic,Passable
+  12,7:10,0,255,None,Passable
+  13,7:0,3,70,Generic,Passable
+  14,7:0,2,69,Generic,Passable
+  15,7:0,3,70,Generic,Passable
+  0,8:0,2,69,Generic,Passable
+  1,8:7,0,255,None,Passable
+  2,8:7,0,255,None,Passable
+  3,8:7,0,255,None,Passable
+  4,8:0,3,70,Generic,Passable
+  5,8:0,4,71,Generic,Passable
+  6,8:0,1,68,Generic,Passable
+  7,8:0,2,69,Generic,Passable
+  8,8:0,3,70,Generic,Passable
+  9,8:1,0,255,None,Passable
+  10,8:5,0,255,None,Passable
+  11,8:0,4,71,Generic,Passable
+  12,8:10,0,255,None,Passable
+  13,8:10,0,255,None,Passable
+  14,8:10,0,255,None,Passable
+  15,8:0,2,69,Generic,Passable
+  0,9:0,4,71,Generic,Passable
+  1,9:7,0,255,None,Passable
+  2,9:15,2,75,Temple,Passable
+  3,9:0,3,70,Generic,Passable
+  4,9:0,2,69,Generic,Passable
+  5,9:1,0,255,None,Passable
+  6,9:1,0,255,None,Passable
+  7,9:0,2,69,Generic,Passable
+  8,9:0,1,68,Generic,Passable
+  9,9:0,4,71,Generic,Passable
+  10,9:5,0,255,None,Passable
+  11,9:0,2,69,Generic,Passable
+  12,9:16,2,75,Temple,Passable
+  13,9:0,1,68,Generic,Passable
+  14,9:10,0,255,None,Passable
+  15,9:0,4,71,Generic,Passable
+  0,10:0,1,68,Generic,Passable
+  1,10:7,0,255,None,Passable
+  2,10:0,2,69,Generic,Passable
+  3,10:0,1,68,Generic,Passable
+  4,10:0,1,73,Garths,Passable
+  5,10:0,4,71,Generic,Passable
+  6,10:1,0,255,None,Passable
+  7,10:0,3,70,Generic,Passable
+  8,10:8,0,255,None,Passable
+  9,10:8,0,255,None,Passable
+  10,10:8,0,255,None,Passable
+  11,10:8,0,255,None,Passable
+  12,10:8,0,255,None,Passable
+  13,10:8,0,255,None,Passable
+  14,10:8,0,255,None,Passable
+  15,10:0,1,68,Generic,Passable
+  0,11:0,3,70,Generic,Passable
+  1,11:7,0,255,None,Passable
+  2,11:0,4,71,Generic,Passable
+  3,11:8,0,255,None,Passable
+  4,11:8,0,255,None,Passable
+  5,11:8,0,255,None,Passable
+  6,11:8,0,255,None,Passable
+  7,11:8,0,255,None,Passable
+  8,11:8,0,255,None,Passable
+  9,11:0,1,68,Generic,Passable
+  10,11:0,3,70,Generic,Passable
+  11,11:0,2,66,Casino,Passable
+  12,11:0,2,69,Generic,Passable
+  13,11:0,3,70,Generic,Passable
+  14,11:0,1,68,Generic,Passable
+  15,11:0,3,70,Generic,Passable
+  0,12:0,1,68,Generic,Passable
+  1,12:7,0,255,None,Passable
+  2,12:0,3,70,Generic,Passable
+  3,12:0,2,69,Generic,Passable
+  4,12:2,0,255,None,Passable
+  5,12:11,4,74,Tavern,Passable,KAP=1
+  6,12:0,3,70,Generic,Passable
+  7,12:0,2,69,Generic,Passable
+  8,12:9,0,255,None,Passable
+  9,12:9,0,255,None,Passable
+  10,12:1,0,255,None,Passable
+  11,12:0,1,77,Review,Passable
+  12,12:9,0,255,None,Passable
+  13,12:9,0,255,None,Passable
+  14,12:9,0,255,None,Passable
+  15,12:0,3,70,Generic,Passable
+  0,13:0,3,70,Generic,Passable
+  1,13:7,0,255,None,Passable
+  2,13:0,4,71,Generic,Passable
+  3,13:2,0,255,None,Passable
+  4,13:2,0,255,None,Passable
+  5,13:2,0,255,None,Passable
+  6,13:0,1,68,Generic,Passable
+  7,13:9,0,255,None,Passable
+  8,13:9,0,255,None,Passable
+  9,13:9,0,255,None,Passable
+  10,13:0,3,70,Generic,Passable
+  11,13:0,2,69,Generic,Passable
+  12,13:0,2,69,Generic,Passable
+  13,13:0,4,71,Generic,Passable
+  14,13:9,0,255,None,Passable
+  15,13:0,1,68,Generic,Passable
+  0,14:0,2,69,Generic,Passable
+  1,14:7,0,255,None,Passable
+  2,14:7,0,255,None,Passable
+  3,14:2,0,255,None,Passable
+  4,14:2,0,255,None,Passable
+  5,14:2,0,255,None,Passable
+  6,14:0,3,65,Bank,Passable
+  7,14:9,0,255,None,Passable
+  8,14:0,2,72,Guild,Passable
+  9,14:9,0,255,None,Passable
+  10,14:9,0,255,None,Passable
+  11,14:9,0,255,None,Passable
+  12,14:9,0,255,None,Passable
+  13,14:9,0,255,None,Passable
+  14,14:9,0,255,None,Passable
+  15,14:0,2,69,Generic,Passable
+  0,15:0,3,70,Generic,Passable
+  1,15:0,2,69,Generic,Passable
+  2,15:0,3,70,Generic,Passable
+  3,15:0,4,24,None,Blocked
+  4,15:0,0,22,None,Passable,Face=South,GateOpen
+  5,15:0,3,24,None,Blocked
+  6,15:0,3,70,Generic,Passable
+  7,15:0,1,68,Generic,Passable
+  8,15:0,3,70,Generic,Passable
+  9,15:0,2,69,Generic,Passable
+  10,15:0,3,70,Generic,Passable
+  11,15:0,2,69,Generic,Passable
+  12,15:0,4,71,Generic,Passable
+  13,15:0,1,68,Generic,Passable
+  14,15:0,2,69,Generic,Passable
+  15,15:0,3,70,Generic,Passable
+levelTable=2
+string=0,SCRIPTSTRING_0574
+string=1,SCRIPTSTRING_0001
+string=2,SCRIPTSTRING_0622
+string=3,SCRIPTSTRING_0623
+string=4,SCRIPTSTRING_0624
+string=5,SCRIPTSTRING_0625
+string=6,SCRIPTSTRING_0626
+string=7,SCRIPTSTRING_0627
+string=8,SCRIPTSTRING_0628
+string=9,SCRIPTSTRING_0629
+string=10,SCRIPTSTRING_0630
+string=11,SCRIPTSTRING_0631
+string=12,SCRIPTSTRING_0632
+string=13,SCRIPTSTRING_0028
+string=14,SCRIPTSTRING_0633
+string=15,SCRIPTSTRING_0634
+string=16,SCRIPTSTRING_0635
+string=17,SCRIPTSTRING_0636
+locationScript=8,7,TheTombs
+locationScript=4,15,ToTheForest
+scripts
+ToTheForest
+    SetBit,CONT,VisitedEphesus
+    IsFacing,TERM,North,TeleportToForest
+TeleportToForest
+    QTeleport,TERM,15,41,0,CITY
+TheTombs
+    Journal,CONT,SCRIPTSTRING_0637
+    ShowPic,CONT,bt2_28_Temple
+    ShowText,CONT,SCRIPTSTRING_0638
+    Message,CONT,SCRIPTSTRING_0639
+    AddOption,CONT,SCRIPTSTRING_0640,TakePassage
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    Jump,CONT,ExitRoom
+TakePassage
+    @TeleportNoJournal,0,0,4,DUNG
+ExitRoom
+    GoBack,TERM

@@ -1,0 +1,70 @@
+name=SCRIPTSTRING_1610
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=15
+wallSet=26
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=2
+levelTable=8,9,10,11
+map
+  0,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  1,0:SolidNoPHDO,None,SolidNoPHDO,None, Spinner, RegenMagic
+  2,0:None,None,SolidNoPHDO,None, RandomCombat
+  3,0:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO
+  4,0:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, Spinner
+  0,1:None,None,None,SolidNoPHDO, DrainMagic
+  1,1:None,SolidNoPHDO,None,None, DrainMagic
+  2,1:None,None,None,SolidNoPHDO, RandomCombat
+  3,1:SolidNoPHDO,None,None,SolidNoPHDO
+  4,1:None,SolidNoPHDO,None,None
+  0,2:None,None,None,SolidNoPHDO, RandomCombat
+  1,2:None,SolidNoPHDO,None,None, RandomCombat
+  2,2:Door,None,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  3,2:None,SolidNoPHDO,SolidNoPHDO,None
+  4,2:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat
+  0,3:None,Door,None,SolidNoPHDO, DrainMagic
+  1,3:None,None,SolidNoPHDO,Door
+  2,3:None,None,Door,None
+  3,3:None,None,SolidNoPHDO,SolidNoPHDO, Darkness, RandomCombat
+  4,3:Door,SolidNoPHDO,SolidNoPHDO,None, Darkness
+  0,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, SilenceBard
+  1,4:SolidNoPHDO,None,None,None, RandomCombat
+  2,4:SolidNoPHDO,None,None,None
+  3,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  4,4:SolidNoPHDO,SolidNoPHDO,Door,None, StairsOut, StairsIn
+locationScript=4,4,L188
+locationScript=3,4,L191
+locationScript=0,2,L269
+scripts
+L188
+    Message,SCRIPTSTRING_1618
+    AddOption,SCRIPTSTRING_1614,TakeStairsUp
+    AddOption,SCRIPTSTRING_1615,TakeStairsDown
+    AddOption,SCRIPTSTRING_1616,Stay
+    WaitOnChoice
+Stay
+    @End
+TakeStairsDown
+    SetStair
+    @Teleport,4,4,09,DUNG,false
+TakeStairsUp
+    SetStair
+    @Teleport,4,4,11,DUNG,false
+L191
+    @JMessage,SCRIPTSTRING_1619
+L269
+    @JMessage,SCRIPTSTRING_1620

@@ -1,0 +1,68 @@
+name=SCRIPTSTRING_1572
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=10
+wallSet=23
+isWilderness=0
+difficulty=3
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=1
+parentX=1
+parentMap=2
+level=3
+levelTable=3,4,5,6
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, Spinner, PoisonGas, AntiApar
+  1,0:None,DoorNoPHDO,SolidNoPHDO,None, PoisonGas, AntiApar
+  2,0:SolidNoPHDO,DoorNoPHDO,SolidNoPHDO,DoorNoPHDO, RandomCombat, AntiApar
+  3,0:SolidNoPHDO,DoorNoPHDO,SolidNoPHDO,DoorNoPHDO, Darkness, AntiApar
+  4,0:None,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO, Spinner, AntiApar
+  0,1:DoorNoPHDO,None,None,SolidNoPHDO, PoisonGas, AntiApar
+  1,1:SolidNoPHDO,SolidNoPHDO,None,None, PoisonGas, AntiApar
+  2,1:DoorNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiMagic, AntiApar
+  3,1:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, AntiApar
+  4,1:SecretDoorNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,2:DoorNoPHDO,DoorNoPHDO,DoorNoPHDO,SolidNoPHDO, AntiApar
+  1,2:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO, AntiApar, Flypaper
+  2,2:DoorNoPHDO,SolidNoPHDO,DoorNoPHDO,SolidNoPHDO, StairsOut, AntiApar
+  3,2:None,DoorNoPHDO,None,SolidNoPHDO, AntiApar
+  4,2:DoorNoPHDO,SolidNoPHDO,SecretDoorNoPHDO,DoorNoPHDO, SilenceBard, AntiApar
+  0,3:SolidNoPHDO,DoorNoPHDO,DoorNoPHDO,SolidNoPHDO, RandomTrap, AntiApar
+  1,3:DoorNoPHDO,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO, AntiApar
+  2,3:SolidNoPHDO,None,DoorNoPHDO,SolidNoPHDO, SpecialAhead, RegenMagic, AntiApar
+  3,3:SolidNoPHDO,SolidNoPHDO,None,None, SpecialAhead, RandomCombat, AntiApar
+  4,3:None,SolidNoPHDO,DoorNoPHDO,SolidNoPHDO, AntiApar
+  0,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,4:SolidNoPHDO,None,DoorNoPHDO,None, RandomCombat, AntiApar
+  2,4:SolidNoPHDO,SecretDoorNoPHDO,SolidNoPHDO,None, RandomCombat, AntiApar
+  3,4:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,SecretDoorNoPHDO, AntiApar
+  4,4:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+locationScript=2,2,L182
+locationScript=3,2,L183
+locationScript=3,4,L306
+scripts
+L182
+    @StairsOut
+L183
+    @JMessage,SCRIPTSTRING_1586
+L306
+    @Aborter,L307
+L307
+    @IsTOTBitClear,2,L309
+L309
+    @IsItemNotInParty,Nightspear,L311
+L311
+    Message,SCRIPTSTRING_1587
+    Journal,0,SCRIPTSTRING_1588
+    @AwardItem,None,Nightspear,255,L419
+L419
+    @SetTOTBit,2

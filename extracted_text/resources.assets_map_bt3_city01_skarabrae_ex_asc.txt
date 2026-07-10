@@ -1,0 +1,1132 @@
+name=SCRIPTSTRING_0000
+isDungeon=0
+width=30
+height=30
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=0
+isTower=0
+isOutside=1
+monsterSet=0
+wallSet=21
+difficulty=0
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+map
+  0,0:0,4,13,None,Blocked
+  1,0:0,3,12,Generic,Passable
+  2,0:0,2,11,Generic,Passable
+  3,0:0,1,10,Generic,Passable
+  4,0:0,1,10,Generic,Passable
+  5,0:0,1,10,Generic,Passable
+  6,0:0,1,10,Generic,Passable
+  7,0:0,1,10,Generic,Passable
+  8,0:0,1,10,Generic,Passable
+  9,0:0,1,10,Generic,Passable
+  10,0:0,1,10,Generic,Passable
+  11,0:0,1,10,Generic,Passable
+  12,0:0,1,10,Generic,Passable
+  13,0:0,1,10,Generic,Passable
+  14,0:0,1,10,Generic,Passable
+  15,0:0,1,10,Generic,Passable
+  16,0:0,1,10,Generic,Passable
+  17,0:0,1,10,Generic,Passable
+  18,0:0,1,10,Generic,Passable
+  19,0:0,1,10,Generic,Passable
+  20,0:0,1,10,Generic,Passable
+  21,0:0,1,10,Generic,Passable
+  22,0:0,4,13,None,Blocked
+  23,0:0,3,12,Generic,Passable
+  24,0:0,2,11,Generic,Passable,Face=East
+  25,0:16,0,255,None,Passable
+  26,0:0,1,10,Generic,Passable,Face=West
+  27,0:0,1,10,Generic,Passable
+  28,0:0,1,10,Generic,Passable
+  29,0:0,1,10,Generic,Passable
+  0,1:0,3,12,Generic,Passable
+  1,1:13,0,255,None,Passable
+  2,1:13,0,255,None,Passable
+  3,1:13,0,255,None,Passable
+  4,1:0,4,24,Generic,Blocked
+  5,1:0,3,12,Generic,Passable
+  6,1:0,1,10,Generic,Passable
+  7,1:0,1,10,Generic,Passable
+  8,1:0,1,10,Generic,Passable
+  9,1:0,1,10,Generic,Passable
+  10,1:0,1,10,Generic,Passable
+  11,1:0,1,10,Generic,Passable
+  12,1:0,1,10,Generic,Passable
+  13,1:0,1,10,Generic,Passable
+  14,1:0,1,10,Generic,Passable
+  15,1:0,1,10,Generic,Passable
+  16,1:0,1,10,Generic,Passable
+  17,1:0,2,11,Generic,Passable
+  18,1:0,1,10,Generic,Passable
+  19,1:26,2,51,Generic,Passable
+  20,1:0,1,10,Generic,Passable
+  21,1:0,4,24,Generic,Blocked
+  22,1:11,0,255,None,Passable
+  23,1:11,0,255,None,Passable
+  24,1:0,1,10,Generic,Passable,Face=East
+  25,1:16,0,255,None,Passable
+  26,1:0,2,24,Generic,Blocked,Face=West
+  27,1:0,4,13,None,Blocked
+  28,1:0,3,12,Generic,Passable
+  29,1:0,1,10,Generic,Passable
+  0,2:0,2,11,Generic,Passable
+  1,2:13,0,255,None,Passable
+  2,2:36,1,18,Generic,Passable,Face=North
+  3,2:13,0,255,None,Passable
+  4,2:10,0,19,None,Blocked,Face=East
+  5,2:10,0,255,None,Passable
+  6,2:0,2,11,Generic,Passable
+  7,2:0,3,12,Generic,Passable
+  8,2:0,2,11,Generic,Passable
+  9,2:0,3,12,Generic,Passable,Hint=36
+  10,2:0,2,11,Generic,Passable,Hint=35
+  11,2:0,1,10,Generic,Passable,Hint=37
+  12,2:0,4,13,None,Blocked
+  13,2:0,3,12,Generic,Passable,Hint=38
+  14,2:0,2,11,Generic,Passable,Hint=39
+  15,2:0,4,13,None,Blocked
+  16,2:0,1,10,Generic,Passable
+  17,2:11,0,255,None,Passable
+  18,2:11,0,255,None,Passable
+  19,2:11,0,255,None,Passable
+  20,2:11,0,255,None,Passable
+  21,2:11,0,19,None,Blocked,Face=West
+  22,2:11,0,255,None,Passable,StairsIn
+  23,2:11,0,255,None,Passable
+  24,2:0,4,13,None,Blocked,Face=East
+  25,2:16,0,255,None,Passable
+  26,2:0,1,10,Generic,Passable,Face=West
+  27,2:1,0,255,None,Passable
+  28,2:1,0,255,None,Passable
+  29,2:0,3,12,Generic,Passable
+  0,3:0,1,10,Generic,Passable
+  1,3:13,0,255,None,Passable
+  2,3:13,0,255,None,Passable
+  3,3:13,0,255,None,Passable
+  4,3:0,4,24,Generic,Blocked
+  5,3:10,0,255,None,Passable
+  6,3:10,0,255,None,Passable
+  7,3:0,4,13,None,Blocked
+  8,3:11,0,255,None,Passable
+  9,3:11,0,255,None,Passable
+  10,3:11,0,255,None,Passable
+  11,3:11,0,255,None,Passable
+  12,3:11,0,255,None,Passable
+  13,3:11,0,255,None,Passable
+  14,3:11,0,255,None,Passable
+  15,3:11,0,20,None,Blocked
+  16,3:11,0,255,None,Passable
+  17,3:11,0,255,None,Passable
+  18,3:0,2,11,Generic,Passable
+  19,3:11,0,255,None,Passable
+  20,3:33,1,25,Generic,Blocked
+  21,3:0,1,24,Generic,Blocked
+  22,3:11,0,19,None,Blocked,Face=North
+  23,3:11,0,24,Generic,Blocked
+  24,3:0,1,10,Generic,Passable,Face=East
+  25,3:16,0,255,None,Passable
+  26,3:0,3,12,Generic,Passable,Face=West
+  27,3:1,0,255,None,Passable
+  28,3:0,1,10,Generic,Passable
+  29,3:0,1,10,Generic,Passable
+  0,4:0,1,10,Generic,Passable
+  1,4:0,2,24,Generic,Blocked
+  2,4:13,0,19,None,Blocked,Face=North
+  3,4:0,1,24,Generic,Blocked
+  4,4:0,1,10,Generic,Passable
+  5,4:0,3,24,Generic,Blocked
+  6,4:10,0,19,None,Blocked,Face=North
+  7,4:0,3,24,Generic,Blocked
+  8,4:7,0,255,None,Passable
+  9,4:7,0,255,None,Passable
+  10,4:0,4,13,None,Blocked
+  11,4:0,2,11,Generic,Passable
+  12,4:0,3,12,Generic,Passable
+  13,4:0,4,13,None,Blocked
+  14,4:0,4,13,None,Blocked
+  15,4:0,3,12,Generic,Passable
+  16,4:11,0,255,None,Passable
+  17,4:11,0,255,None,Passable
+  18,4:11,0,255,None,Passable
+  19,4:11,0,255,None,Passable
+  20,4:11,0,255,None,Passable
+  21,4:11,0,255,None,Passable
+  22,4:11,0,255,None,Passable
+  23,4:0,2,11,Generic,Passable
+  24,4:0,3,12,Generic,Passable,Face=East
+  25,4:16,0,255,None,Passable
+  26,4:0,4,13,None,Blocked,Face=West
+  27,4:1,0,255,None,Passable
+  28,4:0,3,12,Generic,Passable
+  29,4:0,1,10,Generic,Passable
+  0,5:0,1,10,Generic,Passable
+  1,5:0,4,13,None,Blocked
+  2,5:13,0,255,None,Passable
+  3,5:13,0,255,None,Passable
+  4,5:0,3,12,Generic,Passable
+  5,5:0,0,255,None,Passable
+  6,5:10,0,255,None,Passable
+  7,5:0,2,11,Generic,Passable
+  8,5:7,0,255,None,Passable
+  9,5:7,0,255,None,Passable
+  10,5:0,1,10,Generic,Passable
+  11,5:0,2,11,Generic,Passable
+  12,5:19,0,255,None,Passable
+  13,5:19,0,255,None,Passable
+  14,5:19,0,20,None,Blocked
+  15,5:19,0,255,None,Passable
+  16,5:0,2,11,Generic,Passable
+  17,5:0,4,13,None,Blocked
+  18,5:19,0,255,None,Passable
+  19,5:19,0,255,None,Passable
+  20,5:19,0,255,None,Passable
+  21,5:19,0,255,None,Passable
+  22,5:19,0,255,None,Passable
+  23,5:19,0,255,None,Passable
+  24,5:0,2,11,Generic,Passable,Face=East
+  25,5:16,0,255,None,Passable
+  26,5:0,1,10,Generic,Passable,Face=West
+  27,5:1,0,255,None,Passable
+  28,5:22,2,51,Generic,Passable
+  29,5:0,1,10,Generic,Passable
+  0,6:0,1,10,Generic,Passable
+  1,6:0,1,10,Generic,Passable
+  2,6:0,3,24,Generic,Blocked
+  3,6:13,0,19,None,Blocked,Face=North
+  4,6:0,1,24,Generic,Blocked
+  5,6:0,2,11,Generic,Passable
+  6,6:10,0,255,None,Passable
+  7,6:0,4,13,None,Blocked
+  8,6:7,0,255,None,Passable
+  9,6:7,0,255,None,Passable
+  10,6:19,0,255,None,Passable
+  11,6:19,0,255,None,Passable
+  12,6:19,0,20,None,Blocked
+  13,6:0,1,7,Casino,Passable
+  14,6:0,2,11,Generic,Passable
+  15,6:19,0,255,None,Passable
+  16,6:19,0,255,None,Passable
+  17,6:19,0,255,None,Passable
+  18,6:19,0,255,None,Passable
+  19,6:0,3,12,Generic,Passable
+  20,6:25,2,51,Generic,Passable
+  21,6:0,2,11,Generic,Passable
+  22,6:19,0,255,None,Passable
+  23,6:19,0,255,None,Passable
+  24,6:0,1,10,Generic,Passable,Face=East
+  25,6:16,0,255,None,Passable
+  26,6:0,2,24,Generic,Blocked
+  27,6:1,0,19,None,Blocked,Face=North
+  28,6:0,1,24,Generic,Blocked
+  29,6:0,1,10,Generic,Passable
+  0,7:0,1,10,Generic,Passable,Hint=6
+  1,7:0,0,255,None,Passable
+  2,7:0,0,255,None,Passable
+  3,7:13,0,255,None,Passable
+  4,7:0,0,255,None,Passable
+  5,7:0,4,13,None,Blocked
+  6,7:10,0,255,None,Passable
+  7,7:0,3,12,Generic,Passable
+  8,7:7,0,255,None,Passable
+  9,7:7,0,255,None,Passable
+  10,7:0,1,10,Generic,Passable,Hint=1
+  11,7:0,2,11,Generic,Passable,Hint=2
+  12,7:0,4,13,None,Blocked
+  13,7:0,0,10,Generic,Passable,Hint=3
+  14,7:0,2,11,Generic,Passable,Hint=4
+  15,7:0,1,10,Generic,Passable
+  16,7:0,4,13,None,Blocked
+  17,7:0,0,12,Generic,Passable,Hint=5
+  18,7:0,4,13,None,Blocked
+  19,7:0,1,10,Generic,Passable
+  20,7:0,2,11,Generic,Passable
+  21,7:24,2,51,Tavern,Passable
+  22,7:0,4,13,None,Blocked
+  23,7:0,0,255,None,Passable
+  24,7:0,4,13,None,Blocked,Face=East
+  25,7:16,0,255,None,Passable
+  26,7:0,1,10,Generic,Passable,Face=West
+  27,7:1,0,255,None,Passable
+  28,7:0,0,255,None,Passable
+  29,7:0,1,10,Generic,Passable
+  0,8:0,1,10,Generic,Passable
+  1,8:27,2,51,Generic,Passable
+  2,8:0,2,11,Generic,Passable
+  3,8:13,0,255,None,Passable
+  4,8:0,4,13,None,Blocked
+  5,8:0,3,12,Generic,Passable
+  6,8:10,0,255,None,Passable
+  7,8:0,1,10,Generic,Passable
+  8,8:7,0,255,None,Passable
+  9,8:7,0,255,None,Passable
+  10,8:0,1,10,Generic,Passable
+  11,8:0,4,13,None,Blocked
+  12,8:15,0,255,None,Passable
+  13,8:15,0,255,None,Passable
+  14,8:15,0,255,None,Passable
+  15,8:15,0,255,None,Passable
+  16,8:15,0,255,None,Passable
+  17,8:15,0,255,None,Passable
+  18,8:15,0,255,None,Passable
+  19,8:0,1,10,Generic,Passable
+  20,8:9,0,255,None,Passable
+  21,8:9,0,255,None,Passable
+  22,8:0,1,10,Generic,Passable
+  23,8:0,2,11,Generic,Passable
+  24,8:16,0,255,None,Passable
+  25,8:16,0,255,None,Passable
+  26,8:0,3,12,Generic,Passable
+  27,8:1,0,255,None,Passable
+  28,8:0,4,13,None,Blocked
+  29,8:0,1,10,Generic,Passable
+  0,9:0,1,10,Generic,Passable
+  1,9:0,2,11,Generic,Passable
+  2,9:0,3,12,Generic,Passable,Hint=8
+  3,9:13,0,21,None,Passable
+  4,9:0,1,10,Generic,Passable,Hint=9
+  5,9:0,2,11,Generic,Passable
+  6,9:10,0,255,None,Passable
+  7,9:0,1,10,Generic,Passable,Hint=10
+  8,9:7,0,255,None,Passable
+  9,9:7,0,255,None,Passable
+  10,9:0,3,12,Generic,Passable
+  11,9:0,2,11,Generic,Passable,Hint=11
+  12,9:15,0,255,None,Passable
+  13,9:0,4,13,None,Blocked
+  14,9:0,2,11,Generic,Passable
+  15,9:0,0,21,None,Passable
+  16,9:0,2,11,Generic,Passable,Hint=12
+  17,9:0,3,12,Generic,Passable
+  18,9:0,4,13,None,Blocked
+  19,9:9,0,255,None,Passable
+  20,9:9,0,255,None,Passable
+  21,9:9,0,255,None,Passable
+  22,9:9,0,255,None,Passable
+  23,9:0,4,13,None,Blocked
+  24,9:16,0,21,None,Passable
+  25,9:0,1,10,Generic,Passable
+  26,9:29,1,25,Generic,Blocked,ThievesTemple
+  27,9:1,0,255,None,Passable
+  28,9:0,0,255,None,Passable
+  29,9:0,3,12,Generic,Passable
+  0,10:0,3,12,Generic,Passable,Hint=13
+  1,10:0,0,255,None,Passable
+  2,10:0,0,255,None,Passable
+  3,10:13,0,255,None,Passable
+  4,10:0,0,255,None,Passable
+  5,10:0,0,255,None,Passable
+  6,10:10,0,255,None,Passable
+  7,10:0,2,11,Generic,Passable
+  8,10:7,0,255,None,Passable
+  9,10:0,2,11,Generic,Passable,Hint=14
+  10,10:15,0,255,None,Passable
+  11,10:15,0,255,None,Passable
+  12,10:15,0,255,None,Passable
+  13,10:0,1,10,Generic,Passable,Hint=15
+  14,10:0,3,12,Generic,Passable
+  15,10:0,0,255,None,Passable
+  16,10:0,0,21,None,Passable
+  17,10:0,0,255,None,Passable
+  18,10:0,1,10,Generic,Passable
+  19,10:9,0,255,None,Passable
+  20,10:0,1,10,Generic,Passable
+  21,10:0,3,12,Generic,Passable
+  22,10:0,2,11,Generic,Passable,Hint=16
+  23,10:16,0,21,None,Passable
+  24,10:16,0,255,None,Passable
+  25,10:0,3,12,Generic,Passable
+  26,10:0,2,11,Generic,Passable
+  27,10:1,0,255,None,Passable
+  28,10:0,3,12,Generic,Passable
+  29,10:0,1,10,Generic,Passable
+  0,11:0,4,13,None,Blocked
+  1,11:0,0,255,None,Passable
+  2,11:0,0,255,None,Passable
+  3,11:13,0,255,None,Passable
+  4,11:0,4,13,None,Blocked
+  5,11:0,2,11,Generic,Passable,Hint=27
+  6,11:10,0,255,None,Passable
+  7,11:0,3,12,Generic,Passable,Hint=28
+  8,11:7,0,255,None,Passable
+  9,11:15,0,255,None,Passable
+  10,11:15,0,255,None,Passable
+  11,11:0,1,10,Generic,Passable,Hint=29
+  12,11:0,2,11,Generic,Passable,Hint=31
+  13,11:0,3,12,Generic,Passable
+  14,11:0,4,13,None,Blocked
+  15,11:0,2,11,Generic,Passable
+  16,11:0,3,12,Generic,Passable
+  17,11:0,0,255,None,Passable
+  18,11:0,2,11,Generic,Passable,Hint=7
+  19,11:9,0,255,None,Passable
+  20,11:9,0,255,None,Passable
+  21,11:9,0,255,None,Passable
+  22,11:9,0,255,None,Passable
+  23,11:9,0,255,None,Passable
+  24,11:0,4,13,None,Blocked
+  25,11:3,0,255,None,Passable
+  26,11:1,0,255,None,Passable
+  27,11:1,0,255,None,Passable
+  28,11:1,0,255,None,Passable
+  29,11:0,2,11,Generic,Passable
+  0,12:0,4,13,None,Blocked
+  1,12:0,0,21,None,Passable
+  2,12:0,2,11,Generic,Passable
+  3,12:13,0,255,None,Passable
+  4,12:10,0,255,None,Passable
+  5,12:10,0,255,None,Passable
+  6,12:10,0,255,None,Passable
+  7,12:0,4,13,None,Blocked
+  8,12:7,0,255,None,Passable
+  9,12:0,1,10,Generic,Passable
+  10,12:0,2,11,Generic,Passable
+  11,12:0,4,13,None,Blocked
+  12,12:0,3,12,Generic,Passable
+  13,12:32,1,25,Generic,Blocked,Face=North
+  14,12:32,1,25,Generic,Blocked,Face=North
+  15,12:32,1,25,Generic,Blocked,Face=North
+  16,12:32,1,25,Generic,Blocked,Face=North
+  17,12:0,0,255,None,Passable
+  18,12:0,4,13,None,Blocked
+  19,12:9,0,21,None,Passable
+  20,12:9,0,255,None,Passable
+  21,12:0,2,11,Generic,Passable
+  22,12:4,0,255,None,Passable
+  23,12:0,1,10,Generic,Passable
+  24,12:3,0,255,None,Passable
+  25,12:3,0,21,None,Passable
+  26,12:0,1,10,Generic,Passable
+  27,12:0,2,11,Generic,Passable
+  28,12:0,4,13,None,Blocked
+  29,12:0,1,10,Generic,Passable
+  0,13:0,3,12,Generic,Passable,Hint=17
+  1,13:0,0,255,None,Passable
+  2,13:0,4,13,Generic,Blocked,Hint=18
+  3,13:0,0,255,None,Passable
+  4,13:0,3,13,Generic,Blocked
+  5,13:0,2,11,Generic,Passable
+  6,13:0,1,10,Generic,Passable
+  7,13:7,0,255,None,Passable
+  8,13:7,0,255,None,Passable
+  9,13:0,4,13,None,Blocked
+  10,13:18,0,21,None,Passable
+  11,13:18,0,255,None,Passable
+  12,13:18,0,255,None,Passable
+  13,13:20,0,255,None,Passable
+  14,13:20,0,21,None,Passable
+  15,13:20,0,255,None,Passable
+  16,13:20,0,255,None,Passable
+  17,13:20,0,255,None,Passable
+  18,13:35,1,25,Generic,Blocked
+  19,13:0,2,11,Generic,Passable
+  20,13:0,3,12,Generic,Passable
+  21,13:0,3,12,Generic,Passable
+  22,13:4,0,255,None,Passable
+  23,13:0,2,11,Generic,Passable
+  24,13:3,0,255,None,Passable
+  25,13:3,0,21,None,Passable
+  26,13:0,0,255,None,Passable
+  27,13:0,0,255,None,Passable
+  28,13:0,0,21,None,Passable
+  29,13:0,2,11,Generic,Passable
+  0,14:0,1,24,Generic,Blocked
+  1,14:0,1,10,Generic,Passable
+  2,14:0,2,11,Generic,Passable
+  3,14:13,0,255,None,Passable
+  4,14:0,4,13,None,Blocked
+  5,14:7,0,255,None,Passable
+  6,14:7,0,21,None,Passable
+  7,14:7,0,255,None,Passable
+  8,14:0,2,11,Generic,Passable,Hint=19
+  9,14:0,3,12,Generic,Passable
+  10,14:18,0,255,None,Passable
+  11,14:0,2,11,Generic,Passable
+  12,14:31,1,25,Generic,Blocked,Face=East
+  13,14:20,0,255,None,Passable
+  14,14:20,0,255,None,Passable
+  15,14:20,0,21,None,Passable
+  16,14:20,0,255,None,Passable
+  17,14:20,0,255,None,Passable
+  18,14:35,1,25,Generic,Blocked,Face=West
+  19,14:0,1,10,Generic,Passable,Hint=20
+  20,14:0,4,13,None,Blocked
+  21,14:0,1,10,Generic,Passable,Hint=21
+  22,14:4,0,255,None,Passable
+  23,14:0,4,13,None,Blocked
+  24,14:0,2,11,Generic,Passable
+  25,14:3,0,21,None,Passable
+  26,14:0,2,11,Generic,Passable
+  27,14:0,1,10,Generic,Passable
+  28,14:0,3,12,Generic,Passable
+  29,14:0,1,10,Generic,Passable
+  0,15:39,0,22,None,Passable,Face=East,GateOpen
+  1,15:39,0,255,None,Passable
+  2,15:39,0,21,None,Passable
+  3,15:13,0,255,None,Passable
+  4,15:0,2,11,StorageRoom,Passable
+  5,15:7,0,255,None,Passable
+  6,15:0,3,12,Generic,Passable
+  7,15:0,4,13,None,Blocked
+  8,15:18,0,255,None,Passable
+  9,15:18,0,255,None,Passable
+  10,15:18,0,255,None,Passable
+  11,15:0,1,10,Generic,Passable
+  12,15:31,1,25,Generic,Blocked,Face=East
+  13,15:20,0,255,None,Passable
+  14,15:20,0,255,None,Passable
+  15,15:0,0,15,Generic,Passable,Face=East
+  16,15:20,0,255,None,Passable
+  17,15:20,0,255,None,Passable
+  18,15:35,1,43,Temple,Passable,Face=West
+  19,15:0,4,13,None,Blocked
+  20,15:0,0,21,None,Passable
+  21,15:0,0,255,None,Passable
+  22,15:4,0,255,None,Passable
+  23,15:0,3,12,Generic,Passable
+  24,15:0,3,52,Guild,Passable
+  25,15:3,0,255,None,Passable
+  26,15:0,1,10,Generic,Passable
+  27,15:0,1,10,Generic,Passable
+  28,15:0,1,10,Generic,Passable
+  29,15:0,1,10,Generic,Passable
+  0,16:0,1,24,Generic,Blocked
+  1,16:0,2,10,Generic,Passable
+  2,16:0,3,12,Generic,Passable
+  3,16:13,0,21,None,Passable
+  4,16:0,1,10,Generic,Passable
+  5,16:7,0,21,None,Passable
+  6,16:0,1,10,Generic,Passable,Hint=26
+  7,16:0,2,11,Generic,Passable
+  8,16:18,0,255,None,Passable
+  9,16:0,1,10,Generic,Passable
+  10,16:0,2,11,Generic,Passable,Hint=25
+  11,16:0,4,13,None,Blocked
+  12,16:31,1,25,Generic,Blocked,Face=East
+  13,16:20,0,255,None,Passable
+  14,16:20,0,255,None,Passable
+  15,16:20,0,21,None,Passable
+  16,16:20,0,255,None,Passable
+  17,16:20,0,255,None,Passable
+  18,16:35,1,25,Generic,Blocked,Face=West
+  19,16:0,3,12,Generic,Passable
+  20,16:0,0,21,None,Passable
+  21,16:0,1,10,Generic,Passable,Hint=24
+  22,16:4,0,255,None,Passable
+  23,16:0,1,10,Generic,Passable,Hint=23
+  24,16:0,4,13,None,Blocked
+  25,16:3,0,255,None,Passable
+  26,16:0,4,13,None,Blocked
+  27,16:0,1,10,Generic,Passable
+  28,16:0,2,11,Generic,Passable
+  29,16:0,1,10,Generic,Passable
+  0,17:0,2,11,Generic,Passable
+  1,17:18,0,255,None,Passable
+  2,17:0,1,10,Generic,Passable,Hint=22
+  3,17:13,0,255,None,Passable
+  4,17:18,0,255,None,Passable
+  5,17:18,0,255,None,Passable
+  6,17:18,0,255,None,Passable
+  7,17:18,0,21,None,Passable
+  8,17:18,0,255,None,Passable
+  9,17:0,4,13,None,Blocked
+  10,17:17,0,255,None,Passable
+  11,17:0,2,11,Generic,Passable
+  12,17:31,1,25,Generic,Blocked
+  13,17:20,0,255,None,Passable
+  14,17:20,0,255,None,Passable
+  15,17:20,0,21,None,Passable
+  16,17:20,0,255,None,Passable
+  17,17:20,0,255,None,Passable
+  18,17:0,0,255,None,Passable
+  19,17:0,0,21,None,Passable
+  20,17:0,0,255,None,Passable
+  21,17:0,4,13,None,Blocked
+  22,17:4,0,255,None,Passable
+  23,17:0,2,11,Generic,Passable
+  24,17:3,0,255,None,Passable
+  25,17:3,0,255,None,Passable
+  26,17:0,0,255,None,Passable
+  27,17:0,0,21,None,Passable
+  28,17:0,0,255,None,Passable
+  29,17:0,3,12,Generic,Passable
+  0,18:0,3,12,Generic,Passable,Hint=32
+  1,18:18,0,255,None,Passable
+  2,18:0,4,13,None,Blocked
+  3,18:0,1,10,Generic,Passable,Hint=33
+  4,18:18,0,255,None,Passable
+  5,18:0,2,11,Generic,Passable,Hint=34
+  6,18:0,3,12,Generic,Passable
+  7,18:0,4,13,None,Blocked
+  8,18:0,3,12,Generic,Passable
+  9,18:17,0,255,None,Passable
+  10,18:17,0,255,None,Passable
+  11,18:28,2,51,Generic,Passable
+  12,18:0,1,10,Generic,Passable
+  13,18:5,0,255,None,Passable
+  14,18:30,1,25,Generic,Blocked,Face=South
+  15,18:30,1,25,Generic,Blocked,Face=South
+  16,18:30,1,25,Generic,Blocked,Face=South
+  17,18:30,1,25,Generic,Blocked,Face=South
+  18,18:0,4,13,None,Blocked
+  19,18:0,3,12,Generic,Passable
+  20,18:0,2,11,Generic,Passable
+  21,18:0,2,11,Generic,Passable
+  22,18:4,0,255,None,Passable
+  23,18:0,3,12,Generic,Passable
+  24,18:3,0,255,None,Passable
+  25,18:3,0,255,None,Passable
+  26,18:0,4,3,Garths,Passable,Face=West
+  27,18:0,0,255,None,Passable
+  28,18:0,3,12,Generic,Passable
+  29,18:0,1,10,Generic,Passable
+  0,19:0,2,11,Generic,Passable
+  1,19:18,0,255,None,Passable
+  2,19:18,0,21,None,Passable
+  3,19:18,0,255,None,Passable
+  4,19:18,0,255,None,Passable
+  5,19:0,4,13,None,Blocked
+  6,19:17,0,255,None,Passable
+  7,19:17,0,255,None,Passable
+  8,19:17,0,255,None,Passable
+  9,19:17,0,255,None,Passable
+  10,19:0,2,11,Generic,Passable
+  11,19:0,1,10,Generic,Passable
+  12,19:0,3,12,Generic,Passable
+  13,19:5,0,255,None,Passable
+  14,19:0,1,10,Generic,Passable
+  15,19:0,2,11,Generic,Passable
+  16,19:0,3,12,Generic,Passable
+  17,19:0,4,13,None,Blocked
+  18,19:14,0,21,None,Passable
+  19,19:14,0,255,None,Passable
+  20,19:14,0,255,None,Passable
+  21,19:0,3,12,Generic,Passable
+  22,19:4,0,255,None,Passable
+  23,19:23,2,51,Generic,Passable
+  24,19:0,3,12,Generic,Passable
+  25,19:3,0,255,None,Passable
+  26,19:0,0,21,None,Passable
+  27,19:0,0,21,None,Passable
+  28,19:0,0,255,None,Passable
+  29,19:0,2,11,Generic,Passable
+  0,20:0,3,12,Generic,Passable
+  1,20:17,0,255,None,Passable
+  2,20:0,2,10,Generic,Passable
+  3,20:0,4,13,None,Blocked
+  4,20:0,3,12,Generic,Passable
+  5,20:0,2,11,Generic,Passable
+  6,20:17,0,255,None,Passable
+  7,20:0,4,13,None,Blocked
+  8,20:14,0,255,None,Passable
+  9,20:14,0,255,None,Passable
+  10,20:0,4,13,None,Blocked
+  11,20:5,0,20,None,Blocked
+  12,20:5,0,255,None,Passable
+  13,20:5,0,255,None,Passable
+  14,20:0,4,13,None,Blocked
+  15,20:14,0,21,None,Passable
+  16,20:14,0,255,None,Passable
+  17,20:14,0,255,None,Passable
+  18,20:14,0,255,None,Passable
+  19,20:0,2,11,Generic,Passable
+  20,20:14,0,255,None,Passable
+  21,20:0,4,11,Generic,Passable
+  22,20:4,0,255,None,Passable
+  23,20:0,3,9,Review,Passable
+  24,20:0,2,11,Generic,Passable
+  25,20:3,0,20,None,Blocked
+  26,20:0,3,12,Generic,Passable
+  27,20:0,0,255,None,Passable
+  28,20:0,2,11,Generic,Passable
+  29,20:0,1,10,Generic,Passable
+  0,21:0,4,13,None,Blocked
+  1,21:17,0,255,None,Passable
+  2,21:17,0,20,None,Blocked
+  3,21:17,0,20,None,Blocked
+  4,21:17,0,21,None,Passable
+  5,21:17,0,255,None,Passable
+  6,21:17,0,255,None,Passable
+  7,21:0,2,11,Generic,Passable
+  8,21:14,0,255,None,Passable
+  9,21:0,3,12,Generic,Passable
+  10,21:0,1,10,Generic,Passable
+  11,21:5,0,20,None,Blocked
+  12,21:0,1,16,None,Blocked
+  13,21:0,2,11,Generic,Passable
+  14,21:14,0,255,None,Passable
+  15,21:14,0,255,None,Passable
+  16,21:0,4,13,None,Blocked
+  17,21:0,3,12,Generic,Passable
+  18,21:0,2,11,Generic,Passable
+  19,21:0,1,10,Generic,Passable
+  20,21:14,0,255,None,Passable
+  21,21:0,2,11,Generic,Passable
+  22,21:4,0,255,None,Passable
+  23,21:0,2,12,Generic,Passable,Face=East
+  24,21:0,1,10,Generic,Passable
+  25,21:3,0,255,None,Passable
+  26,21:0,2,11,Generic,Passable
+  27,21:0,1,10,Generic,Passable
+  28,21:0,4,13,None,Blocked
+  29,21:0,1,10,Generic,Passable
+  0,22:0,1,10,Generic,Passable
+  1,22:0,1,10,Generic,Passable
+  2,22:17,0,20,None,Blocked
+  3,22:17,0,255,None,Passable
+  4,22:17,0,255,None,Passable
+  5,22:17,0,255,None,Passable
+  6,22:17,0,255,None,Passable
+  7,22:0,1,10,Generic,Passable
+  8,22:14,0,255,None,Passable
+  9,22:14,0,255,None,Passable
+  10,22:14,0,255,None,Passable
+  11,22:14,0,255,None,Passable
+  12,22:14,0,255,None,Passable
+  13,22:14,0,255,None,Passable
+  14,22:14,0,255,None,Passable
+  15,22:0,4,13,None,Blocked
+  16,22:14,0,255,None,Passable
+  17,22:14,0,255,None,Passable
+  18,22:14,0,255,None,Passable
+  19,22:14,0,255,None,Passable
+  20,22:14,0,255,None,Passable
+  21,22:0,1,10,Generic,Passable
+  22,22:2,0,255,None,Passable
+  23,22:2,0,255,None,Passable
+  24,22:2,0,255,None,Passable
+  25,22:2,0,255,None,Passable
+  26,22:2,0,20,None,Blocked
+  27,22:2,0,255,None,Passable
+  28,22:2,0,255,None,Passable
+  29,22:0,3,12,Generic,Passable
+  0,23:0,1,10,Generic,Passable
+  1,23:0,2,11,Generic,Passable
+  2,23:12,0,255,None,Passable
+  3,23:0,2,24,Generic,Blocked
+  4,23:0,3,23,Generic,Blocked,Face=South
+  5,23:0,1,24,Generic,Blocked
+  6,23:21,0,19,None,Blocked,Face=South
+  7,23:21,0,24,Generic,Blocked
+  8,23:0,1,10,Generic,Passable
+  9,23:0,3,12,Generic,Passable
+  10,23:0,4,13,None,Blocked
+  11,23:5,0,255,None,Passable
+  12,23:0,4,13,None,Blocked
+  13,23:0,2,11,Generic,Passable
+  14,23:0,1,10,Generic,Passable
+  15,23:0,3,12,Generic,Passable
+  16,23:14,0,255,None,Passable
+  17,23:0,1,10,Generic,Passable
+  18,23:0,2,11,Generic,Passable
+  19,23:0,4,13,None,Blocked
+  20,23:14,0,255,None,Passable
+  21,23:6,0,255,None,Passable
+  22,23:0,1,10,Generic,Passable
+  23,23:0,4,13,None,Blocked
+  24,23:12,0,255,None,Passable
+  25,23:0,4,13,None,Blocked
+  26,23:0,1,10,Generic,Passable
+  27,23:8,0,255,None,Passable
+  28,23:0,4,13,None,Blocked
+  29,23:0,1,10,Generic,Passable
+  0,24:0,3,12,Generic,Passable
+  1,24:12,0,255,None,Passable
+  2,24:12,0,255,None,Passable
+  3,24:0,4,23,Generic,Blocked,Face=West
+  4,24:37,1,17,Generic,Passable,Face=East
+  5,24:21,0,19,None,Blocked,Face=East
+  6,24:21,0,255,None,Passable
+  7,24:21,0,255,None,Passable
+  8,24:21,0,255,None,Passable
+  9,24:21,0,255,None,Passable
+  10,24:0,2,11,Generic,Passable
+  11,24:5,0,255,None,Passable
+  12,24:0,3,12,Generic,Passable
+  13,24:6,0,255,None,Passable
+  14,24:6,0,255,None,Passable
+  15,24:6,0,255,None,Passable
+  16,24:6,0,255,None,Passable
+  17,24:6,0,255,None,Passable
+  18,24:6,0,255,None,Passable
+  19,24:6,0,255,None,Passable
+  20,24:6,0,255,None,Passable
+  21,24:6,0,255,None,Passable
+  22,24:6,0,255,None,Passable
+  23,24:0,3,12,Generic,Passable
+  24,24:12,0,20,None,Blocked
+  25,24:0,2,11,Generic,Passable
+  26,24:0,3,12,Generic,Passable
+  27,24:8,0,255,None,Passable
+  28,24:0,3,12,Generic,Passable
+  29,24:0,2,11,Generic,Passable
+  0,25:0,1,10,Generic,Passable
+  1,25:12,0,255,None,Passable
+  2,25:12,0,255,None,Passable
+  3,25:0,1,24,Generic,Blocked
+  4,25:0,2,23,Generic,Blocked,Face=North
+  5,25:0,4,24,Generic,Blocked
+  6,25:21,0,255,None,Passable
+  7,25:21,0,255,None,Passable
+  8,25:34,1,25,Generic,Blocked
+  9,25:21,0,255,None,Passable
+  10,25:0,3,12,Generic,Passable
+  11,25:5,0,255,None,Passable
+  12,25:0,2,11,Generic,Passable
+  13,25:6,0,255,None,Passable
+  14,25:0,1,6,Bank,Passable
+  15,25:6,0,255,None,Passable
+  16,25:6,0,255,None,Passable
+  17,25:6,0,255,None,Passable
+  18,25:0,1,10,Generic,Passable
+  19,25:0,3,12,Generic,Passable
+  20,25:0,4,13,None,Blocked
+  21,25:0,2,11,Generic,Passable
+  22,25:6,0,255,None,Passable
+  23,25:0,2,11,Generic,Passable
+  24,25:12,0,255,None,Passable
+  25,25:0,3,12,Generic,Passable
+  26,25:0,4,24,Generic,Blocked
+  27,25:8,0,19,None,Blocked,Face=South
+  28,25:0,2,24,Generic,Blocked
+  29,25:0,1,10,Generic,Passable
+  0,26:0,1,10,Generic,Passable
+  1,26:0,4,13,None,Blocked
+  2,26:12,0,255,None,Passable
+  3,26:21,0,255,None,Passable
+  4,26:21,0,255,None,Passable
+  5,26:21,0,19,None,Blocked,Face=West
+  6,26:21,0,255,None,Passable
+  7,26:21,0,255,None,Passable
+  8,26:21,0,255,None,Passable
+  9,26:21,0,255,None,Passable
+  10,26:0,2,11,Generic,Passable
+  11,26:5,0,255,None,Passable
+  12,26:0,4,13,None,Blocked
+  13,26:6,0,255,None,Passable
+  14,26:6,0,255,None,Passable
+  15,26:6,0,255,None,Passable
+  16,26:0,1,10,Generic,Passable
+  17,26:6,0,255,None,Passable
+  18,26:6,0,255,None,Passable
+  19,26:6,0,255,None,Passable
+  20,26:6,0,255,None,Passable
+  21,26:6,0,255,None,Passable
+  22,26:6,0,255,None,Passable
+  23,26:0,1,10,Generic,Passable
+  24,26:12,0,255,None,Passable
+  25,26:0,2,24,Generic,Blocked
+  26,26:8,0,255,None,Passable
+  27,26:8,0,255,None,Passable
+  28,26:8,0,255,None,Passable
+  29,26:0,4,13,None,Blocked
+  0,27:0,1,10,Generic,Passable
+  1,27:0,3,12,Generic,Passable
+  2,27:12,0,255,None,Passable
+  3,27:12,0,255,None,Passable
+  4,27:0,1,10,Generic,Passable
+  5,27:0,3,24,Generic,Blocked
+  6,27:0,2,11,Generic,Passable
+  7,27:0,4,13,None,Blocked
+  8,27:0,3,12,Generic,Passable
+  9,27:0,4,13,None,Blocked
+  10,27:0,1,10,Generic,Passable
+  11,27:5,0,255,None,Passable
+  12,27:0,1,10,Generic,Passable
+  13,27:0,2,11,Generic,Passable
+  14,27:0,4,13,None,Blocked
+  15,27:0,3,12,Generic,Passable
+  16,27:0,2,11,Generic,Passable
+  17,27:6,0,255,None,Passable
+  18,27:0,2,11,Generic,Passable
+  19,27:0,3,12,Generic,Passable
+  20,27:0,4,13,None,Blocked
+  21,27:0,3,12,Generic,Passable
+  22,27:0,4,13,None,Blocked
+  23,27:12,0,255,None,Passable
+  24,27:12,0,255,None,Passable
+  25,27:8,0,19,None,Blocked,Face=West
+  26,27:8,0,255,None,Passable
+  27,27:38,1,4,Generic,Passable,Face=South
+  28,27:8,0,255,None,Passable
+  29,27:0,3,12,Generic,Passable
+  0,28:0,1,10,Generic,Passable
+  1,28:0,1,10,Generic,Passable
+  2,28:0,2,11,Generic,Passable
+  3,28:12,0,255,None,Passable
+  4,28:12,0,255,None,Passable
+  5,28:12,0,255,None,Passable
+  6,28:12,0,255,None,Passable
+  7,28:12,0,255,None,Passable
+  8,28:12,0,255,None,Passable
+  9,28:12,0,255,None,Passable
+  10,28:12,0,255,None,Passable
+  11,28:12,0,255,None,Passable
+  12,28:12,0,255,None,Passable
+  13,28:12,0,255,None,Passable
+  14,28:12,0,255,None,Passable
+  15,28:12,0,255,None,Passable
+  16,28:12,0,255,None,Passable
+  17,28:12,0,255,None,Passable
+  18,28:12,0,255,None,Passable
+  19,28:12,0,255,None,Passable
+  20,28:12,0,255,None,Passable
+  21,28:12,0,255,None,Passable
+  22,28:12,0,255,None,Passable
+  23,28:12,0,255,None,Passable
+  24,28:0,2,11,Generic,Passable
+  25,28:0,3,12,Generic,Passable
+  26,28:8,0,255,None,Passable
+  27,28:8,0,255,None,Passable
+  28,28:8,0,255,None,Passable
+  29,28:0,4,13,None,Blocked
+  0,29:0,1,10,Generic,Passable
+  1,29:0,1,10,Generic,Passable
+  2,29:0,1,10,Generic,Passable
+  3,29:0,1,10,Generic,Passable
+  4,29:0,2,11,Generic,Passable
+  5,29:0,3,12,Generic,Passable
+  6,29:0,3,12,Generic,Passable
+  7,29:0,2,11,Generic,Passable
+  8,29:0,1,10,Generic,Passable
+  9,29:0,3,12,Generic,Passable
+  10,29:0,4,13,None,Blocked
+  11,29:0,1,10,Generic,Passable
+  12,29:0,2,11,Generic,Passable
+  13,29:0,1,10,Generic,Passable
+  14,29:0,3,12,Generic,Passable
+  15,29:0,4,13,None,Blocked
+  16,29:0,3,12,Generic,Passable
+  17,29:0,2,11,Generic,Passable
+  18,29:0,1,10,Generic,Passable
+  19,29:0,3,12,Generic,Passable
+  20,29:0,3,12,Generic,Passable
+  21,29:0,4,13,None,Blocked
+  22,29:0,2,11,Generic,Passable
+  23,29:0,1,10,Generic,Passable
+  24,29:0,1,10,Generic,Passable
+  25,29:0,1,10,Generic,Passable
+  26,29:0,1,10,Generic,Passable
+  27,29:0,3,12,Generic,Passable
+  28,29:0,2,11,Generic,Passable
+  29,29:0,1,10,Generic,Passable
+levelTable=0
+string=0,SCRIPTSTRING_0001
+string=1,SCRIPTSTRING_0002
+string=2,SCRIPTSTRING_0003
+string=3,SCRIPTSTRING_0004
+string=4,SCRIPTSTRING_0005
+string=5,SCRIPTSTRING_0006
+string=6,SCRIPTSTRING_0007
+string=7,SCRIPTSTRING_0008
+string=8,SCRIPTSTRING_0009
+string=9,SCRIPTSTRING_0010
+string=10,SCRIPTSTRING_0011
+string=11,SCRIPTSTRING_0012
+string=12,SCRIPTSTRING_0013
+string=13,SCRIPTSTRING_0014
+string=14,SCRIPTSTRING_0015
+string=15,SCRIPTSTRING_0016
+string=16,SCRIPTSTRING_0017
+string=17,SCRIPTSTRING_0018
+string=18,SCRIPTSTRING_0019
+string=19,SCRIPTSTRING_0020
+string=20,SCRIPTSTRING_0021
+string=21,SCRIPTSTRING_0022
+string=22,SCRIPTSTRING_0023
+string=23,SCRIPTSTRING_0024
+string=24,SCRIPTSTRING_0025
+string=25,SCRIPTSTRING_0026
+string=26,SCRIPTSTRING_0027
+string=27,SCRIPTSTRING_0028,KAP=1
+string=28,SCRIPTSTRING_0029
+string=29,SCRIPTSTRING_0030
+string=30,SCRIPTSTRING_0031
+string=31,SCRIPTSTRING_0032
+string=32,SCRIPTSTRING_0033
+string=33,SCRIPTSTRING_0034
+string=34,SCRIPTSTRING_0035
+string=35,SCRIPTSTRING_0036
+string=36,SCRIPTSTRING_0037
+string=37,SCRIPTSTRING_0038
+string=38,SCRIPTSTRING_0039
+string=39,SCRIPTSTRING_0040
+locationScript=25,2,L1296
+locationScript=15,15,L1350
+locationScript=17,15,L1603
+locationScript=18,15,L1646
+locationScript=3,8,L1568
+locationScript=0,15,ToTheForest
+locationScript=1,15,L1475
+locationScript=21,20,Credits
+locationScript=22,20,L1300
+locationScript=23,2,StairsToCatacombs
+locationScript=23,0,Longinus
+locationScript=1,21,RuinsMessage
+locationScript=12,20,RoscoesMessage
+locationScript=19,10,ScarletBardSoundsFar
+locationScript=21,8,ScarletBardSoundsNear
+locationScript=21,7,ScarletBardJournal
+scripts
+ToTheForest
+    IsFacing,TERM,West,TeleportToForest
+TeleportToForest
+    QTeleport,TERM,16,24,0,CITY
+L1296
+    LoseTracking
+    @Teleport,25,7,1,CITY,false
+L1300
+    @Message,SCRIPTSTRING_1334
+L1350
+    ShowPic,btr_05_madGodStatue
+    ShowText,SCRIPTSTRING_1335
+    JMessage,SCRIPTSTRING_1336
+    PressAny
+    @GoBack
+L1475
+    @JMessage,SCRIPTSTRING_1337
+L1568
+    @JMessage,SCRIPTSTRING_1338
+L1603
+    @Message,SCRIPTSTRING_1339
+L1646
+    ShowPic,BT1_59_temple
+    ShowText,SCRIPTSTRING_0078
+L1656
+    Journal,0,SCRIPTSTRING_1340
+    Message,SCRIPTSTRING_1341
+    YesNo,L1755
+    Direction,East
+    ClearWindow
+    @GoBack
+L1755
+    Message,SCRIPTSTRING_1342
+    Input
+    MatchWord,SCRIPTSTRING_0085,L1929
+    MatchWord,SCRIPTSTRING_1343,L2050
+    MatchWord,SCRIPTSTRING_1344,L2268
+    MatchWord,SCRIPTSTRING_1345,L2185
+    MatchWord,SCRIPTSTRING_0087,L2379
+    Message,SCRIPTSTRING_0088
+    PressAny
+    Jump,L1656
+L1929
+    Message,SCRIPTSTRING_1346
+    PressAny
+    @TeleportNoJournal,0,0,40,DUNG
+L2050
+    Message,SCRIPTSTRING_1347
+    PressAny
+    @TeleportNoJournal,14,0,52,DUNG
+L2185
+    Message,SCRIPTSTRING_1348
+    PressAny
+    @TeleportNoJournal,12,14,53,DUNG
+L2268
+    Message,SCRIPTSTRING_1349
+    PressAny
+    @TeleportNoJournal,1,0,54,DUNG
+L2379
+    Message,SCRIPTSTRING_0092
+    PressAny
+    Message,SCRIPTSTRING_1350
+    PressAny
+    Jump,L1656
+StairsToCatacombs
+    @Aborter,DoStairsToCatacombs
+DoStairsToCatacombs
+    ShowPic,BTR_03_RuinedTower
+    ShowText,SCRIPTSTRING_1351
+    JMessage,SCRIPTSTRING_1352
+    Message2,SCRIPTSTRING_1353
+    @YesNo,TakeStairsToCatacombs
+TakeStairsToCatacombs
+    @TeleportNoJournal,8,0,40,DUNG
+Longinus
+	ShowPic,BT3_51_Outpost
+	ShowText,SCRIPTSTRING_1354
+    SetCount,0,0
+LonginusMain
+    Journal,0,SCRIPTSTRING_1355
+	Message,SCRIPTSTRING_1356
+    AddOption,SCRIPTSTRING_1357,SearchTheHouse
+    AddOption,SCRIPTSTRING_0528,LeaveTheHouse
+    WaitOnChoice
+LeaveTheHouse
+	@GoBack
+SearchTheHouse
+    AddCount,0,1
+	CountBeqValue,0,1,Bt3Clue
+    CountBeqValue,0,2,Bt4Clue
+    Message,SCRIPTSTRING_1358
+    PressAny
+    Jump,LonginusMain
+Bt3Clue
+    Journal,1,SCRIPTSTRING_1359
+    Message,SCRIPTSTRING_1360
+    PressAny
+    Jump,LonginusMain
+Bt4Clue
+    Journal,2,SCRIPTSTRING_1361
+    Message,SCRIPTSTRING_1362
+    PressAny
+    SetAch,BT3_FinalProphecy
+    Jump,LonginusMain
+Credits
+    ShowPic,CONT,bt1_credits
+    ShowText,CONT,SCRIPTSTRING_0069
+    PlayMusic,CONT,music_MainMenu
+    Is43Aspect,CONT,CompressedCredits
+    Message,CONT,SCRIPTSTRING_0590
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0591
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0072
+    PressAny,CONT
+    Message,SCRIPTSTRING_1363
+    Message2,SCRIPTSTRING_1364
+    Message2,SCRIPTSTRING_1365
+    Message2,SCRIPTSTRING_1366
+    PressAny
+    StopMusic
+    @GoBack
+CompressedCredits
+    Message,CONT,SCRIPTSTRING_0592
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0593
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0594
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0595
+    PressAny
+    Message,SCRIPTSTRING_1363
+    Message2,SCRIPTSTRING_1364
+    Message2,SCRIPTSTRING_1365
+    Message2,SCRIPTSTRING_1366
+    PressAny
+    StopMusic
+    @GoBack
+RuinsMessage
+    @JMessage,SCRIPTSTRING_1367
+RoscoesMessage
+    @JMessage,SCRIPTSTRING_1368
+ScarletBardSoundsFar
+    IsLegacySongs,SkipScript
+    @JMessage,SCRIPTSTRING_1369
+ScarletBardSoundsNear
+    IsLegacySongs,SkipScript
+    @JMessage,SCRIPTSTRING_1370
+ScarletBardJournal
+    IsLegacySongs,SkipScript
+    @Journal,SCRIPTSTRING_2151
+SkipScript
+    @End

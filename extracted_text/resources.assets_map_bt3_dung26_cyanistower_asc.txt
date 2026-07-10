@@ -1,0 +1,107 @@
+name=SCRIPTSTRING_1503
+isDungeon=1
+width=7
+height=7
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=1
+isTower=1
+isOutside=0
+monsterSet=20
+wallSet=17
+isWilderness=0
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=3
+parentX=3
+parentMap=5
+level=0
+levelTable=26,27,28
+map
+  0,0:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, StairsOut
+  1,0:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar, RegenHealth
+  2,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar, Flypaper
+  3,0:SolidNoPHDO,None,SolidNoPHDO,None, Spinner, AntiApar
+  4,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  5,0:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat, AntiApar
+  6,0:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, AntiApar
+  0,1:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO
+  1,1:None,SolidNoPHDO,None,SolidNoPHDO, Darkness, AntiApar
+  2,1:None,None,SolidNoPHDO,SolidNoPHDO, RegenMagic
+  3,1:SolidNoPHDO,None,SolidNoPHDO,None, RegenMagic
+  4,1:SolidNoPHDO,None,SolidNoPHDO,None, RegenMagic
+  5,1:None,SolidNoPHDO,SolidNoPHDO,None, RandomTrap
+  6,1:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiApar
+  0,2:None,SolidNoPHDO,DoorNoPHDO,SolidNoPHDO, AntiApar
+  1,2:None,SolidNoPHDO,None,SolidNoPHDO, PoisonGas, AntiApar
+  2,2:None,SolidNoPHDO,None,SolidNoPHDO, Smoke, AntiApar
+  3,2:None,None,SolidNoPHDO,SolidNoPHDO, Turncoat, AntiApar
+  4,2:None,SolidNoPHDO,SolidNoPHDO,None, AntiMagic, AntiApar
+  5,2:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  6,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,3:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiApar
+  1,3:None,SolidNoPHDO,None,SolidNoPHDO, Darkness, AntiApar
+  2,3:None,SolidNoPHDO,None,SolidNoPHDO, Smoke, AntiApar
+  3,3:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, StairsIn, AntiApar
+  4,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiMagic, AntiApar
+  5,3:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  6,3:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiApar
+  0,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,4:None,SolidNoPHDO,None,SolidNoPHDO, PoisonGas, AntiApar
+  2,4:SolidNoPHDO,None,None,SolidNoPHDO, HarmParty
+  3,4:SolidNoPHDO,None,SolidNoPHDO,None, HarmParty
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty
+  5,4:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard
+  6,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,5:SolidNoPHDO,None,None,SolidNoPHDO, Darkness, AntiApar
+  2,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic
+  3,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic
+  4,5:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic
+  5,5:SolidNoPHDO,SolidNoPHDO,None,None, RandomTrap
+  6,5:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiApar
+  0,6:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  1,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  2,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  3,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,6:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat, AntiApar
+  5,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  6,6:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+locationScript=3,3,L322
+locationScript=0,0,L323
+locationScript=0,1,L324
+locationSpellScript=0,1,L416
+locationScript=4,6,L408
+locationScript=6,4,L412
+startupScript=CheckCrystalKey
+scripts
+CheckCrystalKey
+    @IsTOTBitSet,86,UnlockDoor
+UnlockDoor
+    ChangeMap,1,0,2
+    ChangeMap,2,0,34
+    @End
+L322
+    @StairsIn
+L323
+    @StairsOut
+L324
+    @JMessage,SCRIPTSTRING_1721
+L408
+    @Teleport,3,0,26,DUNG
+L412
+    @Teleport,0,2,26,DUNG
+L416
+    @MatchSpell,Item,L418
+L418
+    @MatchItem,Crystal Key,L420
+L420
+    MessageChar,SCRIPTSTRING_1722
+    Intercept
+    ChangeMap,1,0,2
+    ChangeMap,2,0,34
+    SetTOTBit,86
+    @DoView

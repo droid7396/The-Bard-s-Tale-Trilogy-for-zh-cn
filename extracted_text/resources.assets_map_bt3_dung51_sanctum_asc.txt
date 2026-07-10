@@ -1,0 +1,330 @@
+name=SCRIPTSTRING_2011
+isDungeon=1
+width=13
+height=13
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=0
+isOutside=0
+monsterSet=27
+wallSet=16
+isWilderness=0
+difficulty=6
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+levelTable=51
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO
+  1,0:None,None,SolidNoPHDO,None
+  2,0:None,None,SolidNoPHDO,None
+  3,0:None,None,SolidNoPHDO,None
+  4,0:None,None,SolidNoPHDO,None
+  5,0:None,None,SolidNoPHDO,None, RandomCombat
+  6,0:None,None,SolidNoPHDO,None
+  7,0:None,None,SolidNoPHDO,None
+  8,0:None,None,SolidNoPHDO,None, RandomCombat
+  9,0:None,None,SolidNoPHDO,None
+  10,0:None,None,SolidNoPHDO,None
+  11,0:None,None,SolidNoPHDO,None
+  12,0:None,SolidNoPHDO,SolidNoPHDO,None
+  0,1:None,None,None,SolidNoPHDO
+  1,1:None,None,None,None
+  2,1:Solid,None,None,None
+  3,1:None,None,None,None
+  4,1:Solid,None,None,None
+  5,1:None,None,None,None
+  6,1:SolidNoPHDO,None,None,None
+  7,1:None,None,None,None
+  8,1:SolidNoPHDO,None,None,None
+  9,1:None,None,None,None
+  10,1:SolidNoPHDO,None,None,None
+  11,1:None,None,None,None
+  12,1:None,SolidNoPHDO,None,None
+  0,2:None,None,None,SolidNoPHDO
+  1,2:None,SolidNoPHDO,None,None
+  2,2:SolidNoPHDO,SolidNoPHDO,Solid,SolidNoPHDO
+  3,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap
+  4,2:None,SolidNoPHDO,Solid,SolidNoPHDO, DrainMagic
+  5,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap
+  6,2:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO
+  7,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap
+  8,2:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  9,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap
+  10,2:SolidNoPHDO,Solid,SolidNoPHDO,SolidNoPHDO
+  11,2:None,None,None,Solid
+  12,2:None,SolidNoPHDO,None,None
+  0,3:None,None,None,SolidNoPHDO, RandomCombat
+  1,3:None,None,None,None
+  2,3:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap
+  3,3:None,None,SolidNoPHDO,SolidNoPHDO, Smoke
+  4,3:None,SolidNoPHDO,None,None, RandomCombat, Smoke
+  5,3:None,None,SolidNoPHDO,SolidNoPHDO
+  6,3:None,None,None,None
+  7,3:None,SolidNoPHDO,SolidNoPHDO,None
+  8,3:None,None,None,SolidNoPHDO, Smoke
+  9,3:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat, Smoke
+  10,3:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  11,3:None,None,None,None, RandomCombat
+  12,3:None,SolidNoPHDO,None,None
+  0,4:None,None,None,SolidNoPHDO
+  1,4:None,SolidNoPHDO,None,None
+  2,4:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  3,4:None,None,None,None, Smoke
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, Smoke
+  5,4:SolidNoPHDO,None,None,SolidNoPHDO
+  6,4:SecretDoor,None,None,None, SpecialAhead
+  7,4:SolidNoPHDO,SolidNoPHDO,None,None
+  8,4:SolidNoPHDO,None,None,SolidNoPHDO, Smoke
+  9,4:None,None,None,None, Smoke
+  10,4:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, DrainMagic
+  11,4:None,None,None,SolidNoPHDO
+  12,4:None,SolidNoPHDO,None,None
+  0,5:None,None,None,SolidNoPHDO
+  1,5:None,None,None,None
+  2,5:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap
+  3,5:None,SolidNoPHDO,None,SolidNoPHDO, Smoke
+  4,5:None,None,SolidNoPHDO,SolidNoPHDO
+  5,5:None,None,SolidNoPHDO,None
+  6,5:None,None,SecretDoor,None
+  7,5:None,None,SolidNoPHDO,None
+  8,5:None,SolidNoPHDO,SolidNoPHDO,None
+  9,5:None,SolidNoPHDO,None,SolidNoPHDO, Smoke
+  10,5:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  11,5:None,None,None,None
+  12,5:None,SolidNoPHDO,None,None
+  0,6:None,None,None,SolidNoPHDO
+  1,6:None,SolidNoPHDO,None,None, RandomCombat
+  2,6:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  3,6:None,SolidNoPHDO,None,None, Smoke
+  4,6:None,None,None,SolidNoPHDO
+  5,6:None,None,None,None
+  6,6:None,None,None,None
+  7,6:None,None,None,None
+  8,6:None,SolidNoPHDO,None,None
+  9,6:None,None,None,SolidNoPHDO, Smoke
+  10,6:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, DrainMagic
+  11,6:None,None,None,SolidNoPHDO
+  12,6:None,SolidNoPHDO,None,None, RandomCombat
+  0,7:None,None,None,SolidNoPHDO
+  1,7:None,None,None,None
+  2,7:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap
+  3,7:None,SolidNoPHDO,None,SolidNoPHDO, Smoke
+  4,7:SolidNoPHDO,None,None,SolidNoPHDO
+  5,7:SolidNoPHDO,None,None,None
+  6,7:SecretDoor,None,None,None, SpecialAhead
+  7,7:SolidNoPHDO,None,None,None
+  8,7:SolidNoPHDO,SolidNoPHDO,None,None
+  9,7:None,SolidNoPHDO,None,SolidNoPHDO, Smoke
+  10,7:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  11,7:None,None,None,None
+  12,7:None,SolidNoPHDO,None,None
+  0,8:None,None,None,SolidNoPHDO
+  1,8:None,SolidNoPHDO,None,None
+  2,8:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  3,8:None,None,None,None, RandomCombat, Smoke
+  4,8:None,None,SolidNoPHDO,None, Smoke
+  5,8:None,SolidNoPHDO,SolidNoPHDO,None, Smoke
+  6,8:None,SolidNoPHDO,SecretDoor,SolidNoPHDO
+  7,8:None,None,SolidNoPHDO,SolidNoPHDO, Smoke
+  8,8:None,None,SolidNoPHDO,None, Smoke
+  9,8:None,None,None,None, Smoke
+  10,8:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, DrainMagic
+  11,8:None,None,None,SolidNoPHDO
+  12,8:None,SolidNoPHDO,None,None
+  0,9:None,None,None,SolidNoPHDO
+  1,9:None,None,None,None, RandomCombat
+  2,9:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap
+  3,9:SolidNoPHDO,None,None,SolidNoPHDO, Smoke
+  4,9:None,None,None,None, Smoke
+  5,9:SolidNoPHDO,SolidNoPHDO,None,None, Smoke
+  6,9:None,SolidNoPHDO,None,SolidNoPHDO, Turncoat
+  7,9:SolidNoPHDO,None,None,SolidNoPHDO, Smoke
+  8,9:None,None,None,None, RandomCombat, Smoke
+  9,9:SolidNoPHDO,SolidNoPHDO,None,None, Smoke
+  10,9:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  11,9:None,None,None,None
+  12,9:None,SolidNoPHDO,None,None
+  0,10:None,None,None,SolidNoPHDO
+  1,10:None,SolidNoPHDO,None,None
+  2,10:Solid,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO
+  3,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  4,10:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, DrainMagic
+  5,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  6,10:SecretDoor,SolidNoPHDO,None,SolidNoPHDO, SilenceBard
+  7,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  8,10:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, DrainMagic
+  9,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  10,10:Solid,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO
+  11,10:None,None,None,SolidNoPHDO, RandomCombat
+  12,10:None,SolidNoPHDO,None,None
+  0,11:None,None,None,SolidNoPHDO
+  1,11:None,None,None,None
+  2,11:None,None,Solid,None
+  3,11:None,None,None,None
+  4,11:None,None,SolidNoPHDO,None
+  5,11:None,None,None,None
+  6,11:None,None,SecretDoor,None
+  7,11:None,None,None,None
+  8,11:None,None,SolidNoPHDO,None
+  9,11:None,None,None,None
+  10,11:None,None,Solid,None
+  11,11:None,None,None,None
+  12,11:None,SolidNoPHDO,None,None
+  0,12:SolidNoPHDO,None,None,SolidNoPHDO
+  1,12:SolidNoPHDO,None,None,None, RandomCombat
+  2,12:SolidNoPHDO,None,None,None
+  3,12:SolidNoPHDO,None,None,None
+  4,12:SolidNoPHDO,None,None,None
+  5,12:SolidNoPHDO,None,None,None, RandomCombat
+  6,12:SolidNoPHDO,None,None,None
+  7,12:SolidNoPHDO,None,None,None
+  8,12:SolidNoPHDO,None,None,None
+  9,12:SolidNoPHDO,None,None,None
+  10,12:SolidNoPHDO,None,None,None
+  11,12:SolidNoPHDO,None,None,None
+  12,12:SolidNoPHDO,SolidNoPHDO,None,None
+locationScript=6,7,L1035
+locationScript=6,4,L912
+locationScript=12,3,L2474
+locationScript=7,3,L1801
+locationScript=6,2,L1938
+scripts
+L912
+    @JMessage,SCRIPTSTRING_2012
+L1035
+    IsTOTBitSet,64,L1274
+    IsTOTBitSet,65,L1756
+    ShowPic,BT3_35_Urmech
+    ShowText,SCRIPTSTRING_2013
+    JMessage,SCRIPTSTRING_2014
+    PressAny
+    Message,SCRIPTSTRING_2015
+    AddOption,CONT,SCRIPTSTRING_2016,UrmechViolenceChoice
+    AddOption,CONT,SCRIPTSTRING_2017,UrmechAccomodationChoice
+	WaitOnChoice,CONT
+    Jump,L1035
+UrmechViolenceChoice
+    Message,SCRIPTSTRING_2018
+    Encounter2,1,Urmech,1,L1271
+    Message,SCRIPTSTRING_2019
+    PressAny
+    @Teleport,6,8,51,DUNG,false
+L1271
+    DoView
+    SetTOTBit,64
+L1274
+    JMessage,SCRIPTSTRING_2020
+    IsItemNotInParty,Spanner,NoItem
+    IsItemNotInParty,Bolt,NoItem
+    IsItemNotInParty,Nut,NoItem
+    IsItemNotInParty,Lever,NoItem
+    Message2,SCRIPTSTRING_2021
+    AddOption,SCRIPTSTRING_2022,RepairHim
+    AddOption,SCRIPTSTRING_2023,LeaveHim
+    WaitOnChoice
+LeaveHim
+    @End
+RepairHim
+    RemoveItem,Spanner
+    RemoveItem,Bolt
+    RemoveItem,Nut
+    RemoveItem,Lever
+    ClearTOTBit,64
+    Message,SCRIPTSTRING_2024
+    PressAny
+    Jump,UrmechAccomodationChoice
+NoItem
+    @Message2,SCRIPTSTRING_2025
+UrmechAccomodationChoice
+    Message,SCRIPTSTRING_2026
+    PressAny
+    Message,SCRIPTSTRING_2027
+    PressAny
+    Message,SCRIPTSTRING_2028
+    PressAny
+    Message,SCRIPTSTRING_2029
+    PressAny
+    Message,SCRIPTSTRING_2030
+    PressAny
+    Message,SCRIPTSTRING_2031
+    PressAny
+    JMessage,SCRIPTSTRING_2032
+    DoView
+    SetTOTBit,65
+L1756
+    @Message,SCRIPTSTRING_2033
+L1801
+    JMessage,0,SCRIPTSTRING_2034
+    @Aborter,L1858
+L1858
+    IsTOTBitSet,66,L1898
+    IsItemInParty,Ferofist's Helm,L1898
+    PressAny
+    Message,SCRIPTSTRING_2035
+    @AwardItem,None,Ferofist's Helm,255,L1895
+L1895
+    Journal,1,SCRIPTSTRING_2036
+    SetTOTBit,66
+L1898
+    @IsTOTBitClear,67,L1900
+L1900
+    IsItemInParty,Hammer of Wrath,L1936
+    Message,SCRIPTSTRING_2037
+    @AwardItem,None,Hammer of Wrath,255,L1935
+L1935
+    Journal,2,SCRIPTSTRING_2038
+L1936
+    @SetTOTBit,67
+L1938
+    IsTOTBitSet,65,L2030
+    @JMessage,SCRIPTSTRING_2039
+L2030
+    @Aborter,L2031
+L2031
+    ShowPic,BT3_35_Urmech
+    ShowText,SCRIPTSTRING_2013
+    Journal,0,SCRIPTSTRING_2040
+    Message,SCRIPTSTRING_2041
+    PressAny
+    Message,SCRIPTSTRING_2042
+    PressAny
+    Message,SCRIPTSTRING_2043
+    PressAny
+    Message,SCRIPTSTRING_2044
+    PressAny
+L2272
+    Message,SCRIPTSTRING_2045
+    ChooseChar,L2338
+    Message,SCRIPTSTRING_2046
+    PressAny
+    @TeleportNoJournal,6,3,51,DUNG
+L2338
+    ClassMatch,Warrior,L2392
+    ClassMatch,Bard,L2392
+    ClassMatch,Paladin,L2392
+    ClassMatch,Hunter,L2392
+    ClassMatch,Monk,L2392
+    Message,SCRIPTSTRING_2047
+    PressAny
+    Jump,L2272
+L2392
+    Message,SCRIPTSTRING_2048
+    PressAny
+    MakeGeomancer
+    @Teleport,6,3,51,DUNG,false
+L2474
+    @Aborter,L2475
+L2475
+    JMessage,SCRIPTSTRING_2049
+    Message2,SCRIPTSTRING_2050
+    YesNo,L2558
+    @ClearWindow
+L2558
+    @Teleport,0,0,50,DUNG,false,SCRIPTSTRING_2009

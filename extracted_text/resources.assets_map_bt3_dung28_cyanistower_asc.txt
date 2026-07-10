@@ -1,0 +1,169 @@
+name=SCRIPTSTRING_1503
+isDungeon=1
+width=7
+height=7
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=21
+wallSet=17
+isWilderness=0
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=1
+parentX=4
+parentMap=5
+level=2
+levelTable=26,27,28
+map
+  0,0:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiMagic, AntiApar
+  1,0:None,None,SolidNoPHDO,None, AntiApar
+  2,0:None,None,SolidNoPHDO,None, AntiApar
+  3,0:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,0:SolidNoPHDO,None,SolidNoPHDO,None, SilenceBard, AntiApar
+  5,0:SolidNoPHDO,None,SolidNoPHDO,None, DrainMagic, AntiApar
+  6,0:None,SolidNoPHDO,SolidNoPHDO,None, Smoke, DrainMagic, AntiApar
+  0,1:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,1:None,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  2,1:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, Turncoat, AntiApar
+  3,1:DoorNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar, RegenHealth
+  4,1:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar, RegenHealth
+  5,1:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar, RegenHealth
+  6,1:None,SolidNoPHDO,None,SolidNoPHDO, Smoke, DrainMagic, AntiApar
+  0,2:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap, AntiApar
+  1,2:None,SolidNoPHDO,None,SolidNoPHDO, Darkness, AntiApar
+  2,2:None,DoorNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  3,2:DoorNoPHDO,DoorNoPHDO,DoorNoPHDO,DoorNoPHDO, AntiApar
+  4,2:None,SolidNoPHDO,SolidNoPHDO,DoorNoPHDO, AntiApar
+  5,2:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  6,2:None,SolidNoPHDO,None,SolidNoPHDO, DrainMagic, AntiApar
+  0,3:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,3:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar, Flypaper
+  2,3:None,None,None,SolidNoPHDO, AntiApar
+  3,3:None,None,DoorNoPHDO,None, AntiApar
+  4,3:None,SolidNoPHDO,None,None, AntiApar
+  5,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  6,3:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,4:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  1,4:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  2,4:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  3,4:SolidNoPHDO,None,None,None, AntiApar
+  4,4:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  5,4:None,SolidNoPHDO,None,SolidNoPHDO, HarmParty, AntiApar
+  6,4:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,5:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,5:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  2,5:None,Solid,SolidNoPHDO,SolidNoPHDO, AntiApar
+  3,5:None,SolidNoPHDO,SolidNoPHDO,Solid, StairsOut, AntiApar
+  4,5:None,None,SolidNoPHDO,SolidNoPHDO, HarmParty, AntiApar
+  5,5:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty, AntiApar
+  6,5:None,SolidNoPHDO,None,SolidNoPHDO, RegenMagic, AntiApar
+  0,6:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  1,6:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  2,6:SolidNoPHDO,None,None,None, AntiApar
+  3,6:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  4,6:SolidNoPHDO,None,None,SolidNoPHDO, HarmParty, AntiApar
+  5,6:SolidNoPHDO,None,SolidNoPHDO,None, HarmParty, AntiApar
+  6,6:SolidNoPHDO,SolidNoPHDO,None,None, RegenMagic, AntiApar
+locationScript=3,5,L326
+locationScript=0,5,L327
+locationScript=1,6,L425
+locationScript=1,0,L507
+commonScript=L640
+locationScript=3,2,L651
+locationSpellScript=3,2,L1359
+scripts
+L326
+    @StairsOut
+L327
+    @IsTOTBitClear,29,L329
+L329
+    @IsTOTBitClear,30,L331
+L331
+    @JMessage,SCRIPTSTRING_1726
+L425
+    @JMessage,SCRIPTSTRING_1727
+L507
+    @JMessage,SCRIPTSTRING_1728
+L640
+    @IsTOTBitClear,29,L642
+L642
+    @IsTOTBitClear,30,L644
+L644
+    SetCount,0,8
+    @KillCode,L640
+L651
+    IsTOTBitSet,29,L994
+    IsTOTBitSet,30,L994
+    IsCountZero,0,L738
+    DecCount,0
+    Journal,0,SCRIPTSTRING_1729
+    @Message,SCRIPTSTRING_1730
+L738
+    Message,SCRIPTSTRING_1731
+    PressAny
+    Message,SCRIPTSTRING_1732
+    Encounter2,1,Cyanis,1,L927
+    DoView
+    Message,SCRIPTSTRING_1733
+    PressAny
+    SetCount,0,8
+    Jump,L651
+L927
+    DoView
+    Message,SCRIPTSTRING_1734
+    PressAny
+    SetTOTBit,30
+L994
+    IsItemNotInParty,Magic Triangle,L1003
+    IsTOTBitSet,31,L1222
+    IsItemInParty,Magic Triangle,L1222
+    @Aborter,L1003
+L1003
+    IsTOTBitSet,30,CyanisDead
+    Message,SCRIPTSTRING_1735
+    PressAny
+    Message,SCRIPTSTRING_1736
+    SetTOTBit,31
+GiveTriangle
+    Journal,1,SCRIPTSTRING_1737
+    @AwardItem,None,Magic Triangle,255,GotIt
+GotIt
+    @End
+CyanisDead
+    Message,SCRIPTSTRING_1738
+    PressAny
+    Jump,GiveTriangle
+L1222
+    IsTOTBitSet,30,L1313
+    @Message,SCRIPTSTRING_1739
+L1313
+    @Message,SCRIPTSTRING_1740
+L1359
+    @IsTOTBitClear,30,L1361
+L1361
+    @IsTOTBitClear,29,L1363
+L1363
+    MatchSpell,FleshAnew,L1373
+    MatchSpell,Restoration,L1373
+    @MatchSpell,HealAll,L1373
+L1373
+    Intercept
+    SetTOTBit,29
+    MessageChar,SCRIPTSTRING_1741
+    PressAny
+    Message,SCRIPTSTRING_1742
+    PressAny
+    Message,SCRIPTSTRING_1743
+    PressAny
+    Message,SCRIPTSTRING_1744
+    PressAny
+    Message,SCRIPTSTRING_1745
+    ZapStair
+    Jump,L651
+    @End

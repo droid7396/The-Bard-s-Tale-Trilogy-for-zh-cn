@@ -1,0 +1,2150 @@
+name=SCRIPTSTRING_0401
+isDungeon=0
+width=32
+height=48
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=1
+isTower=0
+isOutside=1
+isWilderness=1
+monsterSet=0
+wallSet=2
+difficulty=0
+skyColor=4,0,0,0
+groundColor=8,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+levelTable=0
+map
+  0,0:0,0,20,Generic,Kickable
+  1,0:0,0,255,None,Passable
+  2,0:0,0,23,None,Blocked
+  3,0:0,0,255,None,Passable
+  4,0:0,0,255,None,Passable
+  5,0:0,0,255,None,Passable
+  6,0:0,0,23,None,Blocked
+  7,0:0,0,255,None,Passable
+  8,0:0,0,255,None,Passable
+  9,0:0,0,255,None,Passable
+  10,0:0,0,255,None,Passable
+  11,0:0,0,255,None,Passable
+  12,0:0,0,255,None,Passable
+  13,0:0,0,23,None,Blocked
+  14,0:0,0,255,None,Passable
+  15,0:0,0,255,None,Passable
+  16,0:0,0,255,None,Passable
+  17,0:0,0,23,None,Blocked
+  18,0:0,0,255,None,Passable
+  19,0:0,0,255,None,Passable
+  20,0:0,0,255,None,Passable
+  21,0:0,0,255,None,Passable
+  22,0:0,0,23,None,Blocked
+  23,0:0,0,255,None,Passable
+  24,0:0,0,255,None,Passable
+  25,0:0,0,255,None,Passable
+  26,0:0,0,255,None,Passable
+  27,0:0,0,255,None,Passable
+  28,0:0,0,255,None,Passable
+  29,0:0,0,23,None,Blocked
+  30,0:0,0,255,None,Passable
+  31,0:0,0,255,None,Passable
+  0,1:0,0,255,None,Passable
+  1,1:0,0,255,None,Passable
+  2,1:0,0,255,None,Passable
+  3,1:0,0,255,None,Passable
+  4,1:0,0,23,None,Blocked
+  5,1:0,0,255,None,Passable
+  6,1:0,0,255,None,Passable
+  7,1:0,0,255,None,Passable
+  8,1:0,0,23,None,Blocked
+  9,1:0,0,23,None,Blocked
+  10,1:0,0,255,None,Passable
+  11,1:0,0,255,None,Passable
+  12,1:0,0,255,None,Passable
+  13,1:0,0,255,None,Passable
+  14,1:0,0,255,None,Passable
+  15,1:0,0,255,None,Passable
+  16,1:0,0,255,None,Passable
+  17,1:0,0,255,None,Passable
+  18,1:0,0,255,None,Passable
+  19,1:0,0,255,None,Passable
+  20,1:0,0,255,None,Passable
+  21,1:0,0,23,None,Blocked
+  22,1:0,0,255,None,Passable
+  23,1:0,0,255,None,Passable
+  24,1:0,0,255,None,Passable
+  25,1:0,0,255,None,Passable
+  26,1:0,0,23,None,Blocked
+  27,1:0,0,23,None,Blocked
+  28,1:0,0,255,None,Passable
+  29,1:0,0,23,None,Blocked
+  30,1:0,0,23,None,Blocked
+  31,1:0,0,255,None,Passable
+  0,2:0,0,255,None,Passable
+  1,2:0,0,23,None,Blocked
+  2,2:0,0,23,None,Blocked
+  3,2:0,0,23,None,Blocked
+  4,2:0,0,23,None,Blocked
+  5,2:0,0,23,None,Blocked
+  6,2:0,0,255,None,Passable
+  7,2:0,0,255,None,Passable
+  8,2:0,0,23,None,Blocked
+  9,2:1,0,6,Generic,Kickable
+  10,2:0,0,255,None,Passable
+  11,2:0,0,255,None,Passable
+  12,2:0,0,255,None,Passable
+  13,2:0,0,255,None,Passable
+  14,2:0,0,23,None,Blocked
+  15,2:0,0,255,None,Passable
+  16,2:0,0,255,None,Passable
+  17,2:0,0,255,None,Passable
+  18,2:0,0,255,None,Passable
+  19,2:0,0,23,None,Blocked
+  20,2:0,0,255,None,Passable
+  21,2:0,0,255,None,Passable
+  22,2:0,0,255,None,Passable
+  23,2:0,0,23,None,Blocked
+  24,2:0,0,255,None,Passable
+  25,2:0,0,255,None,Passable
+  26,2:0,0,255,None,Passable
+  27,2:0,0,255,None,Passable
+  28,2:0,0,255,None,Passable
+  29,2:0,0,255,None,Passable
+  30,2:0,0,23,None,Blocked
+  31,2:0,0,255,None,Passable
+  0,3:0,0,255,None,Passable
+  1,3:0,0,23,None,Blocked
+  2,3:0,0,23,None,Blocked
+  3,3:0,0,255,None,Passable
+  4,3:0,0,23,None,Blocked
+  5,3:0,0,255,None,Passable
+  6,3:0,0,255,None,Passable
+  7,3:0,0,23,None,Blocked
+  8,3:0,0,23,None,Blocked
+  9,3:0,0,255,None,Passable
+  10,3:0,0,255,None,Passable
+  11,3:0,0,23,None,Blocked
+  12,3:0,0,255,None,Passable
+  13,3:0,0,23,None,Blocked
+  14,3:0,0,255,None,Passable
+  15,3:0,0,255,None,Passable
+  16,3:0,0,255,None,Passable
+  17,3:0,0,255,None,Passable
+  18,3:0,0,255,None,Passable
+  19,3:0,0,23,None,Blocked
+  20,3:0,0,23,None,Blocked
+  21,3:0,0,255,None,Passable
+  22,3:0,0,255,None,Passable
+  23,3:0,0,255,None,Passable
+  24,3:0,0,255,None,Passable
+  25,3:0,0,255,None,Passable
+  26,3:0,0,255,None,Passable
+  27,3:0,0,255,None,Passable
+  28,3:0,0,23,None,Blocked
+  29,3:0,0,255,None,Passable
+  30,3:0,0,255,None,Passable
+  31,3:0,0,255,None,Passable
+  0,4:0,0,255,None,Passable
+  1,4:0,0,23,None,Blocked
+  2,4:0,0,255,None,Passable
+  3,4:0,0,255,None,Passable
+  4,4:0,0,255,None,Passable
+  5,4:0,0,255,None,Passable
+  6,4:0,0,255,None,Passable
+  7,4:0,0,255,None,Passable
+  8,4:0,0,23,None,Blocked
+  9,4:0,0,255,None,Passable
+  10,4:0,0,255,None,Passable
+  11,4:0,0,255,None,Passable
+  12,4:0,0,255,None,Passable
+  13,4:0,0,23,None,Blocked
+  14,4:0,0,255,None,Passable
+  15,4:0,0,255,None,Passable
+  16,4:0,0,23,None,Blocked
+  17,4:0,0,255,None,Passable
+  18,4:0,0,255,None,Passable
+  19,4:0,0,255,None,Passable
+  20,4:0,0,255,None,Passable
+  21,4:0,0,255,None,Passable
+  22,4:0,0,255,None,Passable
+  23,4:0,0,255,None,Passable
+  24,4:0,0,23,None,Blocked
+  25,4:0,0,255,None,Passable
+  26,4:0,0,23,None,Blocked
+  27,4:0,0,255,None,Passable
+  28,4:0,0,255,None,Passable
+  29,4:0,0,255,None,Passable
+  30,4:0,0,255,None,Passable
+  31,4:0,0,255,None,Passable
+  0,5:0,0,255,None,Passable
+  1,5:0,0,23,None,Blocked
+  2,5:0,0,255,None,Passable
+  3,5:0,0,24,None,Blocked
+  4,5:0,0,22,None,Passable,Face=South,GateOpen
+  5,5:0,0,24,None,Blocked
+  6,5:0,0,255,None,Passable
+  7,5:0,0,255,None,Passable
+  8,5:0,0,23,None,Blocked
+  9,5:0,0,255,None,Passable
+  10,5:0,0,255,None,Passable
+  11,5:0,0,255,None,Passable
+  12,5:0,0,255,None,Passable
+  13,5:0,0,255,None,Passable
+  14,5:0,0,23,None,Blocked
+  15,5:0,0,255,None,Passable
+  16,5:0,0,23,None,Blocked
+  17,5:0,0,23,None,Blocked
+  18,5:0,0,255,None,Passable
+  19,5:0,0,255,None,Passable
+  20,5:0,0,255,None,Passable
+  21,5:0,0,23,None,Blocked
+  22,5:0,0,23,None,Blocked
+  23,5:0,0,255,None,Passable
+  24,5:0,0,23,None,Blocked
+  25,5:0,0,255,None,Passable
+  26,5:0,0,255,None,Passable
+  27,5:0,0,255,None,Passable
+  28,5:0,0,255,None,Passable
+  29,5:0,0,23,None,Blocked
+  30,5:0,0,255,None,Passable
+  31,5:0,0,23,None,Blocked
+  0,6:0,0,255,None,Passable
+  1,6:0,0,255,None,Passable
+  2,6:0,0,255,None,Passable
+  3,6:0,0,21,None,Blocked,Face=West
+  4,6:0,0,255,None,Blocked
+  5,6:0,0,21,None,Blocked,Face=East
+  6,6:0,0,255,None,Passable
+  7,6:0,0,255,None,Passable
+  8,6:0,0,255,None,Passable
+  9,6:0,0,255,None,Passable
+  10,6:0,0,255,None,Passable
+  11,6:0,0,23,None,Blocked
+  12,6:0,0,255,None,Passable
+  13,6:0,0,255,None,Passable
+  14,6:0,0,255,None,Passable
+  15,6:0,0,255,None,Passable
+  16,6:0,0,23,None,Blocked
+  17,6:0,0,23,None,Blocked
+  18,6:0,0,255,None,Passable
+  19,6:0,0,255,None,Passable
+  20,6:0,0,255,None,Passable
+  21,6:0,0,255,None,Passable
+  22,6:0,0,255,None,Passable
+  23,6:0,0,24,None,Blocked
+  24,6:0,0,21,None,Blocked,Face=South
+  25,6:0,0,24,None,Blocked
+  26,6:0,0,255,None,Passable
+  27,6:0,0,255,None,Passable
+  28,6:0,0,255,None,Passable
+  29,6:0,0,23,None,Blocked
+  30,6:0,0,255,None,Passable
+  31,6:0,0,255,None,Passable
+  0,7:0,0,255,None,Passable
+  1,7:0,0,255,None,Passable
+  2,7:0,0,23,None,Blocked
+  3,7:0,0,24,None,Blocked
+  4,7:0,0,21,None,Blocked,Face=North
+  5,7:0,0,24,None,Blocked
+  6,7:0,0,23,None,Blocked
+  7,7:0,0,255,None,Passable
+  8,7:0,0,255,None,Passable
+  9,7:0,0,23,None,Blocked
+  10,7:0,0,255,None,Passable
+  11,7:0,0,255,None,Passable
+  12,7:0,0,255,None,Passable
+  13,7:0,0,255,None,Passable
+  14,7:0,0,23,None,Blocked
+  15,7:0,0,255,None,Passable
+  16,7:0,0,255,None,Passable
+  17,7:0,0,23,None,Blocked
+  18,7:0,0,255,None,Passable
+  19,7:0,0,255,None,Passable
+  20,7:0,0,255,None,Passable
+  21,7:0,0,255,None,Passable
+  22,7:0,0,23,None,Blocked
+  23,7:0,0,21,None,Blocked,Face=West
+  24,7:0,0,255,None,Blocked
+  25,7:0,0,22,None,Passable,Face=East,GateOpen
+  26,7:0,0,255,None,Passable
+  27,7:0,0,255,None,Passable
+  28,7:0,0,255,None,Passable
+  29,7:0,0,23,None,Blocked
+  30,7:0,0,255,None,Passable
+  31,7:0,0,255,None,Passable
+  0,8:0,0,23,None,Blocked
+  1,8:0,0,23,None,Blocked
+  2,8:0,0,23,None,Blocked
+  3,8:0,0,23,None,Blocked
+  4,8:0,0,23,None,Blocked
+  5,8:0,0,23,None,Blocked
+  6,8:0,0,23,None,Blocked
+  7,8:0,0,23,None,Blocked
+  8,8:0,0,23,None,Blocked
+  9,8:0,0,255,None,Passable
+  10,8:0,0,255,None,Passable
+  11,8:0,0,255,None,Passable
+  12,8:0,0,23,None,Blocked
+  13,8:0,0,255,None,Passable
+  14,8:0,0,255,None,Passable
+  15,8:0,0,255,None,Passable
+  16,8:0,0,23,None,Blocked
+  17,8:0,0,255,None,Passable
+  18,8:0,0,255,None,Passable
+  19,8:0,0,255,None,Passable
+  20,8:0,0,23,None,Blocked
+  21,8:0,0,255,None,Passable
+  22,8:0,0,255,None,Passable
+  23,8:0,0,24,None,Blocked
+  24,8:0,0,21,None,Blocked,Face=North
+  25,8:0,0,24,None,Blocked
+  26,8:0,0,255,None,Passable
+  27,8:0,0,255,None,Passable
+  28,8:0,0,23,None,Blocked
+  29,8:0,0,23,None,Blocked
+  30,8:0,0,23,None,Blocked
+  31,8:0,0,255,None,Passable
+  0,9:0,0,255,None,Passable
+  1,9:0,0,23,None,Blocked
+  2,9:0,0,255,None,Passable
+  3,9:0,0,255,None,Passable
+  4,9:0,0,23,None,Blocked
+  5,9:0,0,255,None,Passable
+  6,9:0,0,23,None,Blocked
+  7,9:0,0,255,None,Passable
+  8,9:0,0,255,None,Passable
+  9,9:0,0,255,None,Passable
+  10,9:0,0,255,None,Passable
+  11,9:0,0,255,None,Passable
+  12,9:0,0,255,None,Passable
+  13,9:0,0,255,None,Passable
+  14,9:0,0,255,None,Passable
+  15,9:0,0,23,None,Blocked
+  16,9:0,0,23,None,Blocked
+  17,9:0,0,255,None,Passable
+  18,9:0,0,255,None,Passable
+  19,9:0,0,23,None,Blocked
+  20,9:0,0,255,None,Passable
+  21,9:0,0,255,None,Passable
+  22,9:0,0,20,Generic,Kickable,Face=West
+  23,9:0,0,255,None,Passable
+  24,9:0,0,23,None,Blocked
+  25,9:0,0,255,None,Passable
+  26,9:0,0,255,None,Passable
+  27,9:0,0,255,None,Passable
+  28,9:0,0,255,None,Passable
+  29,9:0,0,23,None,Blocked
+  30,9:0,0,255,None,Passable
+  31,9:0,0,255,None,Passable
+  0,10:0,0,255,None,Passable
+  1,10:0,0,255,None,Passable
+  2,10:0,0,255,None,Passable
+  3,10:0,0,255,None,Passable
+  4,10:0,0,255,None,Passable
+  5,10:0,0,23,None,Blocked
+  6,10:0,0,255,None,Passable
+  7,10:0,0,255,None,Passable
+  8,10:0,0,255,None,Passable
+  9,10:0,0,23,None,Blocked
+  10,10:0,0,255,None,Passable
+  11,10:0,0,255,None,Passable
+  12,10:0,0,255,None,Passable
+  13,10:0,0,255,None,Passable
+  14,10:0,0,255,None,Passable
+  15,10:0,0,20,Generic,Kickable
+  16,10:0,0,255,None,Passable
+  17,10:0,0,255,None,Passable
+  18,10:0,0,255,None,Passable
+  19,10:0,0,255,None,Passable
+  20,10:0,0,255,None,Passable
+  21,10:0,0,255,None,Passable
+  22,10:0,0,23,None,Blocked
+  23,10:0,0,23,None,Blocked
+  24,10:0,0,23,None,Blocked
+  25,10:0,0,255,None,Passable
+  26,10:0,0,255,None,Passable
+  27,10:0,0,255,None,Passable
+  28,10:0,0,255,None,Passable
+  29,10:0,0,23,None,Blocked
+  30,10:0,0,255,None,Passable
+  31,10:0,0,23,None,Blocked
+  0,11:0,0,255,None,Passable
+  1,11:0,0,255,None,Passable
+  2,11:0,0,255,None,Passable
+  3,11:0,0,255,None,Passable
+  4,11:0,0,255,None,Passable
+  5,11:0,0,255,None,Passable
+  6,11:0,0,255,None,Passable
+  7,11:0,0,255,None,Passable
+  8,11:0,0,255,None,Passable
+  9,11:0,0,255,None,Passable
+  10,11:0,0,255,None,Passable
+  11,11:0,0,255,None,Passable
+  12,11:0,0,23,None,Blocked
+  13,11:0,0,255,None,Passable
+  14,11:0,0,255,None,Passable
+  15,11:0,0,255,None,Passable
+  16,11:0,0,255,None,Passable
+  17,11:0,0,255,None,Passable
+  18,11:0,0,255,None,Passable
+  19,11:0,0,255,None,Passable
+  20,11:0,0,255,None,Passable
+  21,11:0,0,255,None,Passable
+  22,11:0,0,255,None,Passable
+  23,11:0,0,255,None,Passable
+  24,11:0,0,255,None,Passable
+  25,11:0,0,23,None,Blocked
+  26,11:0,0,255,None,Passable
+  27,11:0,0,23,None,Blocked
+  28,11:0,0,255,None,Passable
+  29,11:0,0,23,None,Blocked
+  30,11:0,0,255,None,Passable
+  31,11:0,0,255,None,Passable
+  0,12:0,0,255,None,Passable
+  1,12:0,0,255,None,Passable
+  2,12:0,0,23,None,Blocked
+  3,12:0,0,23,None,Blocked
+  4,12:0,0,255,None,Passable
+  5,12:0,0,255,None,Passable
+  6,12:0,0,23,None,Blocked
+  7,12:0,0,255,None,Passable
+  8,12:0,0,255,None,Passable
+  9,12:0,0,255,None,Passable
+  10,12:0,0,255,None,Passable
+  11,12:0,0,23,None,Blocked
+  12,12:0,0,23,None,Blocked
+  13,12:0,0,255,None,Passable
+  14,12:0,0,255,None,Passable
+  15,12:0,0,255,None,Passable
+  16,12:0,0,255,None,Passable
+  17,12:0,0,255,None,Passable
+  18,12:0,0,23,None,Blocked
+  19,12:0,0,255,None,Passable
+  20,12:0,0,23,None,Blocked
+  21,12:0,0,23,None,Blocked
+  22,12:0,0,255,None,Passable
+  23,12:0,0,255,None,Passable
+  24,12:0,0,255,None,Passable
+  25,12:0,0,23,None,Blocked
+  26,12:0,0,255,None,Passable
+  27,12:0,0,255,None,Passable
+  28,12:0,0,255,None,Passable
+  29,12:0,0,255,None,Passable
+  30,12:0,0,255,None,Passable
+  31,12:0,0,255,None,Passable
+  0,13:0,0,23,None,Blocked
+  1,13:0,0,23,None,Blocked
+  2,13:0,0,255,None,Passable
+  3,13:0,0,255,None,Passable
+  4,13:0,0,255,None,Passable
+  5,13:0,0,255,None,Passable
+  6,13:0,0,255,None,Passable
+  7,13:0,0,255,None,Passable
+  8,13:0,0,255,None,Passable
+  9,13:0,0,255,None,Passable
+  10,13:0,0,255,None,Passable
+  11,13:0,0,23,None,Blocked
+  12,13:0,0,23,None,Blocked
+  13,13:0,0,255,None,Passable
+  14,13:0,0,255,None,Passable
+  15,13:0,0,255,None,Passable
+  16,13:0,0,255,None,Passable
+  17,13:0,0,255,None,Passable
+  18,13:0,0,23,None,Blocked
+  19,13:0,0,23,None,Blocked
+  20,13:0,0,255,None,Passable
+  21,13:0,0,255,None,Passable
+  22,13:0,0,255,None,Passable
+  23,13:0,0,255,None,Passable
+  24,13:0,0,255,None,Passable
+  25,13:0,0,255,None,Passable
+  26,13:0,0,255,None,Passable
+  27,13:0,0,255,None,Passable
+  28,13:0,0,255,None,Passable
+  29,13:0,0,255,None,Passable
+  30,13:0,0,255,None,Passable
+  31,13:0,0,255,None,Passable
+  0,14:0,0,255,None,Passable
+  1,14:0,0,23,None,Blocked
+  2,14:0,0,255,None,Passable
+  3,14:0,0,255,None,Passable
+  4,14:0,0,23,None,Blocked
+  5,14:0,0,255,None,Passable
+  6,14:0,0,255,None,Passable
+  7,14:0,0,23,None,Blocked
+  8,14:0,0,23,None,Blocked
+  9,14:0,0,255,None,Passable
+  10,14:0,0,255,None,Passable
+  11,14:0,0,255,None,Passable
+  12,14:0,0,23,None,Blocked
+  13,14:0,0,23,None,Blocked
+  14,14:0,0,24,None,Blocked
+  15,14:0,0,22,None,Passable,Face=South,GateOpen
+  16,14:0,0,24,None,Blocked
+  17,14:0,0,255,None,Passable
+  18,14:0,0,255,None,Passable
+  19,14:0,0,255,None,Passable
+  20,14:0,0,255,None,Passable
+  21,14:0,0,255,None,Passable
+  22,14:0,0,255,None,Passable
+  23,14:0,0,23,None,Blocked
+  24,14:0,0,255,None,Passable
+  25,14:0,0,23,None,Blocked
+  26,14:0,0,255,None,Passable
+  27,14:0,0,255,None,Passable
+  28,14:0,0,255,None,Passable
+  29,14:0,0,255,None,Passable
+  30,14:0,0,255,None,Passable
+  31,14:0,0,255,None,Passable
+  0,15:0,0,255,None,Passable
+  1,15:0,0,255,None,Passable
+  2,15:0,0,23,None,Blocked
+  3,15:0,0,255,None,Passable
+  4,15:0,0,255,None,Passable
+  5,15:0,0,255,None,Passable
+  6,15:0,0,255,None,Passable
+  7,15:0,0,255,None,Passable
+  8,15:0,0,23,None,Blocked
+  9,15:0,0,255,None,Passable
+  10,15:0,0,255,None,Passable
+  11,15:0,0,255,None,Passable
+  12,15:0,0,23,None,Blocked
+  13,15:0,0,255,None,Passable
+  14,15:0,0,21,None,Blocked,Face=West
+  15,15:0,0,255,None,Blocked
+  16,15:0,0,21,None,Blocked,Face=East
+  17,15:0,0,255,None,Passable
+  18,15:0,0,255,None,Passable
+  19,15:0,0,255,None,Passable
+  20,15:0,0,23,None,Blocked
+  21,15:0,0,255,None,Passable
+  22,15:0,0,255,None,Passable
+  23,15:0,0,23,None,Blocked
+  24,15:0,0,23,None,Blocked
+  25,15:0,0,255,None,Passable
+  26,15:0,0,255,None,Passable
+  27,15:0,0,255,None,Passable
+  28,15:0,0,23,None,Blocked
+  29,15:0,0,255,None,Passable
+  30,15:0,0,255,None,Passable
+  31,15:0,0,255,None,Passable
+  0,16:0,0,255,None,Passable
+  1,16:0,0,255,None,Passable
+  2,16:0,0,255,None,Passable
+  3,16:0,0,255,None,Passable
+  4,16:0,0,255,None,Passable
+  5,16:0,0,255,None,Passable
+  6,16:0,0,255,None,Passable
+  7,16:0,0,255,None,Passable
+  8,16:0,0,20,Generic,Kickable
+  9,16:0,0,255,None,Passable
+  10,16:0,0,255,None,Passable
+  11,16:0,0,255,None,Passable
+  12,16:0,0,255,None,Passable
+  13,16:0,0,255,None,Passable
+  14,16:0,0,24,None,Blocked
+  15,16:0,0,21,None,Blocked,Face=North
+  16,16:0,0,24,None,Blocked
+  17,16:0,0,23,None,Blocked
+  18,16:0,0,255,None,Passable
+  19,16:0,0,255,None,Passable
+  20,16:0,0,255,None,Passable
+  21,16:0,0,255,None,Passable
+  22,16:0,0,255,None,Passable
+  23,16:0,0,255,None,Passable
+  24,16:0,0,255,None,Passable
+  25,16:0,0,255,None,Passable
+  26,16:0,0,23,None,Blocked
+  27,16:0,0,255,None,Passable
+  28,16:0,0,255,None,Passable
+  29,16:0,0,255,None,Passable
+  30,16:0,0,255,None,Passable
+  31,16:0,0,23,None,Blocked
+  0,17:0,0,255,None,Passable
+  1,17:0,0,255,None,Passable
+  2,17:0,0,23,None,Blocked
+  3,17:0,0,23,None,Blocked
+  4,17:0,0,255,None,Passable
+  5,17:0,0,255,None,Passable
+  6,17:0,0,255,None,Passable
+  7,17:0,0,255,None,Passable
+  8,17:0,0,255,None,Passable
+  9,17:0,0,255,None,Passable
+  10,17:0,0,23,None,Blocked
+  11,17:0,0,255,None,Passable
+  12,17:0,0,255,None,Passable
+  13,17:0,0,255,None,Passable
+  14,17:0,0,255,None,Passable
+  15,17:0,0,23,None,Blocked
+  16,17:0,0,255,None,Passable
+  17,17:0,0,23,None,Blocked
+  18,17:0,0,255,None,Passable
+  19,17:0,0,255,None,Passable
+  20,17:0,0,23,None,Blocked
+  21,17:0,0,255,None,Passable
+  22,17:0,0,255,None,Passable
+  23,17:0,0,255,None,Passable
+  24,17:0,0,23,None,Blocked
+  25,17:0,0,255,None,Passable
+  26,17:0,0,255,None,Passable
+  27,17:0,0,255,None,Passable
+  28,17:0,0,23,None,Blocked
+  29,17:0,0,255,None,Passable
+  30,17:0,0,255,None,Passable
+  31,17:0,0,255,None,Passable
+  0,18:0,0,255,None,Passable
+  1,18:0,0,255,None,Passable
+  2,18:0,0,255,None,Passable
+  3,18:0,0,23,None,Blocked
+  4,18:0,0,255,None,Passable
+  5,18:0,0,255,None,Passable
+  6,18:0,0,255,None,Passable
+  7,18:0,0,255,None,Passable
+  8,18:0,0,255,None,Passable
+  9,18:0,0,23,None,Blocked
+  10,18:0,0,23,None,Blocked
+  11,18:0,0,255,None,Passable
+  12,18:0,0,23,None,Blocked
+  13,18:0,0,255,None,Passable
+  14,18:0,0,255,None,Passable
+  15,18:0,0,255,None,Passable
+  16,18:0,0,255,None,Passable
+  17,18:0,0,255,None,Passable
+  18,18:0,0,255,None,Passable
+  19,18:0,0,255,None,Passable
+  20,18:0,0,255,None,Passable
+  21,18:0,0,255,None,Passable
+  22,18:0,0,255,None,Passable
+  23,18:0,0,255,None,Passable
+  24,18:0,0,23,None,Blocked
+  25,18:0,0,255,None,Passable
+  26,18:0,0,255,None,Passable
+  27,18:0,0,255,None,Passable
+  28,18:0,0,255,None,Passable
+  29,18:0,0,255,None,Passable
+  30,18:0,0,255,None,Passable
+  31,18:0,0,255,None,Passable
+  0,19:0,0,255,None,Passable
+  1,19:0,0,23,None,Blocked
+  2,19:0,0,255,None,Passable
+  3,19:0,0,255,None,Passable
+  4,19:0,0,255,None,Passable
+  5,19:0,0,23,None,Blocked
+  6,19:0,0,255,None,Passable
+  7,19:0,0,255,None,Passable
+  8,19:0,0,255,None,Passable
+  9,19:0,0,255,None,Passable
+  10,19:0,0,255,None,Passable
+  11,19:0,0,255,None,Passable
+  12,19:0,0,255,None,Passable
+  13,19:0,0,255,None,Passable
+  14,19:0,0,255,None,Passable
+  15,19:0,0,23,None,Blocked
+  16,19:0,0,23,None,Blocked
+  17,19:0,0,255,None,Passable
+  18,19:0,0,23,None,Blocked
+  19,19:0,0,255,None,Passable
+  20,19:0,0,255,None,Passable
+  21,19:0,0,255,None,Passable
+  22,19:0,0,255,None,Passable
+  23,19:0,0,23,None,Blocked
+  24,19:0,0,23,None,Blocked
+  25,19:0,0,7,Generic,Kickable
+  26,19:0,0,23,None,Blocked
+  27,19:0,0,23,None,Blocked
+  28,19:0,0,255,None,Passable
+  29,19:0,0,23,None,Blocked
+  30,19:0,0,255,None,Passable
+  31,19:0,0,255,None,Passable
+  0,20:0,0,255,None,Passable
+  1,20:0,0,255,None,Passable
+  2,20:0,0,255,None,Passable
+  3,20:0,0,255,None,Passable
+  4,20:0,0,23,None,Blocked
+  5,20:0,0,255,None,Passable
+  6,20:0,0,255,None,Passable
+  7,20:0,0,255,None,Passable
+  8,20:0,0,23,None,Blocked
+  9,20:0,0,255,None,Passable
+  10,20:0,0,255,None,Passable
+  11,20:0,0,23,None,Blocked
+  12,20:0,0,23,None,Blocked
+  13,20:0,0,255,None,Passable
+  14,20:0,0,255,None,Passable
+  15,20:0,0,255,None,Passable
+  16,20:0,0,255,None,Passable
+  17,20:0,0,255,None,Passable
+  18,20:0,0,255,None,Passable
+  19,20:0,0,255,None,Passable
+  20,20:0,0,255,None,Passable
+  21,20:0,0,23,None,Blocked
+  22,20:0,0,255,None,Passable
+  23,20:0,0,255,None,Passable
+  24,20:0,0,23,None,Blocked
+  25,20:0,0,23,None,Blocked
+  26,20:0,0,23,None,Blocked
+  27,20:0,0,255,None,Passable
+  28,20:0,0,255,None,Passable
+  29,20:0,0,255,None,Passable
+  30,20:0,0,255,None,Passable
+  31,20:0,0,255,None,Passable
+  0,21:0,0,255,None,Passable
+  1,21:0,0,255,None,Passable
+  2,21:0,0,255,None,Passable
+  3,21:0,0,255,None,Passable
+  4,21:0,0,255,None,Passable
+  5,21:0,0,255,None,Passable
+  6,21:0,0,255,None,Passable
+  7,21:0,0,255,None,Passable
+  8,21:0,0,255,None,Passable
+  9,21:0,0,255,None,Passable
+  10,21:0,0,255,None,Passable
+  11,21:0,0,255,None,Passable
+  12,21:0,0,23,None,Blocked
+  13,21:0,0,23,None,Blocked
+  14,21:0,0,255,None,Passable
+  15,21:0,0,255,None,Passable
+  16,21:0,0,255,None,Passable
+  17,21:0,0,255,None,Passable
+  18,21:0,0,255,None,Passable
+  19,21:0,0,255,None,Passable
+  20,21:0,0,255,None,Passable
+  21,21:0,0,255,None,Passable
+  22,21:0,0,255,None,Passable
+  23,21:0,0,255,None,Passable
+  24,21:0,0,255,None,Passable
+  25,21:0,0,255,None,Passable
+  26,21:0,0,255,None,Passable
+  27,21:0,0,255,None,Passable
+  28,21:0,0,255,None,Passable
+  29,21:0,0,23,None,Blocked
+  30,21:0,0,255,None,Passable
+  31,21:0,0,255,None,Passable
+  0,22:0,0,23,None,Blocked
+  1,22:0,0,255,None,Passable
+  2,22:0,0,255,None,Passable
+  3,22:0,0,24,None,Blocked
+  4,22:0,0,21,None,Blocked,Face=South
+  5,22:0,0,24,None,Blocked
+  6,22:0,0,255,None,Passable
+  7,22:0,0,23,None,Blocked
+  8,22:0,0,255,None,Passable
+  9,22:0,0,255,None,Passable
+  10,22:0,0,255,None,Passable
+  11,22:0,0,255,None,Passable
+  12,22:0,0,255,None,Passable
+  13,22:0,0,255,None,Passable
+  14,22:0,0,255,None,Passable
+  15,22:0,0,255,None,Passable
+  16,22:0,0,255,None,Passable
+  17,22:0,0,255,None,Passable
+  18,22:0,0,23,None,Blocked
+  19,22:0,0,255,None,Passable
+  20,22:0,0,23,None,Blocked
+  21,22:0,0,23,None,Blocked
+  22,22:0,0,255,None,Passable
+  23,22:0,0,255,None,Passable
+  24,22:0,0,255,None,Passable
+  25,22:0,0,255,None,Passable
+  26,22:0,0,255,None,Passable
+  27,22:0,0,255,None,Passable
+  28,22:0,0,23,None,Blocked
+  29,22:0,0,255,None,Passable
+  30,22:0,0,255,None,Passable
+  31,22:0,0,255,None,Passable
+  0,23:0,0,23,None,Blocked
+  1,23:0,0,255,None,Passable
+  2,23:0,0,255,None,Passable
+  3,23:0,0,22,None,Passable,Face=West,GateOpen
+  4,23:0,0,255,None,Blocked
+  5,23:0,0,21,None,Blocked,Face=East
+  6,23:0,0,255,None,Passable
+  7,23:0,0,255,None,Passable
+  8,23:0,0,255,None,Passable
+  9,23:0,0,255,None,Passable
+  10,23:0,0,255,None,Passable
+  11,23:0,0,255,None,Passable
+  12,23:0,0,255,None,Passable
+  13,23:0,0,255,None,Passable
+  14,23:0,0,255,None,Passable
+  15,23:0,0,255,None,Passable
+  16,23:0,0,255,None,Passable
+  17,23:0,0,255,None,Passable
+  18,23:0,0,23,None,Blocked
+  19,23:0,0,23,None,Blocked
+  20,23:0,0,255,None,Passable
+  21,23:0,0,23,None,Blocked
+  22,23:0,0,23,None,Blocked
+  23,23:0,0,23,None,Blocked
+  24,23:0,0,255,None,Passable
+  25,23:0,0,23,None,Blocked
+  26,23:0,0,255,None,Passable
+  27,23:0,0,255,None,Passable
+  28,23:0,0,255,None,Passable
+  29,23:0,0,255,None,Passable
+  30,23:0,0,255,None,Passable
+  31,23:0,0,255,None,Passable
+  0,24:0,0,255,None,Passable
+  1,24:0,0,23,None,Blocked
+  2,24:0,0,255,None,Passable
+  3,24:0,0,24,None,Blocked
+  4,24:0,0,21,None,Blocked,Face=North
+  5,24:0,0,24,None,Blocked
+  6,24:0,0,255,None,Passable
+  7,24:0,0,23,None,Blocked
+  8,24:0,0,255,None,Passable
+  9,24:0,0,255,None,Passable
+  10,24:0,0,23,None,Blocked
+  11,24:0,0,23,None,Blocked
+  12,24:0,0,23,None,Blocked
+  13,24:0,0,255,None,Passable
+  14,24:0,0,255,None,Passable
+  15,24:0,0,255,None,Passable
+  16,24:0,0,23,None,Blocked
+  17,24:0,0,23,None,Blocked
+  18,24:0,0,23,None,Blocked
+  19,24:0,0,23,None,Blocked
+  20,24:0,0,23,None,Blocked
+  21,24:0,0,255,None,Passable
+  22,24:0,0,255,None,Passable
+  23,24:0,0,255,None,Passable
+  24,24:0,0,255,None,Passable
+  25,24:0,0,255,None,Passable
+  26,24:0,0,23,None,Blocked
+  27,24:0,0,255,None,Passable
+  28,24:0,0,255,None,Passable
+  29,24:0,0,255,None,Passable
+  30,24:0,0,255,None,Passable
+  31,24:0,0,23,None,Blocked
+  0,25:0,0,255,None,Passable
+  1,25:0,0,23,None,Blocked
+  2,25:0,0,255,None,Passable
+  3,25:0,0,23,None,Blocked
+  4,25:0,0,255,None,Passable
+  5,25:0,0,23,None,Blocked
+  6,25:0,0,23,None,Blocked
+  7,25:0,0,255,None,Passable
+  8,25:0,0,255,None,Passable
+  9,25:0,0,255,None,Passable
+  10,25:0,0,255,None,Passable
+  11,25:0,0,23,None,Blocked
+  12,25:0,0,255,None,Passable
+  13,25:0,0,255,None,Passable
+  14,25:0,0,255,None,Passable
+  15,25:0,0,255,None,Passable
+  16,25:0,0,255,None,Passable
+  17,25:0,0,255,None,Passable
+  18,25:0,0,255,None,Passable
+  19,25:0,0,255,None,Passable
+  20,25:0,0,23,None,Blocked
+  21,25:0,0,23,None,Blocked
+  22,25:0,0,255,None,Passable
+  23,25:0,0,255,None,Passable
+  24,25:0,0,255,None,Passable
+  25,25:0,0,255,None,Passable
+  26,25:0,0,255,None,Passable
+  27,25:0,0,255,None,Passable
+  28,25:0,0,255,None,Passable
+  29,25:0,0,255,None,Passable
+  30,25:0,0,255,None,Passable
+  31,25:0,0,255,None,Passable
+  0,26:0,0,20,Generic,Kickable
+  1,26:0,0,255,None,Passable
+  2,26:0,0,255,None,Passable
+  3,26:0,0,23,None,Blocked
+  4,26:0,0,23,None,Blocked
+  5,26:0,0,23,None,Blocked
+  6,26:0,0,255,None,Passable
+  7,26:0,0,255,None,Passable
+  8,26:0,0,255,None,Passable
+  9,26:0,0,255,None,Passable
+  10,26:0,0,255,None,Passable
+  11,26:0,0,255,None,Passable
+  12,26:0,0,255,None,Passable
+  13,26:0,0,255,None,Passable
+  14,26:0,0,255,None,Passable
+  15,26:0,0,23,None,Blocked
+  16,26:0,0,24,None,Blocked,Face=South
+  17,26:0,0,255,None,Passable
+  18,26:0,0,24,None,Blocked,Face=South
+  19,26:0,0,23,None,Blocked
+  20,26:0,0,23,None,Blocked
+  21,26:0,0,255,None,Passable
+  22,26:0,0,255,None,Passable
+  23,26:0,0,255,None,Passable
+  24,26:0,0,255,None,Passable
+  25,26:0,0,23,None,Blocked
+  26,26:0,0,255,None,Passable
+  27,26:0,0,255,None,Passable
+  28,26:0,0,23,None,Blocked
+  29,26:0,0,255,None,Passable
+  30,26:0,0,255,None,Passable
+  31,26:0,0,255,None,Passable
+  0,27:0,0,255,None,Passable
+  1,27:0,0,255,None,Passable
+  2,27:0,0,255,None,Passable
+  3,27:0,0,255,None,Passable
+  4,27:0,0,255,None,Passable
+  5,27:0,0,255,None,Passable
+  6,27:0,0,255,None,Passable
+  7,27:0,0,255,None,Passable
+  8,27:0,0,255,None,Passable
+  9,27:0,0,23,None,Blocked
+  10,27:0,0,255,None,Passable
+  11,27:0,0,255,None,Passable
+  12,27:0,0,255,None,Passable
+  13,27:0,0,255,None,Passable
+  14,27:0,0,255,None,Passable
+  15,27:0,0,255,None,Passable
+  16,27:0,0,21,None,Blocked,Face=West
+  17,27:1,0,10,Generic,Kickable,Face=South
+  18,27:0,0,21,None,Blocked,Face=East
+  19,27:0,0,23,None,Blocked
+  20,27:0,0,255,None,Passable
+  21,27:0,0,255,None,Passable
+  22,27:0,0,255,None,Passable
+  23,27:0,0,255,None,Passable
+  24,27:0,0,23,None,Blocked
+  25,27:0,0,255,None,Passable
+  26,27:0,0,255,None,Passable
+  27,27:0,0,255,None,Passable
+  28,27:0,0,23,None,Blocked
+  29,27:0,0,255,None,Passable
+  30,27:0,0,255,None,Passable
+  31,27:0,0,255,None,Passable
+  0,28:0,0,23,None,Blocked
+  1,28:0,0,23,None,Blocked
+  2,28:0,0,23,None,Blocked
+  3,28:0,0,255,None,Passable
+  4,28:0,0,255,None,Passable
+  5,28:0,0,255,None,Passable
+  6,28:0,0,255,None,Passable
+  7,28:0,0,255,None,Passable
+  8,28:0,0,255,None,Passable
+  9,28:0,0,255,None,Passable
+  10,28:0,0,23,None,Blocked
+  11,28:0,0,255,None,Passable
+  12,28:0,0,255,None,Passable
+  13,28:0,0,255,None,Passable
+  14,28:0,0,23,None,Blocked
+  15,28:0,0,23,None,Blocked
+  16,28:0,0,24,None,Blocked
+  17,28:0,0,21,None,Blocked,Face=North
+  18,28:0,0,24,None,Blocked
+  19,28:0,0,255,None,Passable
+  20,28:0,0,255,None,Passable
+  21,28:0,0,23,None,Blocked
+  22,28:0,0,255,None,Passable
+  23,28:0,0,255,None,Passable
+  24,28:0,0,23,None,Blocked
+  25,28:0,0,23,None,Blocked
+  26,28:0,0,255,None,Passable
+  27,28:0,0,255,None,Passable
+  28,28:0,0,255,None,Passable
+  29,28:0,0,255,None,Passable
+  30,28:0,0,23,None,Blocked
+  31,28:0,0,23,None,Blocked
+  0,29:0,0,255,None,Passable
+  1,29:0,0,23,None,Blocked
+  2,29:0,0,255,None,Passable
+  3,29:0,0,23,None,Blocked
+  4,29:0,0,255,None,Passable
+  5,29:0,0,255,None,Passable
+  6,29:0,0,23,None,Blocked
+  7,29:0,0,23,None,Blocked
+  8,29:0,0,255,None,Passable
+  9,29:0,0,255,None,Passable
+  10,29:0,0,255,None,Passable
+  11,29:0,0,255,None,Passable
+  12,29:0,0,255,None,Passable
+  13,29:0,0,255,None,Passable
+  14,29:0,0,255,None,Passable
+  15,29:0,0,23,None,Blocked
+  16,29:0,0,23,None,Blocked
+  17,29:0,0,23,None,Blocked
+  18,29:0,0,23,None,Blocked
+  19,29:0,0,255,None,Passable
+  20,29:0,0,255,None,Passable
+  21,29:0,0,255,None,Passable
+  22,29:0,0,255,None,Passable
+  23,29:0,0,255,None,Passable
+  24,29:0,0,255,None,Passable
+  25,29:0,0,255,None,Passable
+  26,29:0,0,255,None,Passable
+  27,29:0,0,255,None,Passable
+  28,29:0,0,23,None,Blocked
+  29,29:0,0,255,None,Passable
+  30,29:0,0,255,None,Passable
+  31,29:0,0,255,None,Passable
+  0,30:0,0,255,None,Passable
+  1,30:0,0,255,None,Passable
+  2,30:0,0,255,None,Passable
+  3,30:0,0,255,None,Passable
+  4,30:0,0,255,None,Passable
+  5,30:0,0,255,None,Passable
+  6,30:0,0,255,None,Passable
+  7,30:0,0,23,None,Blocked
+  8,30:0,0,23,None,Blocked
+  9,30:0,0,255,None,Passable
+  10,30:0,0,255,None,Passable
+  11,30:0,0,255,None,Passable
+  12,30:0,0,255,None,Passable
+  13,30:0,0,255,None,Passable
+  14,30:0,0,255,None,Passable
+  15,30:0,0,23,None,Blocked
+  16,30:0,0,255,None,Passable
+  17,30:0,0,255,None,Passable
+  18,30:0,0,23,None,Blocked
+  19,30:0,0,255,None,Passable
+  20,30:0,0,255,None,Passable
+  21,30:0,0,255,None,Passable
+  22,30:0,0,255,None,Passable
+  23,30:0,0,23,None,Blocked
+  24,30:0,0,255,None,Passable
+  25,30:0,0,255,None,Passable
+  26,30:0,0,255,None,Passable
+  27,30:0,0,255,None,Passable
+  28,30:0,0,255,None,Passable
+  29,30:0,0,23,None,Blocked
+  30,30:0,0,255,None,Passable
+  31,30:0,0,255,None,Passable
+  0,31:0,0,255,None,Passable
+  1,31:0,0,255,None,Passable
+  2,31:0,0,23,None,Blocked
+  3,31:0,0,255,None,Passable
+  4,31:0,0,255,None,Passable
+  5,31:0,0,255,None,Passable
+  6,31:0,0,255,None,Passable
+  7,31:0,0,23,None,Blocked
+  8,31:3,0,8,Generic,Kickable
+  9,31:0,0,23,None,Blocked
+  10,31:0,0,255,None,Passable
+  11,31:0,0,255,None,Passable
+  12,31:0,0,23,None,Blocked
+  13,31:0,0,255,None,Passable
+  14,31:0,0,255,None,Passable
+  15,31:0,0,255,None,Passable
+  16,31:0,0,255,None,Passable
+  17,31:0,0,23,None,Blocked
+  18,31:0,0,23,None,Blocked
+  19,31:0,0,23,None,Blocked
+  20,31:0,0,255,None,Passable
+  21,31:0,0,255,None,Passable
+  22,31:0,0,24,None,Blocked
+  23,31:0,0,21,None,Blocked,Face=South
+  24,31:0,0,24,None,Blocked
+  25,31:0,0,255,None,Passable
+  26,31:0,0,23,None,Blocked
+  27,31:0,0,255,None,Passable
+  28,31:0,0,255,None,Passable
+  29,31:0,0,23,None,Blocked
+  30,31:0,0,255,None,Passable
+  31,31:0,0,255,None,Passable
+  0,32:0,0,255,None,Passable
+  1,32:0,0,255,None,Passable
+  2,32:0,0,255,None,Passable
+  3,32:0,0,23,None,Blocked
+  4,32:0,0,255,None,Passable
+  5,32:0,0,255,None,Passable
+  6,32:0,0,255,None,Passable
+  7,32:0,0,23,None,Blocked
+  8,32:0,0,255,None,Passable
+  9,32:0,0,255,None,Passable
+  10,32:0,0,255,None,Passable
+  11,32:0,0,23,None,Blocked
+  12,32:0,0,23,None,Blocked
+  13,32:0,0,255,None,Passable
+  14,32:0,0,23,None,Blocked
+  15,32:0,0,255,None,Passable
+  16,32:0,0,255,None,Passable
+  17,32:0,0,255,None,Passable
+  18,32:0,0,255,None,Passable
+  19,32:0,0,23,None,Blocked
+  20,32:0,0,255,None,Passable
+  21,32:0,0,255,None,Passable
+  22,32:0,0,22,None,Passable,Face=West,GateOpen
+  23,32:0,0,255,None,Blocked
+  24,32:0,0,21,None,Blocked,Face=East
+  25,32:0,0,255,None,Passable
+  26,32:0,0,255,None,Passable
+  27,32:0,0,23,None,Blocked
+  28,32:0,0,255,None,Passable
+  29,32:0,0,255,None,Passable
+  30,32:0,0,23,None,Blocked
+  31,32:0,0,255,None,Passable
+  0,33:0,0,255,None,Passable
+  1,33:0,0,255,None,Passable
+  2,33:0,0,255,None,Passable
+  3,33:0,0,255,None,Passable
+  4,33:0,0,23,None,Blocked
+  5,33:0,0,255,None,Passable
+  6,33:0,0,255,None,Passable
+  7,33:0,0,23,None,Blocked
+  8,33:0,0,255,None,Passable
+  9,33:0,0,255,None,Passable
+  10,33:0,0,255,None,Passable
+  11,33:0,0,255,None,Passable
+  12,33:0,0,255,None,Passable
+  13,33:0,0,255,None,Passable
+  14,33:0,0,255,None,Passable
+  15,33:0,0,255,None,Passable
+  16,33:0,0,255,None,Passable
+  17,33:0,0,255,None,Passable
+  18,33:0,0,255,None,Passable
+  19,33:0,0,255,None,Passable
+  20,33:0,0,255,None,Passable
+  21,33:0,0,255,None,Passable
+  22,33:0,0,24,None,Blocked
+  23,33:0,0,21,None,Blocked,Face=North
+  24,33:0,0,24,None,Blocked
+  25,33:0,0,255,None,Passable
+  26,33:0,0,255,None,Passable
+  27,33:0,0,255,None,Passable
+  28,33:0,0,255,None,Passable
+  29,33:0,0,255,None,Passable
+  30,33:0,0,23,None,Blocked
+  31,33:0,0,255,None,Passable
+  0,34:0,0,255,None,Passable
+  1,34:0,0,255,None,Passable
+  2,34:0,0,255,None,Passable
+  3,34:0,0,23,None,Blocked
+  4,34:0,0,255,None,Passable
+  5,34:0,0,255,None,Passable
+  6,34:0,0,255,None,Passable
+  7,34:0,0,255,None,Passable
+  8,34:0,0,23,None,Blocked
+  9,34:0,0,255,None,Passable
+  10,34:0,0,255,None,Passable
+  11,34:0,0,255,None,Passable
+  12,34:0,0,255,None,Passable
+  13,34:0,0,255,None,Passable
+  14,34:0,0,255,None,Passable
+  15,34:0,0,255,None,Passable
+  16,34:0,0,23,None,Blocked
+  17,34:0,0,255,None,Passable
+  18,34:0,0,255,None,Passable
+  19,34:0,0,255,None,Passable
+  20,34:0,0,255,None,Passable
+  21,34:0,0,255,None,Passable
+  22,34:0,0,255,None,Passable
+  23,34:0,0,255,None,Passable
+  24,34:0,0,255,None,Passable
+  25,34:0,0,255,None,Passable
+  26,34:0,0,255,None,Passable
+  27,34:0,0,255,None,Passable
+  28,34:0,0,255,None,Passable
+  29,34:0,0,255,None,Passable
+  30,34:0,0,255,None,Passable
+  31,34:0,0,255,None,Passable
+  0,35:0,0,255,None,Passable
+  1,35:0,0,255,None,Passable
+  2,35:0,0,255,None,Passable
+  3,35:0,0,255,None,Passable
+  4,35:0,0,255,None,Passable
+  5,35:0,0,255,None,Passable
+  6,35:0,0,255,None,Passable
+  7,35:0,0,255,None,Passable
+  8,35:0,0,255,None,Passable
+  9,35:0,0,255,None,Passable
+  10,35:0,0,255,None,Passable
+  11,35:0,0,23,None,Blocked
+  12,35:0,0,255,None,Passable
+  13,35:0,0,255,None,Passable
+  14,35:0,0,255,None,Passable
+  15,35:0,0,255,None,Passable
+  16,35:0,0,255,None,Passable
+  17,35:0,0,255,None,Passable
+  18,35:0,0,255,None,Passable
+  19,35:0,0,23,None,Blocked
+  20,35:0,0,255,None,Passable
+  21,35:0,0,255,None,Passable
+  22,35:0,0,255,None,Passable
+  23,35:0,0,255,None,Passable
+  24,35:0,0,255,None,Passable
+  25,35:0,0,255,None,Passable
+  26,35:0,0,255,None,Passable
+  27,35:0,0,23,None,Blocked
+  28,35:0,0,255,None,Passable
+  29,35:0,0,255,None,Passable
+  30,35:0,0,255,None,Passable
+  31,35:0,0,255,None,Passable
+  0,36:0,0,255,None,Passable
+  1,36:0,0,255,None,Passable
+  2,36:0,0,20,Generic,Kickable
+  3,36:0,0,255,None,Passable
+  4,36:0,0,23,None,Blocked
+  5,36:0,0,255,None,Passable
+  6,36:0,0,255,None,Passable
+  7,36:0,0,255,None,Passable
+  8,36:0,0,23,None,Blocked
+  9,36:0,0,255,None,Passable
+  10,36:0,0,255,None,Passable
+  11,36:0,0,255,None,Passable
+  12,36:0,0,255,None,Passable
+  13,36:0,0,23,None,Blocked
+  14,36:0,0,255,None,Passable
+  15,36:0,0,255,None,Passable
+  16,36:0,0,255,None,Passable
+  17,36:0,0,23,None,Blocked
+  18,36:0,0,255,None,Passable
+  19,36:0,0,255,None,Passable
+  20,36:0,0,255,None,Passable
+  21,36:0,0,255,None,Passable
+  22,36:0,0,255,None,Passable
+  23,36:0,0,255,None,Passable
+  24,36:0,0,23,None,Blocked
+  25,36:0,0,255,None,Passable
+  26,36:0,0,255,None,Passable
+  27,36:0,0,255,None,Passable
+  28,36:0,0,255,None,Passable
+  29,36:0,0,255,None,Passable
+  30,36:0,0,255,None,Passable
+  31,36:0,0,255,None,Passable
+  0,37:0,0,255,None,Passable
+  1,37:0,0,255,None,Passable
+  2,37:0,0,255,None,Passable
+  3,37:0,0,23,None,Blocked
+  4,37:0,0,255,None,Passable
+  5,37:0,0,255,None,Passable
+  6,37:0,0,255,None,Passable
+  7,37:0,0,255,None,Passable
+  8,37:0,0,255,None,Passable
+  9,37:0,0,23,None,Blocked
+  10,37:0,0,23,None,Blocked
+  11,37:0,0,255,None,Passable
+  12,37:0,0,255,None,Passable
+  13,37:0,0,23,None,Blocked
+  14,37:0,0,255,None,Passable
+  15,37:0,0,23,None,Blocked
+  16,37:0,0,255,None,Passable
+  17,37:0,0,255,None,Passable
+  18,37:0,0,255,None,Passable
+  19,37:0,0,23,None,Blocked
+  20,37:0,0,255,None,Passable
+  21,37:0,0,255,None,Passable
+  22,37:0,0,255,None,Passable
+  23,37:0,0,23,None,Blocked
+  24,37:0,0,255,None,Passable
+  25,37:0,0,23,None,Blocked
+  26,37:0,0,255,None,Passable
+  27,37:0,0,255,None,Passable
+  28,37:0,0,255,None,Passable
+  29,37:0,0,255,None,Passable
+  30,37:0,0,255,None,Passable
+  31,37:0,0,255,None,Passable
+  0,38:0,0,255,None,Passable
+  1,38:0,0,255,None,Passable
+  2,38:0,0,255,None,Passable
+  3,38:0,0,255,None,Passable
+  4,38:0,0,255,None,Passable
+  5,38:0,0,23,None,Blocked
+  6,38:0,0,23,None,Blocked
+  7,38:0,0,255,None,Passable
+  8,38:0,0,23,None,Blocked
+  9,38:0,0,255,None,Passable
+  10,38:0,0,23,None,Blocked
+  11,38:0,0,255,None,Passable
+  12,38:0,0,255,None,Passable
+  13,38:0,0,255,None,Passable
+  14,38:0,0,255,None,Passable
+  15,38:0,0,255,None,Passable
+  16,38:0,0,255,None,Passable
+  17,38:0,0,255,None,Passable
+  18,38:0,0,255,None,Passable
+  19,38:0,0,255,None,Passable
+  20,38:0,0,255,None,Passable
+  21,38:0,0,23,None,Blocked
+  22,38:0,0,255,None,Passable
+  23,38:0,0,255,None,Passable
+  24,38:0,0,255,None,Passable
+  25,38:0,0,255,None,Passable
+  26,38:0,0,255,None,Passable
+  27,38:0,0,255,None,Passable
+  28,38:0,0,255,None,Passable
+  29,38:0,0,23,None,Blocked
+  30,38:0,0,255,None,Passable
+  31,38:0,0,255,None,Passable
+  0,39:0,0,255,None,Passable
+  1,39:0,0,255,None,Passable
+  2,39:0,0,23,None,Blocked
+  3,39:0,0,255,None,Passable
+  4,39:0,0,255,None,Passable
+  5,39:0,0,23,None,Blocked
+  6,39:0,0,255,None,Passable
+  7,39:0,0,255,None,Passable
+  8,39:0,0,23,None,Blocked
+  9,39:0,0,255,None,Passable
+  10,39:0,0,255,None,Passable
+  11,39:0,0,255,None,Passable
+  12,39:0,0,255,None,Passable
+  13,39:0,0,255,None,Passable
+  14,39:0,0,24,None,Blocked
+  15,39:0,0,21,None,Blocked,Face=South
+  16,39:0,0,24,None,Blocked
+  17,39:0,0,255,None,Passable
+  18,39:0,0,255,None,Passable
+  19,39:0,0,255,None,Passable
+  20,39:0,0,255,None,Passable
+  21,39:0,0,255,None,Passable
+  22,39:0,0,255,None,Passable
+  23,39:0,0,255,None,Passable
+  24,39:0,0,255,None,Passable
+  25,39:0,0,23,None,Blocked
+  26,39:0,0,255,None,Passable
+  27,39:0,0,255,None,Passable
+  28,39:0,0,255,None,Passable
+  29,39:0,0,255,None,Passable
+  30,39:0,0,255,None,Passable
+  31,39:0,0,255,None,Passable
+  0,40:0,0,255,None,Passable
+  1,40:0,0,255,None,Passable
+  2,40:0,0,255,None,Passable
+  3,40:0,0,255,None,Passable
+  4,40:0,0,255,None,Passable
+  5,40:0,0,255,None,Passable
+  6,40:0,0,255,None,Passable
+  7,40:0,0,255,None,Passable
+  8,40:0,0,255,None,Passable
+  9,40:0,0,255,None,Passable
+  10,40:0,0,255,None,Passable
+  11,40:0,0,255,None,Passable
+  12,40:0,0,23,None,Blocked
+  13,40:0,0,255,None,Passable
+  14,40:0,0,21,None,Blocked,Face=East
+  15,40:0,0,255,None,Blocked
+  16,40:0,0,21,None,Blocked,Face=West
+  17,40:0,0,255,None,Passable
+  18,40:0,0,255,None,Passable
+  19,40:0,0,23,None,Blocked
+  20,40:0,0,255,None,Passable
+  21,40:0,0,255,None,Passable
+  22,40:0,0,20,Generic,Kickable
+  23,40:0,0,255,None,Passable
+  24,40:0,0,255,None,Passable
+  25,40:0,0,255,None,Passable
+  26,40:0,0,255,None,Passable
+  27,40:0,0,255,None,Passable
+  28,40:0,0,23,None,Blocked
+  29,40:0,0,255,None,Passable
+  30,40:0,0,255,None,Passable
+  31,40:0,0,255,None,Passable
+  0,41:0,0,255,None,Passable
+  1,41:0,0,23,None,Blocked
+  2,41:0,0,255,None,Passable
+  3,41:0,0,255,None,Passable
+  4,41:0,0,255,None,Passable
+  5,41:0,0,255,None,Passable
+  6,41:0,0,255,None,Passable
+  7,41:0,0,255,None,Passable
+  8,41:0,0,255,None,Passable
+  9,41:0,0,255,None,Passable
+  10,41:0,0,255,None,Passable
+  11,41:0,0,255,None,Passable
+  12,41:0,0,255,None,Passable
+  13,41:0,0,255,None,Passable
+  14,41:0,0,24,None,Blocked
+  15,41:0,0,22,None,Passable,Face=North,GateOpen
+  16,41:0,0,24,None,Blocked
+  17,41:0,0,255,None,Passable
+  18,41:0,0,255,None,Passable
+  19,41:0,0,23,None,Blocked
+  20,41:0,0,255,None,Passable
+  21,41:0,0,255,None,Passable
+  22,41:0,0,255,None,Passable
+  23,41:0,0,255,None,Passable
+  24,41:0,0,255,None,Passable
+  25,41:0,0,255,None,Passable
+  26,41:0,0,255,None,Passable
+  27,41:0,0,23,None,Blocked
+  28,41:0,0,255,None,Passable
+  29,41:0,0,255,None,Passable
+  30,41:0,0,255,None,Passable
+  31,41:0,0,255,None,Passable
+  0,42:0,0,255,None,Passable
+  1,42:0,0,23,None,Blocked
+  2,42:0,0,255,None,Passable
+  3,42:0,0,255,None,Passable
+  4,42:0,0,255,None,Passable
+  5,42:0,0,23,None,Blocked
+  6,42:0,0,255,None,Passable
+  7,42:0,0,23,None,Blocked
+  8,42:0,0,255,None,Passable
+  9,42:0,0,255,None,Passable
+  10,42:0,0,255,None,Passable
+  11,42:0,0,23,None,Blocked
+  12,42:0,0,255,None,Passable
+  13,42:0,0,255,None,Passable
+  14,42:0,0,255,None,Passable
+  15,42:0,0,255,None,Passable
+  16,42:0,0,255,None,Passable
+  17,42:0,0,255,None,Passable
+  18,42:0,0,255,None,Passable
+  19,42:0,0,255,None,Passable
+  20,42:0,0,255,None,Passable
+  21,42:0,0,255,None,Passable
+  22,42:0,0,255,None,Passable
+  23,42:0,0,255,None,Passable
+  24,42:0,0,255,None,Passable
+  25,42:0,0,255,None,Passable
+  26,42:0,0,23,None,Blocked
+  27,42:0,0,255,None,Passable
+  28,42:0,0,255,None,Passable
+  29,42:0,0,255,None,Passable
+  30,42:0,0,255,None,Passable
+  31,42:0,0,255,None,Passable
+  0,43:0,0,255,None,Passable
+  1,43:0,0,255,None,Passable
+  2,43:0,0,23,None,Blocked
+  3,43:0,0,255,None,Passable
+  4,43:0,0,255,None,Passable
+  5,43:0,0,255,None,Passable
+  6,43:0,0,255,None,Passable
+  7,43:0,0,255,None,Passable
+  8,43:0,0,255,None,Passable
+  9,43:0,0,255,None,Passable
+  10,43:0,0,255,None,Passable
+  11,43:0,0,255,None,Passable
+  12,43:0,0,23,None,Blocked
+  13,43:0,0,255,None,Passable
+  14,43:0,0,255,None,Passable
+  15,43:0,0,255,None,Passable
+  16,43:0,0,255,None,Passable
+  17,43:0,0,255,None,Passable
+  18,43:0,0,23,None,Blocked
+  19,43:0,0,255,None,Passable
+  20,43:0,0,255,None,Passable
+  21,43:0,0,255,None,Passable
+  22,43:0,0,255,None,Passable
+  23,43:0,0,255,None,Passable
+  24,43:0,0,255,None,Passable
+  25,43:0,0,255,None,Passable
+  26,43:0,0,255,None,Passable
+  27,43:0,0,255,None,Passable
+  28,43:0,0,255,None,Passable
+  29,43:0,0,23,None,Blocked
+  30,43:0,0,255,None,Passable
+  31,43:0,0,255,None,Passable
+  0,44:0,0,255,None,Passable
+  1,44:0,0,255,None,Passable
+  2,44:0,0,255,None,Passable
+  3,44:0,0,255,None,Passable
+  4,44:0,0,255,None,Passable
+  5,44:0,0,255,None,Passable
+  6,44:0,0,255,None,Passable
+  7,44:0,0,20,Generic,Kickable
+  8,44:0,0,23,None,Blocked
+  9,44:0,0,255,None,Passable
+  10,44:0,0,255,None,Passable
+  11,44:0,0,255,None,Passable
+  12,44:0,0,255,None,Passable
+  13,44:0,0,23,None,Blocked
+  14,44:0,0,255,None,Passable
+  15,44:0,0,255,None,Passable
+  16,44:0,0,255,None,Passable
+  17,44:0,0,23,None,Blocked
+  18,44:0,0,255,None,Passable
+  19,44:0,0,255,None,Passable
+  20,44:0,0,255,None,Passable
+  21,44:0,0,23,None,Blocked
+  22,44:0,0,255,None,Passable
+  23,44:0,0,255,None,Passable
+  24,44:0,0,23,None,Blocked
+  25,44:0,0,255,None,Passable
+  26,44:0,0,23,None,Blocked
+  27,44:0,0,255,None,Passable
+  28,44:0,0,255,None,Passable
+  29,44:0,0,255,None,Passable
+  30,44:0,0,255,None,Passable
+  31,44:0,0,255,None,Passable
+  0,45:0,0,23,None,Blocked
+  1,45:0,0,255,None,Passable
+  2,45:0,0,23,None,Blocked
+  3,45:0,0,255,None,Passable
+  4,45:0,0,255,None,Passable
+  5,45:0,0,255,None,Passable
+  6,45:0,0,255,None,Passable
+  7,45:0,0,255,None,Passable
+  8,45:0,0,255,None,Passable
+  9,45:0,0,255,None,Passable
+  10,45:0,0,255,None,Passable
+  11,45:0,0,255,None,Passable
+  12,45:0,0,255,None,Passable
+  13,45:0,0,255,None,Passable
+  14,45:0,0,255,None,Passable
+  15,45:0,0,255,None,Passable
+  16,45:0,0,255,None,Passable
+  17,45:0,0,255,None,Passable
+  18,45:0,0,255,None,Passable
+  19,45:0,0,255,None,Passable
+  20,45:0,0,255,None,Passable
+  21,45:0,0,23,None,Blocked
+  22,45:0,0,255,None,Passable
+  23,45:0,0,255,None,Passable
+  24,45:0,0,255,None,Passable
+  25,45:0,0,23,None,Blocked
+  26,45:0,0,255,None,Passable
+  27,45:0,0,255,None,Passable
+  28,45:0,0,23,None,Blocked
+  29,45:0,0,9,Generic,Kickable,Face=East
+  30,45:0,0,255,None,Passable
+  31,45:0,0,255,None,Passable
+  0,46:0,0,255,None,Passable
+  1,46:0,0,255,None,Passable
+  2,46:0,0,255,None,Passable
+  3,46:0,0,23,None,Blocked
+  4,46:0,0,255,None,Passable
+  5,46:0,0,255,None,Passable
+  6,46:0,0,255,None,Passable
+  7,46:0,0,255,None,Passable
+  8,46:0,0,255,None,Passable
+  9,46:0,0,255,None,Passable
+  10,46:0,0,23,None,Blocked
+  11,46:0,0,255,None,Passable
+  12,46:0,0,255,None,Passable
+  13,46:0,0,255,None,Passable
+  14,46:0,0,255,None,Passable
+  15,46:0,0,255,None,Passable
+  16,46:0,0,23,None,Blocked
+  17,46:0,0,255,None,Passable
+  18,46:0,0,255,None,Passable
+  19,46:0,0,255,None,Passable
+  20,46:0,0,255,None,Passable
+  21,46:0,0,255,None,Passable
+  22,46:0,0,255,None,Passable
+  23,46:0,0,23,None,Blocked
+  24,46:0,0,255,None,Passable
+  25,46:0,0,255,None,Passable
+  26,46:0,0,255,None,Passable
+  27,46:0,0,255,None,Passable
+  28,46:0,0,23,None,Blocked
+  29,46:0,0,255,None,Passable
+  30,46:0,0,255,None,Passable
+  31,46:0,0,255,None,Passable
+  0,47:0,0,255,None,Passable
+  1,47:0,0,255,None,Passable
+  2,47:0,0,255,None,Passable
+  3,47:0,0,255,None,Passable
+  4,47:0,0,255,None,Passable
+  5,47:0,0,255,None,Passable
+  6,47:0,0,255,None,Passable
+  7,47:0,0,23,None,Blocked
+  8,47:0,0,255,None,Passable
+  9,47:0,0,255,None,Passable
+  10,47:0,0,255,None,Passable
+  11,47:0,0,255,None,Passable
+  12,47:0,0,255,None,Passable
+  13,47:0,0,255,None,Passable
+  14,47:0,0,255,None,Passable
+  15,47:0,0,23,None,Blocked
+  16,47:0,0,255,None,Passable
+  17,47:0,0,255,None,Passable
+  18,47:0,0,255,None,Passable
+  19,47:0,0,23,None,Blocked
+  20,47:0,0,255,None,Passable
+  21,47:0,0,255,None,Passable
+  22,47:0,0,255,None,Passable
+  23,47:0,0,255,None,Passable
+  24,47:0,0,255,None,Passable
+  25,47:0,0,255,None,Passable
+  26,47:0,0,255,None,Passable
+  27,47:0,0,255,None,Passable
+  28,47:0,0,23,None,Blocked
+  29,47:0,0,255,None,Passable
+  30,47:0,0,23,None,Blocked
+  31,47:0,0,255,None,Passable
+string=0,SCRIPTSTRING_0402
+string=1,SCRIPTSTRING_0403
+locationScript=15,14,Philippi
+locationScript=3,23,Tangramayne
+locationScript=22,32,Colosse
+locationScript=15,41,Ephesus
+locationScript=4,5,Corinth
+locationScript=25,7,Thessalonica
+locationScript=0,0,Sage
+locationScript=9,2,NarnTemple
+locationScript=25,19,StoneMan
+locationScript=17,27,FanskarCastle
+locationScript=8,31,GreyCrypt
+locationScript=29,45,SaradonCorpseHut
+locationScript=29,46,CharredGround
+locationScript=30,46,CharredGround
+locationScript=30,45,CharredGround
+locationScript=30,44,CharredGround
+locationScript=29,44,CharredGround
+locationScript=28,44,CharredGround
+scripts
+Philippi
+  JournalAt,CONT,15,15,0,SCRIPTSTRING_0404
+  IsFacing,TERM,North,EnterPhilippi
+EnterPhilippi
+  QTeleport,TERM,7,0,3,CITY
+Tangramayne
+  JournalAt,CONT,23,4,0,SCRIPTSTRING_0405
+  IsFacing,TERM,East,EnterTangramayne
+EnterTangramayne
+    QTeleport,TERM,0,8,1,CITY
+Colosse
+  JournalAt,CONT,32,23,0,SCRIPTSTRING_0406
+  IsFacing,TERM,East,EnterColosse
+EnterColosse
+  QTeleport,TERM,0,6,4,CITY
+Ephesus
+  JournalAt,CONT,40,15,0,SCRIPTSTRING_0407
+  IsFacing,TERM,South,EnterEpheseus
+EnterEpheseus
+  QTeleport,TERM,4,15,2,CITY
+Corinth
+  JournalAt,CONT,6,4,0,SCRIPTSTRING_0408
+  IsFacing,TERM,North,EnterCorinth
+EnterCorinth
+  QTeleport,TERM,6,0,5,CITY
+Thessalonica
+	JournalAt,CONT,7,24,0,SCRIPTSTRING_0409
+  IsFacing,TERM,West,EnterThessalonica
+EnterThessalonica
+  QTeleport,TERM,15,8,6,CITY
+Sage
+	IsBitSet,LagothZantaDefeated,LagothPreviouslyDefeated
+    IsItemInParty,CONT,"The Scepter",LagothZantaFight
+    ShowPic,CONT,BT2_66_LagothZanta_Concealed
+    ShowText,CONT,SCRIPTSTRING_0410
+	Journal,CONT,SCRIPTSTRING_0411
+	Message,CONT,SCRIPTSTRING_0412
+    AddOption,CONT,SCRIPTSTRING_0413,TalkToSage
+    AddOption,CONT,SCRIPTSTRING_0414,ExitRoom
+	WaitOnChoice,CONT
+    @GoBack
+TalkToSage
+    Message,CONT,SCRIPTSTRING_0415
+    Input,CONT
+    SageWord,CONT,SCRIPTSTRING_0416, 2500, TheTombsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0417, 5500, FanskarQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0418, 10000, DargothQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0419, 48000, MazeOfDreadQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0420, 120000, OsconQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0421, 5000, KazdekQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0422, 125000, GreyCryptQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0423, 230000, DestinyStoneQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0424, 1000, LagothZantaQuestion, Sage
+    IsLegacySongs, SkipScarletBard
+    SageWord,CONT,SCRIPTSTRING_0425, 3500, ScarletBardQuestion, Sage
+SkipScarletBard
+    SageWord,CONT,SCRIPTSTRING_0426, 500, ElfBootsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0427, 500, LuckShieldQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0428, 500, DeathStarsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0429, 500, MageStaffQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0430, 500, ThiefDaggerQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0431, 500, KatosBracerQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0432, 500, AGsArrowsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0433, 500, MithrilArrowsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0434, 500, RingOfReturnQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0435, 500, BreathringQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0436, 500, WizhelmQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0437, 500, SpeedBootsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0438, 500, ZenArrowsQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0439, 500, DrumsOfDeathQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0440, 500, SongAxeQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0441, 500, TrickBrickQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0442, 500, AramsKnifeQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0443, 500, AngrasEyeQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0444, 500, ThorsHammerQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0445, 500, SwordOfZarQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0446, 500, NoSpinRingQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0447, 500, AlisCarpetQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0448, 500, TrollRingQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0449, 500, DorkRingQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0450, 500, BardSwordQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0451, 500, SorcerStaffQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0452, 500, DayBladeQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0453, 500, SlayerFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0454, 500, GiantFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0455, 500, OgreFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0456, 500, BulldozerFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0457, 500, BrothersFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0458, 500, DragonFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0459, 500, HerbFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0460, 500, MasterMageFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0461, 500, VanquisherFigurineQuestion, Sage
+    SageWord,CONT,SCRIPTSTRING_0462, 10000, SaradonQuestion, Sage
+    Jump,CONT,NoGold
+NoGold
+    Message,CONT,SCRIPTSTRING_0463
+    PressAny,CONT
+    Jump,CONT,Sage
+SagePaidTooLittle
+	JumpRandom,CONT,SageFakeNews1,SageFakeNews2,SageFakeNews3
+SageFakeNews1
+	Message,CONT,SCRIPTSTRING_0464
+	PressAny,CONT
+	Jump,CONT,Sage
+SageFakeNews2
+	Message,CONT,SCRIPTSTRING_0465
+	PressAny,CONT
+	Jump,CONT,Sage
+SageFakeNews3
+	Message,CONT,SCRIPTSTRING_0466
+	PressAny,CONT
+	Jump,CONT,Sage
+SageOutOfGold
+	Message,CONT,SCRIPTSTRING_0467
+	PressAny,CONT
+	Jump,CONT,Sage
+TheTombsQuestion
+    Message,CONT,SCRIPTSTRING_0468
+    PressAny,CONT
+    Jump,CONT,Sage
+FanskarQuestion
+    Message,CONT,SCRIPTSTRING_0469
+    PressAny,CONT
+    Jump,CONT,Sage
+DargothQuestion
+    Message,CONT,SCRIPTSTRING_0470
+    PressAny,CONT
+    Jump,CONT,Sage
+MazeOfDreadQuestion
+    Message,CONT,SCRIPTSTRING_0471
+    PressAny,CONT
+    Jump,CONT,Sage
+OsconQuestion
+    Message,CONT,SCRIPTSTRING_0472
+    PressAny,CONT
+    Jump,CONT,Sage
+KazdekQuestion
+    Message,CONT,SCRIPTSTRING_0473
+    PressAny,CONT
+    Jump,CONT,Sage
+GreyCryptQuestion
+    Message,CONT,SCRIPTSTRING_0474
+    PressAny,CONT
+    Jump,CONT,Sage
+DestinyStoneQuestion
+    Message,CONT,SCRIPTSTRING_0475
+    PressAny,CONT
+    Jump,CONT,Sage
+LagothZantaQuestion
+    Message,CONT,SCRIPTSTRING_0476
+    PressAny,CONT
+    Jump,CONT,Sage
+ScarletBardQuestion
+    Message,CONT,SCRIPTSTRING_0477
+    PressAny,CONT
+    Jump,CONT,Sage
+ElfBootsQuestion
+    IdentifyMagicItem,Elf Boots
+    Message,CONT,SCRIPTSTRING_0478
+    PressAny,CONT
+    Jump,CONT,Sage
+LuckShieldQuestion
+    IdentifyMagicItem,Luckshield
+    Message,CONT,SCRIPTSTRING_0478
+    PressAny,CONT
+    Jump,CONT,Sage
+DeathStarsQuestion
+    IdentifyMagicItem,Death Stars
+    Message,CONT,SCRIPTSTRING_0479
+    PressAny,CONT
+    Jump,CONT,Sage
+MageStaffQuestion
+    IdentifyMagicItem,Mage Staff
+    Message,CONT,SCRIPTSTRING_0480
+    PressAny,CONT
+    Jump,CONT,Sage
+ThiefDaggerQuestion
+    IdentifyMagicItem,Thief Dagger
+    Message,CONT,SCRIPTSTRING_0481
+    PressAny,CONT
+    Jump,CONT,Sage
+KatosBracerQuestion
+    IdentifyMagicItem,Kato's Bracer
+    Message,CONT,SCRIPTSTRING_0482
+    PressAny,CONT
+    Jump,CONT,Sage
+AGsArrowsQuestion
+    IdentifyMagicItem,Ag's Arrows
+    Message,CONT,SCRIPTSTRING_0483
+    PressAny,CONT
+    Jump,CONT,Sage
+MithrilArrowsQuestion
+    IdentifyMagicItem,Mithril Arrows
+    Message,CONT,SCRIPTSTRING_0484
+    PressAny,CONT
+    Jump,CONT,Sage
+RingOfReturnQuestion
+    IdentifyMagicItem,Ring of Return
+    Message,CONT,SCRIPTSTRING_0485
+    PressAny,CONT
+    Jump,CONT,Sage
+BreathringQuestion
+    IdentifyMagicItem,Breathring
+    Message,CONT,SCRIPTSTRING_0486
+    PressAny,CONT
+    Jump,CONT,Sage
+WizhelmQuestion
+    IdentifyMagicItem,Wizhelm
+    Message,CONT,SCRIPTSTRING_0487
+    PressAny,CONT
+    Jump,CONT,Sage
+SpeedBootsQuestion
+    IdentifyMagicItem,Speedboots
+    Message,CONT,SCRIPTSTRING_0488
+    PressAny,CONT
+    Jump,CONT,Sage
+ZenArrowsQuestion
+    IdentifyMagicItem,Zen Arrows
+    Message,CONT,SCRIPTSTRING_0489
+    PressAny,CONT
+    Jump,CONT,Sage
+DrumsOfDeathQuestion
+    IdentifyMagicItem,Drums of Death
+    Message,CONT,SCRIPTSTRING_0490
+    PressAny,CONT
+    Jump,CONT,Sage
+SongAxeQuestion
+    IdentifyMagicItem,Song Axe
+    Message,CONT,SCRIPTSTRING_0491
+    PressAny,CONT
+    Jump,CONT,Sage
+TrickBrickQuestion
+    IdentifyMagicItem,Trick Brick
+    Message,CONT,SCRIPTSTRING_0492
+    PressAny,CONT
+    Jump,CONT,Sage
+AramsKnifeQuestion
+    IdentifyMagicItem,Aram's Knife
+    Message,CONT,SCRIPTSTRING_0493
+    PressAny,CONT
+    Jump,CONT,Sage
+AngrasEyeQuestion
+    IdentifyMagicItem,Angra's Eye
+    Message,CONT,SCRIPTSTRING_0494
+    PressAny,CONT
+    Jump,CONT,Sage
+ThorsHammerQuestion
+    IdentifyMagicItem,Thor's Hammer
+    Message,CONT,SCRIPTSTRING_0495
+    PressAny,CONT
+    Jump,CONT,Sage
+SwordOfZarQuestion
+    IdentifyMagicItem,Sword of Zar
+    Message,CONT,SCRIPTSTRING_0496
+    PressAny,CONT
+    Jump,CONT,Sage
+NoSpinRingQuestion
+    IdentifyMagicItem,Nospen Ring
+    Message,CONT,SCRIPTSTRING_0497
+    PressAny,CONT
+    Jump,CONT,Sage
+AlisCarpetQuestion
+    IdentifyMagicItem,Ali's Carpet
+    Message,CONT,SCRIPTSTRING_0498
+    PressAny,CONT
+    Jump,CONT,Sage
+TrollRingQuestion
+    IdentifyMagicItem,Troll Ring
+    Message,CONT,SCRIPTSTRING_0499
+    PressAny,CONT
+    Jump,CONT,Sage
+DorkRingQuestion
+    IdentifyMagicItem,Dork Ring
+    Message,CONT,SCRIPTSTRING_0500
+    PressAny,CONT
+    Jump,CONT,Sage
+BardSwordQuestion
+    IdentifyMagicItem,Bardsword
+    Message,CONT,SCRIPTSTRING_0501
+    PressAny,CONT
+    Jump,CONT,Sage
+SorcerStaffQuestion
+    IdentifyMagicItem,Sorcerstaff
+    Message,CONT,SCRIPTSTRING_0502
+    PressAny,CONT
+    Jump,CONT,Sage
+DayBladeQuestion
+    IdentifyMagicItem,Dayblade
+    Message,CONT,SCRIPTSTRING_0503
+    PressAny,CONT
+    Jump,CONT,Sage
+DrumsOfDeathQuestion
+    IdentifyMagicItem,Drums of Death
+    Message,CONT,SCRIPTSTRING_0504
+    PressAny,CONT
+    Jump,CONT,Sage
+SlayerFigurineQuestion
+    IdentifyMagicItem,Slayer Figure
+    Message,CONT,SCRIPTSTRING_0505
+    PressAny,CONT
+    Jump,CONT,Sage
+GiantFigurineQuestion
+    IdentifyMagicItem,Giant Figure
+    Message,CONT,SCRIPTSTRING_0506
+    PressAny,CONT
+    Jump,CONT,Sage
+OgreFigurineQuestion
+    IdentifyMagicItem,Ogre Figure
+    Message,CONT,SCRIPTSTRING_0507
+    PressAny,CONT
+    Jump,CONT,Sage
+BulldozerFigurineQuestion
+    IdentifyMagicItem,Bulldozer Figure
+    Message,CONT,SCRIPTSTRING_0508
+    PressAny,CONT
+    Jump,CONT,Sage
+BrothersFigurineQuestion
+    IdentifyMagicItem,Brothers Figure
+    Message,CONT,SCRIPTSTRING_0509
+    PressAny,CONT
+    Jump,CONT,Sage
+DragonFigurineQuestion
+    IdentifyMagicItem,Dragon Figure
+    Message,CONT,SCRIPTSTRING_0510
+    PressAny,CONT
+    Jump,CONT,Sage
+HerbFigurineQuestion
+    IdentifyMagicItem,Herb Figure
+    Message,CONT,SCRIPTSTRING_0511
+    PressAny,CONT
+    Jump,CONT,Sage
+MasterMageFigurineQuestion
+    IdentifyMagicItem,MasterMage Figure
+    Message,CONT,SCRIPTSTRING_0512
+    PressAny,CONT
+    Jump,CONT,Sage
+VanquisherFigurineQuestion
+    IdentifyMagicItem,Vanquisher Figure
+    Message,CONT,SCRIPTSTRING_0513
+    PressAny,CONT
+    Jump,CONT,Sage
+SaradonQuestion
+    Message,CONT,SCRIPTSTRING_0514
+    PressAny,CONT
+    Jump,CONT,Sage
+LagothZantaFight
+    ShowPic,CONT,BT2_61_LagothZanta
+    ShowText,CONT,SCRIPTSTRING_0515
+	Journal,CONT,SCRIPTSTRING_0516
+    Message,CONT,SCRIPTSTRING_0517
+    PressAny,CONT
+    EncounterEx,CONT,3,"Balder Guard",30,1,"Balder Guard",30,1,"Lagoth Zanta",1,9,LagothZantaWin
+    Jump,CONT,SkipEvent
+LagothZantaWin
+	SetBit,LagothZantaDefeated
+  SetBit,BT2_AllowTransferBT3
+  SetAch,CONT,BT2_LiberatorsOfCaith
+	Journal,CONT,SCRIPTSTRING_0518
+    Message,CONT,SCRIPTSTRING_0519
+    PressAny,CONT
+    ShowPic,CONT,BT2_50_King
+    ShowText,CONT,SCRIPTSTRING_0520
+    Message,CONT,SCRIPTSTRING_0521
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0522
+    PressAny,CONT
+    ReturnToGuild,TERM
+LagothPreviouslyDefeated
+	JMessage,CONT,1,SCRIPTSTRING_0523
+	PressAny,CONT
+    GoBack,TERM
+NarnTemple
+    ShowPic,CONT,BT2_28_Temple
+    ShowText,CONT,SCRIPTSTRING_0524
+	Journal,CONT,SCRIPTSTRING_0525
+    IsItemInParty,CONT,"The Scepter",NarnTempleDestinyKnight
+    Message,CONT,SCRIPTSTRING_0526
+    AddOption,CONT,SCRIPTSTRING_0527,ApproachAltar
+    AddOption,CONT,SCRIPTSTRING_0528,ExitRoom	
+    WaitOnChoice,CONT
+    @GoBack
+NarnTempleDestinyKnight
+    Message,CONT,SCRIPTSTRING_0529
+    PressAny,CONT
+    Jump,CONT,ExitRoom
+ApproachAltar
+    ChooseChar,CONT,PartyMemberApproachAltar
+    Jump,CONT,NarnTemple
+PartyMemberApproachAltar
+    ClassMatch,CONT,Archmage,ArchmageApproachAltar
+    Jump,CONT,MonsterApproachAltar
+ArchmageApproachAltar
+    IsItemNotOnCharacter,"Wand Segment 1",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 2",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 3",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 3",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 4",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 5",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 6",MissingSegment
+    IsItemNotOnCharacter,"Wand Segment 7",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 1",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 2",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 3",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 4",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 5",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 6",MissingSegment
+    IsItemNotInParty,CONT,"Wand Segment 7",MissingSegment
+    Jump,CONT,BecomeOneOfLegend
+MonsterApproachAltar
+    Message,CONT,SCRIPTSTRING_0530
+    PressAny,CONT
+    Jump,CONT,NarnTemple
+MissingSegment
+    MessageChar,CONT,SCRIPTSTRING_0531
+    PressAny,CONT
+    Jump,CONT,ExitRoom
+BecomeOneOfLegend
+    ShowPic,CONT,BT2_51_LightningGod
+    ShowText,CONT,SCRIPTSTRING_0524
+    MessageChar,CONT,SCRIPTSTRING_0532
+    PressAny,CONT
+    MessageChar,CONT,SCRIPTSTRING_0533
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0534
+    Jump,CONT,CombineSegments
+CombineSegments
+    RemoveItem,CONT,"Wand Segment 1"
+    RemoveItem,CONT,"Wand Segment 2"
+    RemoveItem,CONT,"Wand Segment 3"
+    RemoveItem,CONT,"Wand Segment 4"
+    RemoveItem,CONT,"Wand Segment 5"
+    RemoveItem,CONT,"Wand Segment 6"
+    RemoveItem,CONT,"Wand Segment 7"
+    AwardItem,CONT,"The Scepter","The Scepter",255,gotSceptre
+gotSceptre
+    SetAch,CONT,BT2_TheDestinyKnight
+    SetDestinyKnight,CONT
+    Jump,CONT,ExitRoom
+StoneMan
+    IsItemInParty,CONT,"Item of K",ItemOfKBound
+    IsBitSet,CONT,BT2FOR00KAZKazdek,KazdekGreeting2
+    ShowPic,CONT,BT2_48_StoneElemental
+    ShowText,CONT,SCRIPTSTRING_0535
+	Journal,CONT,SCRIPTSTRING_0536
+	Message,CONT,SCRIPTSTRING_0537
+    AddOption,CONT,SCRIPTSTRING_0538,SpeakToKazdek
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+SpeakToKazdek
+    IsBitSet,CONT,BT2FOR00KAZKazdek,SpeakToBitKazdek
+    Message,CONT,SCRIPTSTRING_0540
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0541,KazdekAnswer
+	Message,CONT,SCRIPTSTRING_0542
+	PressAny,CONT,
+	Jump,CONT,StoneMan
+KazdekAnswer
+    Journal,CONT,0,SCRIPTSTRING_0543
+    Message,CONT,SCRIPTSTRING_0544
+	AwardItem,CONT,"Item of K","Item of K",0,AwardKazdekItem
+AwardKazdekItem
+    SetBit,CONT,BT2FOR00KAZKazdek
+    Journal,CONT,1,SCRIPTSTRING_0545
+	Jump,CONT,ExitRoom
+KazdekGreeting2
+    ShowPic,CONT,BT2_48_StoneElemental
+    ShowText,CONT,SCRIPTSTRING_0535
+	Message,CONT,SCRIPTSTRING_0546
+    AddOption,CONT,SCRIPTSTRING_0547,SpeakToKazdek
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+SpeakToBitKazdek
+	Message,CONT,SCRIPTSTRING_0548
+    AddOption,CONT,SCRIPTSTRING_0549,AnotherItemOfK
+    AddOption,CONT,SCRIPTSTRING_0550,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+AnotherItemOfK
+    Message,CONT,SCRIPTSTRING_0551
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0552
+	AwardItem,CONT,"Item of K","Item of K",0,AwardKazdekItem
+ItemOfKBound
+    ShowPic,CONT,BT2_32_EmptyHouse
+	ShowText,CONT,SCRIPTSTRING_0553
+	Message,CONT,SCRIPTSTRING_0554
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+FanskarCastle
+    Journal,CONT,0,SCRIPTSTRING_0555
+	ShowPic,CONT,"bt1_61_harkynsCastleInt"
+    ShowText,CONT,SCRIPTSTRING_0403
+    IsItemInParty,CONT,"Master Key",FanskarEntrance
+	Message,CONT,SCRIPTSTRING_0556
+    PressAny,CONT
+    @GoBack
+FanskarEntrance
+	ShowPic,CONT,"bt1_61_harkynsCastleInt"
+    ShowText,CONT,SCRIPTSTRING_0403
+	Message,CONT,SCRIPTSTRING_0557
+    AddOption,CONT,SCRIPTSTRING_0558,TakeCastleStairway
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+TakeCastleStairway
+    SetAch,CONT,BT2_StormTheGates
+    TeleportNoJournal,TERM,0,0,7,DUNG
+GreyCrypt
+    ShowPic,CONT,BT2_32_EmptyHouse
+	ShowText,CONT,SCRIPTSTRING_0559
+	Journal,CONT,1,SCRIPTSTRING_0560
+	Message,CONT,SCRIPTSTRING_0561
+    AddOption,CONT,SCRIPTSTRING_0562,TakeCryptPassage
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+TakeCryptPassage
+    IsBitSet,CONT,BT2FOR00GCGrey,TakeCryptBitPassage
+    ShowPic,CONT,bt1_35_stoneElemental
+    ShowText,CONT,SCRIPTSTRING_0563
+	Message,CONT,SCRIPTSTRING_0564
+    Input,CONT
+	MatchWord,CONT,SCRIPTSTRING_0565,GreyCryptAnswer
+    Message,CONT,SCRIPTSTRING_0566
+	PressAny,CONT
+	Jump,CONT,ExitRoom
+TakeCryptBitPassage
+    ShowPic,CONT,bt1_35_stoneElemental
+    ShowText,CONT,SCRIPTSTRING_0563
+	Message,CONT,SCRIPTSTRING_0567
+	PressAny,CONT
+    Jump,CONT,TeleportToGreyCrypt
+GreyCryptAnswer
+    SetBit,CONT,BT2FOR00GCGrey
+	Journal,CONT,SCRIPTSTRING_1164
+    Jump,CONT,TeleportToGreyCrypt
+TeleportToGreyCrypt
+    Direction,CONT,North
+    TeleportNoJournal,TERM,0,0,20,DUNG
+SaradonCorpseHut
+    IsBitSet,CONT,SaradonLooted,SaradonLootedCorpseHut
+    ShowPic,CONT,BT2_32_EmptyHouse
+	ShowText,CONT,SCRIPTSTRING_0568
+    Message,CONT,SCRIPTSTRING_0569
+	Journal,CONT,SCRIPTSTRING_2152
+    AddOption,CONT,SCRIPTSTRING_0570,InspectSaradonsCorpse
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+SaradonLootedCorpseHut
+    ShowPic,CONT,BT2_32_EmptyHouse
+	ShowText,CONT,SCRIPTSTRING_0568
+    Message,CONT,SCRIPTSTRING_0571
+    AddOption,CONT,SCRIPTSTRING_0539,ExitRoom
+    WaitOnChoice,CONT
+    @GoBack
+InspectSaradonsCorpse
+    Message,CONT,SCRIPTSTRING_0572
+	SetBit,CONT,SaradonLooted
+	Journal,CONT,1,SCRIPTSTRING_2153
+	AwardItem,CONT,"WardStone","WardStone",0,SaradonLootedCorpseHut
+CharredGround
+    Message,TERM,SCRIPTSTRING_0573
+ExitRoom
+    GoBack,TERM
+SkipEvent
+    End,TERM

@@ -1,0 +1,219 @@
+name=SCRIPTSTRING_1389
+isDungeon=1
+width=12
+height=12
+xOffset=3
+zOffset=3
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=0
+isOutside=0
+monsterSet=11
+wallSet=20
+isWilderness=0
+difficulty=3
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=3
+parentX=9
+parentMap=2
+level=1
+levelTable=0,1
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  1,0:None,None,SolidNoPHDO,None
+  2,0:None,None,SolidNoPHDO,None
+  3,0:None,None,SolidNoPHDO,None
+  4,0:None,None,SolidNoPHDO,None
+  5,0:None,Solid,SolidNoPHDO,None
+  6,0:None,None,SolidNoPHDO,Solid, Darkness
+  7,0:None,None,SolidNoPHDO,None, Darkness, RandomCombat
+  8,0:None,None,SolidNoPHDO,None, Darkness
+  9,0:None,Solid,SolidNoPHDO,None, Darkness
+  10,0:None,None,SolidNoPHDO,Solid
+  11,0:None,SolidNoPHDO,SolidNoPHDO,None, RandomCombat
+  0,1:Solid,None,None,SolidNoPHDO
+  1,1:Solid,None,None,None
+  2,1:None,None,None,None
+  3,1:None,None,None,None, RandomCombat
+  4,1:None,None,None,None
+  5,1:None,DoorNoPHDO,None,None, RandomTrap
+  6,1:Solid,None,None,DoorNoPHDO, Darkness, PortalUp
+  7,1:Solid,None,None,None, Darkness
+  8,1:Solid,None,None,None, Darkness
+  9,1:Solid,DoorNoPHDO,None,None, Darkness
+  10,1:Solid,None,None,DoorNoPHDO, RandomCombat
+  11,1:Solid,SolidNoPHDO,None,None
+  0,2:Solid,None,Solid,SolidNoPHDO, Smoke
+  1,2:Solid,LockedDoor,Solid,None, RandomCombat, Smoke
+  2,2:Solid,None,None,LockedDoor
+  3,2:Solid,None,None,None
+  4,2:CrumblingWall,None,None,None
+  5,2:CrumblingWall,Solid,None,None
+  6,2:None,None,None,Solid, Darkness, Spinner, AntiMagic
+  7,2:None,None,None,None, Darkness, Spinner, AntiMagic
+  8,2:None,None,None,None, Darkness, Spinner, AntiMagic
+  9,2:None,Solid,None,None, Darkness, Spinner, AntiMagic
+  10,2:None,None,Solid,Solid
+  11,2:None,SolidNoPHDO,Solid,None
+  0,3:None,None,Solid,SolidNoPHDO, RandomCombat
+  1,3:None,Solid,Solid,None
+  2,3:None,None,Solid,Solid, RandomTrap
+  3,3:None,None,Solid,None
+  4,3:None,None,CrumblingWall,None, RandomCombat
+  5,3:None,Solid,CrumblingWall,None
+  6,3:None,None,Solid,Solid
+  7,3:None,None,Solid,None, PortalUp
+  8,3:None,None,Solid,None
+  9,3:None,SolidNoPHDO,Solid,None
+  10,3:Door,None,None,SolidNoPHDO, RandomCombat
+  11,3:Solid,SolidNoPHDO,None,None
+  0,4:Solid,None,None,SolidNoPHDO
+  1,4:LockedDoor,Solid,None,None
+  2,4:Solid,None,None,Solid, RandomCombat
+  3,4:Solid,None,None,None
+  4,4:LockedDoor,None,None,None
+  5,4:Solid,Solid,None,None
+  6,4:None,None,None,Solid
+  7,4:None,None,None,None, RandomCombat
+  8,4:None,None,None,None
+  9,4:None,SolidNoPHDO,None,None
+  10,4:None,None,Door,SolidNoPHDO
+  11,4:None,SolidNoPHDO,Solid,None
+  0,5:None,None,Solid,SolidNoPHDO
+  1,5:None,None,LockedDoor,None
+  2,5:None,Solid,Solid,None, RandomTrap
+  3,5:LockedDoor,None,Solid,Solid, Darkness, RandomTrap, Spinner
+  4,5:Solid,None,LockedDoor,None, Darkness, Spinner
+  5,5:Solid,Solid,Solid,None, Darkness, RandomCombat, Spinner
+  6,5:Solid,None,None,Solid
+  7,5:DoorNoPHDO,None,None,None, RandomTrap
+  8,5:Solid,None,None,None
+  9,5:Solid,SolidNoPHDO,None,None, RandomCombat
+  10,5:None,None,None,SolidNoPHDO, Smoke
+  11,5:None,SolidNoPHDO,None,None, Smoke
+  0,6:Solid,None,None,SolidNoPHDO
+  1,6:Solid,None,None,None, RandomCombat
+  2,6:Solid,None,None,None
+  3,6:SecretDoor,None,LockedDoor,None, RandomCombat
+  4,6:Solid,None,Solid,None
+  5,6:InvisibleWall,Solid,Solid,None
+  6,6:None,None,Solid,Solid, SilenceBard
+  7,6:None,None,DoorNoPHDO,None, SilenceBard
+  8,6:None,None,Solid,None, SilenceBard
+  9,6:None,DoorNoPHDO,Solid,None, SilenceBard
+  10,6:None,None,None,DoorNoPHDO, Darkness
+  11,6:None,SolidNoPHDO,None,None, Darkness
+  0,7:None,None,Solid,SolidNoPHDO
+  1,7:None,None,Solid,None
+  2,7:None,None,Solid,None
+  3,7:None,None,SecretDoor,None
+  4,7:None,None,Solid,None, RandomCombat
+  5,7:None,Solid,InvisibleWall,None
+  6,7:Solid,None,None,Solid, RandomTrap, SilenceBard
+  7,7:SolidNoPHDO,None,None,None, SilenceBard
+  8,7:SolidNoPHDO,None,None,None, SilenceBard
+  9,7:SolidNoPHDO,SolidNoPHDO,None,None, SilenceBard
+  10,7:SolidNoPHDO,None,None,SolidNoPHDO
+  11,7:None,SolidNoPHDO,None,None
+  0,8:Solid,None,None,SolidNoPHDO
+  1,8:Solid,None,None,None, RandomCombat
+  2,8:Door,Solid,None,None
+  3,8:Solid,None,None,Solid
+  4,8:Solid,None,None,None
+  5,8:SolidNoPHDO,Door,None,None
+  6,8:SolidNoPHDO,None,Solid,Door, PoisonGas
+  7,8:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat, PoisonGas
+  8,8:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, PoisonGas
+  9,8:None,None,SolidNoPHDO,SolidNoPHDO
+  10,8:None,None,SolidNoPHDO,None
+  11,8:None,SolidNoPHDO,None,None
+  0,9:None,None,Solid,SolidNoPHDO, HarmParty
+  1,9:None,None,Solid,None, RandomCombat, HarmParty
+  2,9:None,None,Door,None, HarmParty
+  3,9:None,None,Solid,None, HarmParty
+  4,9:None,SolidNoPHDO,Solid,None, HarmParty
+  5,9:None,None,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  6,9:SolidNoPHDO,None,SolidNoPHDO,None, HarmParty, DrainMagic
+  7,9:SolidNoPHDO,None,SolidNoPHDO,None, RandomTrap, DrainMagic
+  8,9:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, RandomTrap, DrainMagic
+  9,9:None,None,None,SolidNoPHDO
+  10,9:None,None,None,None, RandomCombat
+  11,9:None,SolidNoPHDO,None,None
+  0,10:Solid,None,None,SolidNoPHDO
+  1,10:Solid,None,None,None
+  2,10:Solid,None,None,None, RandomCombat
+  3,10:Solid,None,None,None
+  4,10:Door,SolidNoPHDO,None,None
+  5,10:None,SolidNoPHDO,None,SolidNoPHDO, RandomTrap, DrainMagic
+  6,10:None,None,SolidNoPHDO,SolidNoPHDO
+  7,10:SolidNoPHDO,None,SolidNoPHDO,None
+  8,10:SolidNoPHDO,Door,SolidNoPHDO,None
+  9,10:SolidNoPHDO,None,None,Door
+  10,10:SolidNoPHDO,None,None,None
+  11,10:SolidNoPHDO,SolidNoPHDO,None,None
+  0,11:SolidNoPHDO,None,Solid,SolidNoPHDO
+  1,11:SolidNoPHDO,None,Solid,None
+  2,11:SolidNoPHDO,None,Solid,None, SpecialAhead
+  3,11:SolidNoPHDO,None,Solid,None
+  4,11:SolidNoPHDO,SolidNoPHDO,Door,None
+  5,11:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomTrap, DrainMagic
+  6,11:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat
+  7,11:SolidNoPHDO,None,SolidNoPHDO,None
+  8,11:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat
+  9,11:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat
+  10,11:SolidNoPHDO,None,SolidNoPHDO,None, SpecialAhead
+  11,11:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, StairsOut, SpecialAhead, RandomCombat
+locationScript=11,11,L785
+locationScript=10,11,L786
+locationScript=2,11,L903
+scripts
+L785
+    @StairsOut
+L786
+    @JMessage,SCRIPTSTRING_1556
+L903
+    IsTOTBitSet,4,L1239
+    Message,SCRIPTSTRING_1557
+L990
+    Encounter2,1,Tslotha Garnath,1,L1053
+    Message,SCRIPTSTRING_1558
+    PressAny
+    @TeleportNoJournal,3,11,1,DUNG
+L1053
+    DoView
+    Message,SCRIPTSTRING_1559
+    PressAny
+    Message,SCRIPTSTRING_1560
+    PressAny
+    IsItemInParty,Nightspear,L1170
+    Message,SCRIPTSTRING_1561
+    Jump,L990
+L1170
+    SetTOTBit,4
+    Message,SCRIPTSTRING_1562
+    PressAny
+L1239
+    IsTOTBitSet,5,L1315
+    IsItemInParty,Tslotha's Head,L1315
+    @Aborter,L1248
+L1248
+    Message,SCRIPTSTRING_1563
+    @AwardItem,None,Tslotha's Head,255,L1312
+L1312
+    SetTOTBit,5
+    ZapStair
+L1315
+    IsTOTBitSet,6,L1402
+    IsItemInParty,Tslotha's Heart,L1402
+    @Aborter,L1324
+L1324
+    Message,SCRIPTSTRING_1564
+    @AwardItem,None,Tslotha's Heart,255,L1400
+L1400
+    SetTOTBit,6
+L1402
+    Message,SCRIPTSTRING_1565
+    SetTOTBit,5
+    @SetTOTBit,6

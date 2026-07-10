@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 'forceMin' = Pack must be at least version [forceMin] before the game will continue -->
+<!-- 'priv' = Pack will only be updated if it's in the user's cache -->
+<!-- 'need' = Pack must be loaded (any version of it) before the game gets to the Main Menu -->
+<!-- 'version' = Current version number for this pack -->
+<!-- 'builtIn' = Pack is built in to the app package (has no effect on the loading of the pack apart from how it constructs the path) -->
+<!-- 'stage' = Used to specify the stage at which the loading is done, if the pack is released -->
+<!-- 'PackType' = Simple text field to denote the type of content (used in-game to display the content in the right place) -->
+<!-- Stage of '0' = Pack is loaded at boot -->
+<!-- Stage of '200' = Pack is background downloaded on main menu and made available when completed, if released -->
+<!-- Stage of '999' = Completely ignore this entry -->
+<!-- 'released' = Pack can be used by the app -->
+<!-- NOTE: The position that a line is added to this file IS IMPORTANT. It's effectively a timeline from the first item to the last due to the pt field -->
+
+<dlc version="1.0">
+
+  <!-- version number used for various configuration files -->
+  <loc s3ver="1.0" />
+  <gameConfig s3ver="1.0" />
+  <not s3ver="1.0" />
+
+  <domain name="com.krome.BardsTale" />
+  
+  <iaps>
+    <iap id="extra" iap="{domain}.extra" sell="extraSell" comingSoon="extraSoon" />
+  </iaps>
+  
+  <unlocks>
+    <unlock id="purchaseExtra" iap="{domain}.extra">
+      <targets>
+        <target pack="extra" stateGroup="purchased" />
+      </targets>
+    </unlock>
+  </unlocks>
+
+  <packs>
+
+    <!-- LOCATIONS -->
+    <pack
+      id="extra"
+			pt="0"
+			forceMin="1.0"
+			priv="false"
+			need="true"
+			version="1.0"
+			builtIn="true"
+			released="true"
+			loadingName="Bards Tale Extra Content"
+			path="content/extras/{packId}"
+			defaultState="standard"
+      >
+      <groups>
+        <group>extraContent</group>
+      </groups>
+      <stateGroups>
+        <stateGroup id="standard">
+          <release id="extra" />
+          <remove id="comingSoonExtra" />
+          <dependency type="need">extraMini</dependency>
+        </stateGroup>
+      </stateGroups>
+    </pack>
+
+  </packs>
+</dlc>
+

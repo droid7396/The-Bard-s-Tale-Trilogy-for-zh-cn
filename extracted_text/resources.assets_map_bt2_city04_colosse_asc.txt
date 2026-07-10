@@ -1,0 +1,363 @@
+name=SCRIPTSTRING_0406
+isDungeon=0
+width=16
+height=16
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=0
+isTower=0
+isOutside=1
+monsterSet=0
+wallSet=1
+difficulty=0
+skyColor=4,0,0,0
+groundColor=8,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+map
+  0,0:0,3,70,Generic,Passable
+  1,0:0,3,71,Generic,Passable,Face=North
+  2,0:0,2,69,Generic,Passable
+  3,0:0,3,70,Generic,Passable
+  4,0:0,3,70,Generic,Passable
+  5,0:0,3,70,Generic,Passable
+  6,0:0,1,68,Generic,Passable
+  7,0:0,3,70,Generic,Passable
+  8,0:0,2,69,Generic,Passable
+  9,0:0,3,70,Generic,Passable
+  10,0:0,3,70,Generic,Passable
+  11,0:0,3,70,Generic,Passable
+  12,0:0,1,68,Generic,Passable
+  13,0:0,2,69,Generic,Passable
+  14,0:0,1,68,Generic,Passable
+  15,0:0,3,70,Generic,Passable
+  0,1:0,3,69,Generic,Passable
+  1,1:0,2,69,Generic,Passable
+  2,1:4,0,255,None,Passable
+  3,1:0,2,69,Generic,Passable
+  4,1:0,3,70,Generic,Passable
+  5,1:4,0,255,None,Passable
+  6,1:4,0,255,None,Passable
+  7,1:0,1,68,Generic,Passable
+  8,1:4,0,255,None,Passable
+  9,1:4,0,255,None,Passable
+  10,1:4,0,255,None,Passable
+  11,1:0,4,81,Roscoes,Passable
+  12,1:4,0,255,None,Passable
+  13,1:4,0,255,None,Passable
+  14,1:4,0,255,None,Passable
+  15,1:0,2,69,Generic,Passable
+  0,2:0,1,68,Generic,Passable
+  1,2:4,0,255,None,Passable
+  2,2:4,0,255,None,Passable
+  3,2:4,0,255,None,Passable
+  4,2:4,0,255,None,Passable
+  5,2:0,1,73,Garths,Passable
+  6,2:4,0,255,None,Passable
+  7,2:4,0,255,None,Passable
+  8,2:4,0,255,None,Passable
+  9,2:11,4,74,Tavern,Passable,KAP=1
+  10,2:4,0,255,None,Passable
+  11,2:4,0,255,None,Passable
+  12,2:4,0,255,None,Passable
+  13,2:12,4,74,Tavern,Passable,KAP=1
+  14,2:4,0,255,None,Passable
+  15,2:0,3,70,Generic,Passable
+  0,3:0,3,70,Generic,Passable
+  1,3:4,0,255,None,Passable
+  2,3:4,0,255,None,Passable
+  3,3:0,2,69,Generic,Passable
+  4,3:4,0,255,None,Passable
+  5,3:4,0,255,None,Passable
+  6,3:4,0,255,None,Passable
+  7,3:0,4,71,Generic,Passable
+  8,3:4,0,255,None,Passable
+  9,3:4,0,255,None,Passable
+  10,3:4,0,255,None,Passable
+  11,3:0,1,68,Generic,Passable
+  12,3:4,0,255,None,Passable
+  13,3:4,0,255,None,Passable
+  14,3:4,0,255,None,Passable
+  15,3:0,1,68,Generic,Passable
+  0,4:0,2,69,Generic,Passable
+  1,4:4,0,255,None,Passable
+  2,4:0,3,70,Generic,Passable
+  3,4:10,4,74,Tavern,Passable,KAP=1
+  4,4:0,2,69,Generic,Passable
+  5,4:0,3,70,Generic,Passable
+  6,4:0,1,68,Generic,Passable
+  7,4:0,1,68,Generic,Passable
+  8,4:0,4,71,Generic,Passable
+  9,4:1,0,255,None,Passable
+  10,4:0,1,68,Generic,Passable
+  11,4:0,2,69,Generic,Passable
+  12,4:5,0,255,None,Passable
+  13,4:0,3,65,Bank,Passable
+  14,4:0,1,68,Generic,Passable
+  15,4:0,3,70,Generic,Passable
+  0,5:0,3,24,None,Blocked
+  1,5:0,1,68,Generic,Passable
+  2,5:0,4,71,Generic,Passable
+  3,5:3,0,255,None,Passable
+  4,5:3,0,255,None,Passable
+  5,5:3,0,255,None,Passable
+  6,5:0,1,68,Generic,Passable
+  7,5:2,0,255,None,Passable
+  8,5:2,0,255,None,Passable
+  9,5:2,0,255,None,Passable
+  10,5:2,0,255,None,Passable
+  11,5:0,3,70,Generic,Passable
+  12,5:5,0,255,None,Passable
+  13,5:5,0,255,None,Passable
+  14,5:5,0,255,None,Passable
+  15,5:0,3,70,Generic,Passable
+  0,6:0,0,22,None,Passable,Face=East,GateOpen
+  1,6:3,0,255,None,Passable
+  2,6:0,1,68,Generic,Passable
+  3,6:3,0,255,None,Passable
+  4,6:0,2,66,Casino,Passable
+  5,6:3,0,255,None,Passable
+  6,6:0,3,70,Generic,Passable
+  7,6:2,0,255,None,Passable
+  8,6:2,0,255,None,Passable
+  9,6:2,0,255,None,Passable
+  10,6:2,0,255,None,Passable
+  11,6:0,1,77,Review,Passable
+  12,6:0,4,71,Generic,Passable
+  13,6:0,2,69,Generic,Passable
+  14,6:5,0,255,None,Passable
+  15,6:0,3,70,Generic,Passable
+  0,7:0,3,24,None,Blocked
+  1,7:3,0,255,None,Passable
+  2,7:3,0,255,None,Passable
+  3,7:3,0,255,None,Passable
+  4,7:0,2,69,Generic,Passable
+  5,7:3,0,255,None,Passable
+  6,7:2,0,255,None,Passable
+  7,7:2,0,255,None,Passable
+  8,7:2,0,255,None,Passable
+  9,7:0,2,72,Guild,Passable
+  10,7:2,0,255,None,Passable
+  11,7:2,0,255,None,Passable
+  12,7:1,0,255,None,Passable
+  13,7:1,0,255,None,Passable
+  14,7:5,0,255,None,Passable
+  15,7:9,4,74,Tavern,Passable,KAP=1
+  0,8:0,3,70,Generic,Passable
+  1,8:0,3,70,Generic,Passable
+  2,8:0,2,69,Generic,Passable
+  3,8:0,1,68,Generic,Passable
+  4,8:0,4,71,Generic,Passable
+  5,8:0,4,71,Generic,Passable
+  6,8:2,0,255,None,Passable
+  7,8:2,0,255,None,Passable
+  8,8:2,0,255,None,Passable
+  9,8:2,0,255,None,Passable
+  10,8:2,0,255,None,Passable
+  11,8:2,0,255,None,Passable
+  12,8:0,2,69,Generic,Passable
+  13,8:0,2,69,Generic,Passable
+  14,8:5,0,255,None,Passable
+  15,8:0,1,68,Generic,Passable
+  0,9:0,1,68,Generic,Passable
+  1,9:6,0,255,None,Passable
+  2,9:8,4,74,Tavern,Passable,KAP=1
+  3,9:6,0,255,None,Passable
+  4,9:6,0,255,None,Passable
+  5,9:0,3,70,Generic,Passable
+  6,9:2,0,255,None,Passable
+  7,9:2,0,255,None,Passable
+  8,9:0,1,68,Generic,Passable
+  9,9:2,0,255,None,Passable
+  10,9:2,0,255,None,Passable
+  11,9:2,0,255,None,Passable
+  12,9:0,4,71,Generic,Passable
+  13,9:5,0,255,None,Passable
+  14,9:5,0,255,None,Passable
+  15,9:0,2,69,Generic,Passable
+  0,10:0,2,69,Generic,Passable
+  1,10:6,0,255,None,Passable
+  2,10:6,0,255,None,Passable
+  3,10:6,0,255,None,Passable
+  4,10:0,2,69,Generic,Passable
+  5,10:0,1,68,Generic,Passable
+  6,10:2,0,255,None,Passable
+  7,10:2,0,255,None,Passable
+  8,10:2,0,255,None,Passable
+  9,10:2,0,255,None,Passable
+  10,10:2,0,255,None,Passable
+  11,10:2,0,255,None,Passable
+  12,10:0,1,68,Generic,Passable
+  13,10:5,0,255,None,Passable
+  14,10:0,1,68,Generic,Passable
+  15,10:0,3,70,Generic,Passable
+  0,11:0,3,70,Generic,Passable
+  1,11:0,4,71,Generic,Passable
+  2,11:6,0,255,None,Passable
+  3,11:0,4,71,Generic,Passable
+  4,11:0,2,69,Generic,Passable
+  5,11:0,3,70,Generic,Passable
+  6,11:0,1,68,Generic,Passable
+  7,11:0,4,71,Generic,Passable
+  8,11:2,0,255,None,Passable
+  9,11:0,3,70,Generic,Passable
+  10,11:0,1,68,Generic,Passable
+  11,11:0,1,68,Generic,Passable
+  12,11:0,2,66,Casino,Passable
+  13,11:5,0,255,None,Passable
+  14,11:5,0,255,None,Passable
+  15,11:0,4,71,Generic,Passable
+  0,12:0,3,70,Generic,Passable
+  1,12:7,0,255,None,Passable
+  2,12:7,0,255,None,Passable
+  3,12:7,0,255,None,Passable
+  4,12:0,2,24,None,Blocked
+  5,12:0,2,69,Generic,Passable
+  6,12:1,0,255,None,Passable
+  7,12:0,1,68,Generic,Passable
+  8,12:0,4,71,Generic,Passable
+  9,12:0,2,69,Generic,Passable
+  10,12:1,0,255,None,Passable
+  11,12:0,3,70,Generic,Passable
+  12,12:0,2,69,Generic,Passable
+  13,12:0,4,71,Generic,Passable
+  14,12:5,0,255,None,Passable
+  15,12:0,3,70,Generic,Passable
+  0,13:0,2,69,Generic,Passable
+  1,13:7,0,255,None,Passable
+  2,13:0,1,26,Generic,Passable,Face=East
+  3,13:7,0,255,None,Passable
+  4,13:14,0,25,None,Passable,Face=East,GateLocked
+  5,13:7,0,255,None,Passable
+  6,13:7,0,255,None,Passable
+  7,13:7,0,255,None,Passable
+  8,13:13,2,75,Temple,Passable
+  9,13:7,0,255,None,Passable
+  10,13:7,0,255,None,Passable
+  11,13:7,0,255,None,Passable
+  12,13:7,0,255,None,Passable
+  13,13:7,0,255,None,Passable
+  14,13:7,0,255,None,Passable
+  15,13:0,1,68,Generic,Passable
+  0,14:0,1,68,Generic,Passable
+  1,14:7,0,255,None,Passable
+  2,14:7,0,255,None,Passable
+  3,14:7,0,255,None,Passable
+  4,14:0,1,24,None,Blocked
+  5,14:1,0,255,None,Passable
+  6,14:0,1,68,Generic,Passable
+  7,14:7,0,255,None,Passable
+  8,14:7,0,255,None,Passable
+  9,14:7,0,255,None,Passable
+  10,14:0,2,69,Generic,Passable
+  11,14:7,0,255,None,Passable
+  12,14:7,0,255,None,Passable
+  13,14:0,1,68,Generic,Passable
+  14,14:1,0,255,None,Passable
+  15,14:0,2,69,Generic,Passable
+  0,15:0,3,70,Generic,Passable
+  1,15:0,2,69,Generic,Passable
+  2,15:0,3,70,Generic,Passable
+  3,15:0,4,71,Generic,Passable
+  4,15:0,3,70,Generic,Passable
+  5,15:0,3,70,Generic,Passable
+  6,15:0,3,70,Generic,Passable
+  7,15:0,2,69,Generic,Passable
+  8,15:0,1,68,Generic,Passable
+  9,15:0,2,69,Generic,Passable
+  10,15:0,3,70,Generic,Passable
+  11,15:0,3,70,Generic,Passable
+  12,15:0,3,70,Generic,Passable
+  13,15:0,3,70,Generic,Passable
+  14,15:0,1,68,Generic,Passable
+  15,15:0,3,70,Generic,Passable
+levelTable=4
+string=0,SCRIPTSTRING_0574
+string=1,SCRIPTSTRING_0001
+string=2,SCRIPTSTRING_0622
+string=3,SCRIPTSTRING_0683
+string=4,SCRIPTSTRING_0684
+string=5,SCRIPTSTRING_0685
+string=6,SCRIPTSTRING_0686
+string=7,SCRIPTSTRING_0687
+string=8,SCRIPTSTRING_0688
+string=9,SCRIPTSTRING_0689
+string=10,SCRIPTSTRING_0690
+string=11,SCRIPTSTRING_0691
+string=12,SCRIPTSTRING_0692
+string=13,SCRIPTSTRING_0693
+string=14,SCRIPTSTRING_2150
+locationScript=2,13,DestinyStoneEntrance
+locationScript=5,13,DestinyGateClose
+locationScript=4,13,DestinyStoneGate
+locationScript=3,13,DestinyGateClose
+locationScript=0,6,ToTheForest
+scripts
+ToTheForest
+    SetBit,CONT,VisitedColosse
+    IsFacing,TERM,West,TeleportToForest
+TeleportToForest
+    QTeleport,TERM,22,32,0,CITY
+DestinyStoneEntrance
+    ShowPic,CONT,BT2_34_Conjurer
+    ShowText,CONT,SCRIPTSTRING_0694
+    IsBitSet,CONT,BT2COLO04DSEFreezePlease,CreviceIntoDestinyStone
+    Journal,CONT,SCRIPTSTRING_0695
+    Message,CONT,SCRIPTSTRING_0696
+    Jump,CONT,FreezeAnswer
+FreezeAnswer
+    Message2,CONT,SCRIPTSTRING_0697
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0698,PleaseAnswer
+    Jump,CONT,FailedAnswers
+PleaseAnswer
+    Message,CONT,SCRIPTSTRING_0699
+    Message2,CONT,SCRIPTSTRING_0700
+    Input,CONT
+    MatchWord,CONT,SCRIPTSTRING_0701,FreezePleasePass
+    Jump,CONT,FailedAnswers
+FreezePleasePass
+    SetBit,CONT,BT2COLO04DSEFreezePlease
+    Message,CONT,SCRIPTSTRING_0702
+    PressAny,CONT
+    Message,CONT,SCRIPTSTRING_0703
+    PressAny,CONT
+    Jump,CONT,CreviceIntoDestinyStone
+CreviceIntoDestinyStone
+    ShowPic,CONT,BT2_34_Conjurer
+	ShowText,CONT,SCRIPTSTRING_0704
+    Journal,CONT,SCRIPTSTRING_0705
+    Message,CONT,SCRIPTSTRING_0706
+    AddOption,CONT,SCRIPTSTRING_0707,TryCrevice
+    AddOption,CONT,SCRIPTSTRING_0708,LeaveRock
+    WaitOnChoice,CONT
+    @GoBack
+FailedAnswers
+	Message,CONT,SCRIPTSTRING_0709
+    PressAny,CONT
+    ClearWindow,CONT
+    GoBack,TERM
+TryCrevice
+    Journal,CONT,SCRIPTSTRING_0710
+    Direction,CONT,North
+    @TeleportNoJournal,0,0,22,DUNG
+LeaveRock
+    GoBack,TERM
+DestinyStoneGate
+    IsItemInParty,CONT,"Master Key",HoldingKey
+	Message,CONT,SCRIPTSTRING_0662
+	PressAny,CONT
+	GoBack,TERM
+HoldingKey
+    OpenGate,TERM,13,4
+DestinyGateClose
+	ResetGate,TERM,13,4
+EndMessage
+    PressAny,CONT
+	ClearWindow,TERM
+SkipEvent
+    End,TERM

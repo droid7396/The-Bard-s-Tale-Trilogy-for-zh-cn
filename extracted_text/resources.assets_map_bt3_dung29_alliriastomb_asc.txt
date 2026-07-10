@@ -1,0 +1,292 @@
+name=SCRIPTSTRING_1506
+isDungeon=1
+width=13
+height=17
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=22
+wallSet=22
+isWilderness=0
+difficulty=5
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=7
+parentX=1
+parentMap=5
+level=0
+levelTable=29,30
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO,StairsOut
+  1,0:None,None,SolidNoPHDO,None
+  2,0:SolidNoPHDO,None,SolidNoPHDO,None, RegenMagic
+  3,0:None,None,SolidNoPHDO,None
+  4,0:None,None,SolidNoPHDO,None, DrainMagic
+  5,0:SolidNoPHDO,None,SolidNoPHDO,None
+  6,0:None,SolidNoPHDO,SolidNoPHDO,None
+  7,0:None,None,SolidNoPHDO,SolidNoPHDO, DrainMagic
+  8,0:None,SolidNoPHDO,SolidNoPHDO,None
+  9,0:None,None,SolidNoPHDO,SolidNoPHDO
+  10,0:None,None,SolidNoPHDO,None
+  11,0:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None
+  12,0:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO
+  0,1:SolidNoPHDO,None,None,SolidNoPHDO
+  1,1:SolidNoPHDO,None,None,None
+  2,1:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None
+  3,1:None,None,None,SolidNoPHDO, RandomCombat
+  4,1:SolidNoPHDO,None,None,None
+  5,1:None,None,SolidNoPHDO,None, RandomCombat
+  6,1:None,None,None,None
+  7,1:None,SolidNoPHDO,None,None, RandomCombat, Spinner
+  8,1:SolidNoPHDO,None,None,SolidNoPHDO
+  9,1:None,SolidNoPHDO,None,None
+  10,1:SolidNoPHDO,None,None,SolidNoPHDO
+  11,1:None,SolidNoPHDO,SolidNoPHDO,None
+  12,1:None,SolidNoPHDO,None,SolidNoPHDO
+  0,2:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,2:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  2,2:None,None,SolidNoPHDO,SolidNoPHDO
+  3,2:None,SolidNoPHDO,None,None
+  4,2:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO
+  5,2:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty
+  6,2:SolidNoPHDO,None,None,SolidNoPHDO, Flypaper
+  7,2:None,None,None,None
+  8,2:None,SolidNoPHDO,SolidNoPHDO,None
+  9,2:None,SolidNoPHDO,None,SolidNoPHDO, RandomCombat
+  10,2:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  11,2:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat
+  12,2:SolidNoPHDO,SolidNoPHDO,None,None, Flypaper
+  0,3:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar, Flypaper
+  1,3:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  2,3:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RegenMagic
+  3,3:SolidNoPHDO,None,None,SolidNoPHDO
+  4,3:None,None,SolidNoPHDO,None, DrainMagic
+  5,3:SolidNoPHDO,None,SolidNoPHDO,None
+  6,3:None,None,SolidNoPHDO,None
+  7,3:None,None,None,None, DrainMagic
+  8,3:SolidNoPHDO,None,None,None
+  9,3:None,SolidNoPHDO,None,None
+  10,3:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  11,3:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,3:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  0,4:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar, RegenHealth
+  1,4:None,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  2,4:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  3,4:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  4,4:SolidNoPHDO,None,None,SolidNoPHDO
+  5,4:None,None,SolidNoPHDO,None
+  6,4:None,SolidNoPHDO,None,None
+  7,4:None,None,None,SolidNoPHDO
+  8,4:SolidNoPHDO,None,SolidNoPHDO,None
+  9,4:SolidNoPHDO,SolidNoPHDO,None,None
+  10,4:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  11,4:None,None,SolidNoPHDO,None, RandomCombat, AntiApar
+  12,4:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar, RegenHealth
+  0,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,5:SolidNoPHDO,None,None,SolidNoPHDO, Spinner, AntiApar
+  2,5:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  3,5:None,None,None,SolidNoPHDO, AntiApar
+  4,5:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  5,5:SolidNoPHDO,None,None,SolidNoPHDO, HarmParty
+  6,5:DoorNoPHDO,None,None,None, HarmParty
+  7,5:SolidNoPHDO,SolidNoPHDO,None,None, HarmParty
+  8,5:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  9,5:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,5:SolidNoPHDO,SolidNoPHDO,None,None, Spinner, AntiApar
+  11,5:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  12,5:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  0,6:None,None,None,SolidNoPHDO, AntiApar
+  1,6:None,None,SolidNoPHDO,None, RandomCombat, AntiApar
+  2,6:None,None,None,None, AntiApar
+  3,6:None,SolidNoPHDO,None,None, RandomTrap, AntiApar
+  4,6:None,None,None,SolidNoPHDO, Darkness, AntiApar
+  5,6:None,None,SolidNoPHDO,None, AntiApar
+  6,6:SolidNoPHDO,None,DoorNoPHDO,None, AntiApar
+  7,6:None,None,SolidNoPHDO,None, AntiApar
+  8,6:None,None,None,None, Darkness, AntiApar
+  9,6:None,None,SolidNoPHDO,None, AntiApar
+  10,6:None,None,SolidNoPHDO,None, AntiApar
+  11,6:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  12,6:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,7:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,7:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  2,7:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  3,7:None,None,None,SolidNoPHDO, AntiApar
+  4,7:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  5,7:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  6,7:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat, RegenMagic, AntiApar
+  7,7:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  8,7:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  9,7:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  10,7:SolidNoPHDO,None,None,None, RandomCombat, AntiApar, RegenHealth
+  11,7:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,7:None,SolidNoPHDO,None,None, AntiApar
+  0,8:None,None,SolidNoPHDO,SolidNoPHDO, RegenMagic, AntiApar
+  1,8:None,SolidNoPHDO,SolidNoPHDO,None, SilenceBard, AntiApar
+  2,8:None,None,None,SolidNoPHDO, SilenceBard, AntiApar
+  3,8:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  4,8:None,None,SolidNoPHDO,SolidNoPHDO, Darkness, AntiApar
+  5,8:None,None,SolidNoPHDO,None, AntiApar
+  6,8:SolidNoPHDO,None,SolidNoPHDO,None, RegenMagic, AntiApar
+  7,8:None,None,SolidNoPHDO,None, AntiApar
+  8,8:None,SolidNoPHDO,SolidNoPHDO,None, Darkness, AntiApar
+  9,8:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  10,8:None,SolidNoPHDO,SolidNoPHDO,None, SilenceBard, AntiApar
+  11,8:None,None,SolidNoPHDO,SolidNoPHDO, SilenceBard, RegenMagic, AntiApar
+  12,8:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  0,9:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiMagic, AntiApar
+  1,9:None,None,None,SolidNoPHDO, AntiApar
+  2,9:SolidNoPHDO,None,None,None, RandomCombat, AntiApar
+  3,9:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  4,9:None,SolidNoPHDO,None,None, AntiApar
+  5,9:None,None,None,SolidNoPHDO, AntiMagic, AntiApar
+  6,9:None,None,SolidNoPHDO,None, RandomCombat, AntiMagic, AntiApar
+  7,9:None,SolidNoPHDO,None,None, AntiMagic, AntiApar
+  8,9:None,None,None,SolidNoPHDO, AntiApar
+  9,9:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  10,9:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  11,9:None,None,None,None, AntiApar
+  12,9:None,SolidNoPHDO,SolidNoPHDO,None, AntiMagic, AntiApar
+  0,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,10:None,None,None,SolidNoPHDO, AntiApar
+  2,10:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  3,10:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  4,10:None,None,None,SolidNoPHDO, AntiApar
+  5,10:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic, AntiApar
+  6,10:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, Turncoat, AntiApar
+  7,10:SolidNoPHDO,None,None,SolidNoPHDO, DrainMagic, AntiApar
+  8,10:None,None,None,None, AntiApar
+  9,10:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  10,10:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  11,10:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomCombat, AntiApar
+  12,10:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,11:None,None,None,SolidNoPHDO, AntiApar
+  1,11:SolidNoPHDO,None,None,None, RandomCombat, AntiApar
+  2,11:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  3,11:None,None,None,SolidNoPHDO, AntiApar
+  4,11:SolidNoPHDO,None,None,None, AntiApar
+  5,11:None,SolidNoPHDO,SolidNoPHDO,None, DrainMagic, AntiApar
+  6,11:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, Turncoat, AntiApar
+  7,11:None,None,SolidNoPHDO,SolidNoPHDO, DrainMagic, AntiApar
+  8,11:SolidNoPHDO,None,None,None, AntiApar
+  9,11:None,None,SolidNoPHDO,None, AntiApar
+  10,11:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  11,11:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  12,11:None,SolidNoPHDO,None,None, AntiApar
+  0,12:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  1,12:None,None,SolidNoPHDO,None, AntiApar
+  2,12:None,SolidNoPHDO,None,None, RandomTrap, AntiApar
+  3,12:None,None,None,SolidNoPHDO, AntiApar
+  4,12:SolidNoPHDO,None,SolidNoPHDO,None, Smoke, AntiApar
+  5,12:SolidNoPHDO,None,None,None, Smoke, AntiApar
+  6,12:SolidNoPHDO,None,None,None, Smoke, AntiApar
+  7,12:SolidNoPHDO,None,None,None, Smoke, AntiApar
+  8,12:SolidNoPHDO,None,SolidNoPHDO,None, Smoke, AntiApar
+  9,12:None,None,None,None, RandomTrap, AntiApar
+  10,12:None,None,SolidNoPHDO,None, RandomCombat, AntiApar
+  11,12:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  12,12:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  0,13:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, RandomCombat, AntiApar
+  1,13:None,SolidNoPHDO,None,None, AntiApar
+  2,13:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  3,13:None,SolidNoPHDO,None,None, AntiApar
+  4,13:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, Darkness, AntiApar
+  5,13:None,None,SolidNoPHDO,SolidNoPHDO, HarmParty, AntiApar
+  6,13:None,None,SolidNoPHDO,None, HarmParty, Turncoat, AntiApar
+  7,13:None,SolidNoPHDO,SolidNoPHDO,None, HarmParty, AntiApar
+  8,13:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, Darkness, AntiApar
+  9,13:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  10,13:None,None,None,SolidNoPHDO, AntiApar
+  11,13:SolidNoPHDO,None,SolidNoPHDO,None, AntiApar
+  12,13:None,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  0,14:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  1,14:SolidNoPHDO,None,None,None, Spinner, AntiApar
+  2,14:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  3,14:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  4,14:None,None,None,SolidNoPHDO, AntiApar
+  5,14:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  6,14:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  7,14:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  8,14:None,SolidNoPHDO,None,None, AntiApar
+  9,14:None,None,None,SolidNoPHDO, AntiApar
+  10,14:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  11,14:SolidNoPHDO,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  12,14:None,SolidNoPHDO,None,None, Spinner, AntiApar
+  0,15:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  1,15:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  2,15:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  3,15:None,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  4,15:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  5,15:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  6,15:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, AntiApar
+  7,15:None,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, AntiApar
+  8,15:None,SolidNoPHDO,None,SolidNoPHDO, SilenceBard, AntiApar
+  9,15:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  10,15:None,SolidNoPHDO,SolidNoPHDO,None, AntiApar
+  11,15:None,None,SolidNoPHDO,SolidNoPHDO, AntiApar
+  12,15:None,SolidNoPHDO,None,None, AntiApar
+  0,16:SolidNoPHDO,None,None,SolidNoPHDO, AntiMagic, AntiApar
+  1,16:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat, AntiApar
+  2,16:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  3,16:SolidNoPHDO,None,None,None, RandomTrap, AntiApar
+  4,16:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  5,16:SolidNoPHDO,None,None,SolidNoPHDO, AntiApar
+  6,16:SolidNoPHDO,None,SolidNoPHDO,None, StairsIn, AntiApar
+  7,16:SolidNoPHDO,SolidNoPHDO,None,None, AntiApar
+  8,16:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat, AntiApar
+  9,16:SolidNoPHDO,None,SolidNoPHDO,None, RandomTrap, AntiApar
+  10,16:SolidNoPHDO,None,None,None, AntiApar
+  11,16:SolidNoPHDO,None,None,None, RandomCombat, AntiApar
+  12,16:SolidNoPHDO,SolidNoPHDO,None,None, AntiMagic, AntiApar
+locationScript=2,0,L1197
+locationScript=6,5,L1303
+locationScript=6,6,L1382
+locationScript=7,6,L1464
+locationScript=0,0,L1195
+locationScript=6,16,L1196
+locationScript=6,15,L1537
+locationSpellScript=6,15,L1629
+commonScript=L1527
+scripts
+L1195
+    @StairsOut
+L1196
+    @StairsIn
+L1197
+    @JMessage,SCRIPTSTRING_1746
+L1303
+    @JMessage,SCRIPTSTRING_1747
+L1382
+    @JMessage,SCRIPTSTRING_1748
+L1464
+    @JMessage,SCRIPTSTRING_1749
+L1527
+    @IsTOTBitSet,40,L1529
+L1529
+    ChangeMap,15,6,2
+    @ChangeMap,16,6,34
+L1537
+    IsTOTBitSet,40,L1577
+    @JMessage,0,SCRIPTSTRING_1750
+L1577
+    @JMessage,0,SCRIPTSTRING_1751
+L1629
+    @MatchSpell,Item,L1631
+L1631
+    @IsTOTBitClear,40,L1633
+L1633
+    @MatchItem,Magic Triangle,L1635
+L1635
+    Intercept
+    MessageChar,SCRIPTSTRING_1752
+    PressAny
+    SetTOTBit,40
+    ChangeMap,15,6,2
+    ChangeMap,16,6,34
+    DoView
+    Journal,0,SCRIPTSTRING_1753
+    @Message,SCRIPTSTRING_1754

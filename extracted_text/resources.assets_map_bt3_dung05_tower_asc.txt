@@ -1,0 +1,105 @@
+name=SCRIPTSTRING_1572
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=8
+wallSet=23
+isWilderness=0
+difficulty=3
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=1
+parentX=1
+parentMap=2
+level=2
+levelTable=3,4,5,6
+map
+  0,0:Solid,Door,SolidNoPHDO,SolidNoPHDO, RandomTrap
+  1,0:Solid,None,SolidNoPHDO,Door
+  2,0:Door,None,SolidNoPHDO,None, SpecialAhead, RandomCombat
+  3,0:Solid,Solid,SolidNoPHDO,None, RandomCombat
+  4,0:Door,SolidNoPHDO,SolidNoPHDO,Solid, SpecialAhead, RandomCombat
+  0,1:Solid,Door,Solid,SolidNoPHDO, RandomCombat
+  1,1:None,None,Solid,Door, Spinner
+  2,1:SolidNoPHDO,None,Door,None, SpecialAhead
+  3,1:None,Solid,Solid,None
+  4,1:None,SolidNoPHDO,Door,Solid, RandomCombat
+  0,2:Solid,None,Solid,SolidNoPHDO, StairsOut
+  1,2:None,SolidNoPHDO,None,None
+  2,2:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,SolidNoPHDO, StairsIn, SpecialAhead, AntiApar
+  3,2:None,Door,None,SolidNoPHDO, RandomCombat
+  4,2:None,SolidNoPHDO,None,Door, RandomCombat
+  0,3:Solid,Door,Solid,SolidNoPHDO, RandomCombat
+  1,3:Solid,None,None,Door, Spinner
+  2,3:Door,None,SolidNoPHDO,None, Spinner
+  3,3:Solid,Solid,None,None
+  4,3:None,SolidNoPHDO,None,Solid, RandomCombat
+  0,4:SolidNoPHDO,Door,Solid,SolidNoPHDO, SpecialAhead
+  1,4:SolidNoPHDO,None,Solid,Door, RandomCombat
+  2,4:SolidNoPHDO,None,Door,None, HarmParty
+  3,4:SolidNoPHDO,Solid,Solid,None, RandomCombat
+  4,4:SolidNoPHDO,SolidNoPHDO,None,Solid, RegenMagic
+commonScript=L484
+locationScript=2,2,L206
+locationScript=0,2,L207
+locationScript=4,0,L202
+locationScript=1,2,L310
+locationSpellScript=1,2,L494
+locationSpellScript=1,2,L516
+locationScript=0,4,L670
+scripts
+L202
+    @Teleport,0,4,5,DUNG
+L206
+    @StairsIn
+L207
+    StairsOut
+    @JMessage,SCRIPTSTRING_1577
+L310
+    IsTOTBitClear,1,L350
+    @JMessage,SCRIPTSTRING_1578
+L350
+    JMessage,0,SCRIPTSTRING_1579
+    IsTOTBitSet,0,L474
+    @Message2,SCRIPTSTRING_1580
+L474
+    @Message2,SCRIPTSTRING_1581
+L484
+    @IsTOTBitSet,1,L486
+L486
+    ChangeMap,2,1,18
+    @ChangeMap,2,2,50
+L494
+    @MatchSpell,Acorn,L496
+L496
+    @IsTOTBitClear,0,L498
+L498
+    @IsTOTBitClear,1,L500
+L500
+    MessageChar,SCRIPTSTRING_1582
+    Intercept
+    @SetTOTBit,0
+L516
+    @MatchSpell,Wine,L518
+L518
+    @IsTOTBitSet,0,L520
+L520
+    MatchContents,WaterOfLife,L556
+    MessageChar,SCRIPTSTRING_1583
+    @Intercept
+L556
+    JMessage,SCRIPTSTRING_1584
+    ChangeMap,2,1,18
+    ChangeMap,2,2,50
+    DoView
+    Intercept
+    @SetTOTBit,1
+L670
+    @JMessage,SCRIPTSTRING_1585

@@ -1,0 +1,63 @@
+name=SCRIPTSTRING_1610
+isDungeon=1
+width=5
+height=5
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=1
+phaseDoorDisable=0
+isTower=1
+isOutside=0
+monsterSet=15
+wallSet=26
+isWilderness=0
+difficulty=4
+skyColor=6,0,0,0
+groundColor=7,0,0,0
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+levelTable=8,9,10,11
+map
+  0,0:None,None,SolidNoPHDO,SolidNoPHDO, StairsOut
+  1,0:Door,None,SolidNoPHDO,None, RandomCombat
+  2,0:SolidNoPHDO,None,SolidNoPHDO,None, SilenceBard
+  3,0:SolidNoPHDO,None,SolidNoPHDO,None, RandomCombat
+  4,0:Door,SolidNoPHDO,SolidNoPHDO,None
+  0,1:None,SolidNoPHDO,None,SolidNoPHDO
+  1,1:None,None,Door,SolidNoPHDO, RandomCombat
+  2,1:None,SolidNoPHDO,SolidNoPHDO,None
+  3,1:Door,Door,SolidNoPHDO,SolidNoPHDO, RandomCombat
+  4,1:SolidNoPHDO,SolidNoPHDO,Door,Door, RandomTrap
+  0,2:None,SolidNoPHDO,None,SolidNoPHDO, DrainMagic
+  1,2:SolidNoPHDO,None,None,SolidNoPHDO, RandomCombat
+  2,2:SolidNoPHDO,SolidNoPHDO,None,None, DrainMagic
+  3,2:SolidNoPHDO,Door,Door,SolidNoPHDO, RandomCombat
+  4,2:Door,SolidNoPHDO,SolidNoPHDO,Door, RandomTrap
+  0,3:None,Door,None,SolidNoPHDO
+  1,3:None,None,SolidNoPHDO,Door
+  2,3:None,SolidNoPHDO,SolidNoPHDO,None, RegenMagic
+  3,3:Door,Door,SolidNoPHDO,SolidNoPHDO, Spinner
+  4,3:SolidNoPHDO,SolidNoPHDO,Door,Door, RandomCombat
+  0,4:SolidNoPHDO,SolidNoPHDO,None,SolidNoPHDO, RandomCombat
+  1,4:SolidNoPHDO,None,None,SolidNoPHDO
+  2,4:SolidNoPHDO,SolidNoPHDO,None,None, RandomCombat
+  3,4:SolidNoPHDO,Door,Door,SolidNoPHDO
+  4,4:SolidNoPHDO,SolidNoPHDO,SolidNoPHDO,Door, StairsIn, AntiApar
+locationScript=4,4,L184
+locationScript=0,0,L185
+scripts
+L184
+    @StairsIn
+L185
+    Aborter,L291
+L188
+    @JMessage,SCRIPTSTRING_1611
+L291
+    Message,SCRIPTSTRING_1612
+    YesNo,L337
+    Jump,L188
+L337
+    @TeleportNoJournal,11,9,22,DUNG

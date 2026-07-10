@@ -1,0 +1,724 @@
+name=SCRIPTSTRING_1371
+isDungeon=0
+width=22
+height=22
+xOffset=0
+zOffset=0
+encountersEnable=1
+wrapAroundEnable=0
+phaseDoorDisable=1
+isTower=0
+isOutside=1
+monsterSet=6
+wallSet=6
+isWilderness=1
+difficulty=3
+skyColor=255,255,255,255
+groundColor=255,255,255,255
+parentZ=0
+parentX=0
+parentMap=0
+level=0
+map
+  0,0:0,0,27,None,Blocked
+  1,0:0,0,27,None,Blocked
+  2,0:0,0,255,None,Passable
+  3,0:0,0,255,None,Passable
+  4,0:0,0,255,None,Passable
+  5,0:0,0,255,None,Passable
+  6,0:0,0,255,None,Passable
+  7,0:0,0,255,None,Passable
+  8,0:0,0,27,None,Blocked
+  9,0:0,0,27,None,Blocked
+  10,0:0,0,27,None,Blocked
+  11,0:0,0,255,None,Passable
+  12,0:0,0,255,None,Passable
+  13,0:0,0,255,None,Passable
+  14,0:0,0,255,None,Passable
+  15,0:0,0,255,None,Passable
+  16,0:0,0,255,None,Passable
+  17,0:0,0,255,None,Passable
+  18,0:0,0,27,None,Blocked
+  19,0:0,0,27,None,Blocked
+  20,0:0,0,255,None,Passable
+  21,0:0,0,27,None,Blocked
+  0,1:0,0,27,None,Blocked
+  1,1:0,0,27,None,Blocked
+  2,1:0,0,255,None,Passable
+  3,1:0,0,255,None,Passable
+  4,1:0,0,255,None,Passable
+  5,1:0,0,255,None,Passable
+  6,1:0,0,255,None,Passable
+  7,1:0,0,255,None,Passable
+  8,1:0,0,255,None,Passable
+  9,1:0,0,27,None,Blocked
+  10,1:0,0,255,None,Passable
+  11,1:0,0,255,None,Passable
+  12,1:0,0,255,None,Passable
+  13,1:0,0,255,None,Passable
+  14,1:0,0,255,None,Passable
+  15,1:0,0,255,None,Passable
+  16,1:0,0,255,None,Passable
+  17,1:0,0,255,None,Passable
+  18,1:0,0,255,None,Passable
+  19,1:0,0,255,None,Passable
+  20,1:0,0,255,None,Passable
+  21,1:0,0,27,None,Blocked
+  0,2:0,0,27,None,Blocked
+  1,2:0,0,255,None,Passable
+  2,2:0,0,255,None,Passable
+  3,2:0,0,255,None,Passable
+  4,2:0,0,255,None,Passable
+  5,2:0,0,27,None,Blocked
+  6,2:0,0,255,None,Passable
+  7,2:0,0,255,None,Passable
+  8,2:0,0,255,None,Passable
+  9,2:0,0,255,None,Passable
+  10,2:0,0,255,None,Passable
+  11,2:0,0,255,None,Passable
+  12,2:0,0,27,None,Blocked
+  13,2:0,0,255,None,Passable
+  14,2:0,0,27,None,Blocked
+  15,2:0,0,255,None,Passable
+  16,2:0,0,255,None,Passable
+  17,2:0,0,255,None,Passable
+  18,2:0,0,255,None,Passable
+  19,2:0,0,255,None,Passable
+  20,2:0,0,255,None,Passable
+  21,2:0,0,255,None,Passable
+  0,3:0,0,255,None,Passable
+  1,3:0,0,255,None,Passable
+  2,3:0,0,255,None,Passable
+  3,3:0,0,255,None,Passable
+  4,3:0,0,255,None,Passable
+  5,3:0,0,255,None,Passable
+  6,3:0,0,255,None,Passable
+  7,3:0,0,255,None,Passable
+  8,3:0,0,255,None,Passable
+  9,3:0,0,255,None,Passable
+  10,3:0,0,255,None,Passable
+  11,3:0,0,255,None,Passable
+  12,3:0,0,255,None,Passable
+  13,3:0,0,255,None,Passable
+  14,3:0,0,255,None,Passable
+  15,3:0,0,255,None,Passable
+  16,3:0,0,255,None,Passable
+  17,3:0,0,15,None,Blocked
+  18,3:0,0,15,None,Blocked
+  19,3:0,0,15,None,Blocked
+  20,3:0,0,255,None,Passable
+  21,3:0,0,255,None,Passable
+  0,4:0,0,255,None,Passable
+  1,4:0,0,255,None,Passable
+  2,4:0,0,255,None,Passable
+  3,4:0,0,20,Generic,Passable,Face=South
+  4,4:0,0,255,None,Passable
+  5,4:0,0,255,None,Passable
+  6,4:0,0,255,None,Passable
+  7,4:0,0,255,None,Passable
+  8,4:0,0,255,None,Passable
+  9,4:0,0,255,None,Passable
+  10,4:0,0,255,None,Passable
+  11,4:0,0,255,None,Passable
+  12,4:0,0,255,None,Passable
+  13,4:0,0,27,None,Blocked
+  14,4:0,0,255,None,Passable
+  15,4:0,0,255,None,Passable
+  16,4:0,0,255,None,Passable
+  17,4:0,0,255,None,Passable
+  18,4:0,0,17,None,Blocked
+  19,4:0,0,15,None,Blocked
+  20,4:0,0,255,None,Passable
+  21,4:0,0,255,None,Passable
+  0,5:0,0,27,None,Blocked
+  1,5:0,0,255,None,Passable
+  2,5:0,0,255,None,Passable
+  3,5:0,0,255,None,Passable
+  4,5:0,0,27,None,Blocked
+  5,5:0,0,255,None,Passable
+  6,5:0,0,255,None,Passable
+  7,5:0,0,255,None,Passable
+  8,5:0,0,33,None,Blocked
+  9,5:0,0,255,None,Passable
+  10,5:0,0,33,None,Blocked
+  11,5:0,0,255,None,Passable
+  12,5:0,0,255,None,Passable
+  13,5:0,0,27,None,Blocked
+  14,5:0,0,255,None,Passable
+  15,5:0,0,255,None,Passable
+  16,5:0,0,255,None,Passable
+  17,5:0,0,15,None,Blocked
+  18,5:0,0,15,None,Blocked
+  19,5:0,0,15,None,Blocked
+  20,5:0,0,255,None,Passable
+  21,5:0,0,255,None,Passable
+  0,6:0,0,27,None,Blocked
+  1,6:0,0,255,None,Passable
+  2,6:0,0,255,None,Passable
+  3,6:0,0,27,None,Blocked
+  4,6:0,0,255,None,Passable
+  5,6:0,0,255,None,Passable
+  6,6:0,0,255,None,Passable
+  7,6:0,0,255,None,Passable
+  8,6:0,0,33,None,Blocked
+  9,6:0,0,25,None,Blocked
+  10,6:0,0,33,None,Blocked
+  11,6:0,0,255,None,Passable
+  12,6:0,0,27,None,Blocked
+  13,6:0,0,27,None,Blocked
+  14,6:0,0,27,None,Blocked
+  15,6:0,0,255,None,Passable
+  16,6:0,0,255,None,Passable
+  17,6:0,0,255,None,Passable
+  18,6:0,0,255,None,Passable
+  19,6:0,0,255,None,Passable
+  20,6:0,0,15,None,Blocked
+  21,6:0,0,255,None,Passable
+  0,7:0,0,255,None,Passable
+  1,7:0,0,255,None,Passable
+  2,7:0,0,27,None,Blocked
+  3,7:0,0,255,None,Passable
+  4,7:0,0,27,None,Blocked
+  5,7:0,0,255,None,Passable
+  6,7:0,0,27,None,Blocked
+  7,7:0,0,255,None,Passable
+  8,7:0,0,255,None,Passable
+  9,7:0,0,33,None,Blocked
+  10,7:0,0,255,None,Passable
+  11,7:0,0,255,None,Passable
+  12,7:0,0,255,None,Passable
+  13,7:0,0,255,None,Passable
+  14,7:0,0,255,None,Passable
+  15,7:0,0,255,None,Passable
+  16,7:0,0,255,None,Passable
+  17,7:0,0,255,None,Passable
+  18,7:0,0,255,None,Passable
+  19,7:0,0,255,None,Passable
+  20,7:0,0,255,None,Passable
+  21,7:0,0,255,None,Passable
+  0,8:0,0,255,None,Passable
+  1,8:0,0,255,None,Passable
+  2,8:0,0,255,None,Passable
+  3,8:0,0,255,None,Passable
+  4,8:0,0,255,None,Passable
+  5,8:0,0,255,None,Passable
+  6,8:0,0,255,None,Passable
+  7,8:0,0,255,None,Passable
+  8,8:0,0,255,None,Passable
+  9,8:0,0,255,None,Passable
+  10,8:0,0,255,None,Passable
+  11,8:0,0,255,None,Passable
+  12,8:0,0,255,None,Passable
+  13,8:0,0,255,None,Passable
+  14,8:0,0,255,None,Passable
+  15,8:0,0,255,None,Passable
+  16,8:0,0,255,None,Passable
+  17,8:0,0,255,None,Passable
+  18,8:0,0,27,None,Blocked
+  19,8:0,0,27,None,Blocked
+  20,8:0,0,255,None,Passable
+  21,8:0,0,255,None,Passable
+  0,9:0,0,27,None,Blocked
+  1,9:0,0,255,None,Passable
+  2,9:0,0,255,None,Passable
+  3,9:0,0,255,None,Passable
+  4,9:0,0,255,None,Passable
+  5,9:0,0,255,None,Passable
+  6,9:0,0,255,None,Passable
+  7,9:0,0,255,None,Passable
+  8,9:0,0,255,None,Passable
+  9,9:0,0,255,None,Passable
+  10,9:0,0,255,None,Passable
+  11,9:0,0,255,None,Passable
+  12,9:0,0,255,None,Passable
+  13,9:0,0,27,None,Blocked
+  14,9:0,0,27,None,Blocked
+  15,9:0,0,255,None,Passable
+  16,9:0,0,255,None,Passable
+  17,9:0,0,255,None,Passable
+  18,9:0,0,255,None,Passable
+  19,9:0,0,255,None,Passable
+  20,9:0,0,255,None,Passable
+  21,9:0,0,255,None,Passable
+  0,10:0,0,27,None,Blocked
+  1,10:0,0,27,None,Blocked
+  2,10:0,0,255,None,Passable
+  3,10:0,0,255,None,Passable
+  4,10:0,0,255,None,Passable
+  5,10:0,0,255,None,Passable
+  6,10:0,0,255,None,Passable
+  7,10:0,0,27,None,Blocked
+  8,10:0,0,255,None,Passable
+  9,10:0,0,255,None,Passable
+  10,10:0,0,255,None,Passable
+  11,10:0,2,38,None,Blocked,Face=South
+  12,10:0,2,37,None,Blocked,Face=South
+  13,10:0,2,38,None,Blocked,Face=South
+  14,10:0,0,255,None,Passable
+  15,10:0,0,255,None,Passable
+  16,10:0,0,255,None,Passable
+  17,10:0,0,255,None,Passable
+  18,10:0,0,255,None,Passable
+  19,10:0,0,255,None,Passable
+  20,10:0,0,255,None,Passable
+  21,10:0,0,27,None,Blocked
+  0,11:0,0,255,None,Passable
+  1,11:0,0,255,None,Passable
+  2,11:0,0,255,None,Passable
+  3,11:0,0,255,None,Passable
+  4,11:0,0,255,None,Passable
+  5,11:0,0,255,None,Passable
+  6,11:0,0,255,None,Passable
+  7,11:0,0,27,None,Blocked
+  8,11:0,0,255,None,Passable
+  9,11:0,0,255,None,Passable
+  10,11:0,0,27,None,Blocked
+  11,11:0,2,37,None,Blocked,Face=West
+  12,11:0,0,255,None,Passable
+  13,11:0,2,37,None,Blocked,Face=East
+  14,11:0,0,255,None,Passable
+  15,11:0,0,255,None,Passable
+  16,11:0,0,255,None,Passable
+  17,11:0,0,255,None,Passable
+  18,11:0,0,255,None,Passable
+  19,11:0,0,27,None,Blocked
+  20,11:0,0,255,None,Passable
+  21,11:0,0,255,None,Passable
+  0,12:0,0,255,None,Passable
+  1,12:0,0,255,None,Passable
+  2,12:0,0,255,None,Passable
+  3,12:0,0,255,None,Passable
+  4,12:0,0,255,None,Passable
+  5,12:0,0,255,None,Passable
+  6,12:0,0,255,None,Passable
+  7,12:0,0,255,None,Passable
+  8,12:0,0,255,None,Passable
+  9,12:0,0,255,None,Passable
+  10,12:0,0,255,None,Passable
+  11,12:0,2,38,None,Blocked,Face=North
+  12,12:0,0,36,None,Passable,Face=North,GateOpen
+  13,12:0,2,38,None,Blocked,Face=North
+  14,12:0,0,27,None,Blocked
+  15,12:0,0,255,None,Passable
+  16,12:0,0,255,None,Passable
+  17,12:0,0,27,None,Blocked
+  18,12:0,0,255,None,Passable
+  19,12:0,0,27,None,Blocked
+  20,12:0,0,255,None,Passable
+  21,12:0,0,255,None,Passable
+  0,13:0,0,255,None,Passable
+  1,13:0,0,255,None,Passable
+  2,13:0,0,27,None,Blocked
+  3,13:0,0,255,None,Passable
+  4,13:0,0,27,None,Blocked
+  5,13:0,0,255,None,Passable
+  6,13:0,0,255,None,Passable
+  7,13:0,0,255,None,Passable
+  8,13:0,0,255,None,Passable
+  9,13:0,0,255,None,Passable
+  10,13:0,0,255,None,Passable
+  11,13:0,0,255,None,Passable
+  12,13:0,0,255,None,Passable
+  13,13:0,0,255,None,Passable
+  14,13:0,0,27,None,Blocked
+  15,13:0,0,255,None,Passable
+  16,13:0,0,255,None,Passable
+  17,13:0,0,255,None,Passable
+  18,13:0,0,27,None,Blocked
+  19,13:0,0,255,None,Passable
+  20,13:0,0,255,None,Passable
+  21,13:0,0,27,None,Blocked
+  0,14:0,0,27,None,Blocked
+  1,14:0,0,27,None,Blocked
+  2,14:0,0,27,None,Blocked
+  3,14:0,0,27,None,Blocked
+  4,14:0,0,255,None,Passable
+  5,14:0,0,255,None,Passable
+  6,14:0,0,255,None,Passable
+  7,14:0,0,255,None,Passable
+  8,14:0,0,255,None,Passable
+  9,14:0,0,27,None,Blocked
+  10,14:0,0,255,None,Passable
+  11,14:0,0,255,None,Passable
+  12,14:0,0,255,None,Passable
+  13,14:0,0,255,None,Passable
+  14,14:0,0,255,None,Passable
+  15,14:0,0,255,None,Passable
+  16,14:0,0,255,None,Passable
+  17,14:0,0,255,None,Passable
+  18,14:0,0,255,None,Passable
+  19,14:0,0,255,None,Passable
+  20,14:0,0,255,None,Passable
+  21,14:0,0,27,None,Blocked
+  0,15:0,0,255,None,Passable
+  1,15:0,0,255,None,Passable
+  2,15:0,0,255,None,Passable
+  3,15:0,0,255,None,Passable
+  4,15:0,0,255,None,Passable
+  5,15:0,0,255,None,Passable
+  6,15:0,0,255,None,Passable
+  7,15:0,0,255,None,Passable
+  8,15:0,0,27,None,Blocked
+  9,15:0,0,255,None,Passable
+  10,15:0,0,255,None,Passable
+  11,15:0,0,255,None,Passable
+  12,15:0,0,255,None,Passable
+  13,15:0,0,255,None,Passable
+  14,15:0,0,255,None,Passable
+  15,15:0,0,255,None,Passable
+  16,15:0,0,255,None,Passable
+  17,15:0,0,255,None,Passable
+  18,15:0,0,255,None,Passable
+  19,15:0,0,255,None,Passable
+  20,15:0,0,255,None,Passable
+  21,15:0,0,255,None,Passable
+  0,16:0,0,255,None,Passable
+  1,16:0,0,255,None,Passable
+  2,16:0,0,255,None,Passable
+  3,16:0,0,255,None,Passable
+  4,16:0,0,255,None,Passable
+  5,16:0,0,255,None,Passable
+  6,16:0,0,255,None,Passable
+  7,16:0,0,255,None,Passable
+  8,16:0,0,255,None,Passable
+  9,16:0,0,255,None,Passable
+  10,16:0,0,27,None,Blocked
+  11,16:0,0,255,None,Passable
+  12,16:0,0,255,None,Passable
+  13,16:0,0,255,None,Passable
+  14,16:0,0,255,None,Passable
+  15,16:0,0,255,None,Passable
+  16,16:0,0,255,None,Passable
+  17,16:0,0,255,None,Passable
+  18,16:0,0,27,None,Blocked
+  19,16:0,0,255,None,Passable
+  20,16:0,0,255,None,Passable
+  21,16:0,0,255,None,Passable
+  0,17:0,0,255,None,Passable
+  1,17:0,0,255,None,Passable
+  2,17:0,0,255,None,Passable
+  3,17:0,0,255,None,Passable
+  4,17:0,0,21,Generic,Passable,Face=North
+  5,17:0,0,255,None,Passable
+  6,17:0,0,27,None,Blocked
+  7,17:0,0,255,None,Passable
+  8,17:0,0,255,None,Passable
+  9,17:0,0,255,None,Passable
+  10,17:0,0,27,None,Blocked
+  11,17:0,0,255,None,Passable
+  12,17:0,0,255,None,Passable
+  13,17:0,0,27,None,Blocked
+  14,17:0,0,255,None,Passable
+  15,17:0,0,255,None,Passable
+  16,17:0,0,27,None,Blocked
+  17,17:0,0,27,None,Blocked
+  18,17:0,0,255,None,Passable
+  19,17:0,0,255,None,Passable
+  20,17:0,0,255,None,Passable
+  21,17:0,0,255,None,Passable
+  0,18:0,0,255,None,Passable
+  1,18:0,0,255,None,Passable
+  2,18:0,0,255,None,Passable
+  3,18:0,0,26,None,Blocked
+  4,18:0,0,26,None,Blocked
+  5,18:0,0,26,None,Blocked
+  6,18:0,0,26,None,Blocked
+  7,18:0,0,255,None,Passable
+  8,18:0,0,27,None,Blocked
+  9,18:0,0,255,None,Passable
+  10,18:0,0,255,None,Passable
+  11,18:0,0,255,None,Passable
+  12,18:0,0,255,None,Passable
+  13,18:0,0,27,None,Blocked
+  14,18:0,0,255,None,Passable
+  15,18:0,0,255,None,Passable
+  16,18:0,0,255,None,Passable
+  17,18:0,0,27,None,Blocked
+  18,18:0,0,35,None,Passable
+  19,18:0,0,255,None,Passable
+  20,18:0,0,255,None,Passable
+  21,18:0,0,27,None,Blocked
+  0,19:0,0,255,None,Passable
+  1,19:0,0,255,None,Passable
+  2,19:0,0,26,None,Blocked
+  3,19:0,0,26,None,Blocked
+  4,19:0,0,26,None,Blocked
+  5,19:0,0,26,None,Blocked
+  6,19:0,0,26,None,Blocked
+  7,19:0,0,26,None,Blocked
+  8,19:0,0,26,None,Blocked
+  9,19:0,0,255,None,Passable
+  10,19:0,0,255,None,Passable
+  11,19:0,0,255,None,Passable
+  12,19:0,0,255,None,Passable
+  13,19:0,0,255,None,Passable
+  14,19:0,0,27,None,Blocked
+  15,19:0,0,255,None,Passable
+  16,19:0,0,255,None,Passable
+  17,19:0,0,27,None,Blocked
+  18,19:0,0,27,None,Blocked
+  19,19:0,0,27,None,Blocked
+  20,19:0,0,27,None,Blocked
+  21,19:0,0,27,None,Blocked
+  0,20:0,0,27,None,Blocked
+  1,20:0,0,255,None,Passable
+  2,20:0,0,26,None,Blocked
+  3,20:0,0,26,None,Blocked
+  4,20:0,0,26,None,Blocked
+  5,20:0,0,26,None,Blocked
+  6,20:0,0,26,None,Blocked
+  7,20:0,0,26,None,Blocked
+  8,20:0,0,26,None,Blocked
+  9,20:0,0,255,None,Passable
+  10,20:0,0,255,None,Passable
+  11,20:0,0,255,None,Passable
+  12,20:0,0,27,None,Blocked
+  13,20:0,0,255,None,Passable
+  14,20:0,0,27,None,Blocked
+  15,20:0,0,255,None,Passable
+  16,20:0,0,255,None,Passable
+  17,20:0,0,255,None,Passable
+  18,20:0,0,16,None,Passable,RuneSpell=TeleportObra
+  19,20:0,0,27,None,Blocked
+  20,20:0,0,255,None,Passable
+  21,20:0,0,27,None,Blocked
+  0,21:0,0,27,None,Blocked
+  1,21:0,0,26,None,Blocked
+  2,21:0,0,26,None,Blocked
+  3,21:0,0,26,None,Blocked
+  4,21:0,0,26,None,Blocked
+  5,21:0,0,34,None,Passable,Face=North
+  6,21:0,0,26,None,Blocked
+  7,21:0,0,26,None,Blocked
+  8,21:0,0,26,None,Blocked
+  9,21:0,0,26,None,Blocked
+  10,21:0,0,255,None,Passable
+  11,21:0,0,27,None,Blocked
+  12,21:0,0,27,None,Blocked
+  13,21:0,0,255,None,Passable
+  14,21:0,0,255,None,Passable
+  15,21:0,0,255,None,Passable
+  16,21:0,0,255,None,Passable
+  17,21:0,0,255,None,Passable
+  18,21:0,0,255,None,Passable
+  19,21:0,0,255,None,Passable
+  20,21:0,0,255,None,Passable
+  21,21:0,0,27,None,Blocked
+locationScript=8,7,L505
+locationScript=10,7,L505
+locationScript=9,4,L505
+locationScript=9,5,L579
+locationScript=19,16,L687
+locationScript=18,18,L742
+locationScript=3,4,L931
+locationScript=17,4,L852
+locationScript=5,17,L999
+locationScript=12,12,CieraBrannia
+locationSpellScript=18,20,L827
+locationScript=4,17,L1065
+locationScript=18,20,L1776
+locationScript=2,4,L299
+locationScript=3,5,L299
+locationScript=3,3,L299
+locationScript=4,4,L299
+locationScript=4,15,L424
+locationScript=5,16,L382
+locationScript=17,4,L352 
+string=0,SCRIPTSTRING_1372
+scripts
+L299
+    @JMessage,SCRIPTSTRING_1373
+L352
+    @JMessage,SCRIPTSTRING_1374
+L382
+    @JMessage,SCRIPTSTRING_1375
+L424
+    @JMessage,SCRIPTSTRING_1376
+CieraBrannia
+  JournalAt,CONT,11,12,0,SCRIPTSTRING_1377
+  IsFacing,TERM,South,EnterCieraBrannia
+EnterCieraBrannia
+    @QTeleport,8,15,3,CITY
+L505
+    @CTextAdr,SCRIPTSTRING_1378
+L579
+    @Aborter,L592
+L592
+    Journal,0,SCRIPTSTRING_1379
+    Message,SCRIPTSTRING_1380
+    YesNo,L679
+    @ClearWindow
+L679
+    @AwardItem,None,Acorn,1,L683
+L683
+    Jump,L592
+L687
+    @JMessage,SCRIPTSTRING_1381
+L742
+    @Aborter,L743
+L743
+    ShowText,SCRIPTSTRING_1382
+    DoView
+L754
+    JMessage,SCRIPTSTRING_1383
+    Message2,SCRIPTSTRING_1384
+    YesNo,L819
+    @ClearWindow
+L819
+    @AwardItem,None,Arefolia,1,L823
+L823
+    Jump,L754
+L827
+    @MatchSpell,TeleportObra,L829
+L829
+    Intercept
+    IsMonsterInParty,Hawkslayer,L848
+L844
+    @STeleport,9,8,0,CITY
+L848
+    IsNPCCarryingQuestItems,DontRemoveHim
+    RemoveNPC
+    Jump,L844
+DontRemoveHim
+    @Message,SCRIPTSTRING_1385
+L852
+    @Aborter,L853
+L853
+    ShowText,SCRIPTSTRING_1386
+    DoView
+    JMessage,1,SCRIPTSTRING_1387
+    Message2,SCRIPTSTRING_1388
+    YesNo,L927
+    @ClearWindow
+L927
+    Journal,0,SCRIPTSTRING_1389
+    @TeleportNoJournal,0,0,0,DUNG
+L931
+    @Aborter,L932
+L932
+    ShowPic,BTR_03_RuinedTower
+    ShowText,SCRIPTSTRING_0280
+    JMessage,1,SCRIPTSTRING_1390
+    Message2,SCRIPTSTRING_1391
+    YesNo,L995
+    ClearWindow
+    @GoBack
+L995
+    Journal,0,SCRIPTSTRING_1392
+    @TeleportNoJournal,0,2,3,DUNG
+L999
+    @Aborter,L1000
+L1000
+    JMessage,1,SCRIPTSTRING_1393
+    Message2,SCRIPTSTRING_1394
+    YesNo,L1061
+    @ClearWindow
+L1061
+    Journal,0,SCRIPTSTRING_1395
+    @TeleportNoJournal,14,4,2,DUNG
+L1065
+    ShowPic,BT3_30_HasteMage
+    ShowText,SCRIPTSTRING_1396
+    JMessage,SCRIPTSTRING_1397
+    PressAny
+    Message,SCRIPTSTRING_1398
+    YesNo,L1288
+L1184
+    Message,SCRIPTSTRING_1399
+    PressAny
+    ClearWindow
+    @GoBack
+L1260
+    Message,SCRIPTSTRING_1400
+    ChooseChar,L1288
+    Jump,L1184
+L1288
+    Message,SCRIPTSTRING_1401
+    Input
+    MakeValue,14
+    IsCountZero,14,L1184
+    SubGold,14,L1318
+    Jump,L1288
+L1318
+    CountBltValue,14,500,L1640
+    Message,SCRIPTSTRING_1402
+    PressAny
+    Message,SCRIPTSTRING_1403
+    PressAny
+L1513
+    Message,SCRIPTSTRING_1404
+    ChooseChar,L1544
+    Jump,L1719
+L1544
+    ClassMatch,Wizard,L1609
+    ClassMatch,Sorcerer,L1609
+    ClassMatch,Conjurer,L1609
+    ClassMatch,Magician,L1609
+    ClassMatch,Archmage,L1609
+    ClassMatch,Chronomancer,L1609
+    ClassMatch,Geomancer,L1609
+    Message,SCRIPTSTRING_1405
+    PressAny
+    Jump,L1513
+AlreadyKnown
+    Message,SCRIPTSTRING_1406
+    PressAny
+    Jump,L1513
+L1609
+    CharKnowsSpell,GillesGills,AlreadyKnown
+    Message,SCRIPTSTRING_1407
+    TeachSpell,GillesGills
+    PressAny
+    Jump,L1719
+L1640
+    Message,SCRIPTSTRING_1408
+    PressAny
+L1719
+    Message,SCRIPTSTRING_1409
+    @GoBack
+L1776
+    IsTOTBitClear,42,L1803
+    Jump,WornGround
+L1803
+    IsMonsterInParty,Hawkslayer,L2567
+    ShowPic,BT3_11_HawkSlayer
+    IsTOTBitSet,26,L2105
+    ShowText,SCRIPTSTRING_1410
+    Message,SCRIPTSTRING_1411
+    PressAny
+    Message,SCRIPTSTRING_1412
+    PressAny
+    Message,SCRIPTSTRING_1413
+    YesNo,L2294
+L2040
+    Message,SCRIPTSTRING_1414
+    PressAny
+    ClearWindow
+    SetTOTBit,26
+    Jump,WornGround
+L2105
+    ShowText,SCRIPTSTRING_1415
+    Message,SCRIPTSTRING_1416
+    PressAny
+    ShowText,SCRIPTSTRING_1410
+    Message,SCRIPTSTRING_1417
+    YesNo,L2294
+    Jump,L2040
+L2294
+    Join,Hawkslayer,L2464
+    Message,SCRIPTSTRING_1418
+    PressAny
+    Message,SCRIPTSTRING_1419
+    PressAny
+    ClearWindow
+    SetTOTBit,26
+    Jump,WornGround
+L2464
+    Message,SCRIPTSTRING_1420
+    PressAny
+    ClearWindow
+L2567
+    SetTOTBit,42
+WornGround
+    Journal,0,SCRIPTSTRING_1421
+    @Message,SCRIPTSTRING_1422
