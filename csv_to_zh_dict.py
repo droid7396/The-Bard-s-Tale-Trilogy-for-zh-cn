@@ -18,10 +18,11 @@ def convert_csv_to_dict(csv_path, output_dict_path):
                 zh_text = row[2].strip()
                 # 只匯出有填寫中文翻譯的項目
                 if zh_text:
-                    # 將 Excel 中的真實換行轉換為 \n 字元，確保 Plugin.cs 能夠正確讀取同一行
-                    en_text = en_text.replace('\r\n', '\\n').replace('\n', '\\n')
-                    zh_text = zh_text.replace('\r\n', '\\n').replace('\n', '\\n')
-                    translations.append(f"{en_text}={zh_text}\n")
+                    # 將 Excel 中的真實換行轉換為 \n 字元
+                    en_text_clean = en_text.replace('\r\n', '\\n').replace('\n', '\\n')
+                    zh_text_clean = zh_text.replace('\r\n', '\\n').replace('\n', '\\n')
+                    translations.append(f"{en_text_clean}=ZH={zh_text_clean}\n")
+                    
                     count += 1
 
     if count > 0:
@@ -32,7 +33,9 @@ def convert_csv_to_dict(csv_path, output_dict_path):
     else:
         print("CSV 檔案中尚未填寫任何中文翻譯 (Chinese 欄位為空)。沒有產生字典檔。")
 
-    input("按 Enter 鍵離開...")
+import sys
 
 if __name__ == '__main__':
-    convert_csv_to_dict("Translation_Tasks.csv", "zh_translations_new.txt")
+    input_csv = sys.argv[1] if len(sys.argv) > 1 else "Translation_Tasks.csv"
+    output_dict = sys.argv[2] if len(sys.argv) > 2 else "zh_translations_new.txt"
+    convert_csv_to_dict(input_csv, output_dict)

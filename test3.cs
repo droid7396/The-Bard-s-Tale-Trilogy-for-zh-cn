@@ -1,0 +1,1 @@
+using System; using System.Text.RegularExpressions; class P { static void Main() { string s = "\\{0}"; Console.WriteLine(Regex.Match(s, @"\\?\\{(\\d+)\\?\\}").Success); } }

@@ -34,5 +34,11 @@
     <Reference Include="0Harmony">
       <HintPath>..\from Steam\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\from Steam\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SceneManagement">
+      <HintPath>..\from Steam\BepInEx\interop\UnityEngine.SceneManagementModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
