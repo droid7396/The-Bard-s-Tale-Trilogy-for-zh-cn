@@ -183,7 +183,7 @@ namespace ZHLocalizer
                     if (rule.Item1.IsMatch(value))
                     {
                         value = rule.Item1.Replace(value, rule.Item2);
-                        break;
+                        // Removed break; to allow sequential translations (Two-Pass Translation)
                     }
                 }
             }
