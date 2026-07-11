@@ -396,12 +396,12 @@ namespace ZHLocalizer
                     foreach (var w in words)
                     {
                         string tw = TranslateString(w);
-                        if (tw != null) combined += tw;
+                        if (tw != null) combined += tw + " ";
                         else { allTranslated = false; break; }
                     }
                     if (allTranslated)
                     {
-                        value = combined;
+                        value = combined.TrimEnd();
                         isTranslated = true;
                     }
                 }
@@ -420,19 +420,22 @@ namespace ZHLocalizer
                     value = value.Replace("ARFI", "秘法火焰");
                     value = value.Replace("TRZP", "陷阱解除");
                     value = value.Replace("SOSH", "術士護盾");
-                    value = value.Replace("Conjurer", "咒術師");
+                    value = value.Replace("Conjurer", "幻術師");
                     value = value.Replace("Magician", "魔術師");
                     value = value.Replace("Sorcerer", "術士");
                     value = value.Replace("Wizard", "巫師");
+                    value = value.Replace("Single Target", "單體目標");
+                    value = value.Replace("Group", "群體");
+                    value = value.Replace("All Foes", "全體敵人");
                     value = Regex.Replace(value, @"\s*Lv\s*", " 等級 ");
                     fallbackTriggered = true;
                 }
 
-                // 道具 Tooltip 防呆替換
-                if (value.Contains("Slot:"))
+                // 裝備與武器 Tooltip 通用替換
+                if (value.Contains("Slot:") || value.Contains("Classes:") || value.Contains("Equipped:") || value.Contains("Damage Min:") || value.Contains("Weapon") || value.Contains("Armor"))
                 {
                     // 嘗試翻譯 Equipped 後面的裝備名稱
-                    Match mEquipped = Regex.Match(value, @"Equipped:\s*([^\n\r]+)");
+                    Match mEquipped = Regex.Match(value, @"Equipped:\s*([^\n\r<]+)");
                     if (mEquipped.Success)
                     {
                         string eqName = mEquipped.Groups[1].Value.Trim();
@@ -448,11 +451,20 @@ namespace ZHLocalizer
                     value = value.Replace("Slot:", "欄位：");
                     value = value.Replace("Weapon", "武器");
                     value = value.Replace("Armor", "防具");
+                    value = value.Replace("Instrument", "樂器");
                     value = value.Replace("Equipped: ", "已裝備：");
                     value = value.Replace("Equipped:", "已裝備：");
                     value = value.Replace("Damage Min:", "最小傷害：");
                     value = value.Replace("Damage Max:", "最大傷害：");
                     value = value.Replace("Classes: All Classes", "適用職業：所有職業");
+                    value = value.Replace("Classes:", "適用職業：");
+                    
+                    value = Regex.Replace(value, @"適用職業：\s*(Bard|Conjurer|Magician|Sorcerer|Wizard|Rogue|Warrior|Paladin|Hunter|Monk)", m => {
+                        string cl = m.Groups[1].Value;
+                        string tc = TranslateString(cl) ?? cl;
+                        return "適用職業：" + tc;
+                    });
+
                     fallbackTriggered = true;
                 }
             }

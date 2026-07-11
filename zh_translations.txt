@@ -147,7 +147,7 @@ PARA=ZH=麻痺
 POIS=ZH=中毒
 OLD=ZH=衰老
 DRAIN=ZH=吸取
-WA=ZH=WA
+WA=ZH=戰士
 PA=ZH=聖騎士
 MO=ZH=武僧
 RO=ZH=盜賊
@@ -7166,7 +7166,7 @@ Commands=ZH=指令
 Press <color=#ffff22>SPACE</color> to continue...=ZH=按 <color=#ffff22>空白鍵</color> 繼續...
 Press SPACE to continue...=ZH=按空白鍵繼續...
 Press SPACE to continue=ZH=按空白鍵繼續
-<color=#ffff22>A</color>dd member to party=ZH=<color=#ffff22>新</color>增成員至隊伍
+<color=#ffff22>A</color>dd member to party=ZH=<color=#ffff22>A</color>新增成員至隊伍
 <color=#ffff22>R</color>emove member from party=ZH=<color=#ffff22>R</color>從隊伍中移除成員
 <color=#ffff22>C</color>reate a new member=ZH=<color=#ffff22>C</color>創建新成員
 <color=#ffff22>D</color>elete member from roster=ZH=<color=#ffff22>D</color>從名冊中刪除成員
@@ -7184,3 +7184,55 @@ Press SPACE to continue=ZH=按空白鍵繼續
 <color=#ffff22>R</color>eroll=ZH=<color=#ffff22>R</color>重新擲骰
 <color=#ffff22>A</color>ccept Character=ZH=<color=#ffff22>A</color>接受角色
 <color=#ffff22>S</color>ave party to roster=ZH=<color=#ffff22>S</color>將隊伍儲存至名冊
+<color=#ffff22>Y</color>es=ZH=<color=#ffff22>是</color>
+<color=#ffff22>N</color>o=ZH=<color=#ffff22>否</color>
+<color=#ffff22>E</color>xit building=ZH=<color=#ffff22>E</color>離開建築
+<color=#ffff22>F</color>ight bravely=ZH=<color=#ffff22>F</color>英勇戰鬥
+<color=#ffff22>R</color>un away=ZH=<color=#ffff22>R</color>逃跑
+<color=#ffff22>A</color>ttack foes=ZH=<color=#ffff22>A</color>攻擊敵人
+<color=#ffff22>D</color>efend=ZH=<color=#ffff22>D</color>防禦
+<color=#ffff22>P</color>arty attack=ZH=<color=#ffff22>P</color>隊伍攻擊
+<color=#ffff22>E</color>quip or Unequip a single item=ZH=<color=#ffff22>E</color>裝備或卸下單一物品
+<color=#ffff22>B</color>ard song=ZH=<color=#ffff22>B</color>吟遊詩人歌曲
+<color=#ffff22>U</color>se an equipped item=ZH=<color=#ffff22>U</color>使用已裝備物品
+<color=#ffff22>R</color>anged attack (30')=ZH=<color=#ffff22>R</color>遠程攻擊 (30')
+<color=#ffff22>C</color>ast a spell=ZH=<color=#ffff22>C</color>施放法術
+<color=#ffff22>H</color>ide in the shadows ({0}% Chance)=ZH=<color=#ffff22>H</color>躲藏在陰影中 ({0}% 機率)
+All=ZH=全部
+Level {0} {1} {2} {3}=ZH=第{0}級 {1}{2}{3}
+{0} {1} {2}=ZH={0}{1}{2}
+{0} ({1})=ZH={0}（{1}）
+{0} ({1}')=ZH={0} ({1}')
+{0} ({1}') ({2} Target)=ZH={0} ({1}') ({2}目標)
+Level: {0} Experience: {1}/{2}=ZH=等級：{0} 經驗值：{1}/{2}
+Strength: {0} Intelligence: {1} Dexterity: {2}=ZH=力量：{0} 智力：{1} 敏捷：{2}
+Constitution: {0} Luck: {1}=ZH=體質：{0} 運氣：{1}
+Hit Points: {0}/{1} Spell Points: {2}/{3}=ZH=生命值：{0}/{1} 法力值：{2}/{3}
+Conjurer: {0} Magician: {1}=ZH=魔術師：{0} 魔法師：{1}
+Sorcerer: {0} Wizard: {1}=ZH=巫師：{0} 巫師：{1}
+{0} Lv {1}=ZH={0} Lv {1}
+Single=ZH=單體
+Group=ZH=群體
+Any=ZH=任何
+None=ZH=無
+<color=#ffff22>S</color>pell List=ZH=<color=#ffff22>法</color>術列表
+<color=#ffff22>I</color>nventory=ZH=<color=#ffff22>道</color>具欄
+{0} ({1}') {2} Lv {3} {4}=ZH={0} ({1}') {2} Lv {3}\n{4}
+{0} {1} Lv {2} {3}=ZH={0} {1} Lv {2}\n{3}
+<sprite name="LeftDivider">Party Inventory<sprite name="RightDivider">=ZH=<sprite name="LeftDivider">隊伍庫存<sprite name="RightDivider">
+<color=#ffff00>SPACE</color> Equip/Unequip=ZH=<color=#ffff00>SPACE</color> 裝備/卸下
+<color=#ffff22>D</color>rop item=ZH=<color=#ffff22>D</color> 丟棄物品
+<color=#ffff22>U</color>se item=ZH=<color=#ffff22>U</color> 使用物品
+Slot: Armor=ZH=欄位：防具
+Slot: Weapon=ZH=欄位：武器
+Equipped: {0}=ZH=已裝備：{0}
+Damage Min: {0}=ZH=最小傷害：{0}
+Damage Max: {0}=ZH=最大傷害：{0}
+Classes: All Classes=ZH=適用職業：所有職業
+Strength: {0}=ZH=力量：{0}
+Intelligence: {0}=ZH=智力：{0}
+Dexterity: {0}=ZH=敏捷：{0}
+Constitution: {0}=ZH=體質：{0}
+Luck: {0}=ZH=運氣：{0}
+Hit Points: {0}=ZH=生命值：{0}
+Spell Points: {0}=ZH=法力值：{0}

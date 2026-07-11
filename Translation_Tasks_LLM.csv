@@ -164,7 +164,7 @@ GE,GE,大地術士
 HP,HP,生命值
 SP,SP,法術點數
 CL,CL,等級
-AC,AC,防禦等級
+AC,AC,防禦
 HIT POINTS,HIT POINTS,生命值
 SPELL POINTS,SPELL POINTS,法術點數
 CLASS,CLASS,職業
@@ -659,7 +659,7 @@ SPELLFILTER_All_Heading,All,全部
 SPELLFILTER_Exploration_Heading,Exploration,探索
 SPELLFILTER_Healing_Heading,Healing,治療
 SPELLFILTER_Buffs_Heading,Buffs,增益
-SPELLFILTER_SingleTarget_Heading,Single Target,單體目標
+SPELLFILTER_SingleTarget_Heading,Single Target,單一目標
 SPELLFILTER_MultipleTargets_Heading,Multiple Targets,多重目標
 SPELLFILTER_Curses_Heading,Curses,詛咒
 SPELLFILTER_Summoning_Heading,Summoning,召喚
@@ -10736,7 +10736,6 @@ INV_DROP,<color=#ffff22>D</color>rop item,<color=#ffff22>D</color> 丟棄物品
 INV_USE,<color=#ffff22>U</color>se item,<color=#ffff22>U</color> 使用物品
 SLOT_ARMOR,Slot: Armor,欄位：防具
 SLOT_WEAPON,Slot: Weapon,欄位：武器
-SLOT_X,Slot: {0},欄位：{0}
 EQUIPPED_X,Equipped: {0},已裝備：{0}
 DAMAGE_MIN_X,Damage Min: {0},最小傷害：{0}
 DAMAGE_MAX_X,Damage Max: {0},最大傷害：{0}
