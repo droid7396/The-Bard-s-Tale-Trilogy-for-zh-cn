@@ -1,0 +1,41 @@
+# 戰鬥卷軸正則替換字典 (Combat Scroll Regex Dictionary)
+# 格式： 正規表示式::ZH::替換結果 (支援 $1, $2 等捕獲群組)
+# 注意：請使用標準 .NET Regex 語法。程式會從上到下比對，先比對到的先替換，所以越特殊的句型請放越上面。
+
+# === 魔法攻擊與擊殺 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\s+and\s+.*?\s+(him|her|it|them)\s+for\s+(\d+)\s+points?\s+of\s+damage,\s*killing\s+(him|her|it|them)!::ZH::$1 對 $3 施放了 $2，造成 $5 點傷害，並將其擊殺！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\s+and\s+.*?\s+(him|her|it|them)\s+for\s+(\d+)\s+points?\s+of\s+damage\.::ZH::$1 對 $3 施放了 $2，造成 $5 點傷害。
+One is .*? for (\d+) points? of damage,\s*killing\s+(him|her|it|them)!::ZH::其中一個受到 $1 點傷害，並被擊殺！
+One is .*? for (\d+) points? of damage\.::ZH::其中一個受到 $1 點傷害。
+
+# === 物理攻擊暴擊與擊殺 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)[\s,]+leaping out of the shadows,\s*(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and critically hits (\d+) times for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 從陰影中躍出，對 $3 發動攻擊，命中 $4 次，共造成 $5 點暴擊傷害，將其擊殺！
+(?:An?\s+|Some\s+|The\s+)?(.*?)[\s,]+leaping out of the shadows,\s*(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and critically hits for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 從陰影中躍出，對 $3 發動攻擊，並造成 $4 點暴擊傷害，將其擊殺！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits (\d+) times for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 對 $3 發動攻擊，命中 $4 次，共造成 $5 點傷害，並將其擊殺！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 對 $3 發動攻擊，造成 $4 點傷害，並將其擊殺！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+throws an axe at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\s+and hits\s+(him|her|it|them)\s+for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 向 $2 擲出斧頭，造成 $4 點傷害，並將其擊殺！
+
+# === 未命中 (距離太遠) ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses because the .*? is too far away!::ZH::$1 對 $3 發動攻擊，但是因為距離太遠而未命中！
+
+# === 一般未命中 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses!::ZH::$1 對 $3 發動攻擊，但是未命中！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+attacks\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses\.::ZH::$1 攻擊 $2，但是未命中。
+
+# === 一般命中造成傷害 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits (\d+) times for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 對 $3 發動攻擊，命中 $4 次，共造成 $5 點傷害。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings\s+at|slashes\s+at|kicks\s+at|bites\s+at|gnaws\s+on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 對 $3 發動攻擊，造成 $4 點傷害。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+shoots an arrow at\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits (\d+) times for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 向 $2 射箭，命中 $3 次，共造成 $4 點傷害。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+shoots an arrow at\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 向 $2 射箭，造成 $3 點傷害。
+
+# === 施放法術 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell on the party\.\.\.\s*the party resists!::ZH::$1 對隊伍施放了法術...但隊伍抵抗了！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell on the party\.\.\.::ZH::$1 對隊伍施放了法術...
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\.::ZH::$1 對 $2 施放了法術。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+on\s+(himself|herself|itself|themselves)\.::ZH::$1 對自己施放了 $2。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+on\s+(.*?)\.::ZH::$1 對 $3 施放了 $2。
+
+# === 其他狀態 ===
+The\s+(.*?)\s+advances!::ZH::$1 逼近了！
+the party resists!::ZH::隊伍抵抗了法術！
+You still face\s+(.*?)\.?$::ZH::前方還有 $1。

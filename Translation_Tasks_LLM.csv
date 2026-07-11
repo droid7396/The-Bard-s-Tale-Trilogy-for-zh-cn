@@ -617,7 +617,7 @@ KICK_DEAD_MONSTERS,Kick dead monsters from the party!,將死亡怪物踢出隊�
 EQUIP_OR_UNEQUIP,Equip or Unequip a single item,裝備或卸下單一物品
 USE_ATTACK_COMMANDS,Use these attack commands?,要使用這些攻擊指令嗎？
 CMD_CHAR_ADVANCES,{0} advances.,{0} 升級了。
-PARTY_ADVANCES,The party advances!,隊伍升級了！
+PARTY_ADVANCES,The party advances!,隊伍向前推進了！
 CMD_CHAR_ATTACKS_CHAR,{0} attacks {1}.,{0} 攻擊 {1}。
 CMD_CHAR_IS_STUNNED,{0} is stunned.,{0} 陷入暈眩。
 CMD_CHAR_PLAYS_SONG,{0} plays {1},{0} 演奏 {1}
@@ -642,18 +642,18 @@ CHAR_USE_ITEM_BUT_SAVE_LAST_ARROW,{0} tries to use {1} but decides to save the l
 CHAR_USE_ITEM_BUT_EMPTY,{0} tries to use {1} but it is empty,{0} 試圖使用 {1}，但它是空的
 the party,the party,冒險隊伍
 COMBAT_START_0,"Before you, you see",在你面前，你看見
-COMBAT_START_1,The sudden scream of battle brings your party to a halt. You face,突如其來的戰鬥吶喊讓你的隊伍停了下來。你面對著
-COMBAT_START_2,The denizens of this mystic place assault you without warning. You see,這神秘之地的居民毫無預警地向你襲來。你看見
-COMBAT_START_3,"You face death itself, in the form of",你面對死亡本身，以
-COMBAT_START_4,"""Give me blood!"" you scream, as you face",「給我血！」你吶喊著，面對
-COMBAT_START_5,"Your foes seem endless, their tales unknown. You face",你的敵人似乎無窮無盡，他們的故事無人知曉。你面對
-COMBAT_START_6,"""Death and drek!"" you curse, as you see",「死亡與穢物！」你咒罵著，看見
-COMBAT_START_7,Snarls of defiance are heard from,反抗的咆哮從
-COMBAT_START_8,"""Will there ever be an end to them?"" you shout. You see",「他們會有終結的一天嗎？」你大喊。你看見
-COMBAT_START_9,"""Enjoy your next life!"" you snarl. You see",「享受你的下一世吧！」你咆哮著。你看見
+COMBAT_START_1,The sudden scream of battle brings your party to a halt. You face,突如其來的戰鬥吶喊，讓你的隊伍停了下來。前方出現
+COMBAT_START_2,The denizens of this mystic place assault you without warning. You see,這神秘之地的居民，毫無預警地向你襲來。你看見
+COMBAT_START_3,"You face death itself, in the form of",死亡化成了實體，在你面前出現了
+COMBAT_START_4,"""Give me blood!"" you scream, as you face",「給我血！」你吶喊並面對著
+COMBAT_START_5,"Your foes seem endless, their tales unknown. You face",你的敵人似乎無窮無盡，他們的故事無人知曉。你面對著
+COMBAT_START_6,"""Death and drek!"" you curse, as you see",「死亡與穢物！」你咒罵著，前方出現
+COMBAT_START_7,Snarls of defiance are heard from,前方傳來了陣陣咆哮聲，你遭遇了
+COMBAT_START_8,"""Will there ever be an end to them?"" you shout. You see",「他們會有終結的一天嗎？」你大喊，你看到
+COMBAT_START_9,"""Enjoy your next life!"" you snarl. You see",「享受你的下一世吧！」你咆哮著，你看到
 COMBAT_START_10,Your battlecry is heard by all as you face,你的戰吼響徹四方，你面對
 COMBAT_START_11,"Your onslaught is greeted with laughter, you face",你的猛攻迎來了嘲笑，你面對
-COMBAT_START_12,"""Not again!"" you moan as you face",「又來了！」你哀嚎著，面對
+COMBAT_START_12,"""Not again!"" you moan as you face",「又來了！」你哀嚎著，前方出現
 COMBAT_START_13,"""Gimme a break! Where do they come from?"" You see",「饒了我吧！他們是從哪冒出來的？」你看見
 SPELLFILTER_All_Heading,All,全部
 SPELLFILTER_Exploration_Heading,Exploration,探索
@@ -1067,7 +1067,7 @@ STORAGE_DONE_TAKING,Done taking items,取物完成
 STORAGE_INVENTORY_FULL,Your inventory is full. You must drop some items to make space.,你的道具欄已滿。你必須丟棄一些物品以騰出空間。
 STORAGE_CHAR_NO_UNEQUIPPED_ITEMS,{0} has no unequipped items to leave...,{0} 沒有未裝備的物品可以留下……
 STORAGE_DONE_LEAVING,Done leaving items,留物完成
-SCRIPTSTRING_0000,Skara Brae,Skara Brae
+SCRIPTSTRING_0000,Skara Brae,斯卡拉布雷
 SCRIPTSTRING_0001,You're in an alleyway,你在一條小巷中
 SCRIPTSTRING_0002,You're on Rakhir street,你在 Rakhir 街上
 SCRIPTSTRING_0003,You're on Blacksmith street,你在 Blacksmith 街上

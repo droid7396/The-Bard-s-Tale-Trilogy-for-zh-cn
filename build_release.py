@@ -18,7 +18,8 @@ def main():
         "BepInEx/core",   # 資料夾
         "BepInEx/plugins/ZHLocalizer.dll",
         "BepInEx/plugins/arialuni_sdf_u2018",
-        "BepInEx/plugins/zh_translations.txt",
+        "BepInEx/plugins/btr_localization_zh.txt",
+        "BepInEx/plugins/combat_translations.txt",
     ]
     
     with zipfile.ZipFile(OUTPUT_ZIP, 'w', zipfile.ZIP_DEFLATED) as zipf:
