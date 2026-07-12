@@ -25,7 +25,7 @@ except ImportError:
 INPUT_FILE  = "Translation_Tasks.csv"
 OUTPUT_FILE = "Translation_Tasks_LLM.csv"
 MODEL_NAME  = "deepseek-chat"
-DEEPSEEK_API_KEY = "sk-12db394ea68943a1a6a3c5188925e44d"
+DEEPSEEK_API_KEY = "[ENCRYPTION_KEY]"
 SHORT_BATCH_SIZE  = 30
 LONG_BATCH_SIZE   = 5
 SHORT_CHAR_LIMIT  = 240
@@ -70,7 +70,7 @@ holy=神聖, water=水系, compass=指南針, levitation=漂浮, light=光源
 GROUP=群組, CHAR=角色, CLASS=職業, Damage=傷害, Items=物品
 
 ## 術語表（三部曲標題）
-Tales of the Unknown=未知傳奇, The Destiny Knight=天命勇士, Thief of Fate=命運之賊
+Tales of the Unknown=未知傳奇 , The Destiny Knight=天命勇士, Thief of Fate=命運之賊
 
 ## 翻譯行為要求
 - 直接輸出翻譯結果，不要加解釋、不要加額外說明文字。
