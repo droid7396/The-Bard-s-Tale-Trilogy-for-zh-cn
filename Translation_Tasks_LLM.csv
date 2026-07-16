@@ -1,4 +1,4 @@
-﻿KEY (參考用),English (遊戲原文),Chinese (請填寫中文)
+KEY (參考用),English (遊戲原文),Chinese (請填寫中文)
 Bard's Tale,Bard's Tale,冰城傳奇
 The,The,The
 TRILOGY,TRILOGY,三部曲
@@ -420,8 +420,8 @@ ENTER_N_E_U,Enter 'north east up' coordinates:,請輸入「北 東 上」座標�
 CHOOSE_DEST,Choose a destination:,選擇一個目的地：
 MUST_ENTER_3_COORDS,You must enter 3 coordinates for apport arcane!,你必須為秘法傳送輸入 3 個座標！
 ITEM_IDENTIFIED_AS,Item was identified as:,物品被鑑定為：
-CHAR_CASTS_SPELL_ON,{0} casts {1} on:,{0} 對 {1} 施放了 XPHX2XPHX：
-CHAR_USES_ITEM_ON,{0} uses {1} on:,{0} 對 {1} 使用了 XPHX2XPHX：
+CHAR_CASTS_SPELL_ON,{0} casts {1} on:,{0} 對 {1} 施放了：
+CHAR_USES_ITEM_ON,{0} uses {1} on:,{0} 對 {1} 使用了：
 CHAR_USES_ITEM_ON_CHAR,{0} uses {1} on {2},{0} 對 {2} 使用了 {1}
 CHAR_USES_CHAR,{0} uses {1},{0} 使用了 {1}
 CHAR_DRINK_FROM_EMPTY_CONTAINER,{0} tried to drink from {1} but it is empty!,{0} 試圖從 {1} 中飲用，但裡面是空的！
@@ -1300,17 +1300,17 @@ SCRIPTSTRING_0229,"When we said no, he asked if we would fight him instead.",當
 SCRIPTSTRING_0230,"He smirks at the assembled party, ""Would you rather test your magic and steel against my power?""\n\n",他對著集結的隊伍露出得意的笑容，「你們寧可拿魔法與刀劍來試試我的力量嗎？」\n\n
 SCRIPTSTRING_0231,"""Be gone with you!""",「滾開！」
 SCRIPTSTRING_0232,"""Answer this riddle to pass:\n\nOnce man alive\nNow living death\nIt drinketh blood\nN' stealeth breath""\n\n",「回答這道謎題才能通過：\n\n曾為活人\n今為活死\n飲人鮮血\n奪人氣息」\n\n
-SCRIPTSTRING_0233,VAMPIRE,吸血鬼
-SCRIPTSTRING_0234,LICH,巫妖
-SCRIPTSTRING_0235,VAMPYRE,吸血鬼
+SCRIPTSTRING_0233,VAMPIRE,VAMPIRE
+SCRIPTSTRING_0234,LICH,LICH
+SCRIPTSTRING_0235,VAMPYRE,VAMPIRE
 SCRIPTSTRING_0236,"He frowns at you, ""Wrong, do you want to try again?""\n\n",他對你皺眉，「錯了，你想再試一次嗎？」\n\n
 SCRIPTSTRING_0237,"""Pass at your leisure,"" the Master Sorcerer says.",「請隨意通過，」大術士說道。
 SCRIPTSTRING_0238,"""Time to try out my new spells, ON YOU!"" You see",「該來試試我的新法術了，就拿你開刀！」你看見
 SCRIPTSTRING_0239,There is a silver square floating in the center of the room.\n\n,房間中央漂浮著一個銀色方塊。\n\n
 SCRIPTSTRING_0240,A magic mouth wants the answer to this riddle:,一個魔法之口想要這個謎語的答案：
 SCRIPTSTRING_0241,"""Past warscapes fought by men long dead, and treasures lost on bloodied fields, the One God lifts his thorn-crowned head, and lays a strength on friendly...""\n\n",「越過久遠逝者征戰的沙場，與血染原野上失落的寶藏，唯一神抬起荊棘冠冕的頭顱，將力量賦予友方的……」\n\n
-SCRIPTSTRING_0242,SHIELDS,盾牌
-SCRIPTSTRING_0243,SHIELD,盾牌
+SCRIPTSTRING_0242,SHIELDS,SHIELDS
+SCRIPTSTRING_0243,SHIELD,SHIELD
 SCRIPTSTRING_0244,"""You're not good at this...""",「你還不太擅長這個……」
 SCRIPTSTRING_0245,We found a magical Ybarra shield,我們找到了一面魔法伊巴拉盾牌
 SCRIPTSTRING_0246,A magical shield appears.\n\n,一面魔法盾牌出現了。\n\n
@@ -1341,8 +1341,8 @@ SCRIPTSTRING_0270,You are being teleported!,你正在被傳送！
 SCRIPTSTRING_0271,An old man,一名老人
 SCRIPTSTRING_0272,An old man asked us this question to pass:\n\nWhat tavern lies off Night Archer street?,一名老人問了我們這個問題才能通過：\n\n夜弓街旁是哪間酒館？
 SCRIPTSTRING_0273,"An old man stands before you, saying, ""Answer this question to pass:\n\nWhat tavern lies off Night Archer street?""\n\n",一名老人站在你面前，說道：「回答這個問題才能通過：\n\n夜弓街旁是哪間酒館？」\n\n
-SCRIPTSTRING_0274,SKULL,骷髏頭
-SCRIPTSTRING_0275,SKULL TAVERN,骷髏頭酒館
+SCRIPTSTRING_0274,SKULL,SKULL
+SCRIPTSTRING_0275,SKULL TAVERN,SKULL TAVERN
 SCRIPTSTRING_0276,"""Not so smart, are you? Get off my lawn!""\n\nWill you leave?\n\n",「沒那麼聰明，是吧？滾出我的草地！」\n\n你要離開嗎？\n\n
 SCRIPTSTRING_0277,"""C'mon boys! Let's get 'em!"" You see",「來吧兄弟們！上啊！」你看見
 SCRIPTSTRING_0278,"""Don't come back now, ya hear!""",「別再回來了，聽見沒！」
@@ -1355,12 +1355,12 @@ SCRIPTSTRING_0284,"An inscription on the wall reads,\n\nMade of earth\nYet witho
 SCRIPTSTRING_0285,"A voice speaks softly, saying: ""Beware the sting at the tail (south) of the serpent-way.""",一個輕柔的聲音說道：「當心蛇道尾部（南方）的毒刺。」
 SCRIPTSTRING_0286,"A magic mouth asked this riddle:\n""Name the one of cold, foretold twofold!""",一張魔法之口問了這個謎題：\n「說出那冰冷之物，預言雙重降臨！」
 SCRIPTSTRING_0287,"A magic mouth on the wall speaks to you, saying this:\n""Name the one of cold, foretold twofold!""\n\n",牆上的魔法之口對你說道：\n「說出那冰冷之物，預言雙重降臨！」\n\n
-SCRIPTSTRING_0288,STONE GOLEM,石魔像
-SCRIPTSTRING_0289,STONEGOLEM,石魔像
+SCRIPTSTRING_0288,STONE GOLEM,STONE GOLEM
+SCRIPTSTRING_0289,STONEGOLEM,STONEGOLEM
 SCRIPTSTRING_0290,"""Incorrect!""",「不對！」
 SCRIPTSTRING_0291,"A magic mouth asked this riddle:\n""Name the endless byway and your path shall be guaranteed:""",一個魔法之口問了這個謎題：\n「說出那無盡的道路，你的前路便將獲得保障：」
 SCRIPTSTRING_0292,"A magic mouth on the wall speaks to you, saying this:\n""Name the endless byway and your path shall be guaranteed:""\n\n",牆上的一個魔法之口對你說話，內容如下：\n「說出那無盡的道路，你的前路便將獲得保障：」\n\n
-SCRIPTSTRING_0293,SINISTER,邪惡
+SCRIPTSTRING_0293,SINISTER,SINISTER
 SCRIPTSTRING_0294,"""Wrong.""",「錯了。」
 SCRIPTSTRING_0295,"""Passage has been granted!""",「通行許可已授予！」
 SCRIPTSTRING_0296,There is a silver triangle floating in the center of the room.\n\n,房間中央漂浮著一個銀色三角形。\n\n
@@ -1385,7 +1385,7 @@ SCRIPTSTRING_0314,This room is reeking with magical energy...,這個房間充滿
 SCRIPTSTRING_0315,"A sign reads, ""Keep out! This means YOU! Signed, Roscoe.""",一塊告示牌寫著：「禁止進入！說的就是你！——羅斯科 留。」
 SCRIPTSTRING_0316,Mouth...,嘴巴……
 SCRIPTSTRING_0317,"A magic mouth on the wall speaks:\n\n""Two shapes yours,\none's around;\nSpeak the shape\nand final found.""\n\n",牆上的一個魔法嘴巴開口說話：\n\n「兩種形狀屬於你，\n一個環繞在身旁；\n說出那個形狀，\n最終之物便會現形。」\n\n
-SCRIPTSTRING_0318,CIRCLE,圓形
+SCRIPTSTRING_0318,CIRCLE,CIRCLE
 SCRIPTSTRING_0319,Wrong!,錯了！
 SCRIPTSTRING_0320,There is a silver circle floating in the center of the room.\n\n,房間中央漂浮著一個銀色的圓圈。\n\n
 SCRIPTSTRING_0321,"On the wall is etched:\n\nDo not scry,\nthe first is lie.",牆上刻著：\n\n勿窺視，\n第一為謊言。
@@ -1409,19 +1409,19 @@ SCRIPTSTRING_0338,We bought a Master Key from the old man for 50000 gold.,我們
 SCRIPTSTRING_0339,"He pockets the gold and holds a key in his hand. ""Pleasure doing business with you!""\n\n",他收起了金幣，手中握著一把鑰匙。「跟你做生意真愉快！」\n\n
 SCRIPTSTRING_0340,"A magic mouth asks the riddle:\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""",一個魔法嘴脣問出謎題：\n「說出唯一之神的七個稱號，依序道來，尋找失落的階梯：」
 SCRIPTSTRING_0341,"A magic mouth on the wall talks:\n\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""\n\n",牆上的魔法嘴脣開口說話：\n\n「說出唯一之神的七個稱號，依序道來，尋找失落的階梯：」\n\n
-SCRIPTSTRING_0342,LIE,說謊
+SCRIPTSTRING_0342,LIE,LIE
 SCRIPTSTRING_0343,"""What is the second word?""\n\n",「第二個字是什麼？」\n\n
-SCRIPTSTRING_0344,WITH,與
+SCRIPTSTRING_0344,WITH,WITH
 SCRIPTSTRING_0345,"""What is the third word?""\n\n",「第三個字是什麼？」\n\n
-SCRIPTSTRING_0346,PASSION,熱情
+SCRIPTSTRING_0346,PASSION,PASSION
 SCRIPTSTRING_0347,"""What is the fourth word?""\n\n",「第四個字是什麼？」\n\n
-SCRIPTSTRING_0348,AND,與
+SCRIPTSTRING_0348,AND,AND
 SCRIPTSTRING_0349,"""What is the fifth word?""\n\n",「第五個字是什麼？」\n\n
-SCRIPTSTRING_0350,BE,是
+SCRIPTSTRING_0350,BE,BE
 SCRIPTSTRING_0351,"""What is the sixth word?""\n\n",「第六個字是什麼？」\n\n
-SCRIPTSTRING_0352,FOREVER,永遠
+SCRIPTSTRING_0352,FOREVER,FOREVER
 SCRIPTSTRING_0353,"""What is the seventh and final word?""\n\n",「第七個，也就是最後一個字是什麼？」\n\n
-SCRIPTSTRING_0354,DAMNED,受詛咒者
+SCRIPTSTRING_0354,DAMNED,DAMNED
 SCRIPTSTRING_0355,Sorry Charlie!,抱歉了，查理！
 SCRIPTSTRING_0356,We correctly answered the riddle and some stairs appeared.,我們正確回答了謎題，然後出現了一道樓梯。
 SCRIPTSTRING_0357,"""Well done, oh faithful one. The stairs have materialized.""",「做得好，忠誠之人。樓梯已經顯現了。」
@@ -1437,7 +1437,7 @@ SCRIPTSTRING_0366,"As Gor gasps his last, he croaks out, ""we should have sent o
 SCRIPTSTRING_0367,Your music caused two sleeping dragons to continue slumbering.,你的音樂讓兩條沉睡的巨龍繼續安眠。
 SCRIPTSTRING_0368,There is a pair of dragons snoring quite loudly here.,這裡有一對巨龍正鼾聲如雷。
 SCRIPTSTRING_0369,"A magic mouth on the wall speaks:\n\n""Name the greatest son of Odin and win his aid.""\n\n",牆上的魔法嘴說道：\n\n「說出奧丁最偉大的兒子之名，以獲得他的幫助。」\n\n
-SCRIPTSTRING_0370,THOR,索爾
+SCRIPTSTRING_0370,THOR,THOR
 SCRIPTSTRING_0371,"""Brush up on your mythology and come back later!""",「回去複習你的神話學，晚點再來吧！」
 SCRIPTSTRING_0372,A small statue appears.\n\n,一尊小雕像出現了。\n\n
 SCRIPTSTRING_0373,We were awarded a small figurine of Thor,我們獲得了一尊索爾的小雕像
@@ -1445,8 +1445,8 @@ SCRIPTSTRING_0374,"On the wall to the north are etched 3 geometric shapes: a squ
 SCRIPTSTRING_0375,"A voice whispers, ""You see farther... Passage has been granted.""",一個聲音低語：「你看得更遠了……通道已獲准通行。」
 SCRIPTSTRING_0376,"A voice whispers, ""To gain passage, you must see farther...""",一個聲音低語：「要獲得通行，你必須看得更遠……」
 SCRIPTSTRING_0377,"A magic mouth speaks to the party:\n\n""What can bind the mightiest foes?""\n\n",一個魔法之口對隊伍說道：\n\n「什麼能束縛最強大的敵人？」\n\n
-SCRIPTSTRING_0378,SPECTRE SNARE,幽靈陷阱
-SCRIPTSTRING_0379,SPECTER SNARE,幽靈陷阱
+SCRIPTSTRING_0378,SPECTRE SNARE,SPECTRE SNARE
+SCRIPTSTRING_0379,SPECTER SNARE,SPECTER SNARE
 SCRIPTSTRING_0380,"""No prize for you!""",「你沒獎品了！」
 SCRIPTSTRING_0381,Return when you have space for your reward.,等你空出道具欄再回來領取獎勵。
 SCRIPTSTRING_0382,A magical lasso appears.\n\n,一條魔法套索憑空出現。\n\n
@@ -1954,8 +1954,8 @@ SCRIPTSTRING_0880,"A voice says:\n\n""You have succeeded again, mortals...""",�
 SCRIPTSTRING_0881,"A voice whispers,\n\n""This room is unfair,\nBut do not despair,\nWe have cleared a pair,\nBecause we care.""",一個聲音低語道：\n\n「這房間不公平，\n但請別灰心，\n我們已清掉一對，\n因為我們關心。」
 SCRIPTSTRING_0882,"A voice whispers,\n\n""This room is unfair,\nDo not go in there,\nBut if you should dare,\nScry with care.""",一個聲音低語道：\n\n「這房間不公平，\n千萬別走進去，\n但若你敢嘗試，\n請謹慎地偵測。」
 SCRIPTSTRING_0883,"A magic mouth on the wall speaks to you saying this:\n\n""Answer this, foolish ones: Is it better to:""",牆上一個魔法之口對你說道：\n\n「回答這個問題，愚蠢的人們：哪一種比較好：」
-SCRIPTSTRING_0884,Burn out,燃燒殆盡
-SCRIPTSTRING_0885,Fade away,逐漸消逝
+SCRIPTSTRING_0884,Burn out,Burn out
+SCRIPTSTRING_0885,Fade away,Fade away
 SCRIPTSTRING_0886,"""Then do so!""",「那就這麼辦吧！」
 SCRIPTSTRING_0887,"A voice whispers:\n\n""There's more to the picture... Than meets the eye.""",一個聲音低語：\n\n「這幅畫的背後……還有更多玄機。」
 SCRIPTSTRING_0888,"A magic mouth on the wall speaks to you saying this:\n\n""What truly counts is rarely said; Ask the wise of the Maze of Dread.""",牆上一個魔法之口對你說：\n\n「真正重要的事鮮少被說出口；去問迷惘迷宮中的智者吧。」
@@ -1996,17 +1996,17 @@ SCRIPTSTRING_0922,You're heading the wrong way!,你走錯方向了！
 SCRIPTSTRING_0923,"A voice says:\n\n""Cryptic origins are typified in the unnatural scheme...""",一個聲音說道：\n\n「詭秘的起源體現在非自然的佈局之中……」
 SCRIPTSTRING_0924,You see nothing special.,你沒看到什麼特別的東西。
 SCRIPTSTRING_0925,"A magic mouth on the wall speaks to you saying this:\n\n""Speak the three, in sequence:""",牆上的一個魔法之口對你說道：\n\n「依序說出那三個詞：」
-SCRIPTSTRING_0926,Earth,大地
-SCRIPTSTRING_0927,Compassed,已定位
-SCRIPTSTRING_0928,Earth\nCompassed,大地\n已定位
-SCRIPTSTRING_0929,Fountain,噴泉
-SCRIPTSTRING_0930,Earth\nCompassed\nFountain,大地\n已定位\n噴泉
+SCRIPTSTRING_0926,Earth,Earth
+SCRIPTSTRING_0927,Compassed,Compassed
+SCRIPTSTRING_0928,Earth\nCompassed,Earth\nCompassed
+SCRIPTSTRING_0929,Fountain,Fountain
+SCRIPTSTRING_0930,Earth\nCompassed\nFountain,Earth\nCompassed\nFountain
 SCRIPTSTRING_0931,"""Correct. Your portal to the next level is now operational.""",「正確。通往下一層的傳送門現在已啟動。」
 SCRIPTSTRING_0932,"A magic mouth on the wall speaks to you:\n\n""The three in sequence is known. I shall re-activate the portal to the next level.""",牆上的一個魔法之口對你說話：\n\n「三個順序已知。我將重新啟動通往下一層的傳送門。」
 SCRIPTSTRING_0933,"A magic mouth on the wall speaks to you saying this:\n\n""In the lands within, and the traps between, what was secret once -- now cannot be seen!""",牆上的一個魔法之口對你說了這些話：\n\n「在內部的國度，與其間的陷阱之間，曾經的秘密——如今已無法看見！」
 SCRIPTSTRING_0934,"A voice says:\n\n""Three words of wisdom must be found, or else stay closer to the ground!""",一個聲音說道：\n\n「必須找到三個智慧之言，否則就乖乖待在地面！」
-SCRIPTSTRING_0935,"A voice says:\n\n""The first says dwell, the second hell, the third of wisdom it will tell.""",一個聲音說道：\n\n「第一個說『居』，第二個說『獄』，第三個將道出智慧之語。」
-SCRIPTSTRING_0936,"A voice says:\n\n""From the first take the last, fifth from the second, and eighth from the third.""",一個聲音說道：\n\n「從第一個取最後一個，從第二個取第五個，從第三個取第八個。」
+SCRIPTSTRING_0935,"A voice says:\n\n""The first says dwell, the second hell, the third of wisdom it will tell.""",一個聲音說道：\n\n「首字為『dwell』（居），次字為『hell』（獄），三字即啟『wisdom』（智）之語。」
+SCRIPTSTRING_0936,"A voice says:\n\n""From the first take the last, fifth from the second, and eighth from the third.""",一個聲音說道：\n\n「取首字（dwell）之尾，次字（hell）之第五，及三字（wisdom）之第八。」
 SCRIPTSTRING_0937,"A voice says:\n\n""The sorrows of hell compassed me about; the snares of death prevented me.""",一個聲音說道：\n\n「地獄的憂傷環繞我；死亡的網羅臨到我。」
 SCRIPTSTRING_0938,"A voice says:\n\n""The law of the wise is a fountain of life, to depart from the snares of death.""",一個聲音說道：\n\n「智慧人的法則乃是生命的泉源，使人脫離死亡的網羅。」
 SCRIPTSTRING_0939,"A voice says:\n\n""For as a snare shall it come on all them that dwell on the face of the whole earth.""",一個聲音說道：\n\n「因為這網羅要臨到全地面上一切居住的人。」
@@ -2241,8 +2241,8 @@ SCRIPTSTRING_1164,Grey Crypt,灰色墓穴
 SCRIPTSTRING_1165,The stairs are gone...?,樓梯不見了……？
 SCRIPTSTRING_1166,"A magic mouth on the wall speaks to you saying this:\n\n""Hear this, mortals:\nThe sphynx asks a riddle with 2 answers, one which allows release through Sword, and one which Wizely brings you closer to the Snare.""",牆上一個魔法之口對你說道：\n\n「聽著，凡人：\n史芬克斯提出一個謎題，有兩個答案，一個能藉由劍刃獲得釋放，另一個則以智慧使你更接近陷阱。」
 SCRIPTSTRING_1167,"A Sphynx stands before you, and says:\n\n""Two answers here I will accept:\nEach is a creature of the Crypt. Name it:""",一隻史芬克斯站在你面前，說道：\n\n「兩個答案我都接受：\n每個都是墓穴中的生物。說出它的名字：」
-SCRIPTSTRING_1168,WIZE ONE,智者
-SCRIPTSTRING_1169,DEATH SWORD,死亡之劍
+SCRIPTSTRING_1168,WIZE ONE,WIZE ONE
+SCRIPTSTRING_1169,DEATH SWORD,DEATH SWORD
 SCRIPTSTRING_1170,"""Sorry.""",「抱歉。」
 SCRIPTSTRING_1171,"""I think I like you.""",「我想我喜歡你。」
 SCRIPTSTRING_1172,There are some bleached bones here.,這裡有一些褪色的白骨。
@@ -2289,21 +2289,21 @@ SCRIPTSTRING_1212,"On the wall, scrawled in blood, is:\n\nOnly a Master Mage can
 SCRIPTSTRING_1213,"A voice says:\n\n""It's a one-way road to the final Snare. Continue at your own risk.""",一個聲音說道：\n\n「這是一條通往最終陷阱的單行道。繼續前進，後果自負。」
 SCRIPTSTRING_1214,"A magic mouth on the wall says:\n\n""The spell of dreams is near, but first five words you must hear.""",牆上的一個魔法之口說道：\n\n「夢之法術近在咫尺，但你必須先聽到五個字。」
 SCRIPTSTRING_1215,"A magic mouth on the wall says:\n\n""The spell of dreams may here be earned. Just speak the words in order learned.""",牆上的一個魔法之口說道：\n\n「夢之法術可在此獲得。只需按學到的順序說出這些字。」
-SCRIPTSTRING_1216,MALLET,木槌
-SCRIPTSTRING_1217,SHIELD\nMALLET,盾牌\n木槌
-SCRIPTSTRING_1218,HEAL,治療
-SCRIPTSTRING_1219,SHIELD\nMALLET\nHEAL,護盾\n木槌\n治療
-SCRIPTSTRING_1220,STRIKE,打擊
-SCRIPTSTRING_1221,SHIELD\nMALLET\nHEAL\nSTRIKE,護盾\n木槌\n治療\n打擊
-SCRIPTSTRING_1222,DISRUPT,瓦解
-SCRIPTSTRING_1223,SHIELD\nMALLET\nHEAL\nSTRIKE\nDISRUPT,盾牌\n木槌\n治療\n打擊\n驅散
+SCRIPTSTRING_1216,MALLET,MALLET
+SCRIPTSTRING_1217,SHIELD\nMALLET,SHIELD\nMALLET
+SCRIPTSTRING_1218,HEAL,HEAL
+SCRIPTSTRING_1219,SHIELD\nMALLET\nHEAL,SHIELD\nMALLET\nHEAL
+SCRIPTSTRING_1220,STRIKE,STRIKE
+SCRIPTSTRING_1221,SHIELD\nMALLET\nHEAL\nSTRIKE,SHIELD\nMALLET\nHEAL\nSTRIKE
+SCRIPTSTRING_1222,DISRUPT,DISRUPT
+SCRIPTSTRING_1223,SHIELD\nMALLET\nHEAL\nSTRIKE\nDISRUPT,SHIELD\nMALLET\nHEAL\nSTRIKE\nDISRUPT
 SCRIPTSTRING_1224,"""Knowledge you have sought. Power you can wield...""",「你所追尋的知識，你能駕馭的力量……」
 SCRIPTSTRING_1225,"""Who will come forward to learn the spell of power...?""",「誰願意上前來學習這道力量法術……？」
 SCRIPTSTRING_1226,"""You will not wield the spell. Return to me with the five to tell.""",「你無法駕馭這道法術。帶著那五個答案回來見我。」
 SCRIPTSTRING_1227,"A magic mouth says:\n\n""You have returned. Who would like to learn the spell of power?""",一個魔法之口說道：\n\n「你回來了。誰想學習這道力量法術？」
 SCRIPTSTRING_1228,"""You seem worthy... Archmage {0}.""",「你看來夠格……大法師 {0}。」
 SCRIPTSTRING_1229,The magic mouth begins to whisper to Archmage {0}.,魔法之口開始對大法師 {0} 低語。
-SCRIPTSTRING_1230,"The magic mouth explained to Archmage {0}, how to cast the 'Dreamspell'.",魔法之口向大法師 XPHX0PHX 解釋如何施展「夢境法術」。
+SCRIPTSTRING_1230,"The magic mouth explained to Archmage {0}, how to cast the 'Dreamspell'.",魔法之口向大法師 {0} 解釋了如何施展「夢境法術」。
 SCRIPTSTRING_1231,"The magic mouth yells:\n\n""Only Archmages are worthy of this secret!""\n\nThis spell is far too powerful for {0} to wield.",魔法之口大喊：\n\n「只有大法師才配知曉這個秘密！」\n\n這個法術對 {0} 來說太過強大，無法駕馭。
 SCRIPTSTRING_1232,There is a statue of a pale old man here.,這裡有一座蒼老男子的雕像。
 SCRIPTSTRING_1233,There is a statue of a pale old man here.\n\nYou can:,此處有一座蒼老老人的雕像。\n\n你可以：
@@ -2323,7 +2323,7 @@ SCRIPTSTRING_1246,Death Snare #7,死亡陷阱 #7
 SCRIPTSTRING_1247,"A voice speaks to you:\n\n""Once again, foolish ones, you have sprung the Snare. This one will beat you though. The clock is running...""",一個聲音對你說話：\n\n「愚昧之徒，你們又一次觸發了陷阱。但這回可沒那麼簡單。時光正在流逝……」
 SCRIPTSTRING_1248,Hot coals ahead!,前方有熾熱的炭火！
 SCRIPTSTRING_1249,"A magic mouth on the wall speaks to you saying this:\n\n""Of old portent the song will read; name the hands which did the deed.""",牆上的一個魔法之口對你說道：\n\n「古老的預兆將在歌中顯現；說出完成此舉的雙手之名。」
-SCRIPTSTRING_1250,STORM FISTS,風暴之拳
+SCRIPTSTRING_1250,STORM FISTS,STORM FISTS
 SCRIPTSTRING_1251,"""Sorry, but wrong.""",「抱歉，但答錯了。」
 SCRIPTSTRING_1252,"A voice whispers:\n\n""Your party doesn't look very zen.""",一個聲音低語道：\n\n「你的隊伍看起來不太禪意。」
 SCRIPTSTRING_1253,"A voice whispers:\n\n""The calm are always the ones who shine...""",一個聲音低語：\n\n「沉著之人，總能閃耀光芒……」

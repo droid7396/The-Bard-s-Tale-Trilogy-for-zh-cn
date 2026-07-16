@@ -7520,7 +7520,7 @@ KEY: ITEM_IDENTIFIED_AS
 
 KEY: CHAR_CASTS_SPELL_ON
 
-  EN: {0} 對 {1} 施放了 XPHX2XPHX：
+  EN: {0} 對 {1} 施放了：
   FR: {0} casts {1} on:
   DE: {0} wirft {1} auf:
 
@@ -7532,7 +7532,7 @@ KEY: CHAR_CASTS_SPELL_ON
 
 KEY: CHAR_USES_ITEM_ON
 
-  EN: {0} 對 {1} 使用了 XPHX2XPHX：
+  EN: {0} 對 {1} 使用了：
   FR: {0} uses {1} on:
   DE: {0} benutzt {1} für:
 
@@ -18168,7 +18168,7 @@ KEY: SCRIPTSTRING_0232
 
 KEY: SCRIPTSTRING_0233
 
-  EN: 吸血鬼
+  EN: VAMPIRE
   FR: VAMPIRE
   DE: VAMPIR
 
@@ -18180,7 +18180,7 @@ KEY: SCRIPTSTRING_0233
 
 KEY: SCRIPTSTRING_0234
 
-  EN: 巫妖
+  EN: LICH
   FR: LICH
   DE: LEICHE
 
@@ -18192,7 +18192,7 @@ KEY: SCRIPTSTRING_0234
 
 KEY: SCRIPTSTRING_0235
 
-  EN: 吸血鬼
+  EN: VAMPIRE
   FR: VAMPYRE
   DE: VAMPIR
 
@@ -18276,7 +18276,7 @@ KEY: SCRIPTSTRING_0241
 
 KEY: SCRIPTSTRING_0242
 
-  EN: 盾牌
+  EN: SHIELDS
   FR: SHIELDS
   DE: SCHILDE
 
@@ -18288,7 +18288,7 @@ KEY: SCRIPTSTRING_0242
 
 KEY: SCRIPTSTRING_0243
 
-  EN: 盾牌
+  EN: SHIELD
   FR: SHIELD
   DE: SCHILD
 
@@ -18660,7 +18660,7 @@ KEY: SCRIPTSTRING_0273
 
 KEY: SCRIPTSTRING_0274
 
-  EN: 骷髏頭
+  EN: SKULL
   FR: SKULL
   DE: SCHÄDEL
 
@@ -18672,7 +18672,7 @@ KEY: SCRIPTSTRING_0274
 
 KEY: SCRIPTSTRING_0275
 
-  EN: 骷髏頭酒館
+  EN: SKULL TAVERN
   FR: SKULL TAVERN
   DE: SCHÄDELTAVERNE
 
@@ -18828,7 +18828,7 @@ KEY: SCRIPTSTRING_0287
 
 KEY: SCRIPTSTRING_0288
 
-  EN: 石魔像
+  EN: STONE GOLEM
   FR: STONE GOLEM
   DE: STEINGOLEM
 
@@ -18840,7 +18840,7 @@ KEY: SCRIPTSTRING_0288
 
 KEY: SCRIPTSTRING_0289
 
-  EN: 石魔像
+  EN: STONEGOLEM
   FR: STONEGOLEM
   DE: STEINGOLEM
 
@@ -18888,7 +18888,7 @@ KEY: SCRIPTSTRING_0292
 
 KEY: SCRIPTSTRING_0293
 
-  EN: 邪惡
+  EN: SINISTER
   FR: SINISTER
   DE: FINSTERSTRAßE
 
@@ -19188,7 +19188,7 @@ KEY: SCRIPTSTRING_0317
 
 KEY: SCRIPTSTRING_0318
 
-  EN: 圓形
+  EN: CIRCLE
   FR: CIRCLE
   DE: KREIS
 
@@ -19476,7 +19476,7 @@ KEY: SCRIPTSTRING_0341
 
 KEY: SCRIPTSTRING_0342
 
-  EN: 說謊
+  EN: LIE
   FR: LIE
   DE: LÜGE
 
@@ -19500,7 +19500,7 @@ KEY: SCRIPTSTRING_0343
 
 KEY: SCRIPTSTRING_0344
 
-  EN: 與
+  EN: WITH
   FR: WITH
   DE: MIT
 
@@ -19524,7 +19524,7 @@ KEY: SCRIPTSTRING_0345
 
 KEY: SCRIPTSTRING_0346
 
-  EN: 熱情
+  EN: PASSION
   FR: PASSION
   DE: LEIDENSCHAFT
 
@@ -19548,7 +19548,7 @@ KEY: SCRIPTSTRING_0347
 
 KEY: SCRIPTSTRING_0348
 
-  EN: 與
+  EN: AND
   FR: AND
   DE: UND
 
@@ -19572,7 +19572,7 @@ KEY: SCRIPTSTRING_0349
 
 KEY: SCRIPTSTRING_0350
 
-  EN: 是
+  EN: BE
   FR: BE
   DE: SEI
 
@@ -19596,7 +19596,7 @@ KEY: SCRIPTSTRING_0351
 
 KEY: SCRIPTSTRING_0352
 
-  EN: 永遠
+  EN: FOREVER
   FR: FOREVER
   DE: ENDLOS
 
@@ -19620,7 +19620,7 @@ KEY: SCRIPTSTRING_0353
 
 KEY: SCRIPTSTRING_0354
 
-  EN: 受詛咒者
+  EN: DAMNED
   FR: DAMNED
   DE: VERDAMMT
 
@@ -19812,7 +19812,7 @@ KEY: SCRIPTSTRING_0369
 
 KEY: SCRIPTSTRING_0370
 
-  EN: 索爾
+  EN: THOR
   FR: THOR
   DE: THOR
 
@@ -19908,7 +19908,7 @@ KEY: SCRIPTSTRING_0377
 
 KEY: SCRIPTSTRING_0378
 
-  EN: 幽靈陷阱
+  EN: SPECTRE SNARE
   FR: SPECTRE SNARE
   DE: GESPENSTERSCHLINGE
 
@@ -19920,7 +19920,7 @@ KEY: SCRIPTSTRING_0378
 
 KEY: SCRIPTSTRING_0379
 
-  EN: 幽靈陷阱
+  EN: SPECTER SNARE
   FR: SPECTER SNARE
   DE: GESPENSTERSCHLINGE
 
@@ -26016,7 +26016,7 @@ KEY: SCRIPTSTRING_0883
 
 KEY: SCRIPTSTRING_0884
 
-  EN: 燃燒殆盡
+  EN: Burn out
   FR: Burn out
   DE: Ausbrennen
 
@@ -26028,7 +26028,7 @@ KEY: SCRIPTSTRING_0884
 
 KEY: SCRIPTSTRING_0885
 
-  EN: 逐漸消逝
+  EN: Fade away
   FR: Fade away
   DE: Verblassen
 
@@ -26520,7 +26520,7 @@ KEY: SCRIPTSTRING_0925
 
 KEY: SCRIPTSTRING_0926
 
-  EN: 大地
+  EN: Earth
   FR: Earth
   DE: Erde
 
@@ -26532,7 +26532,7 @@ KEY: SCRIPTSTRING_0926
 
 KEY: SCRIPTSTRING_0927
 
-  EN: 已定位
+  EN: Compassed
   FR: Compassed
   DE: Umfasst
 
@@ -26544,7 +26544,7 @@ KEY: SCRIPTSTRING_0927
 
 KEY: SCRIPTSTRING_0928
 
-  EN: 大地\n已定位
+  EN: Earth\nCompassed
   FR: Earth\nCompassed
   DE: Erde\nUmfasst
 
@@ -26556,7 +26556,7 @@ KEY: SCRIPTSTRING_0928
 
 KEY: SCRIPTSTRING_0929
 
-  EN: 噴泉
+  EN: Fountain
   FR: Fountain
   DE: Brunnen
 
@@ -26568,7 +26568,7 @@ KEY: SCRIPTSTRING_0929
 
 KEY: SCRIPTSTRING_0930
 
-  EN: 大地\n已定位\n噴泉
+  EN: Earth\nCompassed\nFountain
   FR: Earth\nCompassed\nFountain
   DE: Erde\nUmfasst\Brunnen
 
@@ -26628,7 +26628,7 @@ KEY: SCRIPTSTRING_0934
 
 KEY: SCRIPTSTRING_0935
 
-  EN: 一個聲音說道：\n\n「第一個說『居』，第二個說『獄』，第三個將道出智慧之語。」
+  EN: 一個聲音說道：\n\n「首字為『dwell』（居），次字為『hell』（獄），三字即啟『wisdom』（智）之語。」
   FR: A voice says:\n\n"The first says dwell, the second hell, the third of wisdom it will tell."
   DE: Eine Stimme sagt:\n\n„Das Erste spricht vom Leben, das Zweite von der Hölle, das Dritte von der Weisheit.“
 
@@ -26640,7 +26640,7 @@ KEY: SCRIPTSTRING_0935
 
 KEY: SCRIPTSTRING_0936
 
-  EN: 一個聲音說道：\n\n「從第一個取最後一個，從第二個取第五個，從第三個取第八個。」
+  EN: 一個聲音說道：\n\n「取首字（dwell）之尾，次字（hell）之第五，及三字（wisdom）之第八。」
   FR: A voice says:\n\n"From the first take the last, fifth from the second, and eighth from the third."
   DE: Eine Stimme sagt:\n\n„Vom Ersten nimm das Vorletzte, vom Zweiten und vom Dritten je das Siebte.“
 
@@ -29460,7 +29460,7 @@ KEY: SCRIPTSTRING_1167
 
 KEY: SCRIPTSTRING_1168
 
-  EN: 智者
+  EN: WIZE ONE
   FR: WIZE ONE
   DE: WEISER
 
@@ -29472,7 +29472,7 @@ KEY: SCRIPTSTRING_1168
 
 KEY: SCRIPTSTRING_1169
 
-  EN: 死亡之劍
+  EN: DEATH SWORD
   FR: DEATH SWORD
   DE: TODESSCHWERT
 
@@ -30036,7 +30036,7 @@ KEY: SCRIPTSTRING_1215
 
 KEY: SCRIPTSTRING_1216
 
-  EN: 木槌
+  EN: MALLET
   FR: MALLET
   DE: FÄUSTEL
 
@@ -30048,7 +30048,7 @@ KEY: SCRIPTSTRING_1216
 
 KEY: SCRIPTSTRING_1217
 
-  EN: 盾牌\n木槌
+  EN: SHIELD\nMALLET
   FR: SHIELD\nMALLET
   DE: SCHILD\nFÄUSTEL
 
@@ -30060,7 +30060,7 @@ KEY: SCRIPTSTRING_1217
 
 KEY: SCRIPTSTRING_1218
 
-  EN: 治療
+  EN: HEAL
   FR: HEAL
   DE: HEILUNG
 
@@ -30072,7 +30072,7 @@ KEY: SCRIPTSTRING_1218
 
 KEY: SCRIPTSTRING_1219
 
-  EN: 護盾\n木槌\n治療
+  EN: SHIELD\nMALLET\nHEAL
   FR: SHIELD\nMALLET\nHEAL
   DE: SCHILD\nFÄUSTEL\nHEILUNG
 
@@ -30084,7 +30084,7 @@ KEY: SCRIPTSTRING_1219
 
 KEY: SCRIPTSTRING_1220
 
-  EN: 打擊
+  EN: STRIKE
   FR: STRIKE
   DE: SCHLAG
 
@@ -30096,7 +30096,7 @@ KEY: SCRIPTSTRING_1220
 
 KEY: SCRIPTSTRING_1221
 
-  EN: 護盾\n木槌\n治療\n打擊
+  EN: SHIELD\nMALLET\nHEAL\nSTRIKE
   FR: SHIELD\nMALLET\nHEAL\nSTRIKE
   DE: SCHILD\nFÄUSTEL\nHEILUNG\nSCHLAG
 
@@ -30108,7 +30108,7 @@ KEY: SCRIPTSTRING_1221
 
 KEY: SCRIPTSTRING_1222
 
-  EN: 瓦解
+  EN: DISRUPT
   FR: DISRUPT
   DE: STÖREN
 
@@ -30120,7 +30120,7 @@ KEY: SCRIPTSTRING_1222
 
 KEY: SCRIPTSTRING_1223
 
-  EN: 盾牌\n木槌\n治療\n打擊\n驅散
+  EN: SHIELD\nMALLET\nHEAL\nSTRIKE\nDISRUPT
   FR: SHIELD\nMALLET\nHEAL\nSTRIKE\nDISRUPT
   DE: SCHILD\nFÄUSTEL\nHEILUNG\nSCHLAG\nSTÖREN
 
@@ -30204,7 +30204,7 @@ KEY: SCRIPTSTRING_1229
 
 KEY: SCRIPTSTRING_1230
 
-  EN: 魔法之口向大法師 XPHX0PHX 解釋如何施展「夢境法術」。
+  EN: 魔法之口向大法師 {0} 解釋了如何施展「夢境法術」。
   FR: The magic mouth explained to Archmage {0}, how to cast the 'Dreamspell'.
   DE: Der magische Mund erklärte Erzmagier {0}, wie man den „Traumzauber“ wirkt.
 
@@ -30444,7 +30444,7 @@ KEY: SCRIPTSTRING_1249
 
 KEY: SCRIPTSTRING_1250
 
-  EN: 風暴之拳
+  EN: STORM FISTS
   FR: STORM FISTS
   DE: STURMFÄUSTE
 
