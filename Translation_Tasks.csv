@@ -1407,21 +1407,21 @@ SCRIPTSTRING_0336,"""After I said please too..."" The man speaks briefly and 6 f
 SCRIPTSTRING_0337,Who will buy it?,誰會買呢？
 SCRIPTSTRING_0338,We bought a Master Key from the old man for 50000 gold.,我們花了5萬金幣從老頭買了一把萬能鑰匙。
 SCRIPTSTRING_0339,"He pockets the gold and holds a key in his hand. ""Pleasure doing business with you!""\n\n",他把金子裝進口袋，手裡拿著一把鑰匙。 「很高興與您開展業務！」\n\n
-SCRIPTSTRING_0340,"A magic mouth asks the riddle:\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""",一張神奇的嘴問出謎語：\n“按順序說出一神之七，並尋找丟失的樓梯：”
-SCRIPTSTRING_0341,"A magic mouth on the wall talks:\n\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""\n\n",牆上的一張魔法嘴說話：\n\n「按順序說出一神之七，並尋找丟失的樓梯：」\n\n
-SCRIPTSTRING_0342,LIE,謊言
+SCRIPTSTRING_0340,"A magic mouth asks the riddle:\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""",一張神奇的嘴問出謎語：\n“按順序說出一神之七個真言，並尋找丟失的樓梯：”
+SCRIPTSTRING_0341,"A magic mouth on the wall talks:\n\n""Speak the seven of the One God, in sequence, and seek the lost stairs:""\n\n",牆上的一張魔法嘴說話：\n\n「按順序說出一神之七個真言，並尋找丟失的樓梯：」\n\n
+SCRIPTSTRING_0342,LIE,LIE
 SCRIPTSTRING_0343,"""What is the second word?""\n\n",「第二個字是什麼？」\n\n
-SCRIPTSTRING_0344,WITH,與
+SCRIPTSTRING_0344,WITH,WITH
 SCRIPTSTRING_0345,"""What is the third word?""\n\n",「第三個字是什麼？」\n\n
-SCRIPTSTRING_0346,PASSION,熱情
+SCRIPTSTRING_0346,PASSION,PASSION
 SCRIPTSTRING_0347,"""What is the fourth word?""\n\n",「第四個字是什麼？」\n\n
-SCRIPTSTRING_0348,AND,和
+SCRIPTSTRING_0348,AND,AND
 SCRIPTSTRING_0349,"""What is the fifth word?""\n\n",「第五個字是什麼？」\n\n
-SCRIPTSTRING_0350,BE,貝
+SCRIPTSTRING_0350,BE,BE
 SCRIPTSTRING_0351,"""What is the sixth word?""\n\n",「第六字是什麼？」\n\n
-SCRIPTSTRING_0352,FOREVER,永遠
+SCRIPTSTRING_0352,FOREVER,FOREVER
 SCRIPTSTRING_0353,"""What is the seventh and final word?""\n\n",「第七個也是最後一個字是什麼？」\n\n
-SCRIPTSTRING_0354,DAMNED,該死的
+SCRIPTSTRING_0354,DAMNED,DAMNED
 SCRIPTSTRING_0355,Sorry Charlie!,對不起查理！
 SCRIPTSTRING_0356,We correctly answered the riddle and some stairs appeared.,我們正確地回答了這個謎語，有些樓梯出現了。
 SCRIPTSTRING_0357,"""Well done, oh faithful one. The stairs have materialized.""",“幹得好，哦忠實的人。樓梯已經實體化了。”
