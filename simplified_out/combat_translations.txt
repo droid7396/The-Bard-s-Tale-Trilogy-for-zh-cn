@@ -1,0 +1,55 @@
+# 战斗卷轴正则替换字典 (Combat Scroll Regex Dictionary)
+# 格式： 正規表示式::ZH::替换结果 (支持 $1, $2 等捕获群组)
+# 注意：程序已激活连续替换 (Two-Pass) 模式！
+# 第一阶段：请先使用正则表达式将结构重组，但保留英文动词。
+# 第二阶段：在文件底部定义动词替换规则 (使用 \bword\b 确保精准匹配)。
+
+# === 魔法攻击与击杀 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\s+and\s+.*?\s+(him|her|it|them)\s+for\s+(\d+)\s+points?\s+of\s+damage,\s*killing\s+(him|her|it|them)!::ZH::$1 对 $3 施放了 $2，造成 $5 点伤害，并将其击杀！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\s+and\s+.*?\s+(him|her|it|them)\s+for\s+(\d+)\s+points?\s+of\s+damage\.::ZH::$1 对 $3 施放了 $2，造成 $5 点伤害。
+One is .*? for (\d+) points? of damage,\s*killing\s+(him|her|it|them)!::ZH::其中一个受到 $1 点伤害，并被击杀！
+One is .*? for (\d+) points? of damage\.::ZH::其中一个受到 $1 点伤害。
+
+# === 物理攻击暴击与击杀 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)[\s,]+leaping out of the shadows,\s*(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and critically hits (\d+) times for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 从阴影中跃出，对 $3 $2，命中 $4 次，共造成 $5 点暴击伤害，将其击杀！
+(?:An?\s+|Some\s+|The\s+)?(.*?)[\s,]+leaping out of the shadows,\s*(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and critically hits for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 从阴影中跃出，对 $3 $2，造成 $4 点暴击伤害，将其击杀！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits (\d+) times for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 对 $3 $2，命中 $4 次，共造成 $5 点伤害，并将其击杀！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits for\s+(\d+)\s+points?\s+of damage,\s*killing\s+(him|her|it|them)!::ZH::$1 对 $3 $2，造成 $4 点伤害，并将其击杀！
+
+# === 物理攻击一般命中与未命中 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits (\d+) times for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 对 $3 $2，命中 $4 次，共造成 $5 点伤害。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*and hits for\s+(\d+)\s+points?\s+of damage\.::ZH::$1 对 $3 $2，造成 $4 点伤害。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses because the .*? is too far away!::ZH::$1 对 $3 $2，但是因为距离太远而未命中！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+(swings|slashes|kicks|bites|gnaws|strikes|punches|lunges|spits|breathes|throws.*?|shoots.*?|fires.*?|hurls.*?|attacks|stabs|pierces|smashes|crushes|claws|pecks|stings|whips|tears)\s+(?:at|on)\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses!::ZH::$1 对 $3 $2，但是未命中！
+
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+attacks\s+(?:an?\s+|some\s+|the\s+)?(.*?),\s*but misses\.::ZH::$1 攻击 $2，但是未命中。
+
+# === 其他魔法状态 ===
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell on the party\.\.\.\s*the party resists!::ZH::$1 对队伍施放了法术...但队伍抵抗了！
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell on the party\.\.\.::ZH::$1 对队伍施放了法术...
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts a spell at\s+(?:an?\s+|some\s+|the\s+)?(.*?)\.::ZH::$1 对 $2 施放了法术。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+on\s+(himself|herself|itself|themselves)\.::ZH::$1 对自己施放了 $2。
+(?:An?\s+|Some\s+|The\s+)?(.*?)\s+casts\s+(.*?)\s+on\s+(.*?)\.::ZH::$1 对 $3 施放了 $2。
+
+# === 其他状态 ===
+The\s+(.*?)\s+advances!::ZH::$1 逼近了！
+the party resists!::ZH::队伍抵抗了法术！
+You still face\s+(.*?)\.?$::ZH::前方还有 $1
+
+# === 第二阶段：动词翻译字典 ===
+\bswings\b::ZH::挥砍
+\bslashes\b::ZH::劈砍
+\bkicks\b::ZH::踢击
+\bbites\b::ZH::咬噬
+\bgnaws\b::ZH::啃咬
+\bstrikes\b::ZH::发动重击
+\bthrows an axe\b::ZH::掷出斧头
+\bshoots an arrow\b::ZH::射出弓箭
+\bshoots a crossbow\b::ZH::射出弩箭
+\bthrows a dagger\b::ZH::投掷匕首
+\battacks\b::ZH::发动攻击
+\blunges\b::ZH::猛扑
+\bspits acid\b::ZH::吐出酸液
+\bclaws\b::ZH::爪击
+\bsmashes\b::ZH::猛砸
+\btears\b::ZH::撕扯
